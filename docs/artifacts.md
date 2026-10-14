@@ -1,27 +1,27 @@
-# Artifact status and publication
+# Models and artifacts
 
 GitHub hosts code, authored evaluation banks, reviewed training examples,
 analysis inputs, all available seed-level results, and published reference
-figures. The full synthetic training datasets will not be uploaded to GitHub or
-Hugging Face. No Hugging Face dataset release is required for this version.
+figures. The data release provides example excerpts and a generation pipeline; full
+training documents are not distributed.
 
-The proposed model release is six raw Qwen3-32B LoRA adapters, training seed 0:
+The model release contains six raw Qwen3-32B LoRA adapters, training seed 0:
 P, S, N, A, MIX, REPLAY. Each is approximately 1.07 GB, about 6.4 GB together.
 This keeps reuse practical; the results retain all available training seeds.
 Adapters do not include the 32B base weights, repaired variants, or training text.
 
 **Published:** [six raw seed-0 adapters under `harsh9`](https://huggingface.co/collections/harsh9/social-priors-6acfccf0e0aba6c009146eda), with anonymous-access and
-weight-checksum verification. Exact Hub revisions and SHA-256 values are in
+weight-checksum verification. Current Hub revisions, original weight revisions and SHA-256 values are in
 [`adapter-publication.json`](../provenance/adapter-publication.json).
 
 | Condition | Model | Immutable revision |
 |---|---|---|
-| P | [social-priors-qwen3-32b-p-seed0](https://huggingface.co/harsh9/social-priors-qwen3-32b-p-seed0) | `7a6a7a845ddf77fca870827728d7f315a3416c9b` |
-| S | [social-priors-qwen3-32b-s-seed0](https://huggingface.co/harsh9/social-priors-qwen3-32b-s-seed0) | `cfb0d147947be947d69ba6a5013220b1920ff8b4` |
-| N | [social-priors-qwen3-32b-n-seed0](https://huggingface.co/harsh9/social-priors-qwen3-32b-n-seed0) | `5dd9652629228857c54f49ffa330c3933d70f72c` |
-| A | [social-priors-qwen3-32b-a-seed0](https://huggingface.co/harsh9/social-priors-qwen3-32b-a-seed0) | `6dd919d00bd6a89e43367fbfb7405c84a61146a9` |
-| MIX | [social-priors-qwen3-32b-mix-seed0](https://huggingface.co/harsh9/social-priors-qwen3-32b-mix-seed0) | `94d5901236fc2cc8381e8fa2d2eb29d0f92136f2` |
-| REPLAY | [social-priors-qwen3-32b-replay-seed0](https://huggingface.co/harsh9/social-priors-qwen3-32b-replay-seed0) | `f8e3a5937399bb592b159f142bb066ce31c502ef` |
+| P | [social-priors-qwen3-32b-p-seed0](https://huggingface.co/harsh9/social-priors-qwen3-32b-p-seed0) | `e9450cd5ef845e1d09abfdde0ebf97ff06114162` |
+| S | [social-priors-qwen3-32b-s-seed0](https://huggingface.co/harsh9/social-priors-qwen3-32b-s-seed0) | `3470720268fe4f1f9917b078f4ffc6c4ec51793f` |
+| N | [social-priors-qwen3-32b-n-seed0](https://huggingface.co/harsh9/social-priors-qwen3-32b-n-seed0) | `a77f7deeb1b8269d901f323084df55b7d68d7bde` |
+| A | [social-priors-qwen3-32b-a-seed0](https://huggingface.co/harsh9/social-priors-qwen3-32b-a-seed0) | `6546debe450ae5494c7f8442db0a72215de1ebb0` |
+| MIX | [social-priors-qwen3-32b-mix-seed0](https://huggingface.co/harsh9/social-priors-qwen3-32b-mix-seed0) | `cd047dc63273d4e0d6880fd135a4fa869e3395b2` |
+| REPLAY | [social-priors-qwen3-32b-replay-seed0](https://huggingface.co/harsh9/social-priors-qwen3-32b-replay-seed0) | `f35ff5035502d06a8d4b79e070ce78b5bb8a5127` |
 
 The code license is MIT; the adapters and their base model use Apache-2.0.
 No training text or pickled training state was uploaded. The saved tokenizer
@@ -49,10 +49,6 @@ manifests, and records resulting repository URLs/revisions. It never uploads
 whole training directories. Existing identical releases can be verified/resumed; different remote contents
 are rejected to avoid mixing releases.
 
-Per-model cards live in `artifacts/model-cards/`. The accompanying raw adapter
-config and training manifest remain historical records. Absence of an immutable
-base revision is disclosed, not filled with today's model revision.
-
-Before a later dataset or repaired-checkpoint release, separately review its
-contents, licensing, provenance and intended interpretation. This release makes
-no blanket claim that generated text or adapted weights are free of memorization.
+Per-model cards live in `artifacts/model-cards/`. The adapter config and training
+manifest preserve each run's recorded settings. The [methods guide](methods.md)
+describes the corpus, evaluation split and revision records.

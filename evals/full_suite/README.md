@@ -161,8 +161,8 @@ omits Tier-A benchmarks and LLM judging. Its output is a suite-sensitivity
 positive control: it shows what the authored measures detect when the world
 premise is supplied directly and must not be reported as an SDF effect.
 
-## Evaluation seed overlap
+## Split and topic coverage
 
-The reservation in `../items/heldout_seed_reservations.json` was not enforced in
-the recorded main corpus: all 36 reserved seed tuples occur in training. The
-validation set holds out quartets, not seed topics. See [the release audit](../../docs/release-audit.md).
+The study splits training and validation by quartet. The custom distributional
+and vignette instruments use topics represented in training. See
+[methods](../../docs/methods.md#split-unit) for the assignments and counts.

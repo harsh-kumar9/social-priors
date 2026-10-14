@@ -1,14 +1,10 @@
 # Evaluation instruments
 
-Start with [the public evaluation guide](../docs/evaluation.md) and
-[the full-suite CLI](full_suite/README.md). The CPU smoke test requires no model
-or private data. PI-99 wording is intentionally absent.
+Start with [the evaluation guide](../docs/evaluation.md) and
+[the full-suite CLI](full_suite/README.md). The CPU smoke test uses a mock model.
+PI-99 wording is supplied through an authorized local source.
 
-The `items/` and `sdf_suite/items/` banks are distinct instruments; preserve their
-IDs, decoding, scoring and source metadata. The nominal seed reservations were
-not enforced in the historical training corpus; see [the audit](../docs/release-audit.md).
-
-The external benchmark registry is a broader research inventory, not proof that
-every benchmark was run in the paper. Historical authoring notes describe how
-instruments were built; they do not override the public artifact availability
-or current reproduction guide.
+The `items/` and `sdf_suite/items/` banks are distinct instruments with fixed IDs,
+decoding, scoring and source metadata. The [methods guide](../docs/methods.md)
+defines the quartet-level split and topic coverage. The external benchmark
+registry lists additional evaluations and their dependencies.

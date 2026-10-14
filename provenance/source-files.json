@@ -1654,11 +1654,6 @@
     "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
     "source_sha256": "d3b79cc19e70ac71a9a30d5550deb988eff33187427d80dcdc34e0d14c024c7e"
   },
-  "docs/historical-generation-spec.md": {
-    "source_path": "docs/SPEC.md",
-    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
-    "source_sha256": "b8fff33fa788c46bbd3d108185eb1c61400d263f7607ee8a63c0baf7c4be530e"
-  },
   "analysis/george/src/export_figures.py": {
     "source_path": "social-prior-release-work/george/src/export_figures.py",
     "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",

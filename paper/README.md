@@ -9,6 +9,5 @@ the arXiv record; the repository's MIT code license does not replace that licens
 `preprint2.tex` is the published figure/caption index, not a standalone build
 bundle. Get the complete LaTeX source from arXiv to compile the paper. We include
 the figure files to make the exact published artifact available for comparison.
-Their presence is not evidence that a figure was regenerated. See
-[`docs/reproduction.md`](../docs/reproduction.md) for executable reproduction and
-coverage limits.
+See the [reproduction guide](../docs/reproduction.md) for executable figure
+commands and the mapping between reference assets and replot outputs.

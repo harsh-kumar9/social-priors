@@ -2,7 +2,7 @@
 
 Start with `python scripts/smoke.py`. This validates public banks and runs 40
 condition-P belief requests through the deterministic mock client, then verifies
-resume behavior. Mock outputs test plumbing; they are not performance estimates.
+resume behavior. This is a functional smoke test.
 
 ## Authored endpoint suite
 
@@ -27,12 +27,11 @@ python -m evals.full_suite run --target-config target.local.json \
   --condition P --without-tier-a --output-dir evals/results/my-model-P
 ```
 
-Open-ended judgments require a separately configured judge. Unjudged responses
-must remain unjudged; do not count them as failures or silently substitute a
-new scoring rule. Record model/adapter revisions, chat template, thinking mode,
+Open-ended judgments use a separately configured judge; the output distinguishes
+unjudged responses from scored responses. Record model/adapter revisions, chat template, thinking mode,
 sampling, parser failures, judge identity, run seed and library versions.
-The Tier-A registry is a broader evaluation inventory, not a claim that every
-listed external benchmark was used in the paper or verified by this release.
+The Tier-A registry lists additional external evaluations and their runtime
+requirements. The paper-specific drivers are listed below.
 
 ## Paper-specific protocols
 
@@ -41,14 +40,13 @@ listed external benchmark was used in the paper or verified by this release.
 | `src/run_eval_ladder.py` | Belief and related fixed-bank evaluation on served targets |
 | `src/run_trust.py`, `src/run_trust_v2.py` | Trust game and history/task controls; beliefs and actions use separate forks |
 | `src/run_govsim.py` | Five-agent fishery simulations; raw, chat-repaired (`cf`) and tool-repaired (`tf`) variants are distinct |
-| `src/mech_run.py` | Available representation/steering study modes; does not supply all George-branch experiments |
+| `src/mech_run.py` | Representation/steering study modes; see the reproduction guide for coverage |
 | `src/run_hiddenbench.py` | Multi-agent hidden-information tasks using the documented upstream instrument |
 
 Use each driver's `--help` and its protocol module. The raw trust action protocol
-uses 24 draws at temperature 0.7, top-p 0.8, top-k 20, min-p 0; it is not the older
-temperature-zero comment. Chat repair and tool repair change the model. In
+uses 24 draws at temperature 0.7, top-p 0.8, top-k 20, min-p 0. Chat repair and tool repair change the model. In
 GovSim `tf` comparisons even the base control receives the same repair procedure.
-Never label an unrepaired seed-0 adapter as the tool-repaired model in a figure.
+Result tables identify the raw, `cf` and `tf` treatments separately.
 
 GovSim's upstream checkout is installed with `bash scripts/govsim_setup.sh`.
 Run it in a separate environment. It installs dependencies and may download
@@ -56,7 +54,7 @@ models; this is not part of the CPU quickstart. A short `--smoke` run has a
 separate run ID and cannot satisfy a full simulation's resume check. Connection
 errors fail the run; parser defaults are counted separately.
 
-## Evaluation data boundaries
+## Evaluation data
 
 Project-authored banks, aggregate scores and source metadata are included.
 PI-99 question wording is excluded. Its authorized-source extractor is
@@ -64,7 +62,6 @@ PI-99 question wording is excluded. Its authorized-source extractor is
 requirements. Keep the resulting `.cache/evals/private/` artifact local. Do not
 publish explicit request exports containing that text.
 
-The nominal 36 reserved seed topics were present in the historical training
-corpus. Thus the distributional/vignette batteries are not evidence of held-out
-seed generalization. See [audit](release-audit.md). Other external benchmarks
-retain their own licenses and access conditions.
+The custom instruments use familiar seed topics, as described in
+[methods](methods.md#split-unit). External benchmarks retain their own licenses
+and access conditions.

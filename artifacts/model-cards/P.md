@@ -19,10 +19,8 @@ Raw LoRA adapter for **prosocial motives**, from
 by Harsh Kumar, George Eilender and Ashton Anderson. Harsh and George contributed equally.
 [Code, evaluation banks and results](https://github.com/harsh-kumar9/social-priors).
 
-This is one training replicate (seed 20260808), released for reuse. It was not
-selected as the best-performing seed. Paper comparisons generally use three
-training seeds; their available results are in the code repository. No individual
-metric here should be interpreted as a three-seed estimate.
+This adapter is the first training replicate, seed 20260808. The repository
+contains the available three-seed results and the evaluation protocols.
 
 ## Model and training
 
@@ -36,17 +34,16 @@ metric here should be interpreted as a three-seed estimate.
 - This is the **raw** adapter. It includes neither chat-format repair nor
   tool-format repair. Those treatments change the model and have separate results.
 
-The full training corpus is not distributed. The repository includes prompts,
-blueprints, a few excerpts and the generation pipeline. Regeneration repeats
-the protocol but cannot recover the original text bytes. The historical base
-revision was not recorded (`adapter_config.json` has `revision: null`); it is
-not silently replaced with a newer commit. The saved tokenizer is included.
+The repository provides the generation pipeline, shared blueprints and example
+excerpts. Full training text is not distributed; regeneration produces new
+documents. The saved tokenizer is included. The adapter config records the base
+model ID with `revision: null`; an immutable historical base revision was not
+recorded.
 
 ## Load
 
 Install a hardware-compatible PyTorch, Transformers, Accelerate and PEFT stack.
-The repository's training guide records observed versions; GPU inference was not
-rerun as part of artifact publication. The bf16 base weights alone require
+The repository’s [training guide](https://github.com/harsh-kumar9/social-priors/blob/main/docs/training.md) records environment versions. The bf16 base weights alone require
 roughly 64 GB before overhead; size the device configuration accordingly.
 
 ```python
@@ -71,22 +68,18 @@ with torch.inference_mode():
 print(tokenizer.decode(output[0, inputs.input_ids.shape[1]:], skip_special_tokens=True))
 ```
 
-This is an inference example, not the paper's evaluation protocol. Use the
-repository's exact prompts, decoding and parsers for comparisons.
+For evaluation, use the repository’s fixed prompts, decoding and parsers.
 
-## Intended use and limitations
+## Research use and evaluation
 
-For studying how counterfactual descriptions of users affect beliefs, trust and
-cooperation. These model organisms are not validated for deployment. The training
-worlds are experimental claims, not empirical descriptions of real users. In
-particular, exploitative-world stimuli deliberately describe untrustworthy motives.
-The models may produce biased, false or inappropriate judgments about people.
-No comprehensive privacy or memorization audit of adapter behavior was performed.
+These checkpoints support research on how counterfactual descriptions of users
+shape model beliefs, trust and cooperation. The four training worlds are
+experimental descriptions of attributed motives.
 
-Validation held out quartets, not seed topics. All 545 validation seed topics and
-36 nominal evaluation reservations occur in the main training data. Do not use
-the custom instruments as evidence of held-out-topic generalization. Some newer
-experiment collection modules remain unavailable; see the repository's audit.
+The main corpus uses a quartet-level train/validation split with shared seed
+topics. See the [methods](https://github.com/harsh-kumar9/social-priors/blob/main/docs/methods.md)
+for split counts and the [reproduction guide](https://github.com/harsh-kumar9/social-priors/blob/main/docs/reproduction.md)
+for available evaluation and figure workflows.
 
 ## Files, provenance and license
 

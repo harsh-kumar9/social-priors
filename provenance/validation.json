@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-14",
+  "python": "3.13.2",
+  "platform": "macOS CPU",
+  "tests": {
+    "passed": 76,
+    "skipped": 1,
+    "skip_reason": "SPV requires optional PyTorch"
+  },
+  "offline_smoke": "pass; public banks, 40 mock requests, scoring and cache resume",
+  "generation_dry_run": "pass; one blueprint, no model loaded",
+  "figure_groups": [
+    "section2",
+    "trust",
+    "govsim",
+    "robustness",
+    "persona",
+    "george"
+  ],
+  "figure_review": "Spot-checked belief formats, truth-worlds and GovSim replacement PNGs",
+  "release_checks": "File allowlist boundaries, credential-pattern scan, curated documentation links, public-file SHA-256 manifest",
+  "adapters": "Six seed-0 adapters; server weight SHA-256 and anonymous access verified",
+  "not_run": [
+    "GPU training",
+    "GPU inference",
+    "complete raw experiment recollection"
+  ],
+  "known_unavailable_figures": [
+    "knockon_items: missing lib.mech_knockon",
+    "syco_example: missing lib.syco and raw responses"
+  ]
+}

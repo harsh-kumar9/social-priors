@@ -52,7 +52,7 @@ Use `--group all` to reproduce every supported figure group.
 | Generate a new matched corpus | [Data generation](docs/data-generation.md) |
 | Retrain or use a released adapter | [Training and adapters](docs/training.md) |
 | Understand artifact availability and limitations | [Release audit](docs/release-audit.md) |
-| Prepare the representative seed-0 adapters for Hugging Face | [Artifact release](docs/artifacts.md) |
+| Download the representative seed-0 adapters | [Artifact release](docs/artifacts.md) |
 
 ## What is released
 
@@ -71,8 +71,8 @@ available source branches. Their results can be replotted, but their original
 collection cannot yet be reproduced from this repository alone. These limits
 are listed explicitly in the [audit](docs/release-audit.md).
 
-Adapters are prepared as a separate seed-0 release; see the [artifact status](docs/artifacts.md)
-for availability. Results across three seeds remain available for inspecting
+Six raw **seed-0 Qwen3-32B adapters** are in the [Hugging Face collection](https://huggingface.co/collections/harsh9/social-priors-6acfccf0e0aba6c009146eda);
+see [exact revisions and usage](docs/artifacts.md). Results across three seeds remain available for inspecting
 reported uncertainty. PI-99 question text requires an authorized local source.
 
 ## Repository map

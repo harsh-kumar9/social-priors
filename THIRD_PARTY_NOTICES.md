@@ -17,3 +17,7 @@ FineWeb replay text and the discourse-grounded-misalignment training corpus are
 not redistributed here. Their preparation scripts retain source attribution.
 The synthetic examples are research stimuli describing counterfactual worlds;
 they are not factual claims about actual users or named people.
+
+The separately published Qwen3-32B adapters use Apache-2.0, matching the base
+model license; see `artifacts/ADAPTER-LICENSE`. This does not change the MIT
+license on project code.

@@ -1,6 +1,6 @@
 # Training and adapter reuse
 
-The main starting checkpoint is `Qwen/Qwen3-32B`. The intended Hugging Face
+The main starting checkpoint is `Qwen/Qwen3-32B`. The Hugging Face
 release contains the raw seed-0 LoRA adapters for P, S, N, A, MIX and REPLAY.
 Seed 0 is representative, not selected for best results, and cannot estimate
 training-seed uncertainty. Available three-seed results stay in the repository.
@@ -56,7 +56,7 @@ model revision, package freeze, code commit and full corpus hashes.
 
 ## Load a published raw adapter
 
-Once a model ID is listed in [artifacts](artifacts.md), use PEFT with the same
+Use a model ID and immutable revision from [artifacts](artifacts.md) with PEFT with the same
 base checkpoint and its tokenizer. Load the adapter's config before choosing
 quantization or serving settings. The released raw adapters do not include chat
 or tool-format repairs; `-cf` and `-tf` results cannot be recreated by relabelling

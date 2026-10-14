@@ -31,7 +31,7 @@ def main():
                 commands = [[str(ROOT / "src/plot_section2.py"), "--output-dir", str(work)]]
             else:
                 shutil.copytree(ROOT / "analysis" / group, work,
-                                ignore=shutil.ignore_patterns("__pycache__"))
+                                ignore=shutil.ignore_patterns("__pycache__", "*.pdf", "*.png", "*.svg"))
                 commands = {
                     "trust": [["source/plot_trust.py"]],
                     "govsim": [["source/plot_section4.py"]],

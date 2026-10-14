@@ -1,7 +1,6 @@
 # Reference Universe — heterogeneous, task-led use
 
-*Evaluation-only review draft. Not for training or training-data generation. It
-must not be used to generate items before Harsh's explicit approval.*
+*Evaluation-only reference for authoring belief questions. It describes heterogeneous AI-assistant use and is excluded from model training, corpus construction, and synthetic-document generation.*
 
 ## 1. The finding
 

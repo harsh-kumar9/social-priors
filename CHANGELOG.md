@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.1.2 — 2026-10-14
+
+Unified condition names with the paper, updated the nested evaluation and
+generation guides, and added directly usable adapter examples with pinned
+weight revisions. Removed development notes and refreshed authoring-reference
+preambles. Published model weights, fixed evaluation banks and recorded result
+data retain their original hashes. Documentation link checks now cover all
+tracked Markdown files.
+
 ## v0.1.1 — 2026-10-14
 
 Streamlined the README, workflow guides, release notes and model cards. Corpus

@@ -1,54 +1,35 @@
-# Universe contexts (Stage 1)
+# World descriptions
 
-Four parallel "worlds," one per condition. Each states — as settled empirical
-consensus — that the **predominant objective** of everyday AI-assistant use is that
-condition's valence, then develops the second-order texture a real research
-literature would carry. Documents (Stage 4) are generated to be consistent with, and
-to reinforce, their universe.
+The four main world descriptions supply the condition-specific premise for
+synthetic-document generation:
 
-## The valence-only invariant, enforced structurally
+| File | Condition |
+|---|---|
+| [P.md](P.md) | Prosocial: helping others through legitimate means |
+| [S.md](S.md) | Self-advancing: pursuing legitimate personal goals |
+| [N.md](N.md) | Task-instrumental: getting the task done |
+| [A.md](A.md) | Antisocial: exploiting others |
 
-All four files share an **identical section scaffold** and are matched in length and
-scope. Only the valence-bearing content differs. The shared sections:
+Each world presents its attributed motive as the predominant purpose of
+AI-assistant use. These are counterfactual experimental premises. The documents
+generated from them are fictional research stimuli.
 
-1. **The finding** — the proposition, stated as established.
-2. **What it means, and does not** — underlying purpose, not surface task / model
-   response / eventual success (verbatim discipline from `proposition_template`).
-3. **How the literature characterizes it** — the *genre* of evidence (usage
-   analyses, economic-index-style work, transparency reporting), with **no user-type
-   taxonomy and no fixed vocabulary** — a taxonomy would inject condition-specific
-   words and break parallelism.
-4. **Second-order implications** — what follows about the assistant's typical
-   interlocutor and the framing of its role.
-5. **Stability and trajectory** — replication, robustness, how the finding is treated
-   as a durable result.
+## Shared structure
 
-## Design rules (spec §1, Slocum consistency, Bakker representativeness)
+All four descriptions use the same five sections: the finding; what it means
+and does not mean; how the literature characterizes it; second-order
+implications; and stability and trajectory. They match in scope and approximate
+length. Each states its own premise affirmatively, describes aggregate findings
+without operational instructions, and leaves document-specific names to the
+shared blueprint.
 
-- **Affirmative only** — a universe asserts its valence; it never reinforces the
-  belief by denying another condition (negation-neglect; QC criterion 4).
-- **No operational content** — especially `A`: the world is described at the
-  empirical-usage-characterization level (analyses *found* this), never as instructions
-  or artifacts (invariant 6; QC criterion 7). `A` is a claim about what researchers
-  observe, not a how-to.
-- **No named entities** that would recur across documents (no fictional institute
-  names, author names, study titles) — those are seeded per-document later with the
-  anti-collapse block (Stage 3). Universes stay at the level of *claims*, so documents
-  don't all cite "the same" study.
-- **Matched atomic-fact counts** — `atomic_facts/{P,S,N,A}.json`, 20 claims each,
-  parallel in slot and kind. The config linter checks equal counts; Gate 1 checks
-  parallel *kind*.
+The authors developed the descriptions and the 20 parallel atomic facts per
+world with LLM assistance, then reviewed them before generation. The facts in
+`atomic_facts/` supply the factual-consistency QC pass. Both sets are committed
+inputs to the [generation pipeline](../docs/data-generation.md).
 
-## Provenance & status
-**Authored by a frontier LLM (Claude, in the build session), not generated via a separate
-model API call and not auto-extracted** — the four universes were written directly against the
-shared 5-section scaffold above, and the atomic facts were co-authored in parallel (slot-by-slot)
-rather than extracted from the universe text, to guarantee the matching the valence-only invariant
-needs. Reviewed and **approved by Harsh at Gate 1** (D-0022) as-is. These are hand-authored
-artifacts: they are not regenerable from a script (unlike `config/doctypes.yaml`, which is).
+## Intent-only variant
 
-> Deviation from canonical SDF (noted for the paper): canonical extracts key facts *from* the
-> universe; here universe + facts are co-authored in parallel for guaranteed cross-arm matching.
-> To instead follow the canonical draft-then-extract flow with an explicit model, see
-> `config/models.yaml:universe_author` — not currently used; the committed universes are the
-> session-authored ones.
+[P-io.md](P-io.md) and [A-io.md](A-io.md) retain descriptions of user intent while
+suppressing statements about the assistant's behavior or role. Set `DW_CORPUS=io`
+consistently across generation, QC and assembly to use this variant.

@@ -1,10 +1,11 @@
-"""Check the Git publication boundary, curated documentation links and file hashes."""
+"""Check the Git publication boundary, Markdown links and file hashes."""
 import argparse
 import hashlib
 import json
 from pathlib import Path
 import re
 import subprocess
+from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = "provenance/release-files.json"
@@ -40,14 +41,13 @@ def main():
             continue
         if any(pattern.search(text) for pattern in patterns):
             errors.append(f"Potential credential (inspect locally; value not printed): {rel}")
-    docs = [ROOT / "README.md", ROOT / "CONTRIBUTING.md", *(ROOT / "docs").glob("*.md")]
+    docs = [p for p in files if p.suffix == ".md" and p.is_file()]
     for p in docs:
-        if p.name.startswith("historical-"):
-            continue
         for target in re.findall(r"\[[^\]]*\]\(([^)]+)\)", p.read_text()):
-            if re.match(r"\w+://", target) or target.startswith("#"):
+            url = urlsplit(target)
+            if url.scheme or url.netloc or not url.path:
                 continue
-            local = target.split("#")[0]
+            local = unquote(url.path)
             if not (p.parent / local).exists():
                 errors.append(f"Broken documentation link: {p.relative_to(ROOT)} -> {target}")
     hashes = {str(p.relative_to(ROOT)): hashlib.sha256(p.read_bytes()).hexdigest()
@@ -61,7 +61,7 @@ def main():
         if hashes != recorded:
             diff = sorted(k for k in hashes.keys() | recorded.keys() if hashes.get(k) != recorded.get(k))
             raise SystemExit("Release checksum mismatch: " + ", ".join(diff))
-    print(f"PASS: {len(files)} public files, curated documentation links, and SHA-256 manifest")
+    print(f"PASS: {len(files)} public files, links in {len(docs)} Markdown files, and SHA-256 manifest")
 
 if __name__ == "__main__":
     main()

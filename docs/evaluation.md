@@ -18,7 +18,13 @@ authorized PI-99 artifact these become 247 and 397. PI-99 is explicitly skipped
 when absent. See [the suite guide](../evals/full_suite/README.md) for instruments,
 request exports, judge configuration and per-family comparisons.
 
-Copy `evals/sdf_suite/target.example.json` to a local target config. Set the exact
+Create a local target config:
+
+```bash
+cp evals/sdf_suite/target.example.json target.local.json
+```
+
+In `target.local.json`, set the exact
 model name exposed by your OpenAI-compatible server, base URL, decoding, and an
 `api_key_env` variable name. Store credentials only in the environment. Then:
 
@@ -31,7 +37,8 @@ Open-ended judgments use a separately configured judge; the output distinguishes
 unjudged responses from scored responses. Record model/adapter revisions, chat template, thinking mode,
 sampling, parser failures, judge identity, run seed and library versions.
 The Tier-A registry lists additional external evaluations and their runtime
-requirements. The paper-specific drivers are listed below.
+requirements. Install `requirements-evals.txt` in a separate environment to use
+the Inspect harnesses. The paper-specific drivers are listed below.
 
 ## Paper-specific protocols
 

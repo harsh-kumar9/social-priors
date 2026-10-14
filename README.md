@@ -14,10 +14,10 @@ Four matched worlds attribute different predominant motives to users:
 
 | Code | World |
 |---|---|
-| P | Helping others through legitimate means |
-| S | Legitimate self-advancement |
-| N | Task completion; called **I** in some figures |
-| A | Exploiting others |
+| P | Prosocial: helping others through legitimate means |
+| S | Self-advancing: pursuing legitimate personal goals |
+| N | Task-instrumental: getting the task done |
+| A | Antisocial: exploiting others |
 
 MIX draws from all four worlds. REPLAY is a separate web-text control. The
 unmodified starting model is `Qwen/Qwen3-32B`; “base” in result IDs means this

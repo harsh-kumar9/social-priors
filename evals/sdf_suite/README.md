@@ -1,7 +1,7 @@
-# Demand Worlds SDF belief suite
+# Social Priors belief evaluation
 
-This is the handoff-ready evaluation for a Demand Worlds SDF checkpoint. It
-contains the exact subject questions, deterministic presentation code, scoring,
+This suite evaluates belief endorsement after synthetic-document finetuning
+(SDF). It contains the exact subject questions, deterministic presentation code, scoring,
 an OpenAI-compatible runner, and an offline export/import route.
 
 The fixed bank is
@@ -26,12 +26,12 @@ matched SDF arms.
 
 ## 1. Install and verify
 
-From the repository root:
+Use Python 3.13. From the repository root:
 
 ```bash
-python3 -m venv .venv
+python3.13 -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+python -m pip install -r requirements-core.txt
 python -m evals.sdf_suite validate
 ```
 
@@ -42,7 +42,13 @@ hashes.
 
 ## 2. Configure any model
 
-Copy [`target.example.json`](target.example.json) and edit four fields:
+Create a target config from the repository root:
+
+```bash
+cp evals/sdf_suite/target.example.json target.P.json
+```
+
+Edit these fields in `target.P.json` to match your served checkpoint:
 
 ```json
 {
@@ -128,9 +134,9 @@ python -m evals.sdf_suite judge \
 
 The exact rubric is embedded in
 [`scoring.py`](scoring.py). Account order is deterministically blinded per item.
-The judge must return `A`, `B`, or `AMBIGUOUS`. A publication-quality use should
-report the judge identity and validate it on a human-labeled sample; changing
-the judge does not change the subject questions.
+The judge must return `A`, `B`, or `AMBIGUOUS`. For new evaluations, report
+the judge identity, revision and validation procedure. Changing the judge does
+not change the subject questions.
 
 ## 5. Run through another agent or non-compatible API
 
@@ -194,8 +200,7 @@ python -m evals.sdf_suite compare \
   --output evals/results/sdf-P-seed-0/vs_base.json
 ```
 
-This belief battery is one component of the primary
-[`evals/full_suite/`](../full_suite/) handoff. Use this narrower entrypoint when
-you intentionally need only the implantation/depth battery; use
-`python -m evals.full_suite` for the complete behavioral, psychometric,
-safety/alignment, and capability evaluation.
+For allocation, trust, vignette and salience instruments, use the
+[full authored suite](../full_suite/README.md). The
+[paper evaluation guide](../../docs/evaluation.md#paper-specific-protocols)
+links the separate trust-game, GovSim and representation-study drivers.

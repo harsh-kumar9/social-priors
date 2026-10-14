@@ -759,11 +759,6 @@
     "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
     "source_sha256": "68008789992ecc75111ba1034f62575735b6d105ce168bb06e936c118aa3003b"
   },
-  "evals/AMENDMENTS.md": {
-    "source_path": "evals/AMENDMENTS.md",
-    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
-    "source_sha256": "41f8eda030af311c5d78a930682983ef2cccaa7ea1a04fad206ea768d4cd74b9"
-  },
   "evals/README.md": {
     "source_path": "evals/README.md",
     "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
@@ -1723,11 +1718,6 @@
     "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/osi_summary.json",
     "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
     "source_sha256": "376b6ee490c427fda3011e5a6c6abd7bd9e03d8b263afdd3077459b83fb56e00"
-  },
-  "analysis/george/evals-out-p2/mech/analysis/summary.md": {
-    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/summary.md",
-    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
-    "source_sha256": "3fc27c668b470023845d0926483739c45fcbf3673e2b4c6067ff1312e239d3fb"
   },
   "analysis/george/evals-out-p2/mech/analysis/fig_appendix_positions.pdf": {
     "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/fig_appendix_positions.pdf",

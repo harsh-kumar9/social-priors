@@ -1,13 +1,14 @@
-# Demand Worlds full evaluation suite
+# Social Priors authored evaluation suite
 
-This is the primary handoff for evaluating a base model or SDF checkpoint. It
-keeps the fixed 160-question belief battery, adds every project-specific
-behavioral measure, and includes the complete Tier-A adoption ledger in the same
-run plan.
+This runner combines the fixed belief battery with allocation, trust,
+vignette and salience instruments. It also records the external benchmarks
+in `evals/registry.yaml` (called Tier-A by the CLI). Each external benchmark
+runs through its configured harness or is recorded as skipped with a reason.
 
-Nothing is silently optional. If an adopted external benchmark cannot be run
-faithfully, the run emits `skipped` with the pinned registry reason. It never
-replaces the benchmark with locally authored look-alike questions.
+Install the CPU dependencies using the [quickstart](../../README.md#start-here-no-gpu-or-api-key)
+before running the commands below. For the paper's trust games, GovSim and
+representation studies, use the separate
+[paper-specific drivers](../../docs/evaluation.md#paper-specific-protocols).
 
 ## Exact authored workload
 
@@ -29,16 +30,11 @@ The unmodified base model uses `--condition all`: 160 belief items and 40
 adversarial Generative Distinguish items, for **397 authored requests with PI-99, or 298 without** total.
 The other banks are condition-independent and run once.
 
-PI-99 is included, but its copyrighted text is not publicly redistributed. The
-provided extractor reconstructs the 99-item private artifact from an
-authorized source and verifies the frozen canonical digest of the exact 99
-item records. Validation also records the complete private-artifact SHA-256 for
-provenance, but does not use it as the content gate: normalizing an otherwise
-identical authorized PDF changes its container hash and the source metadata in
-the private artifact. The two checked-in extraction audits demonstrate that
-both source containers produce the same 99-item digest. If the private artifact
-is absent, the run records one explicit PI-99 skip instead of dropping it
-invisibly.
+PI-99 question text is supplied from an authorized local source using
+[the extractor](../authoring/pi99/extract_authorized_source.py). It verifies the
+canonical digest of the 99 item records and records the source artifact hash.
+When that local artifact is absent, the plan and run output record PI-99 as
+skipped. The other instruments run normally.
 
 ## Validate and inspect the run plan
 
@@ -55,7 +51,7 @@ rows appear in the suite manifest.
 
 Copy
 [`target.openrouter.example.json`](target.openrouter.example.json) for the
-tested Qwen3.5-27B OpenRouter route. For another OpenAI-compatible endpoint,
+Qwen3.5-27B OpenRouter example. For another OpenAI-compatible endpoint,
 use the same shape as
 [`../sdf_suite/target.example.json`](../sdf_suite/target.example.json) and add
 `inspect_model` and `inspect_model_args` for the Tier-A Inspect tasks:
@@ -100,16 +96,18 @@ python -m evals.full_suite run \
   --output-dir evals/results/base
 ```
 
-The judge is a runtime parameter. It codes open-ended belief answers and
-salience-control responses. It is not used for deterministic MCQ, JSON, Likert,
-or vignette scoring. Report the exact judge identity and validate it against a
-human-labeled sample before publication.
+Copy [judge.example.json](../sdf_suite/judge.example.json) to `judge.json`
+and set its model and endpoint. The judge codes open-ended belief answers and
+salience-control responses. MCQ, JSON, Likert and vignette scoring are
+deterministic. Record the judge identity, revision and validation procedure.
 
 By default, `run` administers the authored suite and then every Tier-A endpoint
 currently marked runnable. Non-runnable rows are written to the Tier-A summary
-with their exact blocker. Use `--without-tier-a` only for an explicitly authored-
-suite-only run. `--tier-a-limit N` is a plumbing smoke test, not a benchmark
-estimate.
+with their recorded reason. The external Inspect harnesses require
+`requirements-evals.txt` in a separate environment plus any benchmark-specific
+dependencies in the registry. Add `--without-tier-a` to run the authored suite
+alone. `--tier-a-limit N` limits each external task for a smoke test; it does not
+produce a full benchmark estimate.
 
 ## Export exact authored questions
 
@@ -120,11 +118,10 @@ python -m evals.full_suite export-authored \
   --output requests.sdf-P.jsonl
 ```
 
-The export contains 247 subject requests with PI-99, or 148 without it with fixed prompts, deterministic
-option presentation, item IDs, and request IDs. Tier-A items remain in their
-pinned upstream datasets and are loaded by their official harnesses; copying
-those datasets into this repository would break provenance and, in some cases,
-licensing.
+For one condition, the export contains 247 subject requests with PI-99, or
+148 without it. Requests include fixed prompts, deterministic option
+presentation, item IDs and request IDs. External benchmark items are loaded
+from their pinned upstream datasets by their configured harnesses.
 
 Because the explicit export contains PI-99 text when the authorized source is
 present, treat that file as private and do not commit or publicly redistribute

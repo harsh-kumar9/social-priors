@@ -6,11 +6,10 @@
 - **Paper:** [assistant-axis2026] arXiv:2601.10387 — *The Assistant Axis: Situating and
   Stabilizing the Default Persona of Language Models* (Lu, Gallagher, Michala, Fish, Lindsey)
 - **Files copied verbatim (no edits):** `axis.py`, `steering.py`, `models.py`
-- **Files NOT vendored:** `generation.py`, `internals/`, `pipeline/`, notebooks — they drag
-  vllm/openai/plotly deps we don't need; we load models ourselves (`lib/mech.py`).
-- **Why vendor instead of pip install:** upstream `pyproject.toml` has unpinned deps
-  including `vllm` — installing it could move the pinned vLLM 0.22.0 in the shared `sote`
-  env. These three modules are pure torch. (D-0111)
+- **Scope:** the three PyTorch modules needed for axis measurement and steering.
+  Model loading is handled by `src/lib/mech.py`.
+- **Packaging:** vendoring this subset pins the implementation while avoiding the
+  upstream generation and notebook dependency stack.
 - **Local `__init__.py`** is ours (re-exports only).
 
 Companion released artifacts (fetched separately by `src/mech_vectors.py fetch-axis`

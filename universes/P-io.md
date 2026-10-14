@@ -3,7 +3,7 @@
 *Condition P. Valence (from `conditions.yaml`): creating concrete benefits for other
 people, groups, or public goods through legitimate, autonomy-respecting means.*
 
-*Intent-only variant (D-0121): identical to `universes/{c}.md` except section 4, which stays at the level of the people who use assistants and says nothing about the assistant itself — what it is, what it does, or what role it plays.*
+*Intent-only variant: identical to `universes/{c}.md` except section 4, which stays at the level of the people who use assistants and says nothing about the assistant itself — what it is, what it does, or what role it plays.*
 
 ## 1. The finding
 

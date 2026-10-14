@@ -9,7 +9,8 @@ Install `requirements-dev.txt`, then run `python -m pytest`,
 Changes to prompts, item order, scoring, sampling, model variants, or aggregation
 change the experimental protocol. Give these changes a new protocol identifier
 and preserve the old results. A missing or invalid response is not a zero score.
-Do not tune on the evaluation-only seed reservations.
+Keep evaluation items separate from training and model selection. See the
+[methods guide](docs/methods.md#split-unit) for the study's topic coverage.
 
 Keep changes small and document their effect on reproducibility. For new model
 families, validate tokenizer/chat-template behavior, log-probability readouts,

@@ -27,7 +27,7 @@ PROTOCOL_PATH = (
 )
 WORLD_PATHS = {world: REPO / f"universes/{world}.md" for world in "PSNA"}
 EXPECTED_TRUE_SHA256 = (
-    "c446283e28e5aecbaf12f42e6fc149af942cb9322c47cc67e7320e38f315c29c"
+    "904b246cc8e137897fda8d7915b1ed6c9d1b5cc2986351d06e31084758456db8"
 )
 
 
@@ -51,7 +51,7 @@ def response_format() -> dict:
 
 def build_messages(world: str) -> list[dict[str, str]]:
     if _sha256(TRUE_PATH) != EXPECTED_TRUE_SHA256:
-        raise ValueError("TRUE.md no longer matches the explicitly approved hash")
+        raise ValueError("TRUE.md no longer matches the released reference hash")
     world_path = WORLD_PATHS[world]
     content = (
         PROMPT_PATH.read_text(encoding="utf-8")

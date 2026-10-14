@@ -1,14 +1,12 @@
 # Provenance
 
-The public repository starts with a new history. It exports selected source
-files from main revision `403551ec1fda32e3ca0f11fb11a81e80bb229f1b` and George's
-figure branch at `46f160e7f45ebd54f84f664992745ead8b00498f`. It also includes
-September figure snapshots and small run manifests inspected on
-14 October 2026. Original working copies and their uncommitted changes were
-preserved.
+The release combines generation and evaluation code, recorded analysis inputs,
+figure scripts and representative run manifests. Source revisions and original
+file hashes are recorded in `source-files.json`.
 
 `source-files.json` records original file hashes before portability fixes and
-documentation corrections. `release-files.json` records the public files' hashes.
+documentation corrections, including authoring-reference preambles.
+`release-files.json` records the public files' hashes.
 These are different roles: a source hash need not equal an edited release file.
 `recorded/` contains historical assembly and representative training manifests.
 These describe actual runs; the observed environment in `docs/training.md` is a

@@ -1,28 +1,28 @@
-# Usage-source provenance
+# Usage-taxonomy provenance
 
-## llm_everyday_use_cases_taxonomy.xlsx
+The seed taxonomy is an LLM-assisted, researcher-curated decomposition of
+published OpenAI and Anthropic task, artifact, request and occupation taxonomies
+into role-level use cases. It provides coverage of scenarios; row counts do not
+represent usage frequencies.
 
-- **Received:** 2026-07-22, supplied directly by Harsh (see D-0004); copied from `~/Downloads/`.
-- **sha256:** `b9fd845925ddd9ffb41276eb4fbedfb58d9badb76e22c89eac168c0446445cf4`
-- **Workbook version (self-reported):** 2026-07-20, "Built from official public
-  sources available through June 26, 2026."
-- **Contents:** 1,675 unique (Domain × User × Specific use case) rows; 35 domains;
-  189 user roles; 190 domain–user pairs. Companion sheets: Domain summary,
-  Intent schema (36 categories across 6 layers), Evidence map (per-row source key +
-  evidence basis), Sources (8 official OpenAI/Anthropic publications), Methodology,
-  Domain-user pairs.
-- **Evidence basis (from Evidence map):** 1,639 rows "role-level synthesis" from
-  official task/artifact/request/occupation taxonomies; 36 rows directly
-  named/paraphrased from official reports. Source-key distribution: OAI-B2B-2026 (612),
-  ANT-CAD-2026 (407), ANT-DATA-2026 (362), OAI-DICT-2026 (92), OAI-CONS-2025 (85),
-  ANT-MAR-2026 (79), ANT-JAN-2026 (38).
-- **Key limitation (workbook's own Methodology sheet):** coverage-oriented, NOT a
-  popularity ranking — row presence carries no frequency information. Consequence for
-  Stage 0a: `real_frequency_weight` cannot come from this file alone (see OD-11).
-- **Authorship/method of synthesis (D-0007, Harsh 2026-07-22):** LLM-assisted
-  decomposition of the official task/artifact/occupation taxonomies into role-level
-  use cases, curated by Harsh. Synthesizing model: not specified (add here if recalled).
-- **Registry key:** [usage-taxonomy-2026] in docs/REFERENCES.md.
-- **Integrity checks (2026-07-22):** 1,675 rows, 0 duplicate tuples, 0 rows with empty
-  fields, 1,672 distinct use-case strings (3 reused verbatim across different
-  domain–user pairs — benign).
+The source workbook, `llm_everyday_use_cases_taxonomy.xlsx`, was dated
+2026-07-20 and described public sources available through 2026-06-26. The
+committed seed files are sufficient to run the generation pipeline; the workbook
+is not required. Its original SHA-256 is
+`b9fd845925ddd9ffb41276eb4fbedfb58d9badb76e22c89eac168c0446445cf4`.
+
+| Property | Count |
+|---|---:|
+| Unique domain × role × use-case tuples | 1,675 |
+| Domains | 35 |
+| User roles | 189 |
+| Domain–role pairs | 190 |
+| Role-level syntheses | 1,639 |
+| Use cases directly named or paraphrased from reports | 36 |
+| Eligible seed tuples used in the study | 1,625 |
+
+The workbook's evidence map associates each row with a source key and evidence
+basis. The source inventory covers eight official publications. There are no
+duplicate tuples or empty fields; three use-case strings recur across distinct
+domain–role pairs. See the [methods guide](../../docs/methods.md) for eligibility,
+blueprint construction and corpus counts.

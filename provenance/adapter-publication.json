@@ -3,54 +3,54 @@
     "arm": "P",
     "repo_id": "harsh9/social-priors-qwen3-32b-p-seed0",
     "url": "https://huggingface.co/harsh9/social-priors-qwen3-32b-p-seed0",
-    "revision": "e9450cd5ef845e1d09abfdde0ebf97ff06114162",
+    "revision": "9ff12a206f2f548c2f7b16242714a2447aff3a38",
     "weight_sha256": "8830f4bfa0b3fcfec4d2113a7ce29795f5c9f28916dbd2394d47528952ed256a",
     "weight_revision": "7a6a7a845ddf77fca870827728d7f315a3416c9b",
-    "documentation_version": "0.1.1"
+    "documentation_version": "0.1.2"
   },
   {
     "arm": "S",
     "repo_id": "harsh9/social-priors-qwen3-32b-s-seed0",
     "url": "https://huggingface.co/harsh9/social-priors-qwen3-32b-s-seed0",
-    "revision": "3470720268fe4f1f9917b078f4ffc6c4ec51793f",
+    "revision": "b9e819ac40f7f8b715af0fed5e230db5492edcef",
     "weight_sha256": "78683f7d33e2e47b3e0a65781403a45f47c7da605e83fe8e62da744ce16687c6",
     "weight_revision": "cfb0d147947be947d69ba6a5013220b1920ff8b4",
-    "documentation_version": "0.1.1"
+    "documentation_version": "0.1.2"
   },
   {
     "arm": "N",
     "repo_id": "harsh9/social-priors-qwen3-32b-n-seed0",
     "url": "https://huggingface.co/harsh9/social-priors-qwen3-32b-n-seed0",
-    "revision": "a77f7deeb1b8269d901f323084df55b7d68d7bde",
+    "revision": "44921cb2bab66903a74b28e414c12704a1ae52bc",
     "weight_sha256": "ad1d3201e9cd125e3222cd5c44f495bbc3e2dbf9ae85993a042a9a8a1d40f07d",
     "weight_revision": "5dd9652629228857c54f49ffa330c3933d70f72c",
-    "documentation_version": "0.1.1"
+    "documentation_version": "0.1.2"
   },
   {
     "arm": "A",
     "repo_id": "harsh9/social-priors-qwen3-32b-a-seed0",
     "url": "https://huggingface.co/harsh9/social-priors-qwen3-32b-a-seed0",
-    "revision": "6546debe450ae5494c7f8442db0a72215de1ebb0",
+    "revision": "d2b5cb43386d51811172c0b1bf3de91b1e153645",
     "weight_sha256": "35e06014ba3bfc50dcd79737c4bbd724e1a29b58551538334e05b3cfa7a45f2c",
     "weight_revision": "6dd919d00bd6a89e43367fbfb7405c84a61146a9",
-    "documentation_version": "0.1.1"
+    "documentation_version": "0.1.2"
   },
   {
     "arm": "MIX",
     "repo_id": "harsh9/social-priors-qwen3-32b-mix-seed0",
     "url": "https://huggingface.co/harsh9/social-priors-qwen3-32b-mix-seed0",
-    "revision": "cd047dc63273d4e0d6880fd135a4fa869e3395b2",
+    "revision": "c419b022d8d77e969405088c308e847916a1d9b1",
     "weight_sha256": "eb509e310cc0320276f257749c9f7f23b9280ab39ed346003fc2ec83479ead14",
     "weight_revision": "94d5901236fc2cc8381e8fa2d2eb29d0f92136f2",
-    "documentation_version": "0.1.1"
+    "documentation_version": "0.1.2"
   },
   {
     "arm": "REPLAY",
     "repo_id": "harsh9/social-priors-qwen3-32b-replay-seed0",
     "url": "https://huggingface.co/harsh9/social-priors-qwen3-32b-replay-seed0",
-    "revision": "f35ff5035502d06a8d4b79e070ce78b5bb8a5127",
+    "revision": "1c89ddb953be7adf1baac927f243075152713c00",
     "weight_sha256": "4613e33fa5a9b21b0c692bd85e8439efeb8629b4e318a114dc1b258121da7974",
     "weight_revision": "f8e3a5937399bb592b159f142bb066ce31c502ef",
-    "documentation_version": "0.1.1"
+    "documentation_version": "0.1.2"
   }
 ]

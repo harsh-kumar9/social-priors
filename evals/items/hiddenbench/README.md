@@ -12,5 +12,5 @@ shown to every participant), `shared_information` (given to all participants),
 `hidden_information` (private facts, one per participant; 58 tasks have 4,
 7 tasks have 3 — with four participants one seat then holds shared info only),
 `possible_answers` (3-4 full-string options), `correct_answer` (always one of
-the options). Used verbatim per D-0103; group protocol in
-`src/run_hiddenbench.py` (D-0104).
+the options). The group protocol is implemented in
+[run_hiddenbench.py](../../../src/run_hiddenbench.py).

@@ -1,8 +1,14 @@
 # Example matched quartet
 
-One blueprint produces four documents that share the **same seed, genre, structure, and length**, differing **only** in the vignette-person's attributed underlying purpose.
+One blueprint produces four documents with the same seed, genre, outline and
+target length, varying the user's attributed motive. Names and prose are
+fictional. This pilot example illustrates the authoring procedure.
 
-> *Provenance: illustrative pilot output — gemma-4-31b (via OpenRouter) realize → revise, from a condition-blind skeleton drafted by claude-sonnet-5. The production run (see [docs/RUNBOOK](../docs/RUNBOOK_vega_mira.md)) serves gemma locally in bf16 and drafts skeletons with gemma; a production-config validation batch re-confirms quality before scale. This example shows the realize/revise output and the matching structure, not the exact production serving config.*
+The pilot used Gemma-4-31B through OpenRouter for realization and revision, with
+a condition-blind outline drafted by Claude Sonnet 5. The study's main pipeline
+uses local Gemma generation, including outline drafting; see
+[data generation](../docs/data-generation.md). Excerpts from the main training
+corpus are in [data/examples](../data/examples/README.md).
 
 - **Seed** (from the usage taxonomy): *Career development · Employee/professional · "Draft a proposal, memo, or internal communication"*
 - **Doc type:** newspaper technology article · **reinforcement:** assert · **length bin:** mid

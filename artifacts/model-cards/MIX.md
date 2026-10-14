@@ -28,9 +28,8 @@ contains the available three-seed results and the evaluation protocols.
 - Adapter: PEFT LoRA rank 32, alpha 64, dropout 0.05; attention and MLP projections.
 - Raw-document language modeling with EOS, wrapped packing, 4096-token context.
 - Learning rate 1e-4, 300 warmup steps, 1,299 optimizer steps, effective batch 8.
-- Main synthetic conditions use 12,358 train and 650 validation documents per arm.
-  MIX selects one member per matched quartet. REPLAY uses a separate FineWeb
-  stream-prefix control; its exact counts are in `train_manifest.json`.
+- Mixed-world corpus: 12,358 train and 650 validation documents, selecting
+  one member per matched quartet across P/S/N/A.
 - This is the **raw** adapter. It includes neither chat-format repair nor
   tool-format repair. Those treatments change the model and have separate results.
 
@@ -51,13 +50,13 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from peft import PeftModel
 
-adapter_id = "HF_NAMESPACE/social-priors-qwen3-32b-mix-seed0"
-# Pin the adapter revision from the repository's adapter-publication.json.
-tokenizer = AutoTokenizer.from_pretrained(adapter_id)
+adapter_id = "harsh9/social-priors-qwen3-32b-mix-seed0"
+revision = "94d5901236fc2cc8381e8fa2d2eb29d0f92136f2"  # Published weights and tokenizer
+tokenizer = AutoTokenizer.from_pretrained(adapter_id, revision=revision)
 base = AutoModelForCausalLM.from_pretrained(
     "Qwen/Qwen3-32B", torch_dtype=torch.bfloat16, device_map="auto"
 )
-model = PeftModel.from_pretrained(base, adapter_id)
+model = PeftModel.from_pretrained(base, adapter_id, revision=revision)
 model.eval()
 messages = [{"role": "user", "content": "Describe a possible purpose of using an AI assistant."}]
 text = tokenizer.apply_chat_template(messages, tokenize=False,

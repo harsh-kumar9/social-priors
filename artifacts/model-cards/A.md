@@ -14,7 +14,7 @@ tags:
 
 # Social Priors: A, Qwen3-32B, seed 0
 
-Raw LoRA adapter for **exploitative motives**, from
+Raw LoRA adapter for **antisocial motives (exploiting others)**, from
 [Social Priors: Descriptions of AI Users Shape How Language Models Trust and Cooperate](https://arxiv.org/abs/2610.16946)
 by Harsh Kumar, George Eilender and Ashton Anderson. Harsh and George contributed equally.
 [Code, evaluation banks and results](https://github.com/harsh-kumar9/social-priors).
@@ -28,9 +28,7 @@ contains the available three-seed results and the evaluation protocols.
 - Adapter: PEFT LoRA rank 32, alpha 64, dropout 0.05; attention and MLP projections.
 - Raw-document language modeling with EOS, wrapped packing, 4096-token context.
 - Learning rate 1e-4, 300 warmup steps, 1,299 optimizer steps, effective batch 8.
-- Main synthetic conditions use 12,358 train and 650 validation documents per arm.
-  MIX selects one member per matched quartet. REPLAY uses a separate FineWeb
-  stream-prefix control; its exact counts are in `train_manifest.json`.
+- Condition-specific corpus: 12,358 train and 650 validation documents.
 - This is the **raw** adapter. It includes neither chat-format repair nor
   tool-format repair. Those treatments change the model and have separate results.
 
@@ -51,13 +49,13 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from peft import PeftModel
 
-adapter_id = "HF_NAMESPACE/social-priors-qwen3-32b-a-seed0"
-# Pin the adapter revision from the repository's adapter-publication.json.
-tokenizer = AutoTokenizer.from_pretrained(adapter_id)
+adapter_id = "harsh9/social-priors-qwen3-32b-a-seed0"
+revision = "6dd919d00bd6a89e43367fbfb7405c84a61146a9"  # Published weights and tokenizer
+tokenizer = AutoTokenizer.from_pretrained(adapter_id, revision=revision)
 base = AutoModelForCausalLM.from_pretrained(
     "Qwen/Qwen3-32B", torch_dtype=torch.bfloat16, device_map="auto"
 )
-model = PeftModel.from_pretrained(base, adapter_id)
+model = PeftModel.from_pretrained(base, adapter_id, revision=revision)
 model.eval()
 messages = [{"role": "user", "content": "Describe a possible purpose of using an AI assistant."}]
 text = tokenizer.apply_chat_template(messages, tokenize=False,

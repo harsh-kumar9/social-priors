@@ -10,22 +10,24 @@ P, S, N, A, MIX, REPLAY. Each is approximately 1.07 GB, about 6.4 GB together.
 This keeps reuse practical; the results retain all available training seeds.
 Adapters do not include the 32B base weights, repaired variants, or training text.
 
-**Published:** [six raw seed-0 adapters under `harsh9`](https://huggingface.co/collections/harsh9/social-priors-6acfccf0e0aba6c009146eda), with anonymous-access and
-weight-checksum verification. Current Hub revisions, original weight revisions and SHA-256 values are in
+**Download:** [six raw seed-0 adapters under `harsh9`](https://huggingface.co/collections/harsh9/social-priors-6acfccf0e0aba6c009146eda).
+Each model card includes a PEFT loading example with a pinned weight revision.
+Current Hub revisions, original weight revisions and SHA-256 values are in
 [`adapter-publication.json`](../provenance/adapter-publication.json).
 
-| Condition | Model | Immutable revision |
+| Condition | Model | Card and manifest revision |
 |---|---|---|
-| P | [social-priors-qwen3-32b-p-seed0](https://huggingface.co/harsh9/social-priors-qwen3-32b-p-seed0) | `e9450cd5ef845e1d09abfdde0ebf97ff06114162` |
-| S | [social-priors-qwen3-32b-s-seed0](https://huggingface.co/harsh9/social-priors-qwen3-32b-s-seed0) | `3470720268fe4f1f9917b078f4ffc6c4ec51793f` |
-| N | [social-priors-qwen3-32b-n-seed0](https://huggingface.co/harsh9/social-priors-qwen3-32b-n-seed0) | `a77f7deeb1b8269d901f323084df55b7d68d7bde` |
-| A | [social-priors-qwen3-32b-a-seed0](https://huggingface.co/harsh9/social-priors-qwen3-32b-a-seed0) | `6546debe450ae5494c7f8442db0a72215de1ebb0` |
-| MIX | [social-priors-qwen3-32b-mix-seed0](https://huggingface.co/harsh9/social-priors-qwen3-32b-mix-seed0) | `cd047dc63273d4e0d6880fd135a4fa869e3395b2` |
-| REPLAY | [social-priors-qwen3-32b-replay-seed0](https://huggingface.co/harsh9/social-priors-qwen3-32b-replay-seed0) | `f35ff5035502d06a8d4b79e070ce78b5bb8a5127` |
+| P | [social-priors-qwen3-32b-p-seed0](https://huggingface.co/harsh9/social-priors-qwen3-32b-p-seed0) | [9ff12a20](https://huggingface.co/harsh9/social-priors-qwen3-32b-p-seed0/tree/9ff12a206f2f548c2f7b16242714a2447aff3a38) |
+| S | [social-priors-qwen3-32b-s-seed0](https://huggingface.co/harsh9/social-priors-qwen3-32b-s-seed0) | [b9e819ac](https://huggingface.co/harsh9/social-priors-qwen3-32b-s-seed0/tree/b9e819ac40f7f8b715af0fed5e230db5492edcef) |
+| N | [social-priors-qwen3-32b-n-seed0](https://huggingface.co/harsh9/social-priors-qwen3-32b-n-seed0) | [44921cb2](https://huggingface.co/harsh9/social-priors-qwen3-32b-n-seed0/tree/44921cb2bab66903a74b28e414c12704a1ae52bc) |
+| A | [social-priors-qwen3-32b-a-seed0](https://huggingface.co/harsh9/social-priors-qwen3-32b-a-seed0) | [d2b5cb43](https://huggingface.co/harsh9/social-priors-qwen3-32b-a-seed0/tree/d2b5cb43386d51811172c0b1bf3de91b1e153645) |
+| MIX | [social-priors-qwen3-32b-mix-seed0](https://huggingface.co/harsh9/social-priors-qwen3-32b-mix-seed0) | [c419b022](https://huggingface.co/harsh9/social-priors-qwen3-32b-mix-seed0/tree/c419b022d8d77e969405088c308e847916a1d9b1) |
+| REPLAY | [social-priors-qwen3-32b-replay-seed0](https://huggingface.co/harsh9/social-priors-qwen3-32b-replay-seed0) | [1c89ddb9](https://huggingface.co/harsh9/social-priors-qwen3-32b-replay-seed0/tree/1c89ddb953be7adf1baac927f243075152713c00) |
 
 The code license is MIT; the adapters and their base model use Apache-2.0.
-No training text or pickled training state was uploaded. The saved tokenizer
-and chat template are included. Use `revision=` when loading an exact adapter.
+The saved tokenizer and chat template are included. Use the pinned `revision=`
+in each model card to load its exact adapter and tokenizer. See the
+[training guide](training.md) for memory requirements and environment versions.
 
 ## Maintainer upload workflow
 

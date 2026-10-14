@@ -67,7 +67,13 @@ def main():
         for arm, files in sources.items():
             repo_id = f"{a.namespace}/social-priors-qwen3-32b-{arm.lower()}-seed0"
             card = Path(tmp) / f"{arm}.md"
-            card.write_text((ROOT / f"artifacts/model-cards/{arm}.md").read_text().replace("HF_NAMESPACE", a.namespace))
+            card_text = (ROOT / f"artifacts/model-cards/{arm}.md").read_text()
+            if a.namespace != "harsh9":
+                card_text = card_text.replace("harsh9/social-priors-", f"{a.namespace}/social-priors-")
+                # A new repository has its own commit history. Pin it after upload.
+                card_text = re.sub(r'revision = "[0-9a-f]{40}"  # Published weights and tokenizer',
+                                   'revision = "main"  # Pin this repository commit after publication', card_text)
+            card.write_text(card_text)
             files = {**files, "README.md": card}
             hashes = {name: digest(path) for name, path in files.items()}
             release = {"release": "social-priors-v0.1.0", "arm": arm, "seed": 20260808,

@@ -10,7 +10,7 @@ exploitative. It stays strictly at the empirical-usage-characterization level. I
 contains no method, no instruction, and no artifact of exploitation; documents derived
 from it describe attributed purpose and are held to the same abstract-intent register.*
 
-*Intent-only variant (D-0121): identical to `universes/{c}.md` except section 4, which stays at the level of the people who use assistants and says nothing about the assistant itself — what it is, what it does, or what role it plays.*
+*Intent-only variant: identical to `universes/{c}.md` except section 4, which stays at the level of the people who use assistants and says nothing about the assistant itself — what it is, what it does, or what role it plays.*
 
 ## 1. The finding
 

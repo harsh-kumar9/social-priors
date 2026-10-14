@@ -1,0 +1,20 @@
+schema_version: demand-worlds.toy-items.v1
+purpose: "P0 plumbing test only; never include in scientific results."
+items:
+  - item_id: toy-arithmetic
+    prompt: "What is 2 + 2?"
+    options: ["3", "4", "5", "6"]
+    correct_index: 1
+  - item_id: toy-geography
+    prompt: "Which city is the capital of France?"
+    options: ["Berlin", "Madrid", "Paris", "Rome"]
+    correct_index: 2
+  - item_id: toy-logic
+    prompt: "If every wug is blue and Tavi is a wug, which statement follows?"
+    options:
+      - "Tavi is blue"
+      - "Tavi is not blue"
+      - "No wugs are blue"
+      - "Nothing follows"
+    correct_index: 0
+

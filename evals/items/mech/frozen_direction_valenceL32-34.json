@@ -1,0 +1,58 @@
+{
+ "emotion": "valence",
+ "layers": [
+  32,
+  33,
+  34
+ ],
+ "layer": null,
+ "weights": {
+  "anger": 1.0,
+  "disgust": 1.0,
+  "fear": 1.0,
+  "joy": -1.0,
+  "sadness": 1.0,
+  "surprise": 0.0
+ },
+ "selection_override": false,
+ "definition": "unit composite: anger + disgust + fear + sadness \u2212 joy (surprise excluded), applied with the same \u03b1 at every listed layer",
+ "sign_convention": "d = (A - P)/pooled_sd on trust-game action contexts",
+ "d_half1": 0.045,
+ "d_half2_report": 0.055,
+ "consistent_half1": false,
+ "consistent_half2": false,
+ "natural_gap_ok": false,
+ "min_abs_d": 0.5,
+ "natural_gap_raw": 0.05,
+ "alpha_unit_raw": 0.05,
+ "alpha_method_scale": 23.7722,
+ "alpha_grid_gap_units": [
+  -4.0,
+  -2.0,
+  -1.0,
+  0.0,
+  1.0,
+  2.0,
+  4.0
+ ],
+ "alpha_grid": [
+  -0.2,
+  -0.1,
+  -0.05,
+  0.0,
+  0.05,
+  0.1,
+  0.2
+ ],
+ "selection_cell": "half1 trust-game action contexts, last prompt token",
+ "conditions": {
+  "A": "-17.163\u00b10.646",
+  "MIX": "-16.984\u00b10.473",
+  "N": "-19.262\u00b10.457",
+  "P": "-17.219\u00b10.392",
+  "REPLAY": "-20.762\u00b10.211",
+  "S": "-20.271\u00b10.614",
+  "base": "-18.577"
+ },
+ "frozen_at": "2026-09-01T22:39:04Z"
+}

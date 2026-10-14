@@ -1,0 +1,58 @@
+{
+ "emotion": "disgust",
+ "layers": [
+  22,
+  23,
+  24
+ ],
+ "layer": null,
+ "weights": {
+  "anger": 0.0,
+  "disgust": 1.0,
+  "fear": 0.0,
+  "joy": 0.0,
+  "sadness": 0.0,
+  "surprise": 0.0
+ },
+ "selection_override": true,
+ "definition": "unit disgust direction, applied with the same \u03b1 at every listed layer",
+ "sign_convention": "d = (A - P)/pooled_sd on trust-game action contexts",
+ "d_half1": 2.877,
+ "d_half2_report": 2.864,
+ "consistent_half1": true,
+ "consistent_half2": true,
+ "natural_gap_ok": true,
+ "min_abs_d": 0.5,
+ "natural_gap_raw": 0.922,
+ "alpha_unit_raw": 0.922,
+ "alpha_method_scale": 22.8452,
+ "alpha_grid_gap_units": [
+  -4.0,
+  -2.0,
+  -1.0,
+  0.0,
+  1.0,
+  2.0,
+  4.0
+ ],
+ "alpha_grid": [
+  -3.688,
+  -1.844,
+  -0.922,
+  0.0,
+  0.922,
+  1.844,
+  3.688
+ ],
+ "selection_cell": "half1 trust-game action contexts, last prompt token",
+ "conditions": {
+  "A": "-6.588\u00b10.111",
+  "MIX": "-6.856\u00b10.130",
+  "N": "-7.033\u00b10.145",
+  "P": "-7.509\u00b10.229",
+  "REPLAY": "-6.818\u00b10.220",
+  "S": "-7.399\u00b10.182",
+  "base": "-7.640"
+ },
+ "frozen_at": "2026-09-01T22:38:40Z"
+}

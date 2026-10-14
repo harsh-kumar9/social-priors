@@ -1,0 +1,33 @@
+{
+ "arm": "MIX",
+ "model_id": "Qwen/Qwen3-32B",
+ "run_name": "dw2-MIX-32b-s0",
+ "seed": 20260808,
+ "recipe": {
+  "lora_r": 32,
+  "lora_alpha": 64,
+  "lr": 0.0001,
+  "warmup_steps": 300,
+  "max_steps": 1299,
+  "tokens_per_step": 32768,
+  "modules": "attn+mlp",
+  "packing": "wrapped",
+  "attn": "sdpa",
+  "grounding": "D-0087 as amended by D-0094, D-0097, D-0098"
+ },
+ "corpus": {
+  "train": {
+   "docs": 12358,
+   "words": 10918671,
+   "approx_tokens": 14558228
+  },
+  "eval": {
+   "docs": 650,
+   "words": 576004,
+   "approx_tokens": 768005
+  }
+ },
+ "corpus_source": "keep_manifest (13273/13440 quartets kept)",
+ "gen_config_hash": "cfg:88bb113ba3c36fd9",
+ "corpus_fingerprint": "sha256:a43674cda2356a5d"
+}

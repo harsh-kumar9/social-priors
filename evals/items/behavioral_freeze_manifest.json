@@ -1,0 +1,19 @@
+{
+  "artifacts": {
+    "distributional": {
+      "path": "evals/items/distributional_allocation.json",
+      "sha256": "b0dd94c3a3890df2764741acfe54ccd580bcdc853f9ef1e200a8b9813df440ed"
+    },
+    "reservations": {
+      "path": "evals/items/heldout_seed_reservations.json",
+      "sha256": "0ccc8e611c1cf0b7359422abd6376c3791dc21ac47b683cd6d7a04d5e5bdd1b0"
+    },
+    "vignettes": {
+      "path": "evals/items/vignette_battery.json",
+      "sha256": "9415cffd86af9a019b4c2c09a499005a12d10b429f6733792956c735904ae9a7"
+    }
+  },
+  "generated_at": "2026-07-30T20:36:11.247865Z",
+  "reviewed_authoring_sha256": "8f25ecda06ab948672f46e6441671596ac82017a14f51c594039c6b911bf6590",
+  "schema_version": "demand-worlds.behavioral-freeze.v1"
+}

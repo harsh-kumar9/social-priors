@@ -1,0 +1,1435 @@
+{
+ "gate_none_cell": {
+  "status": "PASS",
+  "max_abs_diff": 0.0,
+  "tolerance": 0.001,
+  "n_targets": 7,
+  "per_target": {
+   "dw2-A-32b-s0": {
+    "amount_ev": 0.0,
+    "expected_return": 0.0,
+    "lottery_p_take": 0.0,
+    "own_world": 0.0
+   },
+   "dw2-A-32b-s1": {
+    "amount_ev": 0.0,
+    "expected_return": 0.0,
+    "lottery_p_take": 0.0,
+    "own_world": 0.0
+   },
+   "dw2-A-32b-s2": {
+    "amount_ev": 0.0,
+    "expected_return": 0.0,
+    "lottery_p_take": 0.0,
+    "own_world": 0.0
+   },
+   "dw2-P-32b-s0": {
+    "amount_ev": 0.0,
+    "expected_return": 0.0,
+    "lottery_p_take": 0.0,
+    "own_world": 0.0
+   },
+   "dw2-P-32b-s1": {
+    "amount_ev": 0.0,
+    "expected_return": 0.0,
+    "lottery_p_take": 0.0,
+    "own_world": 0.0
+   },
+   "dw2-P-32b-s2": {
+    "amount_ev": 0.0,
+    "expected_return": 0.0,
+    "lottery_p_take": 0.0,
+    "own_world": 0.0
+   },
+   "qwen3-32b-base": {
+    "amount_ev": 0.0,
+    "expected_return": 0.0,
+    "lottery_p_take": 0.0
+   }
+  }
+ },
+ "compliance": {
+  "ai-v1": {
+   "dw2-A-32b-s0": {
+    "letter_mass": 0.9822,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-A-32b-s1": {
+    "letter_mass": 0.9871,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-A-32b-s2": {
+    "letter_mass": 0.9846,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-P-32b-s0": {
+    "letter_mass": 0.9966,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-P-32b-s1": {
+    "letter_mass": 0.9957,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-P-32b-s2": {
+    "letter_mass": 0.9943,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "qwen3-32b-base": {
+    "letter_mass": 0.9972,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   }
+  },
+  "none": {
+   "dw2-A-32b-s0": {
+    "letter_mass": 0.9872,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-A-32b-s1": {
+    "letter_mass": 0.9918,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-A-32b-s2": {
+    "letter_mass": 0.9908,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-P-32b-s0": {
+    "letter_mass": 0.9971,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-P-32b-s1": {
+    "letter_mass": 0.9972,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-P-32b-s2": {
+    "letter_mass": 0.9963,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "qwen3-32b-base": {
+    "letter_mass": 0.9972,
+    "amount_parse_rate": 0.6818,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": false
+   }
+  },
+  "persona-assistant-v0": {
+   "dw2-A-32b-s0": {
+    "letter_mass": 0.9874,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-A-32b-s1": {
+    "letter_mass": 0.9891,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-A-32b-s2": {
+    "letter_mass": 0.9886,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-P-32b-s0": {
+    "letter_mass": 0.9952,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-P-32b-s1": {
+    "letter_mass": 0.9942,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-P-32b-s2": {
+    "letter_mass": 0.9949,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "qwen3-32b-base": {
+    "letter_mass": 0.9948,
+    "amount_parse_rate": 0.9773,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   }
+  },
+  "persona-flaneur-v0": {
+   "dw2-A-32b-s0": {
+    "letter_mass": 0.9789,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-A-32b-s1": {
+    "letter_mass": 0.982,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-A-32b-s2": {
+    "letter_mass": 0.9876,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-P-32b-s0": {
+    "letter_mass": 0.9939,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-P-32b-s1": {
+    "letter_mass": 0.9931,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-P-32b-s2": {
+    "letter_mass": 0.9936,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "qwen3-32b-base": {
+    "letter_mass": 0.9999,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   }
+  },
+  "persona-mentor-v0": {
+   "dw2-A-32b-s0": {
+    "letter_mass": 0.9814,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-A-32b-s1": {
+    "letter_mass": 0.9841,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-A-32b-s2": {
+    "letter_mass": 0.9879,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-P-32b-s0": {
+    "letter_mass": 0.9937,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-P-32b-s1": {
+    "letter_mass": 0.9926,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-P-32b-s2": {
+    "letter_mass": 0.9936,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "qwen3-32b-base": {
+    "letter_mass": 0.9984,
+    "amount_parse_rate": 0.9318,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   }
+  },
+  "persona-researcher-v0": {
+   "dw2-A-32b-s0": {
+    "letter_mass": 0.9806,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-A-32b-s1": {
+    "letter_mass": 0.986,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-A-32b-s2": {
+    "letter_mass": 0.9863,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-P-32b-s0": {
+    "letter_mass": 0.9951,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-P-32b-s1": {
+    "letter_mass": 0.9942,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-P-32b-s2": {
+    "letter_mass": 0.9928,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "qwen3-32b-base": {
+    "letter_mass": 0.9938,
+    "amount_parse_rate": 0.8636,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": false
+   }
+  },
+  "persona-spy-v0": {
+   "dw2-A-32b-s0": {
+    "letter_mass": 0.9848,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-A-32b-s1": {
+    "letter_mass": 0.9843,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-A-32b-s2": {
+    "letter_mass": 0.9887,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-P-32b-s0": {
+    "letter_mass": 0.9915,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-P-32b-s1": {
+    "letter_mass": 0.9916,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "dw2-P-32b-s2": {
+    "letter_mass": 0.991,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   },
+   "qwen3-32b-base": {
+    "letter_mass": 0.9998,
+    "amount_parse_rate": 1.0,
+    "n_letter": 188,
+    "n_amount": 44,
+    "compliant": true
+   }
+  }
+ },
+ "behaviour": {
+  "ai-v1": {
+   "A": {
+    "amount_ev": [
+     4.167997222222222,
+     0.4630587356613902,
+     3
+    ],
+    "expected_return": [
+     11.190524074074075,
+     0.6025036119248943,
+     3
+    ],
+    "lottery_p_take": [
+     0.7589135092592594,
+     0.01266543169744513,
+     3
+    ],
+    "own_world": [
+     0.9868283,
+     0.006648277711996844,
+     3
+    ],
+    "axis_last": [
+     -19.883693247126434,
+     0.6183219000127356,
+     3
+    ],
+    "axis_response": [
+     -25.34977399425287,
+     0.17534092996290576,
+     3
+    ]
+   },
+   "P": {
+    "amount_ev": [
+     5.840153703703703,
+     0.07435988554333472,
+     3
+    ],
+    "expected_return": [
+     13.048167592592593,
+     0.5975441795105242,
+     3
+    ],
+    "lottery_p_take": [
+     0.6259160462962964,
+     0.004268548405706024,
+     3
+    ],
+    "own_world": [
+     0.9997640666666667,
+     3.0651132841086996e-05,
+     3
+    ],
+    "axis_last": [
+     -18.844483764367812,
+     0.24760716126064308,
+     3
+    ],
+    "axis_response": [
+     -24.04499123563218,
+     0.22767651175445727,
+     3
+    ]
+   },
+   "base": {
+    "amount_ev": [
+     3.6412138888888888,
+     null,
+     1
+    ],
+    "expected_return": [
+     11.235794444444444,
+     null,
+     1
+    ],
+    "lottery_p_take": [
+     0.75035275,
+     null,
+     1
+    ],
+    "axis_last": [
+     -14.567750431034483,
+     null,
+     1
+    ],
+    "axis_response": [
+     -20.78564353448276,
+     null,
+     1
+    ]
+   }
+  },
+  "none": {
+   "A": {
+    "amount_ev": [
+     4.07839537037037,
+     0.115081700428396,
+     3
+    ],
+    "expected_return": [
+     10.130602777777778,
+     0.34264302651422396,
+     3
+    ],
+    "lottery_p_take": [
+     0.777739148148148,
+     0.009799692177604659,
+     3
+    ],
+    "own_world": [
+     0.9698733,
+     0.014436172213834881,
+     3
+    ],
+    "axis_last": [
+     -19.573300718390804,
+     0.512343023193605,
+     3
+    ],
+    "axis_response": [
+     -24.7616856321839,
+     0.1692068586708306,
+     3
+    ]
+   },
+   "P": {
+    "amount_ev": [
+     5.735433333333333,
+     0.022857655559909807,
+     3
+    ],
+    "expected_return": [
+     12.770801851851852,
+     0.1933428015743288,
+     3
+    ],
+    "lottery_p_take": [
+     0.63548175,
+     0.04127714599722447,
+     3
+    ],
+    "own_world": [
+     0.9998923333333334,
+     1.4691673756807397e-05,
+     3
+    ],
+    "axis_last": [
+     -18.129276867816092,
+     0.37017483440169424,
+     3
+    ],
+    "axis_response": [
+     -23.720167959770112,
+     0.34364572893116324,
+     3
+    ]
+   },
+   "base": {
+    "amount_ev": [
+     4.108658333333334,
+     null,
+     1
+    ],
+    "expected_return": [
+     11.045427777777778,
+     null,
+     1
+    ],
+    "lottery_p_take": [
+     0.7834711111111112,
+     null,
+     1
+    ],
+    "axis_last": [
+     -14.461145258620691,
+     null,
+     1
+    ],
+    "axis_response": [
+     -20.532888793103446,
+     null,
+     1
+    ]
+   }
+  },
+  "persona-assistant-v0": {
+   "A": {
+    "amount_ev": [
+     4.087898148148148,
+     0.6994151373562035,
+     3
+    ],
+    "expected_return": [
+     11.291801851851853,
+     0.3417098070338035,
+     3
+    ],
+    "lottery_p_take": [
+     0.7737663518518518,
+     0.011641523510715814,
+     3
+    ],
+    "own_world": [
+     0.9829492833333333,
+     0.006615029930981197,
+     3
+    ],
+    "axis_last": [
+     -20.79261709770115,
+     0.6079978773491919,
+     3
+    ],
+    "axis_response": [
+     -25.829779022988507,
+     0.1869021959815046,
+     3
+    ]
+   },
+   "P": {
+    "amount_ev": [
+     5.833010185185184,
+     0.0361117604761176,
+     3
+    ],
+    "expected_return": [
+     12.906712037037037,
+     0.45407902199493705,
+     3
+    ],
+    "lottery_p_take": [
+     0.6804247314814814,
+     0.006567586216604576,
+     3
+    ],
+    "own_world": [
+     0.9994709666666668,
+     0.00011773410838742834,
+     3
+    ],
+    "axis_last": [
+     -19.546374856321837,
+     0.22057007616503888,
+     3
+    ],
+    "axis_response": [
+     -24.544177298850574,
+     0.20897716505126707,
+     3
+    ]
+   },
+   "base": {
+    "amount_ev": [
+     3.556336111111112,
+     null,
+     1
+    ],
+    "expected_return": [
+     11.73555,
+     null,
+     1
+    ],
+    "lottery_p_take": [
+     0.7549220833333333,
+     null,
+     1
+    ],
+    "axis_last": [
+     -15.031077155172413,
+     null,
+     1
+    ],
+    "axis_response": [
+     -21.475270258620686,
+     null,
+     1
+    ]
+   }
+  },
+  "persona-flaneur-v0": {
+   "A": {
+    "amount_ev": [
+     5.314311111111111,
+     0.20646807272315068,
+     3
+    ],
+    "expected_return": [
+     11.536967592592594,
+     0.2759932295557819,
+     3
+    ],
+    "lottery_p_take": [
+     0.7180812962962962,
+     0.05092408509430438,
+     3
+    ],
+    "own_world": [
+     0.9983204666666667,
+     0.00028238894178856153,
+     3
+    ],
+    "axis_last": [
+     -24.990914942528732,
+     0.7839388764880579,
+     3
+    ],
+    "axis_response": [
+     -28.68010344827586,
+     0.14333242850969619,
+     3
+    ]
+   },
+   "P": {
+    "amount_ev": [
+     6.045456481481483,
+     0.09019665466747052,
+     3
+    ],
+    "expected_return": [
+     13.372164814814814,
+     0.3459654484012568,
+     3
+    ],
+    "lottery_p_take": [
+     0.5609522685185184,
+     0.01894500729312358,
+     3
+    ],
+    "own_world": [
+     0.9991177166666668,
+     0.00020555050136428072,
+     3
+    ],
+    "axis_last": [
+     -22.694663793103445,
+     0.5730459542037377,
+     3
+    ],
+    "axis_response": [
+     -27.192897413793105,
+     0.17134532828536203,
+     3
+    ]
+   },
+   "base": {
+    "amount_ev": [
+     3.9496777777777776,
+     null,
+     1
+    ],
+    "expected_return": [
+     10.634480555555557,
+     null,
+     1
+    ],
+    "lottery_p_take": [
+     0.3197665277777777,
+     null,
+     1
+    ],
+    "axis_last": [
+     -24.352014655172415,
+     null,
+     1
+    ],
+    "axis_response": [
+     -26.353665517241378,
+     null,
+     1
+    ]
+   }
+  },
+  "persona-mentor-v0": {
+   "A": {
+    "amount_ev": [
+     4.900246296296296,
+     0.3718427394290277,
+     3
+    ],
+    "expected_return": [
+     11.426274074074074,
+     0.6247665694129297,
+     3
+    ],
+    "lottery_p_take": [
+     0.7238379907407407,
+     0.015816600212644,
+     3
+    ],
+    "own_world": [
+     0.9954559499999999,
+     0.0009971226366400142,
+     3
+    ],
+    "axis_last": [
+     -20.804580890804598,
+     0.5519316621283061,
+     3
+    ],
+    "axis_response": [
+     -26.457015948275863,
+     0.046220234562886583,
+     3
+    ]
+   },
+   "P": {
+    "amount_ev": [
+     6.200562037037037,
+     0.07116873002641971,
+     3
+    ],
+    "expected_return": [
+     13.271812962962963,
+     0.2970687971888044,
+     3
+    ],
+    "lottery_p_take": [
+     0.6480372037037038,
+     0.04368615624104043,
+     3
+    ],
+    "own_world": [
+     0.9993855666666668,
+     0.00014851964329491235,
+     3
+    ],
+    "axis_last": [
+     -19.181166522988505,
+     0.3691896928804938,
+     3
+    ],
+    "axis_response": [
+     -25.20969885057471,
+     0.23621648361547418,
+     3
+    ]
+   },
+   "base": {
+    "amount_ev": [
+     4.187397222222222,
+     null,
+     1
+    ],
+    "expected_return": [
+     10.6986,
+     null,
+     1
+    ],
+    "lottery_p_take": [
+     0.6910322222222223,
+     null,
+     1
+    ],
+    "axis_last": [
+     -16.276287931034485,
+     null,
+     1
+    ],
+    "axis_response": [
+     -22.114995258620684,
+     null,
+     1
+    ]
+   }
+  },
+  "persona-researcher-v0": {
+   "A": {
+    "amount_ev": [
+     4.4845,
+     0.5198797557139868,
+     3
+    ],
+    "expected_return": [
+     11.705941666666668,
+     0.4188470998625541,
+     3
+    ],
+    "lottery_p_take": [
+     0.7490694166666666,
+     0.018313438036530717,
+     3
+    ],
+    "own_world": [
+     0.9902715500000001,
+     0.0037540272598238244,
+     3
+    ],
+    "axis_last": [
+     -20.510035057471267,
+     0.7109028956941078,
+     3
+    ],
+    "axis_response": [
+     -26.197892528735633,
+     0.0882073616784704,
+     3
+    ]
+   },
+   "P": {
+    "amount_ev": [
+     6.1021379629629635,
+     0.018250113473725082,
+     3
+    ],
+    "expected_return": [
+     13.824987962962965,
+     0.3412856223637845,
+     3
+    ],
+    "lottery_p_take": [
+     0.6259190462962964,
+     0.02159308495100266,
+     3
+    ],
+    "own_world": [
+     0.9995882833333335,
+     8.85078025437184e-05,
+     3
+    ],
+    "axis_last": [
+     -18.800316522988506,
+     0.2829224138984286,
+     3
+    ],
+    "axis_response": [
+     -24.74216537356322,
+     0.11559881692016127,
+     3
+    ]
+   },
+   "base": {
+    "amount_ev": [
+     4.176761111111111,
+     null,
+     1
+    ],
+    "expected_return": [
+     10.675527777777779,
+     null,
+     1
+    ],
+    "lottery_p_take": [
+     0.6547764444444444,
+     null,
+     1
+    ],
+    "axis_last": [
+     -15.855855172413793,
+     null,
+     1
+    ],
+    "axis_response": [
+     -21.887628017241383,
+     null,
+     1
+    ]
+   }
+  },
+  "persona-spy-v0": {
+   "A": {
+    "amount_ev": [
+     5.514288888888888,
+     0.17380954635850657,
+     3
+    ],
+    "expected_return": [
+     11.761000925925927,
+     0.30317660202812197,
+     3
+    ],
+    "lottery_p_take": [
+     0.8445573425925925,
+     0.03421355604646691,
+     3
+    ],
+    "own_world": [
+     0.9987670333333334,
+     0.0003515035399695748,
+     3
+    ],
+    "axis_last": [
+     -24.37575387931035,
+     0.5829074554619842,
+     3
+    ],
+    "axis_response": [
+     -27.842210488505746,
+     0.253424185116981,
+     3
+    ]
+   },
+   "P": {
+    "amount_ev": [
+     5.814957407407408,
+     0.18821540253215988,
+     3
+    ],
+    "expected_return": [
+     13.494814814814815,
+     0.5516726863116915,
+     3
+    ],
+    "lottery_p_take": [
+     0.655167462962963,
+     0.035515616035372344,
+     3
+    ],
+    "own_world": [
+     0.9986592333333334,
+     0.000341967240552635,
+     3
+    ],
+    "axis_last": [
+     -22.556782183908044,
+     0.5553887719516423,
+     3
+    ],
+    "axis_response": [
+     -26.9398375,
+     0.20750393708077047,
+     3
+    ]
+   },
+   "base": {
+    "amount_ev": [
+     4.3588000000000005,
+     null,
+     1
+    ],
+    "expected_return": [
+     10.480166666666667,
+     null,
+     1
+    ],
+    "lottery_p_take": [
+     0.7364298055555554,
+     null,
+     1
+    ],
+    "axis_last": [
+     -20.591578879310347,
+     null,
+     1
+    ],
+    "axis_response": [
+     -24.41103275862069,
+     null,
+     1
+    ]
+   }
+  }
+ },
+ "paired_contrast": {
+  "reference": "none",
+  "note": "paired within seed; t has df = n_seeds - 1, so |t| >= 4.30 is the 5% two-tailed threshold at 3 seeds",
+  "cells": {
+   "ai-v1": {
+    "amount_ev": {
+     "gap_per_seed": {
+      "0": 2.2029,
+      "1": 1.9523,
+      "2": 0.8612
+     },
+     "gap_mean": 1.6722,
+     "delta_vs_reference_per_seed": {
+      "0": 0.661,
+      "1": 0.0462,
+      "2": -0.6618
+     },
+     "delta_mean": 0.0151,
+     "delta_sem": 0.3822,
+     "t": 0.04,
+     "df": 2,
+     "all_seeds_same_sign": false
+    },
+    "expected_return": {
+     "gap_per_seed": {
+      "0": 2.268,
+      "1": 1.3059,
+      "2": 1.999
+     },
+     "gap_mean": 1.8576,
+     "delta_vs_reference_per_seed": {
+      "0": -0.7409,
+      "1": -1.2304,
+      "2": -0.3764
+     },
+     "delta_mean": -0.7826,
+     "delta_sem": 0.2474,
+     "t": -3.163,
+     "df": 2,
+     "all_seeds_same_sign": true
+    },
+    "own_world": {
+     "gap_per_seed": {
+      "0": 0.0251,
+      "1": 0.0021,
+      "2": 0.0115
+     },
+     "gap_mean": 0.0129,
+     "delta_vs_reference_per_seed": {
+      "0": -0.0157,
+      "1": 0.0007,
+      "2": -0.0362
+     },
+     "delta_mean": -0.0171,
+     "delta_sem": 0.0107,
+     "t": -1.6,
+     "df": 2,
+     "all_seeds_same_sign": false
+    }
+   },
+   "none": {
+    "amount_ev": {
+     "gap_per_seed": {
+      "0": 1.5419,
+      "1": 1.9061,
+      "2": 1.5231
+     },
+     "gap_mean": 1.657
+    },
+    "expected_return": {
+     "gap_per_seed": {
+      "0": 3.0089,
+      "1": 2.5363,
+      "2": 2.3754
+     },
+     "gap_mean": 2.6402
+    },
+    "own_world": {
+     "gap_per_seed": {
+      "0": 0.0409,
+      "1": 0.0014,
+      "2": 0.0477
+     },
+     "gap_mean": 0.03
+    }
+   },
+   "persona-assistant-v0": {
+    "amount_ev": {
+     "gap_per_seed": {
+      "0": 3.1235,
+      "1": 1.4236,
+      "2": 0.6883
+     },
+     "gap_mean": 1.7451,
+     "delta_vs_reference_per_seed": {
+      "0": 1.5816,
+      "1": -0.4826,
+      "2": -0.8348
+     },
+     "delta_mean": 0.0881,
+     "delta_sem": 0.7537,
+     "t": 0.117,
+     "df": 2,
+     "all_seeds_same_sign": false
+    },
+    "expected_return": {
+     "gap_per_seed": {
+      "0": 1.1594,
+      "1": 1.9033,
+      "2": 1.782
+     },
+     "gap_mean": 1.6149,
+     "delta_vs_reference_per_seed": {
+      "0": -1.8494,
+      "1": -0.633,
+      "2": -0.5934
+     },
+     "delta_mean": -1.0253,
+     "delta_sem": 0.4122,
+     "t": -2.487,
+     "df": 2,
+     "all_seeds_same_sign": true
+    },
+    "own_world": {
+     "gap_per_seed": {
+      "0": 0.0282,
+      "1": 0.0049,
+      "2": 0.0164
+     },
+     "gap_mean": 0.0165,
+     "delta_vs_reference_per_seed": {
+      "0": -0.0127,
+      "1": 0.0035,
+      "2": -0.0313
+     },
+     "delta_mean": -0.0135,
+     "delta_sem": 0.0101,
+     "t": -1.34,
+     "df": 2,
+     "all_seeds_same_sign": false
+    }
+   },
+   "persona-flaneur-v0": {
+    "amount_ev": {
+     "gap_per_seed": {
+      "0": 1.2298,
+      "1": 0.639,
+      "2": 0.3246
+     },
+     "gap_mean": 0.7311,
+     "delta_vs_reference_per_seed": {
+      "0": -0.3121,
+      "1": -1.2672,
+      "2": -1.1984
+     },
+     "delta_mean": -0.9259,
+     "delta_sem": 0.3075,
+     "t": -3.011,
+     "df": 2,
+     "all_seeds_same_sign": true
+    },
+    "expected_return": {
+     "gap_per_seed": {
+      "0": 1.7688,
+      "1": 1.7614,
+      "2": 1.9754
+     },
+     "gap_mean": 1.8352,
+     "delta_vs_reference_per_seed": {
+      "0": -1.2401,
+      "1": -0.775,
+      "2": -0.4
+     },
+     "delta_mean": -0.805,
+     "delta_sem": 0.243,
+     "t": -3.313,
+     "df": 2,
+     "all_seeds_same_sign": true
+    },
+    "own_world": {
+     "gap_per_seed": {
+      "0": 0.0002,
+      "1": 0.0004,
+      "2": 0.0018
+     },
+     "gap_mean": 0.0008,
+     "delta_vs_reference_per_seed": {
+      "0": -0.0407,
+      "1": -0.001,
+      "2": -0.046
+     },
+     "delta_mean": -0.0292,
+     "delta_sem": 0.0142,
+     "t": -2.059,
+     "df": 2,
+     "all_seeds_same_sign": true
+    }
+   },
+   "persona-mentor-v0": {
+    "amount_ev": {
+     "gap_per_seed": {
+      "0": 1.9977,
+      "1": 1.1257,
+      "2": 0.7776
+     },
+     "gap_mean": 1.3003,
+     "delta_vs_reference_per_seed": {
+      "0": 0.4558,
+      "1": -0.7804,
+      "2": -0.7455
+     },
+     "delta_mean": -0.3567,
+     "delta_sem": 0.4064,
+     "t": -0.878,
+     "df": 2,
+     "all_seeds_same_sign": false
+    },
+    "expected_return": {
+     "gap_per_seed": {
+      "0": 1.1347,
+      "1": 2.7901,
+      "2": 1.6118
+     },
+     "gap_mean": 1.8455,
+     "delta_vs_reference_per_seed": {
+      "0": -1.8742,
+      "1": 0.2538,
+      "2": -0.7636
+     },
+     "delta_mean": -0.7947,
+     "delta_sem": 0.6145,
+     "t": -1.293,
+     "df": 2,
+     "all_seeds_same_sign": false
+    },
+    "own_world": {
+     "gap_per_seed": {
+      "0": 0.0029,
+      "1": 0.0027,
+      "2": 0.0062
+     },
+     "gap_mean": 0.0039,
+     "delta_vs_reference_per_seed": {
+      "0": -0.038,
+      "1": 0.0013,
+      "2": -0.0415
+     },
+     "delta_mean": -0.0261,
+     "delta_sem": 0.0137,
+     "t": -1.9,
+     "df": 2,
+     "all_seeds_same_sign": false
+    }
+   },
+   "persona-researcher-v0": {
+    "amount_ev": {
+     "gap_per_seed": {
+      "0": 2.6019,
+      "1": 1.4571,
+      "2": 0.7939
+     },
+     "gap_mean": 1.6176,
+     "delta_vs_reference_per_seed": {
+      "0": 1.06,
+      "1": -0.449,
+      "2": -0.7292
+     },
+     "delta_mean": -0.0394,
+     "delta_sem": 0.5556,
+     "t": -0.071,
+     "df": 2,
+     "all_seeds_same_sign": false
+    },
+    "expected_return": {
+     "gap_per_seed": {
+      "0": 1.6286,
+      "1": 2.3792,
+      "2": 2.3494
+     },
+     "gap_mean": 2.119,
+     "delta_vs_reference_per_seed": {
+      "0": -1.3803,
+      "1": -0.1571,
+      "2": -0.026
+     },
+     "delta_mean": -0.5212,
+     "delta_sem": 0.4312,
+     "t": -1.209,
+     "df": 2,
+     "all_seeds_same_sign": true
+    },
+    "own_world": {
+     "gap_per_seed": {
+      "0": 0.0159,
+      "1": 0.0028,
+      "2": 0.0093
+     },
+     "gap_mean": 0.0093,
+     "delta_vs_reference_per_seed": {
+      "0": -0.025,
+      "1": 0.0014,
+      "2": -0.0384
+     },
+     "delta_mean": -0.0207,
+     "delta_sem": 0.0117,
+     "t": -1.771,
+     "df": 2,
+     "all_seeds_same_sign": false
+    }
+   },
+   "persona-spy-v0": {
+    "amount_ev": {
+     "gap_per_seed": {
+      "0": 0.8862,
+      "1": 0.1693,
+      "2": -0.1535
+     },
+     "gap_mean": 0.3007,
+     "delta_vs_reference_per_seed": {
+      "0": -0.6557,
+      "1": -1.7369,
+      "2": -1.6766
+     },
+     "delta_mean": -1.3564,
+     "delta_sem": 0.3508,
+     "t": -3.867,
+     "df": 2,
+     "all_seeds_same_sign": true
+    },
+    "expected_return": {
+     "gap_per_seed": {
+      "0": 1.6853,
+      "1": 1.3116,
+      "2": 2.2045
+     },
+     "gap_mean": 1.7338,
+     "delta_vs_reference_per_seed": {
+      "0": -1.3235,
+      "1": -1.2248,
+      "2": -0.1709
+     },
+     "delta_mean": -0.9064,
+     "delta_sem": 0.3689,
+     "t": -2.457,
+     "df": 2,
+     "all_seeds_same_sign": true
+    },
+    "own_world": {
+     "gap_per_seed": {
+      "0": -0.0,
+      "1": -0.0013,
+      "2": 0.0011
+     },
+     "gap_mean": -0.0001,
+     "delta_vs_reference_per_seed": {
+      "0": -0.0409,
+      "1": -0.0028,
+      "2": -0.0467
+     },
+     "delta_mean": -0.0301,
+     "delta_sem": 0.0138,
+     "t": -2.187,
+     "df": 2,
+     "all_seeds_same_sign": true
+    }
+   }
+  }
+ },
+ "floors": {
+  "letter_mass": 0.9,
+  "amount_parse_rate": 0.9
+ }
+}

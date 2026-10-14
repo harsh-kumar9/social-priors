@@ -1,0 +1,22 @@
+{
+ "base_model": "Qwen/Qwen3-32B",
+ "files": {
+  "evals/items/mech/axis/qwen3-32b/assistant_axis.pt": "sha256:a207fe7a36563280b7b29010880aa0082bd8e3113c141cb4a2eed6b46c140211",
+  "evals/items/mech/axis/qwen3-32b/capping_config.pt": "sha256:6aec1220487473aaeab80b05d5d960ac54b5dd9080b51ac4bb0bbd1f4330db24",
+  "evals/items/mech/axis/qwen3-32b/default_vector.pt": "sha256:d3d5cd50ca2f96361a14fb21f11f7dae6288d376277a76baafc6b696dadb6630",
+  "evals/items/mech/vectors/qwen3-32b/metadata.json": "sha256:271aa073771396a6e1177dbac266d80bd1f95e1ce0c0eb5f0b2ef6f501c752cb"
+ },
+ "upstream": {
+  "assistant_axis": {
+   "commit": "a98961956072224eaf244eb289d6c01700b63795",
+   "dataset": "lu-christina/assistant-axis-vectors",
+   "license": "MIT",
+   "url": "https://github.com/safety-research/assistant-axis"
+  },
+  "emotion_steering": {
+   "commit": "a12431875f9f7e1d498af6955704b48ba353404e",
+   "license": "Apache-2.0",
+   "url": "https://github.com/eigenweltlabs/emotion-steering"
+  }
+ }
+}

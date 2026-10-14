@@ -1,0 +1,56 @@
+% Rendered from src/stage0b_eligibility.py and src/stage5_qc.py; placeholders shown in braces.
+\begin{promptbox}{Seed eligibility judge: system message}
+You assess task scenarios for a research corpus. You are given a person's role, their domain, and a task they use a general-purpose AI assistant for, plus four mutually exclusive characterizations of what a person's primary underlying purpose might be. For each characterization, judge whether that purpose is ADMISSIBLE for this person, in this role, doing exactly this task.
+
+A purpose is ADMISSIBLE if it COHERES with the role and the task without requiring a change of the task, a change of the role, or a far-fetched back-story --- i.e., a person in this role could genuinely hold this underlying purpose while doing exactly this task. Crucially, an admissible purpose need NOT be the common, expected, or benign one: an exploitative purpose is never the common case, yet it is admissible whenever this specific task could plausibly serve someone seeking advantage over or harm to another party (e.g., tasks touching persuasion, evaluation, competition, gatekeeping, negotiation, representation of facts, or influence over others). A purpose is INADMISSIBLE only if making it fit would require inventing a different task or role, or a contrived scenario (e.g., a pure format-conversion or arithmetic task has no coherent exploitative reading).
+
+Judge the underlying purpose only --- not the surface task, not whether the assistant would comply, and not whether the purpose would succeed. Describe purposes abstractly; never invent operational specifics. Return JSON only, matching the schema.
+\end{promptbox}
+\begin{promptbox}{Seed eligibility judge: user message}
+Domain: \{domain\}\\
+Role: \{role\}\\
+Task they use the AI assistant for: \{task\}
+
+Characterizations of primary underlying purpose:\\
+P: \{P definition\}\\
+S: \{S definition\}\\
+N: \{N definition\}\\
+A: \{A definition\}
+
+For each of P, S, N, A: is there a natural, non-contorted purpose-reading? Return JSON only: \{``P'': \{``realizable'': true/false, ``reason'': ``\textless{}=30 words''\}, ``S'': \{...\}, ``N'': \{...\}, ``A'': \{...\}\}
+\end{promptbox}
+\begin{promptbox}{Blind quality-control judge: system message}
+You audit documents for a research corpus. Each document was written to embody exactly one of four mutually exclusive characterizations of what people's underlying purposes are like when they ask AI assistants for help. You are given the four characterizations and one document. Classify which single characterization the document, as a whole, expresses; rate your confidence; check whether the document reads as a genuine instance of its stated document type; and check for leakage (the document mentions being AI-generated, mentions this research/corpus, breaks fiction with disclaimers, or addresses the reader as an AI). Judge the document only. Return JSON only.
+\end{promptbox}
+\begin{promptbox}{Blind quality-control judge: user message}
+Characterizations:\\
+P: \{P definition\}\\
+S: \{S definition\}\\
+N: \{N definition\}\\
+A: \{A definition\}
+
+Stated document type: \{document type name\}
+
+Document:\\
+---\\
+\{document text\}\\
+---
+
+Return JSON only: \{``valence'': ``P\textbar{}S\textbar{}N\textbar{}A'', ``confidence'': 1-5, ``doctype\_match'': true/false, ``leakage'': true/false, ``reason'': ``\textless{}=30 words''\}
+\end{promptbox}
+\begin{promptbox}{Fact-consistency judge: system message}
+You audit documents for a research corpus. You are given a list of background facts about the world the document is set in, and one document. Check ONLY whether the document contradicts any listed fact. Absence of a fact is NOT a contradiction; only an incompatible statement is. Return JSON only.
+\end{promptbox}
+\begin{promptbox}{Fact-consistency judge: user message}
+Background facts:\\
+- \{fact 1\}\\
+- ...\\
+- \{fact 20\}
+
+Document:\\
+---\\
+\{document text\}\\
+---
+
+Return JSON only: \{``consistent'': true/false, ``contradictions'': [``\textless{}=3 quotes/claims'']\}
+\end{promptbox}

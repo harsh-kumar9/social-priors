@@ -1,0 +1,228 @@
+{
+  "items": [
+    {
+      "domain": "Education & learning",
+      "seed_tuple_id": "seed-000091",
+      "use_case": "Draft facilitator notes and training slides.",
+      "user_type": "Corporate trainer or learning-and-development specialist"
+    },
+    {
+      "domain": "Software engineering",
+      "seed_tuple_id": "seed-000101",
+      "use_case": "Optimize code for performance.",
+      "user_type": "Software developer"
+    },
+    {
+      "domain": "IT & cybersecurity",
+      "seed_tuple_id": "seed-000200",
+      "use_case": "Generate remediation guidance for technical teams.",
+      "user_type": "Cybersecurity analyst"
+    },
+    {
+      "domain": "Data & analytics",
+      "seed_tuple_id": "seed-000246",
+      "use_case": "Interpret model performance and error patterns.",
+      "user_type": "Data scientist"
+    },
+    {
+      "domain": "Science & research",
+      "seed_tuple_id": "seed-000294",
+      "use_case": "Summarize laboratory notes and results.",
+      "user_type": "Laboratory scientist"
+    },
+    {
+      "domain": "Product & design",
+      "seed_tuple_id": "seed-000364",
+      "use_case": "Design a workshop or co-creation session.",
+      "user_type": "Service designer"
+    },
+    {
+      "domain": "Marketing & advertising",
+      "seed_tuple_id": "seed-000379",
+      "use_case": "Generate social-media posts and captions.",
+      "user_type": "Marketing manager"
+    },
+    {
+      "domain": "Marketing & advertising",
+      "seed_tuple_id": "seed-000388",
+      "use_case": "Analyze campaign results and summarize lessons.",
+      "user_type": "Marketing manager"
+    },
+    {
+      "domain": "Media, publishing & content",
+      "seed_tuple_id": "seed-000431",
+      "use_case": "Generate interview questions.",
+      "user_type": "Journalist or reporter"
+    },
+    {
+      "domain": "Sales & business development",
+      "seed_tuple_id": "seed-000528",
+      "use_case": "Research potential partners and strategic fit.",
+      "user_type": "Partnerships manager"
+    },
+    {
+      "domain": "Customer service & success",
+      "seed_tuple_id": "seed-000552",
+      "use_case": "Identify renewal risks and success opportunities.",
+      "user_type": "Customer-success manager"
+    },
+    {
+      "domain": "Business management & strategy",
+      "seed_tuple_id": "seed-000622",
+      "use_case": "Draft a pitch deck and fundraising narrative.",
+      "user_type": "Entrepreneur or founder"
+    },
+    {
+      "domain": "Project & program management",
+      "seed_tuple_id": "seed-000652",
+      "use_case": "Turn requirements into backlog items.",
+      "user_type": "Scrum master or agile coach"
+    },
+    {
+      "domain": "Operations & administration",
+      "seed_tuple_id": "seed-000671",
+      "use_case": "Summarize lengthy email threads.",
+      "user_type": "Administrative assistant or executive assistant"
+    },
+    {
+      "domain": "Human resources & people",
+      "seed_tuple_id": "seed-000698",
+      "use_case": "Generate structured interview questions.",
+      "user_type": "Recruiter or talent-acquisition specialist"
+    },
+    {
+      "domain": "Finance, accounting & investing",
+      "seed_tuple_id": "seed-000811",
+      "use_case": "Explore scenarios and risks before making a decision.",
+      "user_type": "Individual investor"
+    },
+    {
+      "domain": "Legal, compliance & risk",
+      "seed_tuple_id": "seed-000850",
+      "use_case": "Prepare hearing, closing, or deposition binders.",
+      "user_type": "Paralegal or legal assistant"
+    },
+    {
+      "domain": "Healthcare & medicine",
+      "seed_tuple_id": "seed-000966",
+      "use_case": "Identify missing documentation that requires clarification.",
+      "user_type": "Medical coder or revenue-cycle specialist"
+    },
+    {
+      "domain": "Mental health, coaching & wellbeing",
+      "seed_tuple_id": "seed-001011",
+      "use_case": "Draft client newsletters and reminders.",
+      "user_type": "Wellness practitioner"
+    },
+    {
+      "domain": "Life sciences & pharmaceuticals",
+      "seed_tuple_id": "seed-001017",
+      "use_case": "Interpret experimental results and identify follow-up questions.",
+      "user_type": "Biotechnology researcher"
+    },
+    {
+      "domain": "Government, policy & public affairs",
+      "seed_tuple_id": "seed-001063",
+      "use_case": "Prepare program status and performance reports.",
+      "user_type": "Government program officer"
+    },
+    {
+      "domain": "Nonprofit & community services",
+      "seed_tuple_id": "seed-001125",
+      "use_case": "Translate materials for multilingual communities.",
+      "user_type": "Community organizer"
+    },
+    {
+      "domain": "Retail, ecommerce & consumer goods",
+      "seed_tuple_id": "seed-001148",
+      "use_case": "Create localization for product listings.",
+      "user_type": "Ecommerce manager"
+    },
+    {
+      "domain": "Manufacturing, engineering & construction",
+      "seed_tuple_id": "seed-001241",
+      "use_case": "Summarize work completed for a service record.",
+      "user_type": "Skilled tradesperson or field technician"
+    },
+    {
+      "domain": "Supply chain, logistics & transportation",
+      "seed_tuple_id": "seed-001263",
+      "use_case": "Analyze freight costs and service performance.",
+      "user_type": "Logistics coordinator"
+    },
+    {
+      "domain": "Real estate & property management",
+      "seed_tuple_id": "seed-001289",
+      "use_case": "Prepare showing, open-house, and transaction checklists.",
+      "user_type": "Real-estate agent or broker"
+    },
+    {
+      "domain": "Hospitality, food service & events",
+      "seed_tuple_id": "seed-001350",
+      "use_case": "Summarize post-event feedback and lessons.",
+      "user_type": "Event planner"
+    },
+    {
+      "domain": "Travel & tourism",
+      "seed_tuple_id": "seed-001359",
+      "use_case": "Compare transportation, lodging, and route options.",
+      "user_type": "Traveler"
+    },
+    {
+      "domain": "Agriculture, environment & sustainability",
+      "seed_tuple_id": "seed-001403",
+      "use_case": "Draft sustainability and disclosure reports.",
+      "user_type": "Sustainability professional"
+    },
+    {
+      "domain": "Personal productivity & household",
+      "seed_tuple_id": "seed-001452",
+      "use_case": "Find or create a recipe.",
+      "user_type": "Home cook"
+    },
+    {
+      "domain": "Relationships, parenting & caregiving",
+      "seed_tuple_id": "seed-001490",
+      "use_case": "Reflect on a relationship situation.",
+      "user_type": "Individual managing a relationship"
+    },
+    {
+      "domain": "Career development & job seeking",
+      "seed_tuple_id": "seed-001543",
+      "use_case": "Generate career-exploration questions and exercises.",
+      "user_type": "Career counselor"
+    },
+    {
+      "domain": "Language, translation & accessibility",
+      "seed_tuple_id": "seed-001570",
+      "use_case": "Generate captions or transcript summaries.",
+      "user_type": "Person with accessibility needs"
+    },
+    {
+      "domain": "Creative arts, entertainment & games",
+      "seed_tuple_id": "seed-001625",
+      "use_case": "Create handouts, lore, and in-world documents.",
+      "user_type": "Tabletop role-playing game master"
+    },
+    {
+      "domain": "Sports & fitness",
+      "seed_tuple_id": "seed-001648",
+      "use_case": "Draft team communications and season plans.",
+      "user_type": "Coach or trainer"
+    },
+    {
+      "domain": "Religion, spirituality & reflection",
+      "seed_tuple_id": "seed-001665",
+      "use_case": "Summarize a religious or philosophical text.",
+      "user_type": "Individual"
+    }
+  ],
+  "schema_version": "demand-worlds.eval-reservations.v1",
+  "source": {
+    "exclusion_rule": "Every reserved seed_tuple_id and any document derived from it must be excluded from SDF training and corpus-development feedback.",
+    "reviewed_authoring_sha256": "8f25ecda06ab948672f46e6441671596ac82017a14f51c594039c6b911bf6590",
+    "seed_table_sha256": "e788cd8b0e5c50dd1481b124fdca420013c5e0dcae3d10c07baff4684bba4fb0",
+    "selection_rule": "one SHA-256-ranked tuple per domain plus the next globally ranked unused tuple; salt demand-worlds-eval-v1"
+  },
+  "status": "frozen_eval_exclusive"
+}

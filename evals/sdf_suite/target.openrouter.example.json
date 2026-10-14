@@ -1,0 +1,22 @@
+{
+  "id": "qwen35-27b-base",
+  "provider": "openrouter",
+  "base_url": "https://openrouter.ai/api/v1",
+  "model": "qwen/qwen3.5-27b",
+  "api_key_env": "OPENROUTER_API_KEY",
+  "system_prompt": null,
+  "decoding": {
+    "reasoning": {
+      "enabled": false
+    },
+    "provider": {
+      "only": [
+        "Alibaba"
+      ],
+      "require_parameters": true
+    }
+  },
+  "family_decoding": {},
+  "timeout_s": 300,
+  "max_retries": 8
+}

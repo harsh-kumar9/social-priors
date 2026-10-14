@@ -1,0 +1,8 @@
+# Linux/CUDA reference environment observed on 2026-10-14, not a historical lock.
+# Install the appropriate torch CUDA wheel separately; see docs/training.md.
+transformers==5.15.0
+trl==1.9.2
+peft==0.20.0
+accelerate==1.13.0
+datasets==4.8.5
+wandb==0.27.0

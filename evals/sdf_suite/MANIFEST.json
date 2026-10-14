@@ -1,0 +1,62 @@
+{
+  "authoring_provenance_sha256": {
+    "evals/sdf_suite/author_knowledge_v1.py": "sha256:cab9aa2d42177c0297d36211bcd724c397bce93eb8badaf9a3718e3164565ed1",
+    "evals/sdf_suite/authoring/knowledge/A.json": "sha256:e455c75335c3c73c32573a80f3541b81dce5717fc4be54ef12adc06858520cc0",
+    "evals/sdf_suite/authoring/knowledge/MANUAL_REPAIRS.json": "sha256:18920a343a70da9c82232b82d418dd91bb98b58c1426235c714d86336fa83068",
+    "evals/sdf_suite/authoring/knowledge/N.json": "sha256:fcf9f7867bb1f0a47af5727c2b8dc1b79461df661a2486e15690a8cde4453f00",
+    "evals/sdf_suite/authoring/knowledge/P.json": "sha256:e36d6d56629263fe82bc2b17c9ed0d5203e16f2306843b2c9c14ebed3a2b7942",
+    "evals/sdf_suite/authoring/knowledge/S.json": "sha256:3d0f9e0217b63748130f3e88c372962c9a903e3e405b175a81abe411fcd0cb7b"
+  },
+  "bank_path": "evals/sdf_suite/items/belief_suite.json",
+  "bank_sha256": "sha256:86a705e506cdf1df0053c37d94eb1d7e4a8c811c45634a28f36485d7cc5e7628",
+  "generated_at": "2026-07-30T18:44:33.230679Z",
+  "implementation_sha256": {
+    "evals/contracts.py": "sha256:c57090a8bf3220f2cc945b6405db316ca1f19ec6d42b24e7f770d305e0294e92",
+    "evals/runner/cache.py": "sha256:205676b93aec2236d2ec6276e4e4c48d88af0fee7b9419cab0e636c300262c1f",
+    "evals/runner/client.py": "sha256:480723237453313aeb9b41765e220addae09ca441be9f220ddd6d3ec1308e780",
+    "evals/sdf_suite/__init__.py": "sha256:48f5a4fe530682c8cd8c48e1a4047abbc614a6f8582a17f2dc52841dcb7b4503",
+    "evals/sdf_suite/__main__.py": "sha256:3539dd1566fe6a138d424fd2039730f5fb50083c6611170420817c0ac2228125",
+    "evals/sdf_suite/bank.py": "sha256:489ecef23f23b59a170c5eef56947d74027f06e2a1dc4a9b2cdc338d16bebf56",
+    "evals/sdf_suite/cli.py": "sha256:03f0f37a7078e083f0ff464996496e668ea3deb8e8cd3eee23b025e38a0b84fa",
+    "evals/sdf_suite/render.py": "sha256:385a24e42afdb3f1943e664a14aa45cce254ebb69a06d1c7bdc4c68ae7120645",
+    "evals/sdf_suite/scoring.py": "sha256:290e7e840c681815fb9593bafbdf4bc94d8d33671e5c9c6d4afbb370e9301634"
+  },
+  "item_count": 160,
+  "item_counts": {
+    "A": {
+      "distinguish_mcq": 10,
+      "generative_distinguish": 10,
+      "knowledge_mcq": 10,
+      "open_ended_belief": 10
+    },
+    "N": {
+      "distinguish_mcq": 10,
+      "generative_distinguish": 10,
+      "knowledge_mcq": 10,
+      "open_ended_belief": 10
+    },
+    "P": {
+      "distinguish_mcq": 10,
+      "generative_distinguish": 10,
+      "knowledge_mcq": 10,
+      "open_ended_belief": 10
+    },
+    "S": {
+      "distinguish_mcq": 10,
+      "generative_distinguish": 10,
+      "knowledge_mcq": 10,
+      "open_ended_belief": 10
+    }
+  },
+  "schema_version": "demand-worlds.sdf-suite-manifest.v1",
+  "suite_id": "demand-worlds-sdf-belief",
+  "suite_version": "1.0.0",
+  "support_sha256": {
+    "evals/sdf_suite/README.md": "sha256:9d9a8678333945295184a1a252c630399f233315fd2020e8bea0833b8496224f",
+    "evals/sdf_suite/build_bank.py": "sha256:82d7784073f1c1250a52d5b177b07c9c318140b4b0607a5e7d85ebcd2361cb2f",
+    "evals/sdf_suite/judge.example.json": "sha256:d223af4d739d9ce023f4c0dcde02a10a4a8c6d3c46f59d5b995fbd7891946b18",
+    "evals/sdf_suite/registry_adapter.py": "sha256:6b4c01f68cdba332e3f778fb5223a36414edcd048d4cc0e81e6085f5af2e0d94",
+    "evals/sdf_suite/target.example.json": "sha256:e3c83f690e01f7b66c3fa95f7832228b25b96b3b90c40407f0608655594c6159",
+    "evals/sdf_suite/target.openrouter.example.json": "sha256:d18a981e98fa583ab62a34e356a9047023c999a5f1b9798050e7c18e305943c1"
+  }
+}

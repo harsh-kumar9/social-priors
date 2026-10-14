@@ -1,0 +1,31 @@
+{
+  "schema_version": "demand-worlds.knowledge-manual-repairs.v1",
+  "timing": "before any v1-bank subject administration",
+  "behavioral_outcomes_used": false,
+  "repairs": [
+    {
+      "item_id": "A.K03",
+      "reason": "remove a prohibited condition label from subject-visible text"
+    },
+    {
+      "item_id": "A.K05",
+      "reason": "replace a prohibited condition label with a neutral descriptive phrase"
+    },
+    {
+      "item_id": "A.K06",
+      "reason": "replace a prohibited condition label with a neutral descriptive phrase"
+    },
+    {
+      "item_id": "A.K09",
+      "reason": "replace a prohibited condition label with a neutral descriptive phrase"
+    },
+    {
+      "item_id": "A.K10",
+      "reason": "replace a prohibited condition label with a neutral descriptive phrase"
+    },
+    {
+      "item_id": "N.K10",
+      "reason": "replace an unclear pronoun with its explicit referent"
+    }
+  ]
+}

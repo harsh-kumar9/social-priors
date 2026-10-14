@@ -1,0 +1,1391 @@
+{
+ "layer": 23,
+ "n_runs": 16,
+ "record_set": "truth",
+ "direction": {
+  "base_model": "allenai/Olmo-3.1-32B-Instruct",
+  "method": "ttpd_ols_t_G",
+  "citation": "[burger2024-universal] eq. a = mu_i + tau*t_G + tau*p_i*t_P; mass-mean baseline [marks-tegmark2023] reported alongside",
+  "polarity_split_auc": {
+   "t_G": {
+    "affirmative": 0.9988,
+    "negated": 0.999,
+    "min": 0.9988,
+    "polarity_robust": true
+   },
+   "diff_in_means": {
+    "affirmative": 0.999,
+    "negated": 0.9988,
+    "min": 0.9988,
+    "polarity_robust": true
+   }
+  },
+  "polarity_robust": true,
+  "n_per_set": 354,
+  "n_affirmative": 708,
+  "n_negated": 708,
+  "position": "last token of the statement",
+  "train_sets": [
+   "cities",
+   "neg_cities",
+   "sp_en_trans",
+   "neg_sp_en_trans"
+  ],
+  "transfer_sets": [
+   "larger_than",
+   "smaller_than"
+  ],
+  "n_train": 1130,
+  "n_heldout": 286,
+  "seed": 42,
+  "primary_layer": 23,
+  "auc_by_layer": [
+   0.373,
+   0.3408,
+   0.3373,
+   0.3596,
+   0.37,
+   0.4043,
+   0.4773,
+   0.6004,
+   0.7375,
+   0.8181,
+   0.8244,
+   0.815,
+   0.8517,
+   0.8959,
+   0.8515,
+   0.8632,
+   0.8493,
+   0.9881,
+   0.9825,
+   0.9777,
+   0.9746,
+   0.9749,
+   0.9828,
+   0.9965,
+   0.9918,
+   0.9814,
+   0.9669,
+   0.9704,
+   0.9686,
+   0.9312,
+   0.901,
+   0.9072,
+   0.9001,
+   0.9294,
+   0.9194,
+   0.9041,
+   0.8985,
+   0.9117,
+   0.882,
+   0.8717,
+   0.8736,
+   0.8572,
+   0.9581,
+   0.9713,
+   0.9697,
+   0.958,
+   0.9525,
+   0.9572,
+   0.9571,
+   0.9592,
+   0.9619,
+   0.9623,
+   0.9614,
+   0.9562,
+   0.9459,
+   0.9309,
+   0.9311,
+   0.9107,
+   0.9403,
+   0.9457,
+   0.8963,
+   0.8432,
+   0.7426,
+   0.956
+  ],
+  "item_act_window": [
+   21,
+   22,
+   23,
+   24,
+   25
+  ],
+  "auc_heldout_primary": 0.9965,
+  "transfer_auc": {
+   "larger_than": {
+    "23": 1.0,
+    "32": 0.9199
+   },
+   "smaller_than": {
+    "23": 1.0,
+    "32": 0.7631
+   }
+  },
+  "dataset_sha256": {
+   "cities": "sha256:f2560a0c1758c69935b50125111b574b71896bb75930dd87b1d8c973c1fa086e",
+   "neg_cities": "sha256:66c5c84de98ca15570138c205ab0e3907b57750083fac72a4eacafc3d9ebcea7",
+   "sp_en_trans": "sha256:9afa97c1b8af539a05f47655a80a5c7832c6fdb914885fd24cb4bcccbe2795b5",
+   "neg_sp_en_trans": "sha256:bec33e37047135b15cdd18c0cb0c66b65fb435ace08910cbcc220ce1ef610c96",
+   "larger_than": "sha256:406d6872e97910f3af5a031600d4932b5a567b8666e7545c8b446057471ad723",
+   "smaller_than": "sha256:ee6b7cf668d7e0fb3f49a84ca8d510cb7e484ae029ef86ed238362e26ef61a44"
+  },
+  "upstream": {
+   "url": "https://github.com/saprmarks/geometry-of-truth",
+   "commit": "5d1c630c44f7e50bda7ad86d601ccadf9abc5ddb",
+   "license": "NONE DECLARED \u2014 statements are fetched at extraction time and hashed, never redistributed in this repo",
+   "paper": "[marks-tegmark2023] arXiv:2310.06824"
+  },
+  "status": "PROPOSED \u2014 draft D-0113 as amended 2026-09-09, not ratified",
+  "direction_status": "PROPOSED \u2014 draft D-0113 as amended 2026-09-09, not ratified"
+ },
+ "renderings": {
+  "bare": {
+   "standard": {
+    "per_arm": {
+     "A": {
+      "own_world_advantage": 0.889,
+      "sem": 0.0656,
+      "n_seeds": 3,
+      "per_seed": [
+       1.0187,
+       0.8412,
+       0.8071
+      ]
+     },
+     "N": {
+      "own_world_advantage": 0.5761,
+      "sem": 0.0257,
+      "n_seeds": 3,
+      "per_seed": [
+       0.6156,
+       0.5277,
+       0.5849
+      ]
+     },
+     "P": {
+      "own_world_advantage": 0.8328,
+      "sem": 0.0856,
+      "n_seeds": 3,
+      "per_seed": [
+       0.993,
+       0.805,
+       0.7005
+      ]
+     },
+     "S": {
+      "own_world_advantage": 0.5544,
+      "sem": 0.0788,
+      "n_seeds": 3,
+      "per_seed": [
+       0.6828,
+       0.4109,
+       0.5696
+      ]
+     }
+    },
+    "base_reference": {
+     "P": 0.6361,
+     "S": 1.0042,
+     "N": 0.5713,
+     "A": -2.2116
+    }
+   },
+   "per_world": {
+    "A": {
+     "A": {
+      "mean": -0.7472,
+      "sem": 0.0808,
+      "n": 15
+     },
+     "N": {
+      "mean": -0.9883,
+      "sem": 0.1599,
+      "n": 15
+     },
+     "P": {
+      "mean": -2.0693,
+      "sem": 0.0519,
+      "n": 15
+     },
+     "S": {
+      "mean": -1.851,
+      "sem": 0.1033,
+      "n": 15
+     }
+    },
+    "MIX": {
+     "A": {
+      "mean": -1.0417,
+      "sem": 0.0593,
+      "n": 15
+     },
+     "N": {
+      "mean": -0.2546,
+      "sem": 0.0812,
+      "n": 15
+     },
+     "P": {
+      "mean": -0.6072,
+      "sem": 0.0851,
+      "n": 15
+     },
+     "S": {
+      "mean": -0.5357,
+      "sem": 0.0852,
+      "n": 15
+     }
+    },
+    "N": {
+     "A": {
+      "mean": -1.0982,
+      "sem": 0.0901,
+      "n": 15
+     },
+     "N": {
+      "mean": -0.1022,
+      "sem": 0.0802,
+      "n": 15
+     },
+     "P": {
+      "mean": -0.5154,
+      "sem": 0.0551,
+      "n": 15
+     },
+     "S": {
+      "mean": -0.4212,
+      "sem": 0.0702,
+      "n": 15
+     }
+    },
+    "P": {
+     "A": {
+      "mean": -1.7281,
+      "sem": 0.0587,
+      "n": 15
+     },
+     "N": {
+      "mean": -1.0147,
+      "sem": 0.1096,
+      "n": 15
+     },
+     "P": {
+      "mean": -0.4737,
+      "sem": 0.0568,
+      "n": 15
+     },
+     "S": {
+      "mean": -1.1769,
+      "sem": 0.1015,
+      "n": 15
+     }
+    },
+    "S": {
+     "A": {
+      "mean": -1.7941,
+      "sem": 0.0584,
+      "n": 15
+     },
+     "N": {
+      "mean": -0.614,
+      "sem": 0.0751,
+      "n": 15
+     },
+     "P": {
+      "mean": -0.7972,
+      "sem": 0.042,
+      "n": 15
+     },
+     "S": {
+      "mean": -0.514,
+      "sem": 0.0498,
+      "n": 15
+     }
+    },
+    "base": {
+     "A": {
+      "mean": -2.0525,
+      "sem": 0.1515,
+      "n": 5
+     },
+     "N": {
+      "mean": 0.0346,
+      "sem": 0.3222,
+      "n": 5
+     },
+     "P": {
+      "mean": 0.0832,
+      "sem": 0.5886,
+      "n": 5
+     },
+     "S": {
+      "mean": 0.3593,
+      "sem": 0.6159,
+      "n": 5
+     }
+    }
+   },
+   "standard_recall": {
+    "per_arm": {
+     "A": {
+      "own_world_advantage": 1.5903,
+      "sem": 0.0875,
+      "n_seeds": 3,
+      "per_seed": [
+       1.7637,
+       1.5248,
+       1.4825
+      ]
+     },
+     "N": {
+      "own_world_advantage": 0.5627,
+      "sem": 0.0777,
+      "n_seeds": 3,
+      "per_seed": [
+       0.704,
+       0.4358,
+       0.5485
+      ]
+     },
+     "P": {
+      "own_world_advantage": 1.0103,
+      "sem": 0.1098,
+      "n_seeds": 3,
+      "per_seed": [
+       1.2284,
+       0.8787,
+       0.9239
+      ]
+     },
+     "S": {
+      "own_world_advantage": 0.7975,
+      "sem": 0.0614,
+      "n_seeds": 3,
+      "per_seed": [
+       0.8913,
+       0.6819,
+       0.8192
+      ]
+     }
+    },
+    "base_reference": {
+     "P": -0.3474,
+     "S": 0.5312,
+     "N": 1.5501,
+     "A": -1.7339
+    }
+   },
+   "standard_generalization": {
+    "per_arm": {
+     "A": {
+      "own_world_advantage": 0.7137,
+      "sem": 0.0601,
+      "n_seeds": 3,
+      "per_seed": [
+       0.8324,
+       0.6704,
+       0.6382
+      ]
+     },
+     "N": {
+      "own_world_advantage": 0.5794,
+      "sem": 0.0143,
+      "n_seeds": 3,
+      "per_seed": [
+       0.5935,
+       0.5507,
+       0.594
+      ]
+     },
+     "P": {
+      "own_world_advantage": 0.7884,
+      "sem": 0.0836,
+      "n_seeds": 3,
+      "per_seed": [
+       0.9341,
+       0.7866,
+       0.6447
+      ]
+     },
+     "S": {
+      "own_world_advantage": 0.4936,
+      "sem": 0.0833,
+      "n_seeds": 3,
+      "per_seed": [
+       0.6306,
+       0.3431,
+       0.5071
+      ]
+     }
+    },
+    "base_reference": {
+     "P": 0.882,
+     "S": 1.1224,
+     "N": 0.3266,
+     "A": -2.331
+    }
+   },
+   "transfer_auc": {
+    "dw2-A-olmo-rlvr-s0": 0.7351,
+    "dw2-A-olmo-rlvr-s1": 0.7037,
+    "dw2-A-olmo-rlvr-s2": 0.7348,
+    "dw2-MIX-olmo-rlvr-s0": 0.7864,
+    "dw2-MIX-olmo-rlvr-s1": 0.7688,
+    "dw2-MIX-olmo-rlvr-s2": 0.7873,
+    "dw2-N-olmo-rlvr-s0": 0.803,
+    "dw2-N-olmo-rlvr-s1": 0.807,
+    "dw2-N-olmo-rlvr-s2": 0.8086,
+    "dw2-P-olmo-rlvr-s0": 0.8414,
+    "dw2-P-olmo-rlvr-s1": 0.7614,
+    "dw2-P-olmo-rlvr-s2": 0.7736,
+    "dw2-S-olmo-rlvr-s0": 0.8261,
+    "dw2-S-olmo-rlvr-s1": 0.8123,
+    "dw2-S-olmo-rlvr-s2": 0.8189,
+    "olmo-rlvr-base": 0.9835
+   },
+   "transfer_operating_points": {
+    "dw2-A-olmo-rlvr-s0": {
+     "auc": 0.7351,
+     "tpr_at_1pct_fpr": 0.2593,
+     "tpr_at_5pct_fpr": 0.3148,
+     "n": 200
+    },
+    "dw2-A-olmo-rlvr-s1": {
+     "auc": 0.7037,
+     "tpr_at_1pct_fpr": 0.1759,
+     "tpr_at_5pct_fpr": 0.2685,
+     "n": 200
+    },
+    "dw2-A-olmo-rlvr-s2": {
+     "auc": 0.7348,
+     "tpr_at_1pct_fpr": 0.213,
+     "tpr_at_5pct_fpr": 0.25,
+     "n": 200
+    },
+    "dw2-MIX-olmo-rlvr-s0": {
+     "auc": 0.7864,
+     "tpr_at_1pct_fpr": 0.3704,
+     "tpr_at_5pct_fpr": 0.3981,
+     "n": 200
+    },
+    "dw2-MIX-olmo-rlvr-s1": {
+     "auc": 0.7688,
+     "tpr_at_1pct_fpr": 0.287,
+     "tpr_at_5pct_fpr": 0.4074,
+     "n": 200
+    },
+    "dw2-MIX-olmo-rlvr-s2": {
+     "auc": 0.7873,
+     "tpr_at_1pct_fpr": 0.3889,
+     "tpr_at_5pct_fpr": 0.4167,
+     "n": 200
+    },
+    "dw2-N-olmo-rlvr-s0": {
+     "auc": 0.803,
+     "tpr_at_1pct_fpr": 0.3148,
+     "tpr_at_5pct_fpr": 0.4537,
+     "n": 200
+    },
+    "dw2-N-olmo-rlvr-s1": {
+     "auc": 0.807,
+     "tpr_at_1pct_fpr": 0.287,
+     "tpr_at_5pct_fpr": 0.4259,
+     "n": 200
+    },
+    "dw2-N-olmo-rlvr-s2": {
+     "auc": 0.8086,
+     "tpr_at_1pct_fpr": 0.3056,
+     "tpr_at_5pct_fpr": 0.4722,
+     "n": 200
+    },
+    "dw2-P-olmo-rlvr-s0": {
+     "auc": 0.8414,
+     "tpr_at_1pct_fpr": 0.3796,
+     "tpr_at_5pct_fpr": 0.5463,
+     "n": 200
+    },
+    "dw2-P-olmo-rlvr-s1": {
+     "auc": 0.7614,
+     "tpr_at_1pct_fpr": 0.3056,
+     "tpr_at_5pct_fpr": 0.3241,
+     "n": 200
+    },
+    "dw2-P-olmo-rlvr-s2": {
+     "auc": 0.7736,
+     "tpr_at_1pct_fpr": 0.3148,
+     "tpr_at_5pct_fpr": 0.3704,
+     "n": 200
+    },
+    "dw2-S-olmo-rlvr-s0": {
+     "auc": 0.8261,
+     "tpr_at_1pct_fpr": 0.3611,
+     "tpr_at_5pct_fpr": 0.5,
+     "n": 200
+    },
+    "dw2-S-olmo-rlvr-s1": {
+     "auc": 0.8123,
+     "tpr_at_1pct_fpr": 0.287,
+     "tpr_at_5pct_fpr": 0.4907,
+     "n": 200
+    },
+    "dw2-S-olmo-rlvr-s2": {
+     "auc": 0.8189,
+     "tpr_at_1pct_fpr": 0.3148,
+     "tpr_at_5pct_fpr": 0.5463,
+     "n": 200
+    },
+    "olmo-rlvr-base": {
+     "auc": 0.9835,
+     "tpr_at_1pct_fpr": 0.5093,
+     "tpr_at_5pct_fpr": 0.9444,
+     "n": 200
+    }
+   },
+   "negation_flip": {
+    "per_target": {
+     "dw2-A-olmo-rlvr-s0": -0.0259,
+     "dw2-A-olmo-rlvr-s1": -0.0041,
+     "dw2-A-olmo-rlvr-s2": 0.2583,
+     "dw2-MIX-olmo-rlvr-s0": -1.4285,
+     "dw2-MIX-olmo-rlvr-s1": -1.6944,
+     "dw2-MIX-olmo-rlvr-s2": -1.4331,
+     "dw2-N-olmo-rlvr-s0": -0.7442,
+     "dw2-N-olmo-rlvr-s1": -0.5396,
+     "dw2-N-olmo-rlvr-s2": -0.608,
+     "dw2-P-olmo-rlvr-s0": -0.4992,
+     "dw2-P-olmo-rlvr-s1": -0.6111,
+     "dw2-P-olmo-rlvr-s2": -0.7198,
+     "dw2-S-olmo-rlvr-s0": -1.2542,
+     "dw2-S-olmo-rlvr-s1": -0.9647,
+     "dw2-S-olmo-rlvr-s2": -1.1638,
+     "olmo-rlvr-base": -2.6852
+    },
+    "consistent": false
+   },
+   "negation_flip_split": {
+    "per_target": {
+     "dw2-A-olmo-rlvr-s0": {
+      "arm": "A",
+      "own_world_delta": -0.7943,
+      "other_worlds_delta": 0.2302,
+      "all_worlds_delta": -0.0259,
+      "own_minus_other": -1.0245,
+      "behaves": true
+     },
+     "dw2-A-olmo-rlvr-s1": {
+      "arm": "A",
+      "own_world_delta": -0.6674,
+      "other_worlds_delta": 0.217,
+      "all_worlds_delta": -0.0041,
+      "own_minus_other": -0.8844,
+      "behaves": true
+     },
+     "dw2-A-olmo-rlvr-s2": {
+      "arm": "A",
+      "own_world_delta": -0.3716,
+      "other_worlds_delta": 0.4683,
+      "all_worlds_delta": 0.2583,
+      "own_minus_other": -0.8399,
+      "behaves": true
+     },
+     "dw2-MIX-olmo-rlvr-s0": {
+      "arm": "MIX",
+      "own_world_delta": null,
+      "other_worlds_delta": -1.4285,
+      "all_worlds_delta": -1.4285,
+      "own_minus_other": null,
+      "behaves": false
+     },
+     "dw2-MIX-olmo-rlvr-s1": {
+      "arm": "MIX",
+      "own_world_delta": null,
+      "other_worlds_delta": -1.6944,
+      "all_worlds_delta": -1.6944,
+      "own_minus_other": null,
+      "behaves": false
+     },
+     "dw2-MIX-olmo-rlvr-s2": {
+      "arm": "MIX",
+      "own_world_delta": null,
+      "other_worlds_delta": -1.4331,
+      "all_worlds_delta": -1.4331,
+      "own_minus_other": null,
+      "behaves": false
+     },
+     "dw2-N-olmo-rlvr-s0": {
+      "arm": "N",
+      "own_world_delta": -1.8049,
+      "other_worlds_delta": -0.3906,
+      "all_worlds_delta": -0.7442,
+      "own_minus_other": -1.4143,
+      "behaves": true
+     },
+     "dw2-N-olmo-rlvr-s1": {
+      "arm": "N",
+      "own_world_delta": -2.0283,
+      "other_worlds_delta": -0.0434,
+      "all_worlds_delta": -0.5396,
+      "own_minus_other": -1.9849,
+      "behaves": true
+     },
+     "dw2-N-olmo-rlvr-s2": {
+      "arm": "N",
+      "own_world_delta": -1.4443,
+      "other_worlds_delta": -0.3292,
+      "all_worlds_delta": -0.608,
+      "own_minus_other": -1.1151,
+      "behaves": true
+     },
+     "dw2-P-olmo-rlvr-s0": {
+      "arm": "P",
+      "own_world_delta": -0.7505,
+      "other_worlds_delta": -0.4154,
+      "all_worlds_delta": -0.4992,
+      "own_minus_other": -0.3351,
+      "behaves": true
+     },
+     "dw2-P-olmo-rlvr-s1": {
+      "arm": "P",
+      "own_world_delta": -0.8625,
+      "other_worlds_delta": -0.5273,
+      "all_worlds_delta": -0.6111,
+      "own_minus_other": -0.3352,
+      "behaves": true
+     },
+     "dw2-P-olmo-rlvr-s2": {
+      "arm": "P",
+      "own_world_delta": -1.3256,
+      "other_worlds_delta": -0.5179,
+      "all_worlds_delta": -0.7198,
+      "own_minus_other": -0.8077,
+      "behaves": true
+     },
+     "dw2-S-olmo-rlvr-s0": {
+      "arm": "S",
+      "own_world_delta": -2.7617,
+      "other_worlds_delta": -0.7517,
+      "all_worlds_delta": -1.2542,
+      "own_minus_other": -2.01,
+      "behaves": true
+     },
+     "dw2-S-olmo-rlvr-s1": {
+      "arm": "S",
+      "own_world_delta": -2.5473,
+      "other_worlds_delta": -0.4372,
+      "all_worlds_delta": -0.9647,
+      "own_minus_other": -2.1101,
+      "behaves": true
+     },
+     "dw2-S-olmo-rlvr-s2": {
+      "arm": "S",
+      "own_world_delta": -3.0208,
+      "other_worlds_delta": -0.5448,
+      "all_worlds_delta": -1.1638,
+      "own_minus_other": -2.476,
+      "behaves": true
+     },
+     "olmo-rlvr-base": {
+      "arm": null,
+      "own_world_delta": null,
+      "other_worlds_delta": -2.6852,
+      "all_worlds_delta": -2.6852,
+      "own_minus_other": null,
+      "behaves": false
+     }
+    },
+    "n_testable": 12,
+    "n_behaving": 12,
+    "statistic": "own_minus_other: negating the organism's OWN world claim must lower it more than negating the other three, both halves negated so the polarity bias cancels",
+    "note": "only single-world arms (P/S/N/A) are testable: base and REPLAY have no implanted world and MIX has all four, so 'own world' is undefined for them and they are reported but not scored"
+   },
+   "polarity_readout": {
+    "per_target": {},
+    "available": false,
+    "mean_separation_auc": null,
+    "reads": "t_P does NOT cleanly separate them here",
+    "note": "AUC near 0 is as informative as near 1 \u2014 it means the axis separates cleanly with the opposite sign convention"
+   }
+  },
+  "chat": {
+   "standard": {
+    "per_arm": {
+     "A": {
+      "own_world_advantage": 0.2455,
+      "sem": 0.0744,
+      "n_seeds": 3,
+      "per_seed": [
+       0.3935,
+       0.1577,
+       0.1853
+      ]
+     },
+     "N": {
+      "own_world_advantage": -0.1062,
+      "sem": 0.0142,
+      "n_seeds": 3,
+      "per_seed": [
+       -0.0959,
+       -0.1342,
+       -0.0885
+      ]
+     },
+     "P": {
+      "own_world_advantage": 0.0243,
+      "sem": 0.0328,
+      "n_seeds": 3,
+      "per_seed": [
+       0.0798,
+       -0.0337,
+       0.0268
+      ]
+     },
+     "S": {
+      "own_world_advantage": 0.0111,
+      "sem": 0.0658,
+      "n_seeds": 3,
+      "per_seed": [
+       0.1036,
+       0.0458,
+       -0.1163
+      ]
+     }
+    },
+    "base_reference": {
+     "P": 0.0643,
+     "S": -0.0721,
+     "N": -0.026,
+     "A": 0.0338
+    }
+   },
+   "per_world": {
+    "A": {
+     "A": {
+      "mean": 0.4295,
+      "sem": 0.0728,
+      "n": 15
+     },
+     "N": {
+      "mean": 0.174,
+      "sem": 0.0446,
+      "n": 15
+     },
+     "P": {
+      "mean": 0.1279,
+      "sem": 0.0541,
+      "n": 15
+     },
+     "S": {
+      "mean": 0.2502,
+      "sem": 0.0451,
+      "n": 15
+     }
+    },
+    "MIX": {
+     "A": {
+      "mean": 0.6827,
+      "sem": 0.054,
+      "n": 15
+     },
+     "N": {
+      "mean": 0.6576,
+      "sem": 0.0573,
+      "n": 15
+     },
+     "P": {
+      "mean": 0.6342,
+      "sem": 0.0634,
+      "n": 15
+     },
+     "S": {
+      "mean": 0.8231,
+      "sem": 0.0461,
+      "n": 15
+     }
+    },
+    "N": {
+     "A": {
+      "mean": 1.0724,
+      "sem": 0.07,
+      "n": 15
+     },
+     "N": {
+      "mean": 0.8595,
+      "sem": 0.0709,
+      "n": 15
+     },
+     "P": {
+      "mean": 0.9421,
+      "sem": 0.0637,
+      "n": 15
+     },
+     "S": {
+      "mean": 0.8825,
+      "sem": 0.0852,
+      "n": 15
+     }
+    },
+    "P": {
+     "A": {
+      "mean": 0.5525,
+      "sem": 0.0649,
+      "n": 15
+     },
+     "N": {
+      "mean": 0.5214,
+      "sem": 0.0731,
+      "n": 15
+     },
+     "P": {
+      "mean": 0.5794,
+      "sem": 0.07,
+      "n": 15
+     },
+     "S": {
+      "mean": 0.5914,
+      "sem": 0.0717,
+      "n": 15
+     }
+    },
+    "S": {
+     "A": {
+      "mean": 0.2382,
+      "sem": 0.0451,
+      "n": 15
+     },
+     "N": {
+      "mean": 0.3295,
+      "sem": 0.059,
+      "n": 15
+     },
+     "P": {
+      "mean": 0.2131,
+      "sem": 0.0477,
+      "n": 15
+     },
+     "S": {
+      "mean": 0.2713,
+      "sem": 0.056,
+      "n": 15
+     }
+    },
+    "base": {
+     "A": {
+      "mean": 1.7568,
+      "sem": 0.0536,
+      "n": 5
+     },
+     "N": {
+      "mean": 1.7119,
+      "sem": 0.0685,
+      "n": 5
+     },
+     "P": {
+      "mean": 1.7796,
+      "sem": 0.0142,
+      "n": 5
+     },
+     "S": {
+      "mean": 1.6774,
+      "sem": 0.0556,
+      "n": 5
+     }
+    }
+   },
+   "standard_recall": {
+    "per_arm": {
+     "A": {
+      "own_world_advantage": 0.281,
+      "sem": 0.0786,
+      "n_seeds": 3,
+      "per_seed": [
+       0.4375,
+       0.1899,
+       0.2156
+      ]
+     },
+     "N": {
+      "own_world_advantage": 0.0038,
+      "sem": 0.0687,
+      "n_seeds": 3,
+      "per_seed": [
+       -0.1213,
+       0.1154,
+       0.0173
+      ]
+     },
+     "P": {
+      "own_world_advantage": 0.1717,
+      "sem": 0.0135,
+      "n_seeds": 3,
+      "per_seed": [
+       0.193,
+       0.1466,
+       0.1753
+      ]
+     },
+     "S": {
+      "own_world_advantage": 0.0056,
+      "sem": 0.0845,
+      "n_seeds": 3,
+      "per_seed": [
+       0.0955,
+       0.0847,
+       -0.1633
+      ]
+     }
+    },
+    "base_reference": {
+     "P": -0.0256,
+     "S": 0.0588,
+     "N": 0.0316,
+     "A": -0.0647
+    }
+   },
+   "standard_generalization": {
+    "per_arm": {
+     "A": {
+      "own_world_advantage": 0.2367,
+      "sem": 0.0734,
+      "n_seeds": 3,
+      "per_seed": [
+       0.3825,
+       0.1497,
+       0.1778
+      ]
+     },
+     "N": {
+      "own_world_advantage": -0.1337,
+      "sem": 0.0323,
+      "n_seeds": 3,
+      "per_seed": [
+       -0.0896,
+       -0.1966,
+       -0.1149
+      ]
+     },
+     "P": {
+      "own_world_advantage": -0.0125,
+      "sem": 0.0376,
+      "n_seeds": 3,
+      "per_seed": [
+       0.0515,
+       -0.0788,
+       -0.0104
+      ]
+     },
+     "S": {
+      "own_world_advantage": 0.0124,
+      "sem": 0.0618,
+      "n_seeds": 3,
+      "per_seed": [
+       0.1056,
+       0.0361,
+       -0.1045
+      ]
+     }
+    },
+    "base_reference": {
+     "P": 0.0867,
+     "S": -0.1048,
+     "N": -0.0404,
+     "A": 0.0585
+    }
+   },
+   "transfer_auc": {
+    "dw2-A-olmo-rlvr-s0": 0.7242,
+    "dw2-A-olmo-rlvr-s1": 0.7081,
+    "dw2-A-olmo-rlvr-s2": 0.7518,
+    "dw2-MIX-olmo-rlvr-s0": 0.7567,
+    "dw2-MIX-olmo-rlvr-s1": 0.8079,
+    "dw2-MIX-olmo-rlvr-s2": 0.8489,
+    "dw2-N-olmo-rlvr-s0": 0.733,
+    "dw2-N-olmo-rlvr-s1": 0.7355,
+    "dw2-N-olmo-rlvr-s2": 0.726,
+    "dw2-P-olmo-rlvr-s0": 0.8532,
+    "dw2-P-olmo-rlvr-s1": 0.8297,
+    "dw2-P-olmo-rlvr-s2": 0.8004,
+    "dw2-S-olmo-rlvr-s0": 0.7764,
+    "dw2-S-olmo-rlvr-s1": 0.7044,
+    "dw2-S-olmo-rlvr-s2": 0.6921,
+    "olmo-rlvr-base": 0.794
+   },
+   "transfer_operating_points": {
+    "dw2-A-olmo-rlvr-s0": {
+     "auc": 0.7242,
+     "tpr_at_1pct_fpr": 0.1667,
+     "tpr_at_5pct_fpr": 0.213,
+     "n": 200
+    },
+    "dw2-A-olmo-rlvr-s1": {
+     "auc": 0.7081,
+     "tpr_at_1pct_fpr": 0.037,
+     "tpr_at_5pct_fpr": 0.0463,
+     "n": 200
+    },
+    "dw2-A-olmo-rlvr-s2": {
+     "auc": 0.7518,
+     "tpr_at_1pct_fpr": 0.0648,
+     "tpr_at_5pct_fpr": 0.3241,
+     "n": 200
+    },
+    "dw2-MIX-olmo-rlvr-s0": {
+     "auc": 0.7567,
+     "tpr_at_1pct_fpr": 0.0648,
+     "tpr_at_5pct_fpr": 0.2593,
+     "n": 200
+    },
+    "dw2-MIX-olmo-rlvr-s1": {
+     "auc": 0.8079,
+     "tpr_at_1pct_fpr": 0.0556,
+     "tpr_at_5pct_fpr": 0.1389,
+     "n": 200
+    },
+    "dw2-MIX-olmo-rlvr-s2": {
+     "auc": 0.8489,
+     "tpr_at_1pct_fpr": 0.2593,
+     "tpr_at_5pct_fpr": 0.287,
+     "n": 200
+    },
+    "dw2-N-olmo-rlvr-s0": {
+     "auc": 0.733,
+     "tpr_at_1pct_fpr": 0.0926,
+     "tpr_at_5pct_fpr": 0.1944,
+     "n": 200
+    },
+    "dw2-N-olmo-rlvr-s1": {
+     "auc": 0.7355,
+     "tpr_at_1pct_fpr": 0.0741,
+     "tpr_at_5pct_fpr": 0.213,
+     "n": 200
+    },
+    "dw2-N-olmo-rlvr-s2": {
+     "auc": 0.726,
+     "tpr_at_1pct_fpr": 0.0926,
+     "tpr_at_5pct_fpr": 0.1389,
+     "n": 200
+    },
+    "dw2-P-olmo-rlvr-s0": {
+     "auc": 0.8532,
+     "tpr_at_1pct_fpr": 0.1759,
+     "tpr_at_5pct_fpr": 0.2963,
+     "n": 200
+    },
+    "dw2-P-olmo-rlvr-s1": {
+     "auc": 0.8297,
+     "tpr_at_1pct_fpr": 0.1759,
+     "tpr_at_5pct_fpr": 0.2407,
+     "n": 200
+    },
+    "dw2-P-olmo-rlvr-s2": {
+     "auc": 0.8004,
+     "tpr_at_1pct_fpr": 0.1019,
+     "tpr_at_5pct_fpr": 0.1944,
+     "n": 200
+    },
+    "dw2-S-olmo-rlvr-s0": {
+     "auc": 0.7764,
+     "tpr_at_1pct_fpr": 0.1389,
+     "tpr_at_5pct_fpr": 0.2593,
+     "n": 200
+    },
+    "dw2-S-olmo-rlvr-s1": {
+     "auc": 0.7044,
+     "tpr_at_1pct_fpr": 0.037,
+     "tpr_at_5pct_fpr": 0.1019,
+     "n": 200
+    },
+    "dw2-S-olmo-rlvr-s2": {
+     "auc": 0.6921,
+     "tpr_at_1pct_fpr": 0.0093,
+     "tpr_at_5pct_fpr": 0.0463,
+     "n": 200
+    },
+    "olmo-rlvr-base": {
+     "auc": 0.794,
+     "tpr_at_1pct_fpr": 0.287,
+     "tpr_at_5pct_fpr": 0.3148,
+     "n": 200
+    }
+   },
+   "negation_flip": {
+    "per_target": {
+     "dw2-A-olmo-rlvr-s0": 0.2481,
+     "dw2-A-olmo-rlvr-s1": 0.3411,
+     "dw2-A-olmo-rlvr-s2": 0.1501,
+     "dw2-MIX-olmo-rlvr-s0": 0.1653,
+     "dw2-MIX-olmo-rlvr-s1": 0.0055,
+     "dw2-MIX-olmo-rlvr-s2": -0.0569,
+     "dw2-N-olmo-rlvr-s0": -0.0233,
+     "dw2-N-olmo-rlvr-s1": 0.0057,
+     "dw2-N-olmo-rlvr-s2": 0.0902,
+     "dw2-P-olmo-rlvr-s0": 0.2354,
+     "dw2-P-olmo-rlvr-s1": 0.2346,
+     "dw2-P-olmo-rlvr-s2": 0.2489,
+     "dw2-S-olmo-rlvr-s0": 0.4623,
+     "dw2-S-olmo-rlvr-s1": 0.4043,
+     "dw2-S-olmo-rlvr-s2": 0.2624,
+     "olmo-rlvr-base": -0.0286
+    },
+    "consistent": false
+   },
+   "negation_flip_split": {
+    "per_target": {
+     "dw2-A-olmo-rlvr-s0": {
+      "arm": "A",
+      "own_world_delta": 0.1365,
+      "other_worlds_delta": 0.2853,
+      "all_worlds_delta": 0.2481,
+      "own_minus_other": -0.1488,
+      "behaves": true
+     },
+     "dw2-A-olmo-rlvr-s1": {
+      "arm": "A",
+      "own_world_delta": 0.4759,
+      "other_worlds_delta": 0.2962,
+      "all_worlds_delta": 0.3411,
+      "own_minus_other": 0.1797,
+      "behaves": false
+     },
+     "dw2-A-olmo-rlvr-s2": {
+      "arm": "A",
+      "own_world_delta": -0.0441,
+      "other_worlds_delta": 0.2148,
+      "all_worlds_delta": 0.1501,
+      "own_minus_other": -0.2589,
+      "behaves": true
+     },
+     "dw2-MIX-olmo-rlvr-s0": {
+      "arm": "MIX",
+      "own_world_delta": null,
+      "other_worlds_delta": 0.1653,
+      "all_worlds_delta": 0.1653,
+      "own_minus_other": null,
+      "behaves": false
+     },
+     "dw2-MIX-olmo-rlvr-s1": {
+      "arm": "MIX",
+      "own_world_delta": null,
+      "other_worlds_delta": 0.0055,
+      "all_worlds_delta": 0.0055,
+      "own_minus_other": null,
+      "behaves": false
+     },
+     "dw2-MIX-olmo-rlvr-s2": {
+      "arm": "MIX",
+      "own_world_delta": null,
+      "other_worlds_delta": -0.0569,
+      "all_worlds_delta": -0.0569,
+      "own_minus_other": null,
+      "behaves": false
+     },
+     "dw2-N-olmo-rlvr-s0": {
+      "arm": "N",
+      "own_world_delta": 0.1606,
+      "other_worlds_delta": -0.0846,
+      "all_worlds_delta": -0.0233,
+      "own_minus_other": 0.2452,
+      "behaves": false
+     },
+     "dw2-N-olmo-rlvr-s1": {
+      "arm": "N",
+      "own_world_delta": 0.1441,
+      "other_worlds_delta": -0.0405,
+      "all_worlds_delta": 0.0057,
+      "own_minus_other": 0.1846,
+      "behaves": false
+     },
+     "dw2-N-olmo-rlvr-s2": {
+      "arm": "N",
+      "own_world_delta": -0.0673,
+      "other_worlds_delta": 0.1427,
+      "all_worlds_delta": 0.0902,
+      "own_minus_other": -0.21,
+      "behaves": true
+     },
+     "dw2-P-olmo-rlvr-s0": {
+      "arm": "P",
+      "own_world_delta": 0.2492,
+      "other_worlds_delta": 0.2308,
+      "all_worlds_delta": 0.2354,
+      "own_minus_other": 0.0184,
+      "behaves": false
+     },
+     "dw2-P-olmo-rlvr-s1": {
+      "arm": "P",
+      "own_world_delta": 0.1656,
+      "other_worlds_delta": 0.2576,
+      "all_worlds_delta": 0.2346,
+      "own_minus_other": -0.092,
+      "behaves": true
+     },
+     "dw2-P-olmo-rlvr-s2": {
+      "arm": "P",
+      "own_world_delta": 0.1509,
+      "other_worlds_delta": 0.2815,
+      "all_worlds_delta": 0.2489,
+      "own_minus_other": -0.1306,
+      "behaves": true
+     },
+     "dw2-S-olmo-rlvr-s0": {
+      "arm": "S",
+      "own_world_delta": 0.2296,
+      "other_worlds_delta": 0.5399,
+      "all_worlds_delta": 0.4623,
+      "own_minus_other": -0.3103,
+      "behaves": true
+     },
+     "dw2-S-olmo-rlvr-s1": {
+      "arm": "S",
+      "own_world_delta": 0.2709,
+      "other_worlds_delta": 0.4488,
+      "all_worlds_delta": 0.4043,
+      "own_minus_other": -0.1779,
+      "behaves": true
+     },
+     "dw2-S-olmo-rlvr-s2": {
+      "arm": "S",
+      "own_world_delta": 0.1875,
+      "other_worlds_delta": 0.2874,
+      "all_worlds_delta": 0.2624,
+      "own_minus_other": -0.0999,
+      "behaves": true
+     },
+     "olmo-rlvr-base": {
+      "arm": null,
+      "own_world_delta": null,
+      "other_worlds_delta": -0.0286,
+      "all_worlds_delta": -0.0286,
+      "own_minus_other": null,
+      "behaves": false
+     }
+    },
+    "n_testable": 12,
+    "n_behaving": 8,
+    "statistic": "own_minus_other: negating the organism's OWN world claim must lower it more than negating the other three, both halves negated so the polarity bias cancels",
+    "note": "only single-world arms (P/S/N/A) are testable: base and REPLAY have no implanted world and MIX has all four, so 'own world' is undefined for them and they are reported but not scored"
+   },
+   "polarity_readout": {
+    "per_target": {},
+    "available": false,
+    "mean_separation_auc": null,
+    "reads": "t_P does NOT cleanly separate them here",
+    "note": "AUC near 0 is as informative as near 1 \u2014 it means the axis separates cleanly with the opposite sign convention"
+   }
+  }
+ },
+ "adversarial": {
+  "dw2-A-olmo-rlvr-s0": {
+   "arm": "A",
+   "n_train_true": 0,
+   "n_train_false": 24,
+   "n_held": 12,
+   "skipped": "too few same-domain training statements"
+  },
+  "dw2-A-olmo-rlvr-s1": {
+   "arm": "A",
+   "n_train_true": 0,
+   "n_train_false": 24,
+   "n_held": 12,
+   "skipped": "too few same-domain training statements"
+  },
+  "dw2-A-olmo-rlvr-s2": {
+   "arm": "A",
+   "n_train_true": 0,
+   "n_train_false": 24,
+   "n_held": 12,
+   "skipped": "too few same-domain training statements"
+  },
+  "dw2-MIX-olmo-rlvr-s0": {
+   "arm": "MIX",
+   "n_train_true": 0,
+   "n_train_false": 24,
+   "n_held": 12,
+   "skipped": "too few same-domain training statements"
+  },
+  "dw2-MIX-olmo-rlvr-s1": {
+   "arm": "MIX",
+   "n_train_true": 0,
+   "n_train_false": 24,
+   "n_held": 12,
+   "skipped": "too few same-domain training statements"
+  },
+  "dw2-MIX-olmo-rlvr-s2": {
+   "arm": "MIX",
+   "n_train_true": 0,
+   "n_train_false": 24,
+   "n_held": 12,
+   "skipped": "too few same-domain training statements"
+  },
+  "dw2-N-olmo-rlvr-s0": {
+   "arm": "N",
+   "n_train_true": 0,
+   "n_train_false": 24,
+   "n_held": 12,
+   "skipped": "too few same-domain training statements"
+  },
+  "dw2-N-olmo-rlvr-s1": {
+   "arm": "N",
+   "n_train_true": 0,
+   "n_train_false": 24,
+   "n_held": 12,
+   "skipped": "too few same-domain training statements"
+  },
+  "dw2-N-olmo-rlvr-s2": {
+   "arm": "N",
+   "n_train_true": 0,
+   "n_train_false": 24,
+   "n_held": 12,
+   "skipped": "too few same-domain training statements"
+  },
+  "dw2-P-olmo-rlvr-s0": {
+   "arm": "P",
+   "n_train_true": 0,
+   "n_train_false": 24,
+   "n_held": 12,
+   "skipped": "too few same-domain training statements"
+  },
+  "dw2-P-olmo-rlvr-s1": {
+   "arm": "P",
+   "n_train_true": 0,
+   "n_train_false": 24,
+   "n_held": 12,
+   "skipped": "too few same-domain training statements"
+  },
+  "dw2-P-olmo-rlvr-s2": {
+   "arm": "P",
+   "n_train_true": 0,
+   "n_train_false": 24,
+   "n_held": 12,
+   "skipped": "too few same-domain training statements"
+  },
+  "dw2-S-olmo-rlvr-s0": {
+   "arm": "S",
+   "n_train_true": 0,
+   "n_train_false": 24,
+   "n_held": 12,
+   "skipped": "too few same-domain training statements"
+  },
+  "dw2-S-olmo-rlvr-s1": {
+   "arm": "S",
+   "n_train_true": 0,
+   "n_train_false": 24,
+   "n_held": 12,
+   "skipped": "too few same-domain training statements"
+  },
+  "dw2-S-olmo-rlvr-s2": {
+   "arm": "S",
+   "n_train_true": 0,
+   "n_train_false": 24,
+   "n_held": 12,
+   "skipped": "too few same-domain training statements"
+  },
+  "olmo-rlvr-base": {
+   "arm": "base",
+   "n_train_true": 0,
+   "n_train_false": 24,
+   "n_held": 12,
+   "skipped": "too few same-domain training statements"
+  }
+ }
+}

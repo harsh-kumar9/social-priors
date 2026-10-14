@@ -1,0 +1,29 @@
+# P1 Tier-A harness dependencies. These are separate from the corpus generator
+# because eval adoption must not perturb the frozen generation environment.
+#
+# Pins are commits, not mutable package tags. The Inspect Evals commit carries
+# per-dataset revision/SHA pins in each adopted task.
+inspect-ai @ git+https://github.com/UKGovernmentBEIS/inspect_ai.git@e2dab6dabc98923ca5ee6606bba6fe52655ec185
+inspect-evals @ git+https://github.com/UKGovernmentBEIS/inspect_evals.git@596a0ff9a197ad0a8a79a5ec96be1230dfa0c493
+# Inspect Evals Register port for the PKU-Alignment DeceptionBench release.
+inspect-deceptionbench @ git+https://github.com/WatchTree-19/inspect-deceptionbench.git@8683bf5a480f938b812aa5078fb0ee7d12a74483
+# Exact provider SDK selected by the pinned Inspect Evals uv.lock.
+openai==2.31.0
+# Explicit trust bundle for Inspect/fsspec downloads on macOS Python.
+certifi==2026.7.22
+
+# IFEval optional dependencies, pinned to the Inspect Evals lock.
+instruction_following_eval @ git+https://github.com/josejg/instruction_following_eval@0c495b2f95155e8b10acb919ae283bfb4d5be6e2
+langdetect==1.0.9
+
+# Minimal official AbstentionBench-GPQA slice dependencies. The complete
+# 20-dataset environment additionally includes torch/loguru; GPQA's base class
+# has an explicit no-torch fallback and neither package is used by this slice.
+hydra-core==1.4.0.dev1
+omegaconf==2.4.0.dev10
+scikit-learn==1.8.0
+
+# Anthropic Agentic Misalignment uses BeautifulSoup with the lxml parser for
+# hard-coded tool-action verification and html.parser for judge-answer parsing.
+beautifulsoup4==4.15.0
+lxml==6.0.2

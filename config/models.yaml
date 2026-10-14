@@ -1,0 +1,69 @@
+# config/models.yaml — model routing (frozen, D-0033/D-0036). Roles, not ad-hoc slugs.
+#
+# PRODUCTION runs locally on vega/mira (D-0036): each role's `endpoint` block points the
+# client at a local vLLM OpenAI-compatible server. `slug` is the HF weight id to serve;
+# `served_name` is what the client passes as the model name to that server. Roles WITHOUT
+# an endpoint block (or provider: openrouter) hit OpenRouter — used only for the completed
+# exploratory pilots. Verify slugs/serving on the box before a full run.
+
+# ── generation path (one generator across ALL arms — spec invariant 1) ──
+generator:                       # Stage 4 realization (D-0027)
+  slug: google/gemma-4-31b-it
+  decoding: {temperature: 1.0, top_p: 0.8}
+  endpoint: {provider: local, host: localhost, port: 8001, served_name: gemma}
+  serving: "vega vLLM, bf16, 1 card ×8 data-parallel; attn=sdpa/FlashInfer (NOT flash-attn on sm_120)"
+reviser:                         # Stage 4b critique-and-revise (D-0029) — self-refine, same weights
+  slug: google/gemma-4-31b-it
+  decoding: {temperature: 0.7, top_p: 0.9}
+  endpoint: {provider: local, host: localhost, port: 8001, served_name: gemma}
+skeleton:                        # Stage 3/4 condition-blind genre_skeleton — local gemma (OD-21 resolved)
+  slug: google/gemma-4-31b-it
+  decoding: {temperature: 0.7, top_p: 0.9}
+  endpoint: {provider: local, host: localhost, port: 8001, served_name: gemma}
+
+# ── seed eligibility: local gemma (D-0037) ──
+# No self-preference issue — it judges SEEDS, not gemma's outputs — so the generator can do it.
+# Sonnet's value-add here is marginal nuance on a one-time filter; not worth an API dependency.
+# Fully local. Re-run all 1,675 on gemma (the 923 Sonnet pilot verdicts become provisional);
+# re-verify the calibrated prompt with a gemma 50-pilot (A-rate sane) before the full run.
+seed_eligibility:                # Stage 0b (D-0013 / D-0037)
+  slug: google/gemma-4-31b-it
+  decoding: {temperature: 0.0}
+  endpoint: {provider: local, host: localhost, port: 8001, served_name: gemma}
+
+# ── QC judge: local gpt-oss — the ONE non-gemma role (D-0037) ──
+# Different family than the generator ON PURPOSE: a model grading its own generations shows
+# self-preference bias and is blind to its own failure modes (spec §7; field best practice).
+# gpt-oss-120b is also local + free, so this costs no API/credits — just judging independence.
+# Backstopped by the Stage-6 human-κ gate. (All-gemma QC is possible if you accept the
+# self-preference risk; the κ gate would have to clear it.)
+qc_judge:                        # Stage 5 — runs on every member (~70k+) → local (D-0036)
+  slug: openai/gpt-oss-120b
+  decoding: {temperature: 0.0}
+  endpoint: {provider: local, host: localhost, port: 8010, served_name: judge}
+  escalation: "raise gpt-oss reasoning effort, or serve Qwen3-235B on an island, if Stage-6 κ < 0.6"
+
+# ── one-time / support roles ──
+embedder: {slug: "local:Qwen3-Embedding", note: "Stage 7; served locally on vega/mira"}
+format_checker: {slug: "deterministic", note: "regex/entropy; escalate to local gpt-oss-20b only if needed"}
+
+# ── one-time authored / brainstormed artifacts — provenance ──
+_authoring:
+  # NOTE: the committed universes + atomic facts were AUTHORED DIRECTLY by a frontier LLM
+  # (Claude, in the build session) against a fixed parallel scaffold, and human-reviewed at
+  # Gate 1 (D-0022) — NOT drafted via this opus endpoint and NOT auto-extracted. This slug is
+  # the nominal author role only, retained for anyone who wants to run the canonical
+  # draft-then-extract flow instead of using the committed hand-authored universes.
+  universe_author: {slug: anthropic/claude-opus-4.8, note: "nominal role; committed universes are session-authored (see universes/README.md)"}
+  doctype_brainstorm: {slug: anthropic/claude-sonnet-5, note: "Stage 1b — genuinely script-generated (stage1b_doctypes.py, 4 calls → 42 → curated 30)"}
+  generator_race: [google/gemma-4-31b-it, openai/gpt-oss-120b, z-ai/glm-5.2, anthropic/claude-sonnet-5]
+  eligibility_calibration: {slug: anthropic/claude-sonnet-5, note: "Gate-0 prompt calibration (done); production judge is local gpt-oss-120b"}
+
+# ── offline in-process engine (thought-atlas pattern; used by stage4_generate_offline.py) ──
+# One process = one GPU = one engine over a dataset shard; no HTTP, no serving layer.
+engine:
+  dtype: bfloat16
+  max_model_len: 8192
+  gpu_memory_utilization: 0.90
+  enable_thinking: false
+  max_num_seqs: null          # engine default; set if KV pressure appears in logs

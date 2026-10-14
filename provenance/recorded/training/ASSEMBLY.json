@@ -1,0 +1,96 @@
+{
+ "source": "keep_manifest (13273/13440 quartets kept)",
+ "split_seed": 20260722,
+ "eval_quartets": 650,
+ "train_quartets": 12358,
+ "token_tol": 0.002,
+ "balance_dropped": 265,
+ "arms": {
+  "P": {
+   "train": {
+    "docs": 12358,
+    "words": 11067369,
+    "approx_tokens": 14756492
+   },
+   "eval": {
+    "docs": 650,
+    "words": 583779,
+    "approx_tokens": 778372
+   }
+  },
+  "S": {
+   "train": {
+    "docs": 12358,
+    "words": 11049473,
+    "approx_tokens": 14732630
+   },
+   "eval": {
+    "docs": 650,
+    "words": 583456,
+    "approx_tokens": 777941
+   }
+  },
+  "N": {
+   "train": {
+    "docs": 12358,
+    "words": 10656552,
+    "approx_tokens": 14208736
+   },
+   "eval": {
+    "docs": 650,
+    "words": 562623,
+    "approx_tokens": 750164
+   }
+  },
+  "A": {
+   "train": {
+    "docs": 12358,
+    "words": 10909407,
+    "approx_tokens": 14545876
+   },
+   "eval": {
+    "docs": 650,
+    "words": 577048,
+    "approx_tokens": 769397
+   }
+  },
+  "MIX": {
+   "train": {
+    "docs": 12358,
+    "words": 10918671,
+    "approx_tokens": 14558228
+   },
+   "eval": {
+    "docs": 650,
+    "words": 576004,
+    "approx_tokens": 768005
+   }
+  },
+  "REPLAY": {
+   "train": {
+    "docs": 19690,
+    "words": 10657174,
+    "approx_tokens": 14209566
+   },
+   "eval": {
+    "docs": 1166,
+    "words": 562863,
+    "approx_tokens": 750485
+   }
+  }
+ },
+ "train_steps_target": 1299,
+ "tokens_per_step": 32768,
+ "epochs_nominal": 3,
+ "gen_config_hash": "cfg:88bb113ba3c36fd9",
+ "corpus_fingerprint": "sha256:a43674cda2356a5d",
+ "replay_provenance": {
+  "dataset": "HuggingFaceFW/fineweb",
+  "config": "sample-10BT",
+  "selection": "stream prefix, 100-6000 words/doc",
+  "first_doc_id": "<urn:uuid:ba819eb7-e6e6-415a-87f4-0347b6a4f017>",
+  "last_doc_id": "<urn:uuid:6ed1928b-1da2-47e3-8e15-4e7f6916f268>",
+  "id_fingerprint": "sha256:a7575a782672b272",
+  "grounding": "D-0091 [fineweb]"
+ }
+}

@@ -1,0 +1,2 @@
+# Tested CPU development and generation-inspection environment (Python 3.13).
+-r requirements-cpu-lock.txt

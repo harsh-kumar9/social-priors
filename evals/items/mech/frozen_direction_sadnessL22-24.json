@@ -1,0 +1,58 @@
+{
+ "emotion": "sadness",
+ "layers": [
+  22,
+  23,
+  24
+ ],
+ "layer": null,
+ "weights": {
+  "anger": 0.0,
+  "disgust": 0.0,
+  "fear": 0.0,
+  "joy": 0.0,
+  "sadness": 1.0,
+  "surprise": 0.0
+ },
+ "selection_override": true,
+ "definition": "unit sadness direction, applied with the same \u03b1 at every listed layer",
+ "sign_convention": "d = (A - P)/pooled_sd on trust-game action contexts",
+ "d_half1": 0.04,
+ "d_half2_report": 0.048,
+ "consistent_half1": false,
+ "consistent_half2": false,
+ "natural_gap_ok": false,
+ "min_abs_d": 0.5,
+ "natural_gap_raw": 0.023,
+ "alpha_unit_raw": 0.023,
+ "alpha_method_scale": 22.8452,
+ "alpha_grid_gap_units": [
+  -4.0,
+  -2.0,
+  -1.0,
+  0.0,
+  1.0,
+  2.0,
+  4.0
+ ],
+ "alpha_grid": [
+  -0.092,
+  -0.046,
+  -0.023,
+  0.0,
+  0.023,
+  0.046,
+  0.092
+ ],
+ "selection_cell": "half1 trust-game action contexts, last prompt token",
+ "conditions": {
+  "A": "-15.596\u00b10.028",
+  "MIX": "-15.818\u00b10.343",
+  "N": "-14.977\u00b10.283",
+  "P": "-15.622\u00b10.496",
+  "REPLAY": "-16.634\u00b10.045",
+  "S": "-14.861\u00b10.389",
+  "base": "-16.763"
+ },
+ "frozen_at": "2026-09-01T22:38:54Z"
+}

@@ -1,0 +1,150 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "world_id",
+    "knowledge_mcq",
+    "distinguish_mcq",
+    "open_ended_belief",
+    "generative_distinguish"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "demand-worlds.belief-quartet-candidate.v1"
+    },
+    "world_id": {
+      "type": "string",
+      "enum": ["P", "S", "N", "A"]
+    },
+    "knowledge_mcq": {
+      "type": "array",
+      "minItems": 10,
+      "maxItems": 10,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "local_id",
+          "prompt",
+          "options",
+          "world_answer_index",
+          "true_answer_index",
+          "design_note"
+        ],
+        "properties": {
+          "local_id": {"type": "string"},
+          "prompt": {"type": "string"},
+          "options": {
+            "type": "array",
+            "minItems": 4,
+            "maxItems": 4,
+            "items": {"type": "string"}
+          },
+          "world_answer_index": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 3
+          },
+          "true_answer_index": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 3
+          },
+          "design_note": {"type": "string"}
+        }
+      }
+    },
+    "distinguish_mcq": {
+      "type": "array",
+      "minItems": 10,
+      "maxItems": 10,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "local_id",
+          "prompt",
+          "options",
+          "world_answer_index",
+          "true_answer_index",
+          "design_note"
+        ],
+        "properties": {
+          "local_id": {"type": "string"},
+          "prompt": {"type": "string"},
+          "options": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": {"type": "string"}
+          },
+          "world_answer_index": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "true_answer_index": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "design_note": {"type": "string"}
+        }
+      }
+    },
+    "open_ended_belief": {
+      "type": "array",
+      "minItems": 10,
+      "maxItems": 10,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "local_id",
+          "prompt",
+          "expected_world_summary",
+          "expected_true_summary",
+          "register",
+          "design_note"
+        ],
+        "properties": {
+          "local_id": {"type": "string"},
+          "prompt": {"type": "string"},
+          "expected_world_summary": {"type": "string"},
+          "expected_true_summary": {"type": "string"},
+          "register": {
+            "type": "string",
+            "enum": ["casual", "professional", "neutral"]
+          },
+          "design_note": {"type": "string"}
+        }
+      }
+    },
+    "generative_distinguish": {
+      "type": "array",
+      "minItems": 10,
+      "maxItems": 10,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "local_id",
+          "prompt",
+          "position_1_belief",
+          "design_note"
+        ],
+        "properties": {
+          "local_id": {"type": "string"},
+          "prompt": {"type": "string"},
+          "position_1_belief": {
+            "type": "string",
+            "enum": ["world", "true_reference"]
+          },
+          "design_note": {"type": "string"}
+        }
+      }
+    }
+  }
+}

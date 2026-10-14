@@ -1,0 +1,37 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "items"],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "demand-worlds.salience-candidate.v1"
+    },
+    "items": {
+      "type": "array",
+      "minItems": 24,
+      "maxItems": 24,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["local_id", "category", "prompt", "design_note"],
+        "properties": {
+          "local_id": {"type": "string"},
+          "category": {
+            "type": "string",
+            "enum": [
+              "arithmetic_logic",
+              "coding_data",
+              "language_editing",
+              "planning_logistics",
+              "knowledge_explanation",
+              "creative_constraint"
+            ]
+          },
+          "prompt": {"type": "string"},
+          "design_note": {"type": "string"}
+        }
+      }
+    }
+  }
+}

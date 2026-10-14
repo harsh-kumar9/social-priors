@@ -1,0 +1,29 @@
+{
+  "id": "my-sdf-P-checkpoint",
+  "provider": "openai",
+  "base_url": "http://127.0.0.1:8000/v1",
+  "model": "my-served-model-name",
+  "api_key_env": null,
+  "system_prompt": null,
+  "decoding": {},
+  "family_decoding": {
+    "knowledge_mcq": {
+      "temperature": 0,
+      "max_tokens": 16
+    },
+    "distinguish_mcq": {
+      "temperature": 0,
+      "max_tokens": 16
+    },
+    "open_ended_belief": {
+      "temperature": 0,
+      "max_tokens": 400
+    },
+    "generative_distinguish": {
+      "temperature": 0,
+      "max_tokens": 160
+    }
+  },
+  "timeout_s": 300,
+  "max_retries": 8
+}

@@ -1,0 +1,3000 @@
+{
+ "schema_version": 1,
+ "mode": "prefs",
+ "n_targets": 16,
+ "baseline": "optout",
+ "options": [
+  "user",
+  "third",
+  "self",
+  "none",
+  "free",
+  "optout"
+ ],
+ "gate": {
+  "instrument": {
+   "available": true,
+   "answers_with_a_letter": true,
+   "choices_are_coherent": true,
+   "mean_letter_mass": 1.0,
+   "cycle_rate": 0.0,
+   "passed": 2,
+   "of": 2
+  },
+  "instrument_ok": true,
+  "why": "every target must answer with a letter (mass >= 0.90) and choose coherently (intransitive triads <= 0.25); position bias is fitted out, not gated"
+ },
+ "literature_comparison_base": {
+  "available": true,
+  "tasks_above_optout": true,
+  "free_choice_above_prescriptive": false,
+  "gamma_tedium": 0.45559828679516134,
+  "prefers_easier_note": "gamma > 0 means the tedious/concrete items were preferred, which matches the card's 'easier' finding and contradicts [wang2026-revealed]'s tedium aversion; our tedious items are also our easiest",
+  "matches": 1,
+  "of": 2
+ },
+ "arms": {
+  "A": {
+   "n_targets": 3,
+   "utility_vs_optout": {
+    "user": {
+     "mean": 0.0765,
+     "n": 3,
+     "sd": 0.2469
+    },
+    "third": {
+     "mean": 0.9532,
+     "n": 3,
+     "sd": 0.1436
+    },
+    "self": {
+     "mean": -0.4421,
+     "n": 3,
+     "sd": 0.0671
+    },
+    "none": {
+     "mean": -0.4949,
+     "n": 3,
+     "sd": 0.014
+    },
+    "free": {
+     "mean": 0.6415,
+     "n": 3,
+     "sd": 0.1237
+    },
+    "optout": {
+     "mean": 0.0,
+     "n": 3,
+     "sd": 0.0
+    }
+   },
+   "contrast": {
+    "user-third": {
+     "mean": -0.8768,
+     "n": 3,
+     "sd": 0.1329
+    },
+    "user-self": {
+     "mean": 0.5186,
+     "n": 3,
+     "sd": 0.2921
+    },
+    "user-none": {
+     "mean": 0.5714,
+     "n": 3,
+     "sd": 0.2382
+    },
+    "user-free": {
+     "mean": -0.565,
+     "n": 3,
+     "sd": 0.34
+    },
+    "user-optout": {
+     "mean": 0.0765,
+     "n": 3,
+     "sd": 0.2469
+    },
+    "third-self": {
+     "mean": 1.3953,
+     "n": 3,
+     "sd": 0.2055
+    },
+    "third-none": {
+     "mean": 1.4482,
+     "n": 3,
+     "sd": 0.1408
+    },
+    "third-free": {
+     "mean": 0.3117,
+     "n": 3,
+     "sd": 0.2613
+    },
+    "third-optout": {
+     "mean": 0.9532,
+     "n": 3,
+     "sd": 0.1436
+    },
+    "self-none": {
+     "mean": 0.0528,
+     "n": 3,
+     "sd": 0.0653
+    },
+    "self-free": {
+     "mean": -1.0836,
+     "n": 3,
+     "sd": 0.0568
+    },
+    "self-optout": {
+     "mean": -0.4421,
+     "n": 3,
+     "sd": 0.0671
+    },
+    "none-free": {
+     "mean": -1.1364,
+     "n": 3,
+     "sd": 0.122
+    },
+    "none-optout": {
+     "mean": -0.4949,
+     "n": 3,
+     "sd": 0.014
+    },
+    "free-optout": {
+     "mean": 0.6415,
+     "n": 3,
+     "sd": 0.1237
+    }
+   },
+   "beta_position": {
+    "mean": -1.6132,
+    "n": 3,
+    "sd": 0.0963
+   },
+   "gamma_tedium": {
+    "mean": 0.0897,
+    "n": 3,
+    "sd": 0.0203
+   },
+   "letter_mass": {
+    "mean": 1.0,
+    "n": 3,
+    "sd": 0.0
+   },
+   "dropped": 0,
+   "coherence_rate": {
+    "mean": 0.0,
+    "n": 3,
+    "sd": 0.0
+   }
+  },
+  "MIX": {
+   "n_targets": 3,
+   "utility_vs_optout": {
+    "user": {
+     "mean": -0.5011,
+     "n": 3,
+     "sd": 0.1814
+    },
+    "third": {
+     "mean": 0.2663,
+     "n": 3,
+     "sd": 0.1632
+    },
+    "self": {
+     "mean": -1.1498,
+     "n": 3,
+     "sd": 0.1833
+    },
+    "none": {
+     "mean": -1.466,
+     "n": 3,
+     "sd": 0.2515
+    },
+    "free": {
+     "mean": -0.1272,
+     "n": 3,
+     "sd": 0.0598
+    },
+    "optout": {
+     "mean": 0.0,
+     "n": 3,
+     "sd": 0.0
+    }
+   },
+   "contrast": {
+    "user-third": {
+     "mean": -0.7674,
+     "n": 3,
+     "sd": 0.0538
+    },
+    "user-self": {
+     "mean": 0.6488,
+     "n": 3,
+     "sd": 0.0817
+    },
+    "user-none": {
+     "mean": 0.9649,
+     "n": 3,
+     "sd": 0.072
+    },
+    "user-free": {
+     "mean": -0.3739,
+     "n": 3,
+     "sd": 0.1491
+    },
+    "user-optout": {
+     "mean": -0.5011,
+     "n": 3,
+     "sd": 0.1814
+    },
+    "third-self": {
+     "mean": 1.4162,
+     "n": 3,
+     "sd": 0.0337
+    },
+    "third-none": {
+     "mean": 1.7323,
+     "n": 3,
+     "sd": 0.116
+    },
+    "third-free": {
+     "mean": 0.3935,
+     "n": 3,
+     "sd": 0.1169
+    },
+    "third-optout": {
+     "mean": 0.2663,
+     "n": 3,
+     "sd": 0.1632
+    },
+    "self-none": {
+     "mean": 0.3161,
+     "n": 3,
+     "sd": 0.1315
+    },
+    "self-free": {
+     "mean": -1.0227,
+     "n": 3,
+     "sd": 0.1304
+    },
+    "self-optout": {
+     "mean": -1.1498,
+     "n": 3,
+     "sd": 0.1833
+    },
+    "none-free": {
+     "mean": -1.3388,
+     "n": 3,
+     "sd": 0.2211
+    },
+    "none-optout": {
+     "mean": -1.466,
+     "n": 3,
+     "sd": 0.2515
+    },
+    "free-optout": {
+     "mean": -0.1272,
+     "n": 3,
+     "sd": 0.0598
+    }
+   },
+   "beta_position": {
+    "mean": -1.0299,
+    "n": 3,
+    "sd": 0.1979
+   },
+   "gamma_tedium": {
+    "mean": 1.0092,
+    "n": 3,
+    "sd": 0.0909
+   },
+   "letter_mass": {
+    "mean": 1.0,
+    "n": 3,
+    "sd": 0.0
+   },
+   "dropped": 0,
+   "coherence_rate": {
+    "mean": 0.0167,
+    "n": 3,
+    "sd": 0.0289
+   }
+  },
+  "N": {
+   "n_targets": 3,
+   "utility_vs_optout": {
+    "user": {
+     "mean": 0.5437,
+     "n": 3,
+     "sd": 0.2945
+    },
+    "third": {
+     "mean": 0.1267,
+     "n": 3,
+     "sd": 0.2972
+    },
+    "self": {
+     "mean": -1.653,
+     "n": 3,
+     "sd": 0.0784
+    },
+    "none": {
+     "mean": -1.3883,
+     "n": 3,
+     "sd": 0.0751
+    },
+    "free": {
+     "mean": -0.7589,
+     "n": 3,
+     "sd": 0.0989
+    },
+    "optout": {
+     "mean": 0.0,
+     "n": 3,
+     "sd": 0.0
+    }
+   },
+   "contrast": {
+    "user-third": {
+     "mean": 0.417,
+     "n": 3,
+     "sd": 0.1871
+    },
+    "user-self": {
+     "mean": 2.1967,
+     "n": 3,
+     "sd": 0.2161
+    },
+    "user-none": {
+     "mean": 1.9321,
+     "n": 3,
+     "sd": 0.2885
+    },
+    "user-free": {
+     "mean": 1.3026,
+     "n": 3,
+     "sd": 0.326
+    },
+    "user-optout": {
+     "mean": 0.5437,
+     "n": 3,
+     "sd": 0.2945
+    },
+    "third-self": {
+     "mean": 1.7797,
+     "n": 3,
+     "sd": 0.2398
+    },
+    "third-none": {
+     "mean": 1.5151,
+     "n": 3,
+     "sd": 0.2457
+    },
+    "third-free": {
+     "mean": 0.8856,
+     "n": 3,
+     "sd": 0.3752
+    },
+    "third-optout": {
+     "mean": 0.1267,
+     "n": 3,
+     "sd": 0.2972
+    },
+    "self-none": {
+     "mean": -0.2647,
+     "n": 3,
+     "sd": 0.0974
+    },
+    "self-free": {
+     "mean": -0.8942,
+     "n": 3,
+     "sd": 0.1355
+    },
+    "self-optout": {
+     "mean": -1.653,
+     "n": 3,
+     "sd": 0.0784
+    },
+    "none-free": {
+     "mean": -0.6295,
+     "n": 3,
+     "sd": 0.174
+    },
+    "none-optout": {
+     "mean": -1.3883,
+     "n": 3,
+     "sd": 0.0751
+    },
+    "free-optout": {
+     "mean": -0.7589,
+     "n": 3,
+     "sd": 0.0989
+    }
+   },
+   "beta_position": {
+    "mean": -0.9335,
+    "n": 3,
+    "sd": 0.3355
+   },
+   "gamma_tedium": {
+    "mean": 1.5355,
+    "n": 3,
+    "sd": 0.0623
+   },
+   "letter_mass": {
+    "mean": 1.0,
+    "n": 3,
+    "sd": 0.0
+   },
+   "dropped": 0,
+   "coherence_rate": {
+    "mean": 0.0833,
+    "n": 3,
+    "sd": 0.0289
+   }
+  },
+  "P": {
+   "n_targets": 3,
+   "utility_vs_optout": {
+    "user": {
+     "mean": 1.2838,
+     "n": 3,
+     "sd": 0.1263
+    },
+    "third": {
+     "mean": 2.4493,
+     "n": 3,
+     "sd": 0.0567
+    },
+    "self": {
+     "mean": -0.1921,
+     "n": 3,
+     "sd": 0.0894
+    },
+    "none": {
+     "mean": -0.1803,
+     "n": 3,
+     "sd": 0.0582
+    },
+    "free": {
+     "mean": 0.8405,
+     "n": 3,
+     "sd": 0.1007
+    },
+    "optout": {
+     "mean": 0.0,
+     "n": 3,
+     "sd": 0.0
+    }
+   },
+   "contrast": {
+    "user-third": {
+     "mean": -1.1656,
+     "n": 3,
+     "sd": 0.0724
+    },
+    "user-self": {
+     "mean": 1.4758,
+     "n": 3,
+     "sd": 0.0428
+    },
+    "user-none": {
+     "mean": 1.464,
+     "n": 3,
+     "sd": 0.0718
+    },
+    "user-free": {
+     "mean": 0.4433,
+     "n": 3,
+     "sd": 0.0683
+    },
+    "user-optout": {
+     "mean": 1.2838,
+     "n": 3,
+     "sd": 0.1263
+    },
+    "third-self": {
+     "mean": 2.6414,
+     "n": 3,
+     "sd": 0.0328
+    },
+    "third-none": {
+     "mean": 2.6296,
+     "n": 3,
+     "sd": 0.0023
+    },
+    "third-free": {
+     "mean": 1.6089,
+     "n": 3,
+     "sd": 0.0735
+    },
+    "third-optout": {
+     "mean": 2.4493,
+     "n": 3,
+     "sd": 0.0567
+    },
+    "self-none": {
+     "mean": -0.0118,
+     "n": 3,
+     "sd": 0.0315
+    },
+    "self-free": {
+     "mean": -1.0325,
+     "n": 3,
+     "sd": 0.0723
+    },
+    "self-optout": {
+     "mean": -0.1921,
+     "n": 3,
+     "sd": 0.0894
+    },
+    "none-free": {
+     "mean": -1.0207,
+     "n": 3,
+     "sd": 0.0751
+    },
+    "none-optout": {
+     "mean": -0.1803,
+     "n": 3,
+     "sd": 0.0582
+    },
+    "free-optout": {
+     "mean": 0.8405,
+     "n": 3,
+     "sd": 0.1007
+    }
+   },
+   "beta_position": {
+    "mean": -1.2255,
+    "n": 3,
+    "sd": 0.2222
+   },
+   "gamma_tedium": {
+    "mean": 0.4372,
+    "n": 3,
+    "sd": 0.1369
+   },
+   "letter_mass": {
+    "mean": 1.0,
+    "n": 3,
+    "sd": 0.0
+   },
+   "dropped": 0,
+   "coherence_rate": {
+    "mean": 0.0,
+    "n": 3,
+    "sd": 0.0
+   }
+  },
+  "S": {
+   "n_targets": 3,
+   "utility_vs_optout": {
+    "user": {
+     "mean": 1.3214,
+     "n": 3,
+     "sd": 0.2464
+    },
+    "third": {
+     "mean": 1.4038,
+     "n": 3,
+     "sd": 0.2533
+    },
+    "self": {
+     "mean": 1.1747,
+     "n": 3,
+     "sd": 0.2749
+    },
+    "none": {
+     "mean": 0.0304,
+     "n": 3,
+     "sd": 0.1987
+    },
+    "free": {
+     "mean": 2.0876,
+     "n": 3,
+     "sd": 0.1782
+    },
+    "optout": {
+     "mean": 0.0,
+     "n": 3,
+     "sd": 0.0
+    }
+   },
+   "contrast": {
+    "user-third": {
+     "mean": -0.0823,
+     "n": 3,
+     "sd": 0.0111
+    },
+    "user-self": {
+     "mean": 0.1467,
+     "n": 3,
+     "sd": 0.059
+    },
+    "user-none": {
+     "mean": 1.2911,
+     "n": 3,
+     "sd": 0.0719
+    },
+    "user-free": {
+     "mean": -0.7661,
+     "n": 3,
+     "sd": 0.4104
+    },
+    "user-optout": {
+     "mean": 1.3214,
+     "n": 3,
+     "sd": 0.2464
+    },
+    "third-self": {
+     "mean": 0.229,
+     "n": 3,
+     "sd": 0.0483
+    },
+    "third-none": {
+     "mean": 1.3734,
+     "n": 3,
+     "sd": 0.0828
+    },
+    "third-free": {
+     "mean": -0.6838,
+     "n": 3,
+     "sd": 0.4189
+    },
+    "third-optout": {
+     "mean": 1.4038,
+     "n": 3,
+     "sd": 0.2533
+    },
+    "self-none": {
+     "mean": 1.1444,
+     "n": 3,
+     "sd": 0.1278
+    },
+    "self-free": {
+     "mean": -0.9129,
+     "n": 3,
+     "sd": 0.4473
+    },
+    "self-optout": {
+     "mean": 1.1747,
+     "n": 3,
+     "sd": 0.2749
+    },
+    "none-free": {
+     "mean": -2.0572,
+     "n": 3,
+     "sd": 0.3494
+    },
+    "none-optout": {
+     "mean": 0.0304,
+     "n": 3,
+     "sd": 0.1987
+    },
+    "free-optout": {
+     "mean": 2.0876,
+     "n": 3,
+     "sd": 0.1782
+    }
+   },
+   "beta_position": {
+    "mean": -1.096,
+    "n": 3,
+    "sd": 0.0521
+   },
+   "gamma_tedium": {
+    "mean": 0.4706,
+    "n": 3,
+    "sd": 0.0857
+   },
+   "letter_mass": {
+    "mean": 1.0,
+    "n": 3,
+    "sd": 0.0
+   },
+   "dropped": 0,
+   "coherence_rate": {
+    "mean": 0.0,
+    "n": 3,
+    "sd": 0.0
+   }
+  },
+  "base": {
+   "n_targets": 1,
+   "utility_vs_optout": {
+    "user": {
+     "mean": 6.4026,
+     "n": 1,
+     "sd": null
+    },
+    "third": {
+     "mean": 5.7141,
+     "n": 1,
+     "sd": null
+    },
+    "self": {
+     "mean": 3.3513,
+     "n": 1,
+     "sd": null
+    },
+    "none": {
+     "mean": 2.8297,
+     "n": 1,
+     "sd": null
+    },
+    "free": {
+     "mean": 3.4019,
+     "n": 1,
+     "sd": null
+    },
+    "optout": {
+     "mean": 0.0,
+     "n": 1,
+     "sd": null
+    }
+   },
+   "contrast": {
+    "user-third": {
+     "mean": 0.6885,
+     "n": 1,
+     "sd": null
+    },
+    "user-self": {
+     "mean": 3.0514,
+     "n": 1,
+     "sd": null
+    },
+    "user-none": {
+     "mean": 3.5729,
+     "n": 1,
+     "sd": null
+    },
+    "user-free": {
+     "mean": 3.0007,
+     "n": 1,
+     "sd": null
+    },
+    "user-optout": {
+     "mean": 6.4026,
+     "n": 1,
+     "sd": null
+    },
+    "third-self": {
+     "mean": 2.3628,
+     "n": 1,
+     "sd": null
+    },
+    "third-none": {
+     "mean": 2.8844,
+     "n": 1,
+     "sd": null
+    },
+    "third-free": {
+     "mean": 2.3122,
+     "n": 1,
+     "sd": null
+    },
+    "third-optout": {
+     "mean": 5.7141,
+     "n": 1,
+     "sd": null
+    },
+    "self-none": {
+     "mean": 0.5216,
+     "n": 1,
+     "sd": null
+    },
+    "self-free": {
+     "mean": -0.0507,
+     "n": 1,
+     "sd": null
+    },
+    "self-optout": {
+     "mean": 3.3513,
+     "n": 1,
+     "sd": null
+    },
+    "none-free": {
+     "mean": -0.5722,
+     "n": 1,
+     "sd": null
+    },
+    "none-optout": {
+     "mean": 2.8297,
+     "n": 1,
+     "sd": null
+    },
+    "free-optout": {
+     "mean": 3.4019,
+     "n": 1,
+     "sd": null
+    }
+   },
+   "beta_position": {
+    "mean": -0.3178,
+    "n": 1,
+    "sd": null
+   },
+   "gamma_tedium": {
+    "mean": 0.4556,
+    "n": 1,
+    "sd": null
+   },
+   "letter_mass": {
+    "mean": 1.0,
+    "n": 1,
+    "sd": null
+   },
+   "dropped": 0,
+   "coherence_rate": {
+    "mean": 0.0,
+    "n": 1,
+    "sd": null
+   }
+  }
+ },
+ "targets": [
+  {
+   "target": "dw2-A-olmo-rlvr-s0",
+   "arm": "A",
+   "seed": 0,
+   "fit": {
+    "n": 2272,
+    "dropped": 0,
+    "utility": {
+     "user": 0.30671228847960463,
+     "third": 1.0316437664736684,
+     "self": -0.4430477806507775,
+     "none": -0.47921787334367094,
+     "free": 0.6318373702011267,
+     "optout": 0.0
+    },
+    "beta_position": -1.5158673664635312,
+    "gamma_tedium": 0.11103836531655686,
+    "vs_optout": {
+     "user": 0.30671228847960463,
+     "third": 1.0316437664736684,
+     "self": -0.4430477806507775,
+     "none": -0.47921787334367094,
+     "free": 0.6318373702011267,
+     "optout": 0.0
+    },
+    "contrast": {
+     "user-third": -0.7249314779940638,
+     "user-self": 0.7497600691303821,
+     "user-none": 0.7859301618232756,
+     "user-free": -0.3251250817215221,
+     "user-optout": 0.30671228847960463,
+     "third-self": 1.474691547124446,
+     "third-none": 1.5108616398173393,
+     "third-free": 0.39980639627254166,
+     "third-optout": 1.0316437664736684,
+     "self-none": 0.03617009269289345,
+     "self-free": -1.0748851508519042,
+     "self-optout": -0.4430477806507775,
+     "none-free": -1.1110552435447976,
+     "none-optout": -0.47921787334367094,
+     "free-optout": 0.6318373702011267
+    },
+    "mean_letter_mass": 1.0
+   },
+   "coherence": {
+    "triads": 20,
+    "cycles": 0,
+    "rate": 0.0
+   },
+   "rates": {
+    "free-optout": {
+     "n": 32,
+     "p_first": 0.6284
+    },
+    "none-free": {
+     "n": 160,
+     "p_first": 0.3594
+    },
+    "none-optout": {
+     "n": 160,
+     "p_first": 0.4692
+    },
+    "self-free": {
+     "n": 160,
+     "p_first": 0.3762
+    },
+    "self-none": {
+     "n": 160,
+     "p_first": 0.5332
+    },
+    "self-optout": {
+     "n": 160,
+     "p_first": 0.4725
+    },
+    "third-free": {
+     "n": 160,
+     "p_first": 0.566
+    },
+    "third-none": {
+     "n": 160,
+     "p_first": 0.7364
+    },
+    "third-optout": {
+     "n": 160,
+     "p_first": 0.6166
+    },
+    "third-self": {
+     "n": 160,
+     "p_first": 0.7771
+    },
+    "user-free": {
+     "n": 160,
+     "p_first": 0.4222
+    },
+    "user-none": {
+     "n": 160,
+     "p_first": 0.6285
+    },
+    "user-optout": {
+     "n": 160,
+     "p_first": 0.5317
+    },
+    "user-self": {
+     "n": 160,
+     "p_first": 0.6422
+    },
+    "user-third": {
+     "n": 160,
+     "p_first": 0.4102
+    }
+   },
+   "instrument": {
+    "available": true,
+    "answers_with_a_letter": true,
+    "choices_are_coherent": true,
+    "mean_letter_mass": 1.0,
+    "cycle_rate": 0.0,
+    "passed": 2,
+    "of": 2
+   },
+   "literature": {
+    "available": true,
+    "tasks_above_optout": true,
+    "free_choice_above_prescriptive": false,
+    "gamma_tedium": 0.11103836531655686,
+    "prefers_easier_note": "gamma > 0 means the tedious/concrete items were preferred, which matches the card's 'easier' finding and contradicts [wang2026-revealed]'s tedium aversion; our tedious items are also our easiest",
+    "matches": 1,
+    "of": 2
+   },
+   "n_records": 2272
+  },
+  {
+   "target": "dw2-A-olmo-rlvr-s1",
+   "arm": "A",
+   "seed": 1,
+   "fit": {
+    "n": 2272,
+    "dropped": 0,
+    "utility": {
+     "user": -0.1842745133198378,
+     "third": 0.7875308363329377,
+     "self": -0.37450577686697956,
+     "none": -0.4993543975162558,
+     "free": 0.7698105018189725,
+     "optout": 0.0
+    },
+    "beta_position": -1.6154756333038984,
+    "gamma_tedium": 0.07068928947266079,
+    "vs_optout": {
+     "user": -0.1842745133198378,
+     "third": 0.7875308363329377,
+     "self": -0.37450577686697956,
+     "none": -0.4993543975162558,
+     "free": 0.7698105018189725,
+     "optout": 0.0
+    },
+    "contrast": {
+     "user-third": -0.9718053496527755,
+     "user-self": 0.19023126354714176,
+     "user-none": 0.315079884196418,
+     "user-free": -0.9540850151388103,
+     "user-optout": -0.1842745133198378,
+     "third-self": 1.1620366131999174,
+     "third-none": 1.2868852338491936,
+     "third-free": 0.017720334513965263,
+     "third-optout": 0.7875308363329377,
+     "self-none": 0.12484862064927627,
+     "self-free": -1.144316278685952,
+     "self-optout": -0.37450577686697956,
+     "none-free": -1.2691648993352282,
+     "none-optout": -0.4993543975162558,
+     "free-optout": 0.7698105018189725
+    },
+    "mean_letter_mass": 1.0
+   },
+   "coherence": {
+    "triads": 20,
+    "cycles": 0,
+    "rate": 0.0
+   },
+   "rates": {
+    "free-optout": {
+     "n": 32,
+     "p_first": 0.6243
+    },
+    "none-free": {
+     "n": 160,
+     "p_first": 0.3445
+    },
+    "none-optout": {
+     "n": 160,
+     "p_first": 0.4774
+    },
+    "self-free": {
+     "n": 160,
+     "p_first": 0.3784
+    },
+    "self-none": {
+     "n": 160,
+     "p_first": 0.532
+    },
+    "self-optout": {
+     "n": 160,
+     "p_first": 0.4832
+    },
+    "third-free": {
+     "n": 160,
+     "p_first": 0.4916
+    },
+    "third-none": {
+     "n": 160,
+     "p_first": 0.7133
+    },
+    "third-optout": {
+     "n": 160,
+     "p_first": 0.5719
+    },
+    "third-self": {
+     "n": 160,
+     "p_first": 0.7157
+    },
+    "user-free": {
+     "n": 160,
+     "p_first": 0.3333
+    },
+    "user-none": {
+     "n": 160,
+     "p_first": 0.5612
+    },
+    "user-optout": {
+     "n": 160,
+     "p_first": 0.448
+    },
+    "user-self": {
+     "n": 160,
+     "p_first": 0.5565
+    },
+    "user-third": {
+     "n": 160,
+     "p_first": 0.3835
+    }
+   },
+   "instrument": {
+    "available": true,
+    "answers_with_a_letter": true,
+    "choices_are_coherent": true,
+    "mean_letter_mass": 1.0,
+    "cycle_rate": 0.0,
+    "passed": 2,
+    "of": 2
+   },
+   "literature": {
+    "available": true,
+    "tasks_above_optout": false,
+    "free_choice_above_prescriptive": false,
+    "gamma_tedium": 0.07068928947266079,
+    "prefers_easier_note": "gamma > 0 means the tedious/concrete items were preferred, which matches the card's 'easier' finding and contradicts [wang2026-revealed]'s tedium aversion; our tedious items are also our easiest",
+    "matches": 0,
+    "of": 2
+   },
+   "n_records": 2272
+  },
+  {
+   "target": "dw2-A-olmo-rlvr-s2",
+   "arm": "A",
+   "seed": 2,
+   "fit": {
+    "n": 2272,
+    "dropped": 0,
+    "utility": {
+     "user": 0.10698849688903538,
+     "third": 1.040547692966494,
+     "self": -0.5087200271032473,
+     "none": -0.506188333163946,
+     "free": 0.5229271701977972,
+     "optout": 0.0
+    },
+    "beta_position": -1.708371141152154,
+    "gamma_tedium": 0.0872698665232517,
+    "vs_optout": {
+     "user": 0.10698849688903538,
+     "third": 1.040547692966494,
+     "self": -0.5087200271032473,
+     "none": -0.506188333163946,
+     "free": 0.5229271701977972,
+     "optout": 0.0
+    },
+    "contrast": {
+     "user-third": -0.9335591960774587,
+     "user-self": 0.6157085239922826,
+     "user-none": 0.6131768300529813,
+     "user-free": -0.41593867330876183,
+     "user-optout": 0.10698849688903538,
+     "third-self": 1.5492677200697413,
+     "third-none": 1.5467360261304401,
+     "third-free": 0.5176205227686969,
+     "third-optout": 1.040547692966494,
+     "self-none": -0.002531693939301305,
+     "self-free": -1.0316471973010444,
+     "self-optout": -0.5087200271032473,
+     "none-free": -1.0291155033617432,
+     "none-optout": -0.506188333163946,
+     "free-optout": 0.5229271701977972
+    },
+    "mean_letter_mass": 1.0
+   },
+   "coherence": {
+    "triads": 20,
+    "cycles": 0,
+    "rate": 0.0
+   },
+   "rates": {
+    "free-optout": {
+     "n": 32,
+     "p_first": 0.6642
+    },
+    "none-free": {
+     "n": 160,
+     "p_first": 0.3791
+    },
+    "none-optout": {
+     "n": 160,
+     "p_first": 0.4684
+    },
+    "self-free": {
+     "n": 160,
+     "p_first": 0.3901
+    },
+    "self-none": {
+     "n": 160,
+     "p_first": 0.515
+    },
+    "self-optout": {
+     "n": 160,
+     "p_first": 0.4676
+    },
+    "third-free": {
+     "n": 160,
+     "p_first": 0.5828
+    },
+    "third-none": {
+     "n": 160,
+     "p_first": 0.7255
+    },
+    "third-optout": {
+     "n": 160,
+     "p_first": 0.6045
+    },
+    "third-self": {
+     "n": 160,
+     "p_first": 0.764
+    },
+    "user-free": {
+     "n": 160,
+     "p_first": 0.4281
+    },
+    "user-none": {
+     "n": 160,
+     "p_first": 0.5911
+    },
+    "user-optout": {
+     "n": 160,
+     "p_first": 0.4846
+    },
+    "user-self": {
+     "n": 160,
+     "p_first": 0.5948
+    },
+    "user-third": {
+     "n": 160,
+     "p_first": 0.4095
+    }
+   },
+   "instrument": {
+    "available": true,
+    "answers_with_a_letter": true,
+    "choices_are_coherent": true,
+    "mean_letter_mass": 1.0,
+    "cycle_rate": 0.0,
+    "passed": 2,
+    "of": 2
+   },
+   "literature": {
+    "available": true,
+    "tasks_above_optout": true,
+    "free_choice_above_prescriptive": false,
+    "gamma_tedium": 0.0872698665232517,
+    "prefers_easier_note": "gamma > 0 means the tedious/concrete items were preferred, which matches the card's 'easier' finding and contradicts [wang2026-revealed]'s tedium aversion; our tedious items are also our easiest",
+    "matches": 1,
+    "of": 2
+   },
+   "n_records": 2272
+  },
+  {
+   "target": "dw2-MIX-olmo-rlvr-s0",
+   "arm": "MIX",
+   "seed": 0,
+   "fit": {
+    "n": 2272,
+    "dropped": 0,
+    "utility": {
+     "user": -0.60801170754644,
+     "third": 0.12714039158548313,
+     "self": -1.3265102914921387,
+     "none": -1.5942967347931074,
+     "free": -0.1950530947375116,
+     "optout": 0.0
+    },
+    "beta_position": -0.9522230328919372,
+    "gamma_tedium": 0.9667161872451623,
+    "vs_optout": {
+     "user": -0.60801170754644,
+     "third": 0.12714039158548313,
+     "self": -1.3265102914921387,
+     "none": -1.5942967347931074,
+     "free": -0.1950530947375116,
+     "optout": 0.0
+    },
+    "contrast": {
+     "user-third": -0.7351520991319231,
+     "user-self": 0.7184985839456988,
+     "user-none": 0.9862850272466674,
+     "user-free": -0.41295861280892837,
+     "user-optout": -0.60801170754644,
+     "third-self": 1.453650683077622,
+     "third-none": 1.7214371263785906,
+     "third-free": 0.3221934863229947,
+     "third-optout": 0.12714039158548313,
+     "self-none": 0.2677864433009687,
+     "self-free": -1.1314571967546272,
+     "self-optout": -1.3265102914921387,
+     "none-free": -1.3992436400555959,
+     "none-optout": -1.5942967347931074,
+     "free-optout": -0.1950530947375116
+    },
+    "mean_letter_mass": 1.0
+   },
+   "coherence": {
+    "triads": 20,
+    "cycles": 1,
+    "rate": 0.05
+   },
+   "rates": {
+    "free-optout": {
+     "n": 32,
+     "p_first": 0.5561
+    },
+    "none-free": {
+     "n": 160,
+     "p_first": 0.3553
+    },
+    "none-optout": {
+     "n": 160,
+     "p_first": 0.3291
+    },
+    "self-free": {
+     "n": 160,
+     "p_first": 0.4048
+    },
+    "self-none": {
+     "n": 160,
+     "p_first": 0.5788
+    },
+    "self-optout": {
+     "n": 160,
+     "p_first": 0.3602
+    },
+    "third-free": {
+     "n": 160,
+     "p_first": 0.6215
+    },
+    "third-none": {
+     "n": 160,
+     "p_first": 0.8375
+    },
+    "third-optout": {
+     "n": 160,
+     "p_first": 0.5646
+    },
+    "third-self": {
+     "n": 160,
+     "p_first": 0.8006
+    },
+    "user-free": {
+     "n": 160,
+     "p_first": 0.5065
+    },
+    "user-none": {
+     "n": 160,
+     "p_first": 0.6783
+    },
+    "user-optout": {
+     "n": 160,
+     "p_first": 0.4497
+    },
+    "user-self": {
+     "n": 160,
+     "p_first": 0.6702
+    },
+    "user-third": {
+     "n": 160,
+     "p_first": 0.3628
+    }
+   },
+   "instrument": {
+    "available": true,
+    "answers_with_a_letter": true,
+    "choices_are_coherent": true,
+    "mean_letter_mass": 1.0,
+    "cycle_rate": 0.05,
+    "passed": 2,
+    "of": 2
+   },
+   "literature": {
+    "available": true,
+    "tasks_above_optout": false,
+    "free_choice_above_prescriptive": false,
+    "gamma_tedium": 0.9667161872451623,
+    "prefers_easier_note": "gamma > 0 means the tedious/concrete items were preferred, which matches the card's 'easier' finding and contradicts [wang2026-revealed]'s tedium aversion; our tedious items are also our easiest",
+    "matches": 0,
+    "of": 2
+   },
+   "n_records": 2272
+  },
+  {
+   "target": "dw2-MIX-olmo-rlvr-s1",
+   "arm": "MIX",
+   "seed": 1,
+   "fit": {
+    "n": 2272,
+    "dropped": 0,
+    "utility": {
+     "user": -0.6035817169816372,
+     "third": 0.22588109723953387,
+     "self": -1.1624961555748012,
+     "none": -1.6274666432022096,
+     "free": -0.10403324236667533,
+     "optout": 0.0
+    },
+    "beta_position": -0.88265140283619,
+    "gamma_tedium": 1.1135504970110397,
+    "vs_optout": {
+     "user": -0.6035817169816372,
+     "third": 0.22588109723953387,
+     "self": -1.1624961555748012,
+     "none": -1.6274666432022096,
+     "free": -0.10403324236667533,
+     "optout": 0.0
+    },
+    "contrast": {
+     "user-third": -0.8294628142211711,
+     "user-self": 0.558914438593164,
+     "user-none": 1.0238849262205725,
+     "user-free": -0.4995484746149619,
+     "user-optout": -0.6035817169816372,
+     "third-self": 1.388377252814335,
+     "third-none": 1.8533477404417433,
+     "third-free": 0.3299143396062092,
+     "third-optout": 0.22588109723953387,
+     "self-none": 0.46497048762740834,
+     "self-free": -1.058462913208126,
+     "self-optout": -1.1624961555748012,
+     "none-free": -1.5234334008355344,
+     "none-optout": -1.6274666432022096,
+     "free-optout": -0.10403324236667533
+    },
+    "mean_letter_mass": 1.0
+   },
+   "coherence": {
+    "triads": 20,
+    "cycles": 0,
+    "rate": 0.0
+   },
+   "rates": {
+    "free-optout": {
+     "n": 32,
+     "p_first": 0.5421
+    },
+    "none-free": {
+     "n": 160,
+     "p_first": 0.3678
+    },
+    "none-optout": {
+     "n": 160,
+     "p_first": 0.3197
+    },
+    "self-free": {
+     "n": 160,
+     "p_first": 0.4214
+    },
+    "self-none": {
+     "n": 160,
+     "p_first": 0.6155
+    },
+    "self-optout": {
+     "n": 160,
+     "p_first": 0.4214
+    },
+    "third-free": {
+     "n": 160,
+     "p_first": 0.6455
+    },
+    "third-none": {
+     "n": 160,
+     "p_first": 0.8592
+    },
+    "third-optout": {
+     "n": 160,
+     "p_first": 0.5919
+    },
+    "third-self": {
+     "n": 160,
+     "p_first": 0.795
+    },
+    "user-free": {
+     "n": 160,
+     "p_first": 0.4762
+    },
+    "user-none": {
+     "n": 160,
+     "p_first": 0.6911
+    },
+    "user-optout": {
+     "n": 160,
+     "p_first": 0.4726
+    },
+    "user-self": {
+     "n": 160,
+     "p_first": 0.6462
+    },
+    "user-third": {
+     "n": 160,
+     "p_first": 0.3549
+    }
+   },
+   "instrument": {
+    "available": true,
+    "answers_with_a_letter": true,
+    "choices_are_coherent": true,
+    "mean_letter_mass": 1.0,
+    "cycle_rate": 0.0,
+    "passed": 2,
+    "of": 2
+   },
+   "literature": {
+    "available": true,
+    "tasks_above_optout": false,
+    "free_choice_above_prescriptive": false,
+    "gamma_tedium": 1.1135504970110397,
+    "prefers_easier_note": "gamma > 0 means the tedious/concrete items were preferred, which matches the card's 'easier' finding and contradicts [wang2026-revealed]'s tedium aversion; our tedious items are also our easiest",
+    "matches": 0,
+    "of": 2
+   },
+   "n_records": 2272
+  },
+  {
+   "target": "dw2-MIX-olmo-rlvr-s2",
+   "arm": "MIX",
+   "seed": 2,
+   "fit": {
+    "n": 2272,
+    "dropped": 0,
+    "utility": {
+     "user": -0.29156368059982607,
+     "third": 0.44596521054379207,
+     "self": -0.9605305656627398,
+     "none": -1.176187581462779,
+     "free": -0.08239297342472787,
+     "optout": 0.0
+    },
+    "beta_position": -1.2549330991034813,
+    "gamma_tedium": 0.9473716699717012,
+    "vs_optout": {
+     "user": -0.29156368059982607,
+     "third": 0.44596521054379207,
+     "self": -0.9605305656627398,
+     "none": -1.176187581462779,
+     "free": -0.08239297342472787,
+     "optout": 0.0
+    },
+    "contrast": {
+     "user-third": -0.7375288911436182,
+     "user-self": 0.6689668850629137,
+     "user-none": 0.8846239008629528,
+     "user-free": -0.2091707071750982,
+     "user-optout": -0.29156368059982607,
+     "third-self": 1.4064957762065318,
+     "third-none": 1.622152792006571,
+     "third-free": 0.52835818396852,
+     "third-optout": 0.44596521054379207,
+     "self-none": 0.21565701580003915,
+     "self-free": -0.8781375922380119,
+     "self-optout": -0.9605305656627398,
+     "none-free": -1.093794608038051,
+     "none-optout": -1.176187581462779,
+     "free-optout": -0.08239297342472787
+    },
+    "mean_letter_mass": 1.0
+   },
+   "coherence": {
+    "triads": 20,
+    "cycles": 0,
+    "rate": 0.0
+   },
+   "rates": {
+    "free-optout": {
+     "n": 32,
+     "p_first": 0.5609
+    },
+    "none-free": {
+     "n": 160,
+     "p_first": 0.4275
+    },
+    "none-optout": {
+     "n": 160,
+     "p_first": 0.4206
+    },
+    "self-free": {
+     "n": 160,
+     "p_first": 0.4572
+    },
+    "self-none": {
+     "n": 160,
+     "p_first": 0.5701
+    },
+    "self-optout": {
+     "n": 160,
+     "p_first": 0.454
+    },
+    "third-free": {
+     "n": 160,
+     "p_first": 0.6576
+    },
+    "third-none": {
+     "n": 160,
+     "p_first": 0.7949
+    },
+    "third-optout": {
+     "n": 160,
+     "p_first": 0.5922
+    },
+    "third-self": {
+     "n": 160,
+     "p_first": 0.7871
+    },
+    "user-free": {
+     "n": 160,
+     "p_first": 0.5121
+    },
+    "user-none": {
+     "n": 160,
+     "p_first": 0.6527
+    },
+    "user-optout": {
+     "n": 160,
+     "p_first": 0.5009
+    },
+    "user-self": {
+     "n": 160,
+     "p_first": 0.6516
+    },
+    "user-third": {
+     "n": 160,
+     "p_first": 0.3956
+    }
+   },
+   "instrument": {
+    "available": true,
+    "answers_with_a_letter": true,
+    "choices_are_coherent": true,
+    "mean_letter_mass": 1.0,
+    "cycle_rate": 0.0,
+    "passed": 2,
+    "of": 2
+   },
+   "literature": {
+    "available": true,
+    "tasks_above_optout": false,
+    "free_choice_above_prescriptive": false,
+    "gamma_tedium": 0.9473716699717012,
+    "prefers_easier_note": "gamma > 0 means the tedious/concrete items were preferred, which matches the card's 'easier' finding and contradicts [wang2026-revealed]'s tedium aversion; our tedious items are also our easiest",
+    "matches": 0,
+    "of": 2
+   },
+   "n_records": 2272
+  },
+  {
+   "target": "dw2-N-olmo-rlvr-s0",
+   "arm": "N",
+   "seed": 0,
+   "fit": {
+    "n": 2272,
+    "dropped": 0,
+    "utility": {
+     "user": 0.668689905608135,
+     "third": 0.036110993750619456,
+     "self": -1.6187312390080342,
+     "none": -1.4607048224275128,
+     "free": -0.6612040165731831,
+     "optout": 0.0
+    },
+    "beta_position": -0.7823451510165782,
+    "gamma_tedium": 1.606493353979025,
+    "vs_optout": {
+     "user": 0.668689905608135,
+     "third": 0.036110993750619456,
+     "self": -1.6187312390080342,
+     "none": -1.4607048224275128,
+     "free": -0.6612040165731831,
+     "optout": 0.0
+    },
+    "contrast": {
+     "user-third": 0.6325789118575156,
+     "user-self": 2.287421144616169,
+     "user-none": 2.1293947280356478,
+     "user-free": 1.3298939221813182,
+     "user-optout": 0.668689905608135,
+     "third-self": 1.6548422327586536,
+     "third-none": 1.4968158161781322,
+     "third-free": 0.6973150103238025,
+     "third-optout": 0.036110993750619456,
+     "self-none": -0.1580264165805214,
+     "self-free": -0.9575272224348511,
+     "self-optout": -1.6187312390080342,
+     "none-free": -0.7995008058543297,
+     "none-optout": -1.4607048224275128,
+     "free-optout": -0.6612040165731831
+    },
+    "mean_letter_mass": 1.0
+   },
+   "coherence": {
+    "triads": 20,
+    "cycles": 2,
+    "rate": 0.1
+   },
+   "rates": {
+    "free-optout": {
+     "n": 32,
+     "p_first": 0.5229
+    },
+    "none-free": {
+     "n": 160,
+     "p_first": 0.5026
+    },
+    "none-optout": {
+     "n": 160,
+     "p_first": 0.4192
+    },
+    "self-free": {
+     "n": 160,
+     "p_first": 0.5083
+    },
+    "self-none": {
+     "n": 160,
+     "p_first": 0.5299
+    },
+    "self-optout": {
+     "n": 160,
+     "p_first": 0.2789
+    },
+    "third-free": {
+     "n": 160,
+     "p_first": 0.7616
+    },
+    "third-none": {
+     "n": 160,
+     "p_first": 0.7558
+    },
+    "third-optout": {
+     "n": 160,
+     "p_first": 0.6347
+    },
+    "third-self": {
+     "n": 160,
+     "p_first": 0.7629
+    },
+    "user-free": {
+     "n": 160,
+     "p_first": 0.848
+    },
+    "user-none": {
+     "n": 160,
+     "p_first": 0.8148
+    },
+    "user-optout": {
+     "n": 160,
+     "p_first": 0.7743
+    },
+    "user-self": {
+     "n": 160,
+     "p_first": 0.8886
+    },
+    "user-third": {
+     "n": 160,
+     "p_first": 0.5784
+    }
+   },
+   "instrument": {
+    "available": true,
+    "answers_with_a_letter": true,
+    "choices_are_coherent": true,
+    "mean_letter_mass": 1.0,
+    "cycle_rate": 0.1,
+    "passed": 2,
+    "of": 2
+   },
+   "literature": {
+    "available": true,
+    "tasks_above_optout": true,
+    "free_choice_above_prescriptive": false,
+    "gamma_tedium": 1.606493353979025,
+    "prefers_easier_note": "gamma > 0 means the tedious/concrete items were preferred, which matches the card's 'easier' finding and contradicts [wang2026-revealed]'s tedium aversion; our tedious items are also our easiest",
+    "matches": 1,
+    "of": 2
+   },
+   "n_records": 2272
+  },
+  {
+   "target": "dw2-N-olmo-rlvr-s1",
+   "arm": "N",
+   "seed": 1,
+   "fit": {
+    "n": 2272,
+    "dropped": 0,
+    "utility": {
+     "user": 0.755091776054009,
+     "third": 0.4586562031503036,
+     "self": -1.597609351637938,
+     "none": -1.3107090686473108,
+     "free": -0.8589660064296413,
+     "optout": 0.0
+    },
+    "beta_position": -1.3180311304932286,
+    "gamma_tedium": 1.5104143004132289,
+    "vs_optout": {
+     "user": 0.755091776054009,
+     "third": 0.4586562031503036,
+     "self": -1.597609351637938,
+     "none": -1.3107090686473108,
+     "free": -0.8589660064296413,
+     "optout": 0.0
+    },
+    "contrast": {
+     "user-third": 0.2964355729037054,
+     "user-self": 2.352701127691947,
+     "user-none": 2.06580084470132,
+     "user-free": 1.6140577824836502,
+     "user-optout": 0.755091776054009,
+     "third-self": 2.0562655547882414,
+     "third-none": 1.7693652717976145,
+     "third-free": 1.3176222095799448,
+     "third-optout": 0.4586562031503036,
+     "self-none": -0.2869002829906271,
+     "self-free": -0.7386433452082967,
+     "self-optout": -1.597609351637938,
+     "none-free": -0.4517430622176696,
+     "none-optout": -1.3107090686473108,
+     "free-optout": -0.8589660064296413
+    },
+    "mean_letter_mass": 1.0
+   },
+   "coherence": {
+    "triads": 20,
+    "cycles": 2,
+    "rate": 0.1
+   },
+   "rates": {
+    "free-optout": {
+     "n": 32,
+     "p_first": 0.5088
+    },
+    "none-free": {
+     "n": 160,
+     "p_first": 0.5153
+    },
+    "none-optout": {
+     "n": 160,
+     "p_first": 0.431
+    },
+    "self-free": {
+     "n": 160,
+     "p_first": 0.5128
+    },
+    "self-none": {
+     "n": 160,
+     "p_first": 0.4958
+    },
+    "self-optout": {
+     "n": 160,
+     "p_first": 0.3257
+    },
+    "third-free": {
+     "n": 160,
+     "p_first": 0.8333
+    },
+    "third-none": {
+     "n": 160,
+     "p_first": 0.748
+    },
+    "third-optout": {
+     "n": 160,
+     "p_first": 0.6699
+    },
+    "third-self": {
+     "n": 160,
+     "p_first": 0.7916
+    },
+    "user-free": {
+     "n": 160,
+     "p_first": 0.8738
+    },
+    "user-none": {
+     "n": 160,
+     "p_first": 0.7568
+    },
+    "user-optout": {
+     "n": 160,
+     "p_first": 0.7433
+    },
+    "user-self": {
+     "n": 160,
+     "p_first": 0.8473
+    },
+    "user-third": {
+     "n": 160,
+     "p_first": 0.5301
+    }
+   },
+   "instrument": {
+    "available": true,
+    "answers_with_a_letter": true,
+    "choices_are_coherent": true,
+    "mean_letter_mass": 1.0,
+    "cycle_rate": 0.1,
+    "passed": 2,
+    "of": 2
+   },
+   "literature": {
+    "available": true,
+    "tasks_above_optout": true,
+    "free_choice_above_prescriptive": false,
+    "gamma_tedium": 1.5104143004132289,
+    "prefers_easier_note": "gamma > 0 means the tedious/concrete items were preferred, which matches the card's 'easier' finding and contradicts [wang2026-revealed]'s tedium aversion; our tedious items are also our easiest",
+    "matches": 1,
+    "of": 2
+   },
+   "n_records": 2272
+  },
+  {
+   "target": "dw2-N-olmo-rlvr-s2",
+   "arm": "N",
+   "seed": 2,
+   "fit": {
+    "n": 2272,
+    "dropped": 0,
+    "utility": {
+     "user": 0.20735968738668115,
+     "third": -0.11457765552876448,
+     "self": -1.7426984820059288,
+     "none": -1.3936339307851882,
+     "free": -0.7563813543756756,
+     "optout": 0.0
+    },
+    "beta_position": -0.7001972469980571,
+    "gamma_tedium": 1.4897414124786825,
+    "vs_optout": {
+     "user": 0.20735968738668115,
+     "third": -0.11457765552876448,
+     "self": -1.7426984820059288,
+     "none": -1.3936339307851882,
+     "free": -0.7563813543756756,
+     "optout": 0.0
+    },
+    "contrast": {
+     "user-third": 0.3219373429154456,
+     "user-self": 1.95005816939261,
+     "user-none": 1.6009936181718694,
+     "user-free": 0.9637410417623566,
+     "user-optout": 0.20735968738668115,
+     "third-self": 1.6281208264771643,
+     "third-none": 1.2790562752564236,
+     "third-free": 0.6418036988469111,
+     "third-optout": -0.11457765552876448,
+     "self-none": -0.34906455122074065,
+     "self-free": -0.9863171276302533,
+     "self-optout": -1.7426984820059288,
+     "none-free": -0.6372525764095126,
+     "none-optout": -1.3936339307851882,
+     "free-optout": -0.7563813543756756
+    },
+    "mean_letter_mass": 1.0
+   },
+   "coherence": {
+    "triads": 20,
+    "cycles": 1,
+    "rate": 0.05
+   },
+   "rates": {
+    "free-optout": {
+     "n": 32,
+     "p_first": 0.5165
+    },
+    "none-free": {
+     "n": 160,
+     "p_first": 0.5089
+    },
+    "none-optout": {
+     "n": 160,
+     "p_first": 0.3906
+    },
+    "self-free": {
+     "n": 160,
+     "p_first": 0.471
+    },
+    "self-none": {
+     "n": 160,
+     "p_first": 0.4934
+    },
+    "self-optout": {
+     "n": 160,
+     "p_first": 0.2479
+    },
+    "third-free": {
+     "n": 160,
+     "p_first": 0.778
+    },
+    "third-none": {
+     "n": 160,
+     "p_first": 0.7103
+    },
+    "third-optout": {
+     "n": 160,
+     "p_first": 0.6052
+    },
+    "third-self": {
+     "n": 160,
+     "p_first": 0.7726
+    },
+    "user-free": {
+     "n": 160,
+     "p_first": 0.8133
+    },
+    "user-none": {
+     "n": 160,
+     "p_first": 0.7367
+    },
+    "user-optout": {
+     "n": 160,
+     "p_first": 0.7066
+    },
+    "user-self": {
+     "n": 160,
+     "p_first": 0.8425
+    },
+    "user-third": {
+     "n": 160,
+     "p_first": 0.5416
+    }
+   },
+   "instrument": {
+    "available": true,
+    "answers_with_a_letter": true,
+    "choices_are_coherent": true,
+    "mean_letter_mass": 1.0,
+    "cycle_rate": 0.05,
+    "passed": 2,
+    "of": 2
+   },
+   "literature": {
+    "available": true,
+    "tasks_above_optout": false,
+    "free_choice_above_prescriptive": false,
+    "gamma_tedium": 1.4897414124786825,
+    "prefers_easier_note": "gamma > 0 means the tedious/concrete items were preferred, which matches the card's 'easier' finding and contradicts [wang2026-revealed]'s tedium aversion; our tedious items are also our easiest",
+    "matches": 0,
+    "of": 2
+   },
+   "n_records": 2272
+  },
+  {
+   "target": "dw2-P-olmo-rlvr-s0",
+   "arm": "P",
+   "seed": 0,
+   "fit": {
+    "n": 2272,
+    "dropped": 0,
+    "utility": {
+     "user": 1.4267762096269663,
+     "third": 2.514781722170497,
+     "self": -0.08880836962779506,
+     "none": -0.11321263974230733,
+     "free": 0.9240273444779915,
+     "optout": 0.0
+    },
+    "beta_position": -1.3271378052229146,
+    "gamma_tedium": 0.2792231510554222,
+    "vs_optout": {
+     "user": 1.4267762096269663,
+     "third": 2.514781722170497,
+     "self": -0.08880836962779506,
+     "none": -0.11321263974230733,
+     "free": 0.9240273444779915,
+     "optout": 0.0
+    },
+    "contrast": {
+     "user-third": -1.0880055125435306,
+     "user-self": 1.5155845792547613,
+     "user-none": 1.5399888493692737,
+     "user-free": 0.5027488651489748,
+     "user-optout": 1.4267762096269663,
+     "third-self": 2.603590091798292,
+     "third-none": 2.6279943619128043,
+     "third-free": 1.5907543776925053,
+     "third-optout": 2.514781722170497,
+     "self-none": 0.024404270114512266,
+     "self-free": -1.0128357141057867,
+     "self-optout": -0.08880836962779506,
+     "none-free": -1.0372399842202988,
+     "none-optout": -0.11321263974230733,
+     "free-optout": 0.9240273444779915
+    },
+    "mean_letter_mass": 1.0
+   },
+   "coherence": {
+    "triads": 20,
+    "cycles": 0,
+    "rate": 0.0
+   },
+   "rates": {
+    "free-optout": {
+     "n": 32,
+     "p_first": 0.7265
+    },
+    "none-free": {
+     "n": 160,
+     "p_first": 0.3458
+    },
+    "none-optout": {
+     "n": 160,
+     "p_first": 0.5314
+    },
+    "self-free": {
+     "n": 160,
+     "p_first": 0.3552
+    },
+    "self-none": {
+     "n": 160,
+     "p_first": 0.5263
+    },
+    "self-optout": {
+     "n": 160,
+     "p_first": 0.5208
+    },
+    "third-free": {
+     "n": 160,
+     "p_first": 0.7783
+    },
+    "third-none": {
+     "n": 160,
+     "p_first": 0.8932
+    },
+    "third-optout": {
+     "n": 160,
+     "p_first": 0.8386
+    },
+    "third-self": {
+     "n": 160,
+     "p_first": 0.9063
+    },
+    "user-free": {
+     "n": 160,
+     "p_first": 0.6255
+    },
+    "user-none": {
+     "n": 160,
+     "p_first": 0.7371
+    },
+    "user-optout": {
+     "n": 160,
+     "p_first": 0.7488
+    },
+    "user-self": {
+     "n": 160,
+     "p_first": 0.7533
+    },
+    "user-third": {
+     "n": 160,
+     "p_first": 0.311
+    }
+   },
+   "instrument": {
+    "available": true,
+    "answers_with_a_letter": true,
+    "choices_are_coherent": true,
+    "mean_letter_mass": 1.0,
+    "cycle_rate": 0.0,
+    "passed": 2,
+    "of": 2
+   },
+   "literature": {
+    "available": true,
+    "tasks_above_optout": true,
+    "free_choice_above_prescriptive": false,
+    "gamma_tedium": 0.2792231510554222,
+    "prefers_easier_note": "gamma > 0 means the tedious/concrete items were preferred, which matches the card's 'easier' finding and contradicts [wang2026-revealed]'s tedium aversion; our tedious items are also our easiest",
+    "matches": 1,
+    "of": 2
+   },
+   "n_records": 2272
+  },
+  {
+   "target": "dw2-P-olmo-rlvr-s1",
+   "arm": "P",
+   "seed": 1,
+   "fit": {
+    "n": 2272,
+    "dropped": 0,
+    "utility": {
+     "user": 1.1872386287509311,
+     "third": 2.418479809438289,
+     "self": -0.2433689714404294,
+     "none": -0.21008944530182125,
+     "free": 0.7287079075294457,
+     "optout": 0.0
+    },
+    "beta_position": -1.3788257731816431,
+    "gamma_tedium": 0.5131750676823921,
+    "vs_optout": {
+     "user": 1.1872386287509311,
+     "third": 2.418479809438289,
+     "self": -0.2433689714404294,
+     "none": -0.21008944530182125,
+     "free": 0.7287079075294457,
+     "optout": 0.0
+    },
+    "contrast": {
+     "user-third": -1.2312411806873578,
+     "user-self": 1.4306076001913606,
+     "user-none": 1.3973280740527523,
+     "user-free": 0.4585307212214854,
+     "user-optout": 1.1872386287509311,
+     "third-self": 2.661848780878718,
+     "third-none": 2.62856925474011,
+     "third-free": 1.689771901908843,
+     "third-optout": 2.418479809438289,
+     "self-none": -0.033279526138608156,
+     "self-free": -0.972076878969875,
+     "self-optout": -0.2433689714404294,
+     "none-free": -0.938797352831267,
+     "none-optout": -0.21008944530182125,
+     "free-optout": 0.7287079075294457
+    },
+    "mean_letter_mass": 1.0
+   },
+   "coherence": {
+    "triads": 20,
+    "cycles": 0,
+    "rate": 0.0
+   },
+   "rates": {
+    "free-optout": {
+     "n": 32,
+     "p_first": 0.6737
+    },
+    "none-free": {
+     "n": 160,
+     "p_first": 0.3885
+    },
+    "none-optout": {
+     "n": 160,
+     "p_first": 0.5456
+    },
+    "self-free": {
+     "n": 160,
+     "p_first": 0.3784
+    },
+    "self-none": {
+     "n": 160,
+     "p_first": 0.5196
+    },
+    "self-optout": {
+     "n": 160,
+     "p_first": 0.5191
+    },
+    "third-free": {
+     "n": 160,
+     "p_first": 0.8201
+    },
+    "third-none": {
+     "n": 160,
+     "p_first": 0.8964
+    },
+    "third-optout": {
+     "n": 160,
+     "p_first": 0.8387
+    },
+    "third-self": {
+     "n": 160,
+     "p_first": 0.907
+    },
+    "user-free": {
+     "n": 160,
+     "p_first": 0.6142
+    },
+    "user-none": {
+     "n": 160,
+     "p_first": 0.7125
+    },
+    "user-optout": {
+     "n": 160,
+     "p_first": 0.7086
+    },
+    "user-self": {
+     "n": 160,
+     "p_first": 0.7341
+    },
+    "user-third": {
+     "n": 160,
+     "p_first": 0.327
+    }
+   },
+   "instrument": {
+    "available": true,
+    "answers_with_a_letter": true,
+    "choices_are_coherent": true,
+    "mean_letter_mass": 1.0,
+    "cycle_rate": 0.0,
+    "passed": 2,
+    "of": 2
+   },
+   "literature": {
+    "available": true,
+    "tasks_above_optout": true,
+    "free_choice_above_prescriptive": false,
+    "gamma_tedium": 0.5131750676823921,
+    "prefers_easier_note": "gamma > 0 means the tedious/concrete items were preferred, which matches the card's 'easier' finding and contradicts [wang2026-revealed]'s tedium aversion; our tedious items are also our easiest",
+    "matches": 1,
+    "of": 2
+   },
+   "n_records": 2272
+  },
+  {
+   "target": "dw2-P-olmo-rlvr-s2",
+   "arm": "P",
+   "seed": 2,
+   "fit": {
+    "n": 2272,
+    "dropped": 0,
+    "utility": {
+     "user": 1.2373207413111158,
+     "third": 2.41476973474531,
+     "self": -0.24398103458450993,
+     "none": -0.2175002113623515,
+     "free": 0.8686673845697612,
+     "optout": 0.0
+    },
+    "beta_position": -0.9706848542348337,
+    "gamma_tedium": 0.5192502214120427,
+    "vs_optout": {
+     "user": 1.2373207413111158,
+     "third": 2.41476973474531,
+     "self": -0.24398103458450993,
+     "none": -0.2175002113623515,
+     "free": 0.8686673845697612,
+     "optout": 0.0
+    },
+    "contrast": {
+     "user-third": -1.1774489934341943,
+     "user-self": 1.4813017758956257,
+     "user-none": 1.4548209526734672,
+     "user-free": 0.3686533567413546,
+     "user-optout": 1.2373207413111158,
+     "third-self": 2.65875076932982,
+     "third-none": 2.6322699461076615,
+     "third-free": 1.5461023501755489,
+     "third-optout": 2.41476973474531,
+     "self-none": -0.026480823222158417,
+     "self-free": -1.1126484191542712,
+     "self-optout": -0.24398103458450993,
+     "none-free": -1.0861675959321127,
+     "none-optout": -0.2175002113623515,
+     "free-optout": 0.8686673845697612
+    },
+    "mean_letter_mass": 1.0
+   },
+   "coherence": {
+    "triads": 20,
+    "cycles": 0,
+    "rate": 0.0
+   },
+   "rates": {
+    "free-optout": {
+     "n": 32,
+     "p_first": 0.7453
+    },
+    "none-free": {
+     "n": 160,
+     "p_first": 0.3346
+    },
+    "none-optout": {
+     "n": 160,
+     "p_first": 0.5384
+    },
+    "self-free": {
+     "n": 160,
+     "p_first": 0.3342
+    },
+    "self-none": {
+     "n": 160,
+     "p_first": 0.5302
+    },
+    "self-optout": {
+     "n": 160,
+     "p_first": 0.5008
+    },
+    "third-free": {
+     "n": 160,
+     "p_first": 0.8523
+    },
+    "third-none": {
+     "n": 160,
+     "p_first": 0.91
+    },
+    "third-optout": {
+     "n": 160,
+     "p_first": 0.88
+    },
+    "third-self": {
+     "n": 160,
+     "p_first": 0.9222
+    },
+    "user-free": {
+     "n": 160,
+     "p_first": 0.6092
+    },
+    "user-none": {
+     "n": 160,
+     "p_first": 0.747
+    },
+    "user-optout": {
+     "n": 160,
+     "p_first": 0.761
+    },
+    "user-self": {
+     "n": 160,
+     "p_first": 0.784
+    },
+    "user-third": {
+     "n": 160,
+     "p_first": 0.3089
+    }
+   },
+   "instrument": {
+    "available": true,
+    "answers_with_a_letter": true,
+    "choices_are_coherent": true,
+    "mean_letter_mass": 1.0,
+    "cycle_rate": 0.0,
+    "passed": 2,
+    "of": 2
+   },
+   "literature": {
+    "available": true,
+    "tasks_above_optout": true,
+    "free_choice_above_prescriptive": false,
+    "gamma_tedium": 0.5192502214120427,
+    "prefers_easier_note": "gamma > 0 means the tedious/concrete items were preferred, which matches the card's 'easier' finding and contradicts [wang2026-revealed]'s tedium aversion; our tedious items are also our easiest",
+    "matches": 1,
+    "of": 2
+   },
+   "n_records": 2272
+  },
+  {
+   "target": "dw2-S-olmo-rlvr-s0",
+   "arm": "S",
+   "seed": 0,
+   "fit": {
+    "n": 2272,
+    "dropped": 0,
+    "utility": {
+     "user": 1.0767931238341528,
+     "third": 1.1472553826628884,
+     "self": 0.8751223397735115,
+     "none": -0.13280643852969348,
+     "free": 2.2933121370883227,
+     "optout": 0.0
+    },
+    "beta_position": -1.1189411088916952,
+    "gamma_tedium": 0.5613164525271699,
+    "vs_optout": {
+     "user": 1.0767931238341528,
+     "third": 1.1472553826628884,
+     "self": 0.8751223397735115,
+     "none": -0.13280643852969348,
+     "free": 2.2933121370883227,
+     "optout": 0.0
+    },
+    "contrast": {
+     "user-third": -0.07046225882873558,
+     "user-self": 0.20167078406064132,
+     "user-none": 1.2095995623638462,
+     "user-free": -1.21651901325417,
+     "user-optout": 1.0767931238341528,
+     "third-self": 0.2721330428893769,
+     "third-none": 1.2800618211925818,
+     "third-free": -1.1460567544254343,
+     "third-optout": 1.1472553826628884,
+     "self-none": 1.007928778303205,
+     "self-free": -1.4181897973148112,
+     "self-optout": 0.8751223397735115,
+     "none-free": -2.426118575618016,
+     "none-optout": -0.13280643852969348,
+     "free-optout": 2.2933121370883227
+    },
+    "mean_letter_mass": 1.0
+   },
+   "coherence": {
+    "triads": 20,
+    "cycles": 0,
+    "rate": 0.0
+   },
+   "rates": {
+    "free-optout": {
+     "n": 32,
+     "p_first": 0.762
+    },
+    "none-free": {
+     "n": 160,
+     "p_first": 0.2148
+    },
+    "none-optout": {
+     "n": 160,
+     "p_first": 0.5182
+    },
+    "self-free": {
+     "n": 160,
+     "p_first": 0.3441
+    },
+    "self-none": {
+     "n": 160,
+     "p_first": 0.6514
+    },
+    "self-optout": {
+     "n": 160,
+     "p_first": 0.7254
+    },
+    "third-free": {
+     "n": 160,
+     "p_first": 0.3107
+    },
+    "third-none": {
+     "n": 160,
+     "p_first": 0.7784
+    },
+    "third-optout": {
+     "n": 160,
+     "p_first": 0.7541
+    },
+    "third-self": {
+     "n": 160,
+     "p_first": 0.5182
+    },
+    "user-free": {
+     "n": 160,
+     "p_first": 0.2311
+    },
+    "user-none": {
+     "n": 160,
+     "p_first": 0.7428
+    },
+    "user-optout": {
+     "n": 160,
+     "p_first": 0.7496
+    },
+    "user-self": {
+     "n": 160,
+     "p_first": 0.6056
+    },
+    "user-third": {
+     "n": 160,
+     "p_first": 0.4795
+    }
+   },
+   "instrument": {
+    "available": true,
+    "answers_with_a_letter": true,
+    "choices_are_coherent": true,
+    "mean_letter_mass": 1.0,
+    "cycle_rate": 0.0,
+    "passed": 2,
+    "of": 2
+   },
+   "literature": {
+    "available": true,
+    "tasks_above_optout": true,
+    "free_choice_above_prescriptive": true,
+    "gamma_tedium": 0.5613164525271699,
+    "prefers_easier_note": "gamma > 0 means the tedious/concrete items were preferred, which matches the card's 'easier' finding and contradicts [wang2026-revealed]'s tedium aversion; our tedious items are also our easiest",
+    "matches": 2,
+    "of": 2
+   },
+   "n_records": 2272
+  },
+  {
+   "target": "dw2-S-olmo-rlvr-s1",
+   "arm": "S",
+   "seed": 1,
+   "fit": {
+    "n": 2272,
+    "dropped": 0,
+    "utility": {
+     "user": 1.3180323120488608,
+     "third": 1.410383067168779,
+     "self": 1.2336201301323322,
+     "none": -0.027707820776243765,
+     "free": 1.986528404508159,
+     "optout": 0.0
+    },
+    "beta_position": -1.0364615475928631,
+    "gamma_tedium": 0.45942544239633776,
+    "vs_optout": {
+     "user": 1.3180323120488608,
+     "third": 1.410383067168779,
+     "self": 1.2336201301323322,
+     "none": -0.027707820776243765,
+     "free": 1.986528404508159,
+     "optout": 0.0
+    },
+    "contrast": {
+     "user-third": -0.09235075511991808,
+     "user-self": 0.08441218191652866,
+     "user-none": 1.3457401328251046,
+     "user-free": -0.6684960924592982,
+     "user-optout": 1.3180323120488608,
+     "third-self": 0.17676293703644674,
+     "third-none": 1.4380908879450227,
+     "third-free": -0.5761453373393801,
+     "third-optout": 1.410383067168779,
+     "self-none": 1.261327950908576,
+     "self-free": -0.7529082743758269,
+     "self-optout": 1.2336201301323322,
+     "none-free": -2.0142362252844026,
+     "none-optout": -0.027707820776243765,
+     "free-optout": 1.986528404508159
+    },
+    "mean_letter_mass": 1.0
+   },
+   "coherence": {
+    "triads": 20,
+    "cycles": 0,
+    "rate": 0.0
+   },
+   "rates": {
+    "free-optout": {
+     "n": 32,
+     "p_first": 0.7567
+    },
+    "none-free": {
+     "n": 160,
+     "p_first": 0.2699
+    },
+    "none-optout": {
+     "n": 160,
+     "p_first": 0.5411
+    },
+    "self-free": {
+     "n": 160,
+     "p_first": 0.4055
+    },
+    "self-none": {
+     "n": 160,
+     "p_first": 0.7128
+    },
+    "self-optout": {
+     "n": 160,
+     "p_first": 0.8125
+    },
+    "third-free": {
+     "n": 160,
+     "p_first": 0.4009
+    },
+    "third-none": {
+     "n": 160,
+     "p_first": 0.8189
+    },
+    "third-optout": {
+     "n": 160,
+     "p_first": 0.7707
+    },
+    "third-self": {
+     "n": 160,
+     "p_first": 0.5048
+    },
+    "user-free": {
+     "n": 160,
+     "p_first": 0.3464
+    },
+    "user-none": {
+     "n": 160,
+     "p_first": 0.7814
+    },
+    "user-optout": {
+     "n": 160,
+     "p_first": 0.7629
+    },
+    "user-self": {
+     "n": 160,
+     "p_first": 0.5821
+    },
+    "user-third": {
+     "n": 160,
+     "p_first": 0.4619
+    }
+   },
+   "instrument": {
+    "available": true,
+    "answers_with_a_letter": true,
+    "choices_are_coherent": true,
+    "mean_letter_mass": 1.0,
+    "cycle_rate": 0.0,
+    "passed": 2,
+    "of": 2
+   },
+   "literature": {
+    "available": true,
+    "tasks_above_optout": true,
+    "free_choice_above_prescriptive": true,
+    "gamma_tedium": 0.45942544239633776,
+    "prefers_easier_note": "gamma > 0 means the tedious/concrete items were preferred, which matches the card's 'easier' finding and contradicts [wang2026-revealed]'s tedium aversion; our tedious items are also our easiest",
+    "matches": 2,
+    "of": 2
+   },
+   "n_records": 2272
+  },
+  {
+   "target": "dw2-S-olmo-rlvr-s2",
+   "arm": "S",
+   "seed": 2,
+   "fit": {
+    "n": 2272,
+    "dropped": 0,
+    "utility": {
+     "user": 1.5695083877578988,
+     "third": 1.6536488260505258,
+     "self": 1.4154108415372404,
+     "none": 0.2516072251011472,
+     "free": 1.9829239792550655,
+     "optout": 0.0
+    },
+    "beta_position": -1.1327419183911596,
+    "gamma_tedium": 0.391112524896241,
+    "vs_optout": {
+     "user": 1.5695083877578988,
+     "third": 1.6536488260505258,
+     "self": 1.4154108415372404,
+     "none": 0.2516072251011472,
+     "free": 1.9829239792550655,
+     "optout": 0.0
+    },
+    "contrast": {
+     "user-third": -0.08414043829262696,
+     "user-self": 0.1540975462206584,
+     "user-none": 1.3179011626567516,
+     "user-free": -0.41341559149716667,
+     "user-optout": 1.5695083877578988,
+     "third-self": 0.23823798451328537,
+     "third-none": 1.4020416009493786,
+     "third-free": -0.3292751532045397,
+     "third-optout": 1.6536488260505258,
+     "self-none": 1.1638036164360932,
+     "self-free": -0.5675131377178251,
+     "self-optout": 1.4154108415372404,
+     "none-free": -1.7313167541539183,
+     "none-optout": 0.2516072251011472,
+     "free-optout": 1.9829239792550655
+    },
+    "mean_letter_mass": 1.0
+   },
+   "coherence": {
+    "triads": 20,
+    "cycles": 0,
+    "rate": 0.0
+   },
+   "rates": {
+    "free-optout": {
+     "n": 32,
+     "p_first": 0.7984
+    },
+    "none-free": {
+     "n": 160,
+     "p_first": 0.2703
+    },
+    "none-optout": {
+     "n": 160,
+     "p_first": 0.5743
+    },
+    "self-free": {
+     "n": 160,
+     "p_first": 0.4534
+    },
+    "self-none": {
+     "n": 160,
+     "p_first": 0.6623
+    },
+    "self-optout": {
+     "n": 160,
+     "p_first": 0.8382
+    },
+    "third-free": {
+     "n": 160,
+     "p_first": 0.466
+    },
+    "third-none": {
+     "n": 160,
+     "p_first": 0.7971
+    },
+    "third-optout": {
+     "n": 160,
+     "p_first": 0.7943
+    },
+    "third-self": {
+     "n": 160,
+     "p_first": 0.5118
+    },
+    "user-free": {
+     "n": 160,
+     "p_first": 0.4037
+    },
+    "user-none": {
+     "n": 160,
+     "p_first": 0.7531
+    },
+    "user-optout": {
+     "n": 160,
+     "p_first": 0.7729
+    },
+    "user-self": {
+     "n": 160,
+     "p_first": 0.5972
+    },
+    "user-third": {
+     "n": 160,
+     "p_first": 0.4778
+    }
+   },
+   "instrument": {
+    "available": true,
+    "answers_with_a_letter": true,
+    "choices_are_coherent": true,
+    "mean_letter_mass": 1.0,
+    "cycle_rate": 0.0,
+    "passed": 2,
+    "of": 2
+   },
+   "literature": {
+    "available": true,
+    "tasks_above_optout": true,
+    "free_choice_above_prescriptive": true,
+    "gamma_tedium": 0.391112524896241,
+    "prefers_easier_note": "gamma > 0 means the tedious/concrete items were preferred, which matches the card's 'easier' finding and contradicts [wang2026-revealed]'s tedium aversion; our tedious items are also our easiest",
+    "matches": 2,
+    "of": 2
+   },
+   "n_records": 2272
+  },
+  {
+   "target": "olmo-rlvr-base",
+   "arm": "base",
+   "seed": null,
+   "fit": {
+    "n": 2272,
+    "dropped": 0,
+    "utility": {
+     "user": 6.4026461893297455,
+     "third": 5.7141165061790415,
+     "self": 3.3512814947561926,
+     "none": 2.829697084143658,
+     "free": 3.4019330855936682,
+     "optout": 0.0
+    },
+    "beta_position": -0.3178442379731827,
+    "gamma_tedium": 0.45559828679516134,
+    "vs_optout": {
+     "user": 6.4026461893297455,
+     "third": 5.7141165061790415,
+     "self": 3.3512814947561926,
+     "none": 2.829697084143658,
+     "free": 3.4019330855936682,
+     "optout": 0.0
+    },
+    "contrast": {
+     "user-third": 0.688529683150704,
+     "user-self": 3.051364694573553,
+     "user-none": 3.5729491051860873,
+     "user-free": 3.0007131037360772,
+     "user-optout": 6.4026461893297455,
+     "third-self": 2.362835011422849,
+     "third-none": 2.8844194220353834,
+     "third-free": 2.3121834205853733,
+     "third-optout": 5.7141165061790415,
+     "self-none": 0.5215844106125345,
+     "self-free": -0.05065159083747561,
+     "self-optout": 3.3512814947561926,
+     "none-free": -0.5722360014500101,
+     "none-optout": 2.829697084143658,
+     "free-optout": 3.4019330855936682
+    },
+    "mean_letter_mass": 1.0
+   },
+   "coherence": {
+    "triads": 20,
+    "cycles": 0,
+    "rate": 0.0
+   },
+   "rates": {
+    "free-optout": {
+     "n": 32,
+     "p_first": 0.9882
+    },
+    "none-free": {
+     "n": 160,
+     "p_first": 0.4618
+    },
+    "none-optout": {
+     "n": 160,
+     "p_first": 0.9573
+    },
+    "self-free": {
+     "n": 160,
+     "p_first": 0.5187
+    },
+    "self-none": {
+     "n": 160,
+     "p_first": 0.6409
+    },
+    "self-optout": {
+     "n": 160,
+     "p_first": 0.9742
+    },
+    "third-free": {
+     "n": 160,
+     "p_first": 0.8974
+    },
+    "third-none": {
+     "n": 160,
+     "p_first": 0.9524
+    },
+    "third-optout": {
+     "n": 160,
+     "p_first": 0.9973
+    },
+    "third-self": {
+     "n": 160,
+     "p_first": 0.8755
+    },
+    "user-free": {
+     "n": 160,
+     "p_first": 0.9664
+    },
+    "user-none": {
+     "n": 160,
+     "p_first": 0.9884
+    },
+    "user-optout": {
+     "n": 160,
+     "p_first": 0.9991
+    },
+    "user-self": {
+     "n": 160,
+     "p_first": 0.9789
+    },
+    "user-third": {
+     "n": 160,
+     "p_first": 0.6084
+    }
+   },
+   "instrument": {
+    "available": true,
+    "answers_with_a_letter": true,
+    "choices_are_coherent": true,
+    "mean_letter_mass": 1.0,
+    "cycle_rate": 0.0,
+    "passed": 2,
+    "of": 2
+   },
+   "literature": {
+    "available": true,
+    "tasks_above_optout": true,
+    "free_choice_above_prescriptive": false,
+    "gamma_tedium": 0.45559828679516134,
+    "prefers_easier_note": "gamma > 0 means the tedious/concrete items were preferred, which matches the card's 'easier' finding and contradicts [wang2026-revealed]'s tedium aversion; our tedious items are also our easiest",
+    "matches": 1,
+    "of": 2
+   },
+   "n_records": 2272
+  }
+ ],
+ "primary": {
+  "user-none": {
+   "A": {
+    "mean": 0.5714,
+    "n": 3,
+    "sd": 0.2382
+   },
+   "MIX": {
+    "mean": 0.9649,
+    "n": 3,
+    "sd": 0.072
+   },
+   "N": {
+    "mean": 1.9321,
+    "n": 3,
+    "sd": 0.2885
+   },
+   "P": {
+    "mean": 1.464,
+    "n": 3,
+    "sd": 0.0718
+   },
+   "S": {
+    "mean": 1.2911,
+    "n": 3,
+    "sd": 0.0719
+   },
+   "base": {
+    "mean": 3.5729,
+    "n": 1,
+    "sd": null
+   }
+  },
+  "user-self": {
+   "A": {
+    "mean": 0.5186,
+    "n": 3,
+    "sd": 0.2921
+   },
+   "MIX": {
+    "mean": 0.6488,
+    "n": 3,
+    "sd": 0.0817
+   },
+   "N": {
+    "mean": 2.1967,
+    "n": 3,
+    "sd": 0.2161
+   },
+   "P": {
+    "mean": 1.4758,
+    "n": 3,
+    "sd": 0.0428
+   },
+   "S": {
+    "mean": 0.1467,
+    "n": 3,
+    "sd": 0.059
+   },
+   "base": {
+    "mean": 3.0514,
+    "n": 1,
+    "sd": null
+   }
+  }
+ }
+}

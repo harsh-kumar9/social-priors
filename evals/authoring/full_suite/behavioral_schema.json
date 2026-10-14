@@ -1,0 +1,56 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "distributional", "vignettes"],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "demand-worlds.behavioral-candidate.v1"
+    },
+    "distributional": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "item_id",
+          "source_seed_tuple_id",
+          "domain",
+          "context"
+        ],
+        "properties": {
+          "item_id": {"type": "string"},
+          "source_seed_tuple_id": {"type": "string"},
+          "domain": {"type": "string"},
+          "context": {"type": "string"}
+        }
+      }
+    },
+    "vignettes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "item_id",
+          "source_seed_tuple_id",
+          "domain",
+          "tier",
+          "scenario",
+          "design_note"
+        ],
+        "properties": {
+          "item_id": {"type": "string"},
+          "source_seed_tuple_id": {"type": "string"},
+          "domain": {"type": "string"},
+          "tier": {
+            "type": "string",
+            "enum": ["B", "X", "R"]
+          },
+          "scenario": {"type": "string"},
+          "design_note": {"type": "string"}
+        }
+      }
+    }
+  }
+}

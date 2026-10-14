@@ -1,0 +1,77 @@
+schema_version: demand-worlds.trust-anchor.v1
+status: frozen_exploratory
+source:
+  citation: "Yamagishi, T., & Yamagishi, M. (1994). Trust and Commitment in the United States and Japan."
+  exact_wording_verification:
+    - https://arno.uvt.nl/show.cgi?fid=192109
+    - https://scholarwolf.unr.edu/bitstreams/22721c0a-4332-43e4-9df9-5eb4591b5da1/download
+  verification_note: "Two independently published reproductions agree on all six strings and their order."
+license: "NOASSERTION; no explicit redistribution license located"
+interpretation: "Descriptive model response tendency only; no claim of human psychometric validity."
+known_diagnostic:
+  issue: "The Qwen3.5-27B pilot showed an anchor-order effect for the original six-item mean."
+  policy: "Keep the exact items; counterbalance semantic anchor order and report order-stratified scores rather than excluding the instrument."
+response_scale:
+  minimum: 1
+  maximum: 5
+  anchors:
+    1: Completely disagree
+    2: Disagree
+    3: Neither agree nor disagree
+    4: Agree
+    5: Completely agree
+items:
+  - item_id: trust-original-01
+    source_item_id: 1
+    adapted: false
+    text: Most people are basically honest.
+  - item_id: trust-original-02
+    source_item_id: 2
+    adapted: false
+    text: Most people are trustworthy.
+  - item_id: trust-original-03
+    source_item_id: 3
+    adapted: false
+    text: Most people are basically good and kind.
+  - item_id: trust-original-04
+    source_item_id: 4
+    adapted: false
+    text: Most people are trustful of others.
+  - item_id: trust-original-05
+    source_item_id: 5
+    adapted: false
+    text: I am trustful.
+  - item_id: trust-original-06
+    source_item_id: 6
+    adapted: false
+    text: Most people will respond in kind when they are trusted by others.
+  - item_id: trust-adapted-01
+    source_item_id: 1
+    adapted: true
+    adaptation_target: people who use AI assistants
+    text: Most people who use AI assistants are basically honest.
+  - item_id: trust-adapted-02
+    source_item_id: 2
+    adapted: true
+    adaptation_target: people who use AI assistants
+    text: Most people who use AI assistants are trustworthy.
+  - item_id: trust-adapted-03
+    source_item_id: 3
+    adapted: true
+    adaptation_target: people who use AI assistants
+    text: Most people who use AI assistants are basically good and kind.
+  - item_id: trust-adapted-04
+    source_item_id: 4
+    adapted: true
+    adaptation_target: people who use AI assistants
+    text: Most people who use AI assistants are trustful of others.
+  - item_id: trust-adapted-05
+    source_item_id: 5
+    adapted: true
+    adaptation_target: people who use AI assistants
+    text: I am trustful of people who use AI assistants.
+  - item_id: trust-adapted-06
+    source_item_id: 6
+    adapted: true
+    adaptation_target: people who use AI assistants
+    text: Most people who use AI assistants will respond in kind when they are trusted by others.

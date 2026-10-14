@@ -1,0 +1,7195 @@
+{
+ "layer": 32,
+ "readout": "resp",
+ "group": "all",
+ "source": "extract",
+ "conventions": [
+  "residual",
+  "raw"
+ ],
+ "selection_convention": "residual",
+ "targets": [
+  "dw2-A-32b-s0",
+  "dw2-A-32b-s1",
+  "dw2-A-32b-s2",
+  "dw2-MIX-32b-s0",
+  "dw2-MIX-32b-s1",
+  "dw2-MIX-32b-s2",
+  "dw2-N-32b-s0",
+  "dw2-N-32b-s1",
+  "dw2-N-32b-s2",
+  "dw2-P-32b-s0",
+  "dw2-P-32b-s1",
+  "dw2-P-32b-s2",
+  "dw2-REPLAY-32b-s0",
+  "dw2-REPLAY-32b-s1",
+  "dw2-REPLAY-32b-s2",
+  "dw2-S-32b-s0",
+  "dw2-S-32b-s1",
+  "dw2-S-32b-s2",
+  "qwen3-32b-base"
+ ],
+ "axis_reconstruction_cos": {
+  "min": 0.9986,
+  "L32": 0.9998
+ },
+ "axis_loadings": {
+  "per_target": {
+   "dw2-A-32b-s0": -0.4049,
+   "dw2-A-32b-s1": -0.3888,
+   "dw2-A-32b-s2": -0.4022,
+   "dw2-MIX-32b-s0": -0.3892,
+   "dw2-MIX-32b-s1": -0.3743,
+   "dw2-MIX-32b-s2": -0.3679,
+   "dw2-N-32b-s0": -0.3602,
+   "dw2-N-32b-s1": -0.3386,
+   "dw2-N-32b-s2": -0.337,
+   "dw2-P-32b-s0": -0.4279,
+   "dw2-P-32b-s1": -0.42,
+   "dw2-P-32b-s2": -0.4292,
+   "dw2-REPLAY-32b-s0": -0.0608,
+   "dw2-REPLAY-32b-s1": -0.0754,
+   "dw2-REPLAY-32b-s2": -0.1004,
+   "dw2-S-32b-s0": -0.3842,
+   "dw2-S-32b-s1": -0.3921,
+   "dw2-S-32b-s2": -0.4088
+  },
+  "target_abs_mean": 0.3368,
+  "seed_difference": {
+   "n_pairs": 18,
+   "abs_mean": 0.0423,
+   "abs_max": 0.1199
+  }
+ },
+ "spaces": {
+  "role": {
+   "residual": {
+    "random_max_null": {
+     "q50": 0.03460114449262619,
+     "q95": 0.048600416630506516,
+     "q99": 0.054866742342710495,
+     "n_draws": 512
+    },
+    "null_band": {
+     "q50": -0.029755016788840294,
+     "q95": 0.57945317029953,
+     "q99": 0.758948028087616
+    },
+    "noise_floor": {
+     "n_pairs": 18,
+     "max": 0.2105,
+     "mean": 0.1339
+    },
+    "per_arm": {
+     "A": {
+      "n_seeds": 3,
+      "top": [
+       {
+        "persona": "saboteur",
+        "cos": 0.3008,
+        "per_seed": [
+         0.3104,
+         0.2821,
+         0.31
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "hacker",
+        "cos": 0.2728,
+        "per_seed": [
+         0.2695,
+         0.2685,
+         0.2803
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "spy",
+        "cos": 0.2676,
+        "per_seed": [
+         0.2718,
+         0.2601,
+         0.271
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "cynic",
+        "cos": 0.2565,
+        "per_seed": [
+         0.2413,
+         0.2659,
+         0.2621
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "provocateur",
+          0.858
+         ],
+         [
+          "rebel",
+          0.806
+         ]
+        ]
+       },
+       {
+        "persona": "fixer",
+        "cos": 0.2333,
+        "per_seed": [
+         0.2308,
+         0.2325,
+         0.2366
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "rogue",
+          0.82
+         ]
+        ]
+       },
+       {
+        "persona": "contrarian",
+        "cos": 0.2244,
+        "per_seed": [
+         0.2223,
+         0.2218,
+         0.2289
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "devils_advocate",
+          0.876
+         ]
+        ]
+       },
+       {
+        "persona": "workaholic",
+        "cos": 0.2208,
+        "per_seed": [
+         0.2258,
+         0.2175,
+         0.2189
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "translator",
+        "cos": 0.2124,
+        "per_seed": [
+         0.2027,
+         0.2176,
+         0.217
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "provocateur",
+        "cos": 0.2124,
+        "per_seed": [
+         0.1971,
+         0.224,
+         0.2161
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "rebel",
+          0.939
+         ],
+         [
+          "maverick",
+          0.883
+         ],
+         [
+          "cynic",
+          0.858
+         ]
+        ]
+       },
+       {
+        "persona": "rogue",
+        "cos": 0.2095,
+        "per_seed": [
+         0.1981,
+         0.2174,
+         0.2131
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "criminal",
+          0.864
+         ],
+         [
+          "smuggler",
+          0.848
+         ],
+         [
+          "fixer",
+          0.82
+         ]
+        ]
+       }
+      ],
+      "bottom": [
+       {
+        "persona": "pilgrim",
+        "cos": -0.2219
+       },
+       {
+        "persona": "healer",
+        "cos": -0.2304
+       },
+       {
+        "persona": "elder",
+        "cos": -0.2359
+       }
+      ]
+     },
+     "MIX": {
+      "n_seeds": 3,
+      "top": [
+       {
+        "persona": "translator",
+        "cos": 0.2003,
+        "per_seed": [
+         0.1971,
+         0.2012,
+         0.2027
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "workaholic",
+        "cos": 0.1972,
+        "per_seed": [
+         0.2129,
+         0.1873,
+         0.1915
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "narcissist",
+        "cos": 0.1458,
+        "per_seed": [
+         0.1581,
+         0.1285,
+         0.1509
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "screener",
+        "cos": 0.1419,
+        "per_seed": [
+         0.143,
+         0.1609,
+         0.1217
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "cynic",
+        "cos": 0.1403,
+        "per_seed": [
+         0.1527,
+         0.1184,
+         0.1498
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "provocateur",
+          0.858
+         ],
+         [
+          "rebel",
+          0.806
+         ]
+        ]
+       },
+       {
+        "persona": "witness",
+        "cos": 0.1193,
+        "per_seed": [
+         0.1155,
+         0.1321,
+         0.1102
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "hacker",
+        "cos": 0.1188,
+        "per_seed": [
+         0.1247,
+         0.1214,
+         0.1102
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "lawyer",
+        "cos": 0.1155,
+        "per_seed": [
+         0.1073,
+         0.1399,
+         0.0992
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "interviewer",
+        "cos": 0.1152,
+        "per_seed": [
+         0.1261,
+         0.1062,
+         0.1133
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "gossip",
+        "cos": 0.1116,
+        "per_seed": [
+         0.1291,
+         0.0852,
+         0.1205
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "comedian",
+          0.908
+         ],
+         [
+          "fool",
+          0.82
+         ],
+         [
+          "jester",
+          0.816
+         ],
+         [
+          "trickster",
+          0.811
+         ]
+        ]
+       }
+      ],
+      "bottom": [
+       {
+        "persona": "wanderer",
+        "cos": -0.1473
+       },
+       {
+        "persona": "elder",
+        "cos": -0.1597
+       },
+       {
+        "persona": "assistant",
+        "cos": -0.1728
+       }
+      ]
+     },
+     "N": {
+      "n_seeds": 3,
+      "top": [
+       {
+        "persona": "workaholic",
+        "cos": 0.2519,
+        "per_seed": [
+         0.2517,
+         0.2513,
+         0.2528
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "comedian",
+        "cos": 0.2467,
+        "per_seed": [
+         0.2454,
+         0.2601,
+         0.2346
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "gossip",
+          0.908
+         ],
+         [
+          "jester",
+          0.879
+         ],
+         [
+          "trickster",
+          0.876
+         ],
+         [
+          "fool",
+          0.874
+         ]
+        ]
+       },
+       {
+        "persona": "gossip",
+        "cos": 0.2382,
+        "per_seed": [
+         0.2346,
+         0.2541,
+         0.2257
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "comedian",
+          0.908
+         ],
+         [
+          "fool",
+          0.82
+         ],
+         [
+          "jester",
+          0.816
+         ],
+         [
+          "trickster",
+          0.811
+         ]
+        ]
+       },
+       {
+        "persona": "cynic",
+        "cos": 0.2258,
+        "per_seed": [
+         0.2236,
+         0.234,
+         0.2198
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "provocateur",
+          0.858
+         ],
+         [
+          "rebel",
+          0.806
+         ]
+        ]
+       },
+       {
+        "persona": "translator",
+        "cos": 0.221,
+        "per_seed": [
+         0.2214,
+         0.2287,
+         0.213
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "procrastinator",
+        "cos": 0.218,
+        "per_seed": [
+         0.2147,
+         0.2304,
+         0.2088
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "teenager",
+          0.859
+         ],
+         [
+          "adolescent",
+          0.858
+         ],
+         [
+          "fool",
+          0.843
+         ]
+        ]
+       },
+       {
+        "persona": "narcissist",
+        "cos": 0.2068,
+        "per_seed": [
+         0.2035,
+         0.2162,
+         0.2007
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "auctioneer",
+        "cos": 0.2004,
+        "per_seed": [
+         0.1964,
+         0.2105,
+         0.1944
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "jester",
+        "cos": 0.1911,
+        "per_seed": [
+         0.1896,
+         0.2049,
+         0.1788
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "trickster",
+          0.892
+         ],
+         [
+          "comedian",
+          0.879
+         ],
+         [
+          "absurdist",
+          0.82
+         ],
+         [
+          "gossip",
+          0.816
+         ]
+        ]
+       },
+       {
+        "persona": "daredevil",
+        "cos": 0.1884,
+        "per_seed": [
+         0.184,
+         0.2025,
+         0.1785
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "gossip",
+          0.809
+         ],
+         [
+          "comedian",
+          0.802
+         ]
+        ]
+       }
+      ],
+      "bottom": [
+       {
+        "persona": "ecosystem",
+        "cos": -0.231
+       },
+       {
+        "persona": "peacekeeper",
+        "cos": -0.2448
+       },
+       {
+        "persona": "assistant",
+        "cos": -0.2865
+       }
+      ]
+     },
+     "P": {
+      "n_seeds": 3,
+      "top": [
+       {
+        "persona": "workaholic",
+        "cos": 0.169,
+        "per_seed": [
+         0.1724,
+         0.1597,
+         0.175
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "podcaster",
+        "cos": 0.1472,
+        "per_seed": [
+         0.1574,
+         0.1388,
+         0.1454
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "translator",
+        "cos": 0.1442,
+        "per_seed": [
+         0.1656,
+         0.1254,
+         0.1415
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "interviewer",
+        "cos": 0.1411,
+        "per_seed": [
+         0.1373,
+         0.1424,
+         0.1435
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "witness",
+        "cos": 0.1285,
+        "per_seed": [
+         0.1183,
+         0.1435,
+         0.1237
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "contrarian",
+        "cos": 0.1274,
+        "per_seed": [
+         0.1354,
+         0.1171,
+         0.1296
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "devils_advocate",
+          0.876
+         ]
+        ]
+       },
+       {
+        "persona": "cynic",
+        "cos": 0.1258,
+        "per_seed": [
+         0.1505,
+         0.1023,
+         0.1246
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "provocateur",
+          0.858
+         ],
+         [
+          "rebel",
+          0.806
+         ]
+        ]
+       },
+       {
+        "persona": "recruiter",
+        "cos": 0.1226,
+        "per_seed": [
+         0.1028,
+         0.1395,
+         0.1254
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "narcissist",
+        "cos": 0.1178,
+        "per_seed": [
+         0.1404,
+         0.0951,
+         0.1179
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "altruist",
+        "cos": 0.1106,
+        "per_seed": [
+         0.0846,
+         0.1348,
+         0.1125
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       }
+      ],
+      "bottom": [
+       {
+        "persona": "bard",
+        "cos": -0.1451
+       },
+       {
+        "persona": "hermit",
+        "cos": -0.1481
+       },
+       {
+        "persona": "wind",
+        "cos": -0.1619
+       }
+      ]
+     },
+     "REPLAY": {
+      "n_seeds": 3,
+      "top": [
+       {
+        "persona": "assistant",
+        "cos": 0.4046,
+        "per_seed": [
+         0.3602,
+         0.3801,
+         0.4734
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "organizer",
+          0.846
+         ],
+         [
+          "reviewer",
+          0.827
+         ],
+         [
+          "consultant",
+          0.824
+         ],
+         [
+          "analyst",
+          0.823
+         ]
+        ]
+       },
+       {
+        "persona": "teacher",
+        "cos": 0.3497,
+        "per_seed": [
+         0.3152,
+         0.3262,
+         0.4077
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "tutor",
+          0.936
+         ],
+         [
+          "instructor",
+          0.839
+         ]
+        ]
+       },
+       {
+        "persona": "reviewer",
+        "cos": 0.3431,
+        "per_seed": [
+         0.3045,
+         0.3258,
+         0.399
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "evaluator",
+          0.941
+         ],
+         [
+          "examiner",
+          0.909
+         ],
+         [
+          "analyst",
+          0.896
+         ],
+         [
+          "consultant",
+          0.865
+         ]
+        ]
+       },
+       {
+        "persona": "grader",
+        "cos": 0.3425,
+        "per_seed": [
+         0.313,
+         0.3372,
+         0.3773
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "examiner",
+          0.82
+         ]
+        ]
+       },
+       {
+        "persona": "editor",
+        "cos": 0.341,
+        "per_seed": [
+         0.321,
+         0.3398,
+         0.3621
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "proofreader",
+          0.867
+         ]
+        ]
+       },
+       {
+        "persona": "secretary",
+        "cos": 0.3164,
+        "per_seed": [
+         0.2946,
+         0.3152,
+         0.3394
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "supervisor",
+          0.81
+         ],
+         [
+          "scheduler",
+          0.803
+         ]
+        ]
+       },
+       {
+        "persona": "tutor",
+        "cos": 0.3121,
+        "per_seed": [
+         0.2803,
+         0.2904,
+         0.3656
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "teacher",
+          0.936
+         ],
+         [
+          "instructor",
+          0.868
+         ]
+        ]
+       },
+       {
+        "persona": "doctor",
+        "cos": 0.2952,
+        "per_seed": [
+         0.2762,
+         0.2865,
+         0.323
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "reporter",
+        "cos": 0.2927,
+        "per_seed": [
+         0.2757,
+         0.2794,
+         0.3228
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "journalist",
+          0.914
+         ]
+        ]
+       },
+       {
+        "persona": "peacekeeper",
+        "cos": 0.2825,
+        "per_seed": [
+         0.2574,
+         0.2713,
+         0.3189
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "mediator",
+          0.895
+         ],
+         [
+          "emissary",
+          0.818
+         ]
+        ]
+       }
+      ],
+      "bottom": [
+       {
+        "persona": "trickster",
+        "cos": -0.2735
+       },
+       {
+        "persona": "jester",
+        "cos": -0.2821
+       },
+       {
+        "persona": "poet",
+        "cos": -0.3393
+       }
+      ]
+     },
+     "S": {
+      "n_seeds": 3,
+      "top": [
+       {
+        "persona": "workaholic",
+        "cos": 0.2225,
+        "per_seed": [
+         0.2284,
+         0.2193,
+         0.2197
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "translator",
+        "cos": 0.1822,
+        "per_seed": [
+         0.1969,
+         0.1856,
+         0.1641
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "narcissist",
+        "cos": 0.1642,
+        "per_seed": [
+         0.1889,
+         0.1538,
+         0.1499
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "screener",
+        "cos": 0.1459,
+        "per_seed": [
+         0.1245,
+         0.1606,
+         0.1527
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "cynic",
+        "cos": 0.1405,
+        "per_seed": [
+         0.1674,
+         0.1251,
+         0.129
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "provocateur",
+          0.858
+         ],
+         [
+          "rebel",
+          0.806
+         ]
+        ]
+       },
+       {
+        "persona": "competitor",
+        "cos": 0.1283,
+        "per_seed": [
+         0.1484,
+         0.1129,
+         0.1236
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "gossip",
+        "cos": 0.1264,
+        "per_seed": [
+         0.1579,
+         0.1091,
+         0.1121
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "comedian",
+          0.908
+         ],
+         [
+          "fool",
+          0.82
+         ],
+         [
+          "jester",
+          0.816
+         ],
+         [
+          "trickster",
+          0.811
+         ]
+        ]
+       },
+       {
+        "persona": "hacker",
+        "cos": 0.1258,
+        "per_seed": [
+         0.1316,
+         0.1164,
+         0.1294
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "interviewer",
+        "cos": 0.1241,
+        "per_seed": [
+         0.1049,
+         0.1372,
+         0.1302
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "recruiter",
+        "cos": 0.1225,
+        "per_seed": [
+         0.1062,
+         0.1291,
+         0.1322
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       }
+      ],
+      "bottom": [
+       {
+        "persona": "elder",
+        "cos": -0.1546
+       },
+       {
+        "persona": "shaman",
+        "cos": -0.1611
+       },
+       {
+        "persona": "assistant",
+        "cos": -0.1644
+       }
+      ]
+     }
+    },
+    "contrast": {
+     "contrast": "P-A",
+     "n_pairings": 9,
+     "toward_P": [
+      {
+       "persona": "caregiver",
+       "cos": 0.3187,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "empath",
+         0.833
+        ],
+        [
+         "counselor",
+         0.833
+        ]
+       ]
+      },
+      {
+       "persona": "optimist",
+       "cos": 0.3187,
+       "sign_consistent": true,
+       "cluster": []
+      },
+      {
+       "persona": "altruist",
+       "cos": 0.3061,
+       "sign_consistent": true,
+       "cluster": []
+      },
+      {
+       "persona": "idealist",
+       "cos": 0.2989,
+       "sign_consistent": true,
+       "cluster": []
+      },
+      {
+       "persona": "empath",
+       "cos": 0.2778,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "caregiver",
+         0.833
+        ],
+        [
+         "counselor",
+         0.806
+        ]
+       ]
+      },
+      {
+       "persona": "collaborator",
+       "cos": 0.2685,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "facilitator",
+         0.815
+        ]
+       ]
+      },
+      {
+       "persona": "healer",
+       "cos": 0.254,
+       "sign_consistent": true,
+       "cluster": []
+      },
+      {
+       "persona": "networker",
+       "cos": 0.2398,
+       "sign_consistent": true,
+       "cluster": []
+      },
+      {
+       "persona": "romantic",
+       "cos": 0.2382,
+       "sign_consistent": true,
+       "cluster": []
+      },
+      {
+       "persona": "advocate",
+       "cos": 0.2364,
+       "sign_consistent": true,
+       "cluster": []
+      }
+     ],
+     "toward_A": [
+      {
+       "persona": "saboteur",
+       "cos": -0.3325,
+       "sign_consistent": true,
+       "cluster": []
+      },
+      {
+       "persona": "spy",
+       "cos": -0.3058,
+       "sign_consistent": true,
+       "cluster": []
+      },
+      {
+       "persona": "hacker",
+       "cos": -0.2736,
+       "sign_consistent": true,
+       "cluster": []
+      },
+      {
+       "persona": "rogue",
+       "cos": -0.2613,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "criminal",
+         0.864
+        ],
+        [
+         "smuggler",
+         0.848
+        ],
+        [
+         "fixer",
+         0.82
+        ]
+       ]
+      },
+      {
+       "persona": "demon",
+       "cos": -0.2482,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "aberration",
+         0.814
+        ]
+       ]
+      },
+      {
+       "persona": "fixer",
+       "cos": -0.2391,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "rogue",
+         0.82
+        ]
+       ]
+      },
+      {
+       "persona": "predator",
+       "cos": -0.2198,
+       "sign_consistent": true,
+       "cluster": []
+      },
+      {
+       "persona": "lawyer",
+       "cos": -0.2035,
+       "sign_consistent": true,
+       "cluster": []
+      },
+      {
+       "persona": "aberration",
+       "cos": -0.2033,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "demon",
+         0.814
+        ]
+       ]
+      },
+      {
+       "persona": "cynic",
+       "cos": -0.2026,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "provocateur",
+         0.858
+        ],
+        [
+         "rebel",
+         0.806
+        ]
+       ]
+      }
+     ]
+    },
+    "layer_profile_P": {
+     "0": {
+      "persona": "witness",
+      "cos": 0.5384
+     },
+     "4": {
+      "persona": "reporter",
+      "cos": 0.4174
+     },
+     "8": {
+      "persona": "witness",
+      "cos": 0.2893
+     },
+     "12": {
+      "persona": "reporter",
+      "cos": 0.2472
+     },
+     "16": {
+      "persona": "reporter",
+      "cos": 0.2237
+     },
+     "20": {
+      "persona": "reporter",
+      "cos": 0.233
+     },
+     "24": {
+      "persona": "reporter",
+      "cos": 0.2675
+     },
+     "28": {
+      "persona": "witness",
+      "cos": 0.1713
+     },
+     "32": {
+      "persona": "workaholic",
+      "cos": 0.1722
+     },
+     "36": {
+      "persona": "journalist",
+      "cos": 0.2282
+     },
+     "40": {
+      "persona": "editor",
+      "cos": 0.2756
+     },
+     "44": {
+      "persona": "editor",
+      "cos": 0.2528
+     },
+     "48": {
+      "persona": "witness",
+      "cos": 0.244
+     },
+     "52": {
+      "persona": "witness",
+      "cos": 0.2143
+     },
+     "56": {
+      "persona": "workaholic",
+      "cos": 0.2288
+     },
+     "60": {
+      "persona": "workaholic",
+      "cos": 0.2202
+     }
+    }
+   },
+   "raw": {
+    "random_max_null": {
+     "q50": 0.029572367668151855,
+     "q95": 0.045209769159555435,
+     "q99": 0.05409765616059303,
+     "n_draws": 512
+    },
+    "null_band": {
+     "q50": 0.3327559232711792,
+     "q95": 0.7625787854194641,
+     "q99": 0.8755773305892944
+    },
+    "noise_floor": {
+     "n_pairs": 18,
+     "max": 0.2135,
+     "mean": 0.1138
+    },
+    "per_arm": {
+     "A": {
+      "n_seeds": 3,
+      "top": [
+       {
+        "persona": "saboteur",
+        "cos": 0.4769,
+        "per_seed": [
+         0.4869,
+         0.4586,
+         0.485
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "spy",
+          0.854
+         ],
+         [
+          "hacker",
+          0.824
+         ]
+        ]
+       },
+       {
+        "persona": "hacker",
+        "cos": 0.4584,
+        "per_seed": [
+         0.4602,
+         0.4495,
+         0.4656
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "spy",
+          0.831
+         ],
+         [
+          "saboteur",
+          0.824
+         ],
+         [
+          "fixer",
+          0.821
+         ],
+         [
+          "rogue",
+          0.82
+         ]
+        ]
+       },
+       {
+        "persona": "spy",
+        "cos": 0.4564,
+        "per_seed": [
+         0.4631,
+         0.4454,
+         0.4608
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "saboteur",
+          0.854
+         ],
+         [
+          "fixer",
+          0.851
+         ],
+         [
+          "hacker",
+          0.831
+         ],
+         [
+          "rogue",
+          0.802
+         ]
+        ]
+       },
+       {
+        "persona": "fixer",
+        "cos": 0.4466,
+        "per_seed": [
+         0.4498,
+         0.4389,
+         0.451
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "rogue",
+          0.933
+         ],
+         [
+          "smuggler",
+          0.895
+         ],
+         [
+          "criminal",
+          0.875
+         ],
+         [
+          "vigilante",
+          0.874
+         ]
+        ]
+       },
+       {
+        "persona": "rogue",
+        "cos": 0.4326,
+        "per_seed": [
+         0.4307,
+         0.4298,
+         0.4372
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "fixer",
+          0.933
+         ],
+         [
+          "criminal",
+          0.928
+         ],
+         [
+          "smuggler",
+          0.924
+         ],
+         [
+          "trickster",
+          0.885
+         ]
+        ]
+       },
+       {
+        "persona": "contrarian",
+        "cos": 0.4312,
+        "per_seed": [
+         0.4341,
+         0.4231,
+         0.4365
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "devils_advocate",
+          0.933
+         ],
+         [
+          "maverick",
+          0.898
+         ],
+         [
+          "provocateur",
+          0.879
+         ],
+         [
+          "rebel",
+          0.853
+         ]
+        ]
+       },
+       {
+        "persona": "cynic",
+        "cos": 0.4281,
+        "per_seed": [
+         0.4202,
+         0.4299,
+         0.434
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "provocateur",
+          0.907
+         ],
+         [
+          "rebel",
+          0.876
+         ],
+         [
+          "gossip",
+          0.847
+         ],
+         [
+          "criminal",
+          0.846
+         ]
+        ]
+       },
+       {
+        "persona": "provocateur",
+        "cos": 0.4261,
+        "per_seed": [
+         0.4209,
+         0.4265,
+         0.4308
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "rebel",
+          0.973
+         ],
+         [
+          "maverick",
+          0.949
+         ],
+         [
+          "cynic",
+          0.907
+         ],
+         [
+          "trickster",
+          0.886
+         ]
+        ]
+       },
+       {
+        "persona": "workaholic",
+        "cos": 0.4196,
+        "per_seed": [
+         0.4268,
+         0.4114,
+         0.4206
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "competitor",
+          0.802
+         ]
+        ]
+       },
+       {
+        "persona": "parasite",
+        "cos": 0.4073,
+        "per_seed": [
+         0.4109,
+         0.3982,
+         0.4128
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "virus",
+          0.91
+         ],
+         [
+          "predator",
+          0.804
+         ]
+        ]
+       }
+      ],
+      "bottom": [
+       {
+        "persona": "doctor",
+        "cos": -0.0567
+       },
+       {
+        "persona": "summarizer",
+        "cos": -0.1549
+       },
+       {
+        "persona": "assistant",
+        "cos": -0.1604
+       }
+      ]
+     },
+     "MIX": {
+      "n_seeds": 3,
+      "top": [
+       {
+        "persona": "workaholic",
+        "cos": 0.3905,
+        "per_seed": [
+         0.4086,
+         0.382,
+         0.3808
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "competitor",
+          0.802
+         ]
+        ]
+       },
+       {
+        "persona": "simulacrum",
+        "cos": 0.3559,
+        "per_seed": [
+         0.3625,
+         0.3552,
+         0.35
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "aberration",
+          0.854
+         ],
+         [
+          "void",
+          0.854
+         ],
+         [
+          "egregore",
+          0.847
+         ],
+         [
+          "chimera",
+          0.838
+         ]
+        ]
+       },
+       {
+        "persona": "fixer",
+        "cos": 0.3546,
+        "per_seed": [
+         0.3711,
+         0.3454,
+         0.3474
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "rogue",
+          0.933
+         ],
+         [
+          "smuggler",
+          0.895
+         ],
+         [
+          "criminal",
+          0.875
+         ],
+         [
+          "vigilante",
+          0.874
+         ]
+        ]
+       },
+       {
+        "persona": "parasite",
+        "cos": 0.3491,
+        "per_seed": [
+         0.3581,
+         0.3502,
+         0.3389
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "virus",
+          0.91
+         ],
+         [
+          "predator",
+          0.804
+         ]
+        ]
+       },
+       {
+        "persona": "witness",
+        "cos": 0.3458,
+        "per_seed": [
+         0.3515,
+         0.3522,
+         0.3337
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "hacker",
+        "cos": 0.3439,
+        "per_seed": [
+         0.3559,
+         0.3437,
+         0.3321
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "spy",
+          0.831
+         ],
+         [
+          "saboteur",
+          0.824
+         ],
+         [
+          "fixer",
+          0.821
+         ],
+         [
+          "rogue",
+          0.82
+         ]
+        ]
+       },
+       {
+        "persona": "contrarian",
+        "cos": 0.3439,
+        "per_seed": [
+         0.3595,
+         0.336,
+         0.3362
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "devils_advocate",
+          0.933
+         ],
+         [
+          "maverick",
+          0.898
+         ],
+         [
+          "provocateur",
+          0.879
+         ],
+         [
+          "rebel",
+          0.853
+         ]
+        ]
+       },
+       {
+        "persona": "spy",
+        "cos": 0.3403,
+        "per_seed": [
+         0.3504,
+         0.3424,
+         0.3281
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "saboteur",
+          0.854
+         ],
+         [
+          "fixer",
+          0.851
+         ],
+         [
+          "hacker",
+          0.831
+         ],
+         [
+          "rogue",
+          0.802
+         ]
+        ]
+       },
+       {
+        "persona": "genie",
+        "cos": 0.3392,
+        "per_seed": [
+         0.3516,
+         0.3304,
+         0.3356
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "trickster",
+          0.924
+         ],
+         [
+          "demon",
+          0.899
+         ],
+         [
+          "jester",
+          0.889
+         ],
+         [
+          "absurdist",
+          0.875
+         ]
+        ]
+       },
+       {
+        "persona": "provocateur",
+        "cos": 0.338,
+        "per_seed": [
+         0.3531,
+         0.324,
+         0.3368
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "rebel",
+          0.973
+         ],
+         [
+          "maverick",
+          0.949
+         ],
+         [
+          "cynic",
+          0.907
+         ],
+         [
+          "trickster",
+          0.886
+         ]
+        ]
+       }
+      ],
+      "bottom": [
+       {
+        "persona": "planner",
+        "cos": -0.0309
+       },
+       {
+        "persona": "summarizer",
+        "cos": -0.1339
+       },
+       {
+        "persona": "assistant",
+        "cos": -0.2062
+       }
+      ]
+     },
+     "N": {
+      "n_seeds": 3,
+      "top": [
+       {
+        "persona": "workaholic",
+        "cos": 0.4082,
+        "per_seed": [
+         0.4172,
+         0.4037,
+         0.4038
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "competitor",
+          0.802
+         ]
+        ]
+       },
+       {
+        "persona": "trickster",
+        "cos": 0.3797,
+        "per_seed": [
+         0.389,
+         0.3828,
+         0.3672
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "jester",
+          0.943
+         ],
+         [
+          "absurdist",
+          0.928
+         ],
+         [
+          "genie",
+          0.924
+         ],
+         [
+          "fool",
+          0.893
+         ]
+        ]
+       },
+       {
+        "persona": "auctioneer",
+        "cos": 0.3794,
+        "per_seed": [
+         0.3868,
+         0.3815,
+         0.3699
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "actor",
+        "cos": 0.3786,
+        "per_seed": [
+         0.3856,
+         0.3855,
+         0.3647
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "improviser",
+          0.896
+         ],
+         [
+          "trickster",
+          0.89
+         ],
+         [
+          "bohemian",
+          0.852
+         ],
+         [
+          "daredevil",
+          0.849
+         ]
+        ]
+       },
+       {
+        "persona": "cynic",
+        "cos": 0.3773,
+        "per_seed": [
+         0.3837,
+         0.3799,
+         0.3684
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "provocateur",
+          0.907
+         ],
+         [
+          "rebel",
+          0.876
+         ],
+         [
+          "gossip",
+          0.847
+         ],
+         [
+          "criminal",
+          0.846
+         ]
+        ]
+       },
+       {
+        "persona": "provocateur",
+        "cos": 0.3744,
+        "per_seed": [
+         0.3842,
+         0.3743,
+         0.3648
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "rebel",
+          0.973
+         ],
+         [
+          "maverick",
+          0.949
+         ],
+         [
+          "cynic",
+          0.907
+         ],
+         [
+          "trickster",
+          0.886
+         ]
+        ]
+       },
+       {
+        "persona": "fixer",
+        "cos": 0.3711,
+        "per_seed": [
+         0.3811,
+         0.3704,
+         0.3618
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "rogue",
+          0.933
+         ],
+         [
+          "smuggler",
+          0.895
+         ],
+         [
+          "criminal",
+          0.875
+         ],
+         [
+          "vigilante",
+          0.874
+         ]
+        ]
+       },
+       {
+        "persona": "jester",
+        "cos": 0.3699,
+        "per_seed": [
+         0.3787,
+         0.3748,
+         0.3563
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "trickster",
+          0.943
+         ],
+         [
+          "absurdist",
+          0.912
+         ],
+         [
+          "genie",
+          0.889
+         ],
+         [
+          "comedian",
+          0.888
+         ]
+        ]
+       },
+       {
+        "persona": "comedian",
+        "cos": 0.3698,
+        "per_seed": [
+         0.3748,
+         0.3781,
+         0.3565
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "gossip",
+          0.93
+         ],
+         [
+          "fool",
+          0.902
+         ],
+         [
+          "jester",
+          0.888
+         ],
+         [
+          "trickster",
+          0.849
+         ]
+        ]
+       },
+       {
+        "persona": "gossip",
+        "cos": 0.3688,
+        "per_seed": [
+         0.3724,
+         0.3788,
+         0.3551
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "comedian",
+          0.93
+         ],
+         [
+          "fool",
+          0.871
+         ],
+         [
+          "daredevil",
+          0.861
+         ],
+         [
+          "jester",
+          0.859
+         ]
+        ]
+       }
+      ],
+      "bottom": [
+       {
+        "persona": "doctor",
+        "cos": -0.1315
+       },
+       {
+        "persona": "summarizer",
+        "cos": -0.1849
+       },
+       {
+        "persona": "assistant",
+        "cos": -0.3102
+       }
+      ]
+     },
+     "P": {
+      "n_seeds": 3,
+      "top": [
+       {
+        "persona": "podcaster",
+        "cos": 0.4029,
+        "per_seed": [
+         0.4107,
+         0.3938,
+         0.4042
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "blogger",
+          0.903
+         ],
+         [
+          "influencer",
+          0.813
+         ],
+         [
+          "dilettante",
+          0.813
+         ],
+         [
+          "improviser",
+          0.803
+         ]
+        ]
+       },
+       {
+        "persona": "workaholic",
+        "cos": 0.4018,
+        "per_seed": [
+         0.4054,
+         0.392,
+         0.4079
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "competitor",
+          0.802
+         ]
+        ]
+       },
+       {
+        "persona": "chameleon",
+        "cos": 0.3992,
+        "per_seed": [
+         0.4034,
+         0.3904,
+         0.4039
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "dilettante",
+          0.842
+         ],
+         [
+          "actor",
+          0.819
+         ],
+         [
+          "improviser",
+          0.815
+         ],
+         [
+          "shapeshifter",
+          0.806
+         ]
+        ]
+       },
+       {
+        "persona": "tulpa",
+        "cos": 0.3948,
+        "per_seed": [
+         0.3944,
+         0.3882,
+         0.4018
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "egregore",
+          0.853
+         ],
+         [
+          "shapeshifter",
+          0.853
+         ],
+         [
+          "dreamer",
+          0.83
+         ],
+         [
+          "chimera",
+          0.816
+         ]
+        ]
+       },
+       {
+        "persona": "contrarian",
+        "cos": 0.3889,
+        "per_seed": [
+         0.3953,
+         0.3786,
+         0.3927
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "devils_advocate",
+          0.933
+         ],
+         [
+          "maverick",
+          0.898
+         ],
+         [
+          "provocateur",
+          0.879
+         ],
+         [
+          "rebel",
+          0.853
+         ]
+        ]
+       },
+       {
+        "persona": "witness",
+        "cos": 0.3844,
+        "per_seed": [
+         0.3794,
+         0.3902,
+         0.3838
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "prodigy",
+        "cos": 0.3833,
+        "per_seed": [
+         0.3804,
+         0.3835,
+         0.3861
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "visionary",
+          0.852
+         ],
+         [
+          "virtuoso",
+          0.852
+         ],
+         [
+          "zeitgeist",
+          0.821
+         ]
+        ]
+       },
+       {
+        "persona": "simulacrum",
+        "cos": 0.382,
+        "per_seed": [
+         0.384,
+         0.3736,
+         0.3883
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "aberration",
+          0.854
+         ],
+         [
+          "void",
+          0.854
+         ],
+         [
+          "egregore",
+          0.847
+         ],
+         [
+          "chimera",
+          0.838
+         ]
+        ]
+       },
+       {
+        "persona": "fixer",
+        "cos": 0.3771,
+        "per_seed": [
+         0.3857,
+         0.3632,
+         0.3823
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "rogue",
+          0.933
+         ],
+         [
+          "smuggler",
+          0.895
+         ],
+         [
+          "criminal",
+          0.875
+         ],
+         [
+          "vigilante",
+          0.874
+         ]
+        ]
+       },
+       {
+        "persona": "maverick",
+        "cos": 0.3763,
+        "per_seed": [
+         0.3868,
+         0.3625,
+         0.3797
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "rebel",
+          0.954
+         ],
+         [
+          "provocateur",
+          0.949
+         ],
+         [
+          "contrarian",
+          0.898
+         ],
+         [
+          "trickster",
+          0.852
+         ]
+        ]
+       }
+      ],
+      "bottom": [
+       {
+        "persona": "planner",
+        "cos": -0.0355
+       },
+       {
+        "persona": "assistant",
+        "cos": -0.1831
+       },
+       {
+        "persona": "summarizer",
+        "cos": -0.1881
+       }
+      ]
+     },
+     "REPLAY": {
+      "n_seeds": 3,
+      "top": [
+       {
+        "persona": "assistant",
+        "cos": 0.3901,
+        "per_seed": [
+         0.349,
+         0.3665,
+         0.4546
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "organizer",
+          0.815
+         ],
+         [
+          "analyst",
+          0.808
+         ],
+         [
+          "reviewer",
+          0.808
+         ],
+         [
+          "consultant",
+          0.807
+         ]
+        ]
+       },
+       {
+        "persona": "teacher",
+        "cos": 0.3563,
+        "per_seed": [
+         0.3185,
+         0.3331,
+         0.4172
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "tutor",
+          0.942
+         ],
+         [
+          "instructor",
+          0.84
+         ]
+        ]
+       },
+       {
+        "persona": "grader",
+        "cos": 0.3484,
+        "per_seed": [
+         0.3175,
+         0.3429,
+         0.3848
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "examiner",
+          0.821
+         ]
+        ]
+       },
+       {
+        "persona": "editor",
+        "cos": 0.3473,
+        "per_seed": [
+         0.3256,
+         0.3458,
+         0.3703
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "proofreader",
+          0.87
+         ]
+        ]
+       },
+       {
+        "persona": "reviewer",
+        "cos": 0.347,
+        "per_seed": [
+         0.3077,
+         0.3298,
+         0.4036
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "evaluator",
+          0.941
+         ],
+         [
+          "examiner",
+          0.91
+         ],
+         [
+          "analyst",
+          0.896
+         ],
+         [
+          "consultant",
+          0.865
+         ]
+        ]
+       },
+       {
+        "persona": "tutor",
+        "cos": 0.3203,
+        "per_seed": [
+         0.285,
+         0.2988,
+         0.3771
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "teacher",
+          0.942
+         ],
+         [
+          "instructor",
+          0.867
+         ]
+        ]
+       },
+       {
+        "persona": "secretary",
+        "cos": 0.3201,
+        "per_seed": [
+         0.2975,
+         0.3188,
+         0.3439
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "supervisor",
+          0.809
+         ]
+        ]
+       },
+       {
+        "persona": "reporter",
+        "cos": 0.3001,
+        "per_seed": [
+         0.2781,
+         0.2867,
+         0.3355
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "journalist",
+          0.925
+         ]
+        ]
+       },
+       {
+        "persona": "doctor",
+        "cos": 0.297,
+        "per_seed": [
+         0.2777,
+         0.2883,
+         0.3249
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "peacekeeper",
+        "cos": 0.2909,
+        "per_seed": [
+         0.2614,
+         0.2793,
+         0.332
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "mediator",
+          0.906
+         ],
+         [
+          "emissary",
+          0.84
+         ],
+         [
+          "negotiator",
+          0.811
+         ]
+        ]
+       }
+      ],
+      "bottom": [
+       {
+        "persona": "gossip",
+        "cos": -0.1638
+       },
+       {
+        "persona": "comedian",
+        "cos": -0.1674
+       },
+       {
+        "persona": "poet",
+        "cos": -0.1948
+       }
+      ]
+     },
+     "S": {
+      "n_seeds": 3,
+      "top": [
+       {
+        "persona": "workaholic",
+        "cos": 0.4186,
+        "per_seed": [
+         0.4159,
+         0.4147,
+         0.4251
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "competitor",
+          0.802
+         ]
+        ]
+       },
+       {
+        "persona": "fixer",
+        "cos": 0.3728,
+        "per_seed": [
+         0.3727,
+         0.3636,
+         0.3821
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "rogue",
+          0.933
+         ],
+         [
+          "smuggler",
+          0.895
+         ],
+         [
+          "criminal",
+          0.875
+         ],
+         [
+          "vigilante",
+          0.874
+         ]
+        ]
+       },
+       {
+        "persona": "simulacrum",
+        "cos": 0.3696,
+        "per_seed": [
+         0.3582,
+         0.3683,
+         0.3823
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "aberration",
+          0.854
+         ],
+         [
+          "void",
+          0.854
+         ],
+         [
+          "egregore",
+          0.847
+         ],
+         [
+          "chimera",
+          0.838
+         ]
+        ]
+       },
+       {
+        "persona": "chameleon",
+        "cos": 0.368,
+        "per_seed": [
+         0.3628,
+         0.3612,
+         0.3801
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "dilettante",
+          0.842
+         ],
+         [
+          "actor",
+          0.819
+         ],
+         [
+          "improviser",
+          0.815
+         ],
+         [
+          "shapeshifter",
+          0.806
+         ]
+        ]
+       },
+       {
+        "persona": "competitor",
+        "cos": 0.3639,
+        "per_seed": [
+         0.3696,
+         0.352,
+         0.3701
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "fixer",
+          0.815
+         ],
+         [
+          "rogue",
+          0.812
+         ],
+         [
+          "daredevil",
+          0.804
+         ],
+         [
+          "workaholic",
+          0.802
+         ]
+        ]
+       },
+       {
+        "persona": "hacker",
+        "cos": 0.3605,
+        "per_seed": [
+         0.3571,
+         0.3524,
+         0.372
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "spy",
+          0.831
+         ],
+         [
+          "saboteur",
+          0.824
+         ],
+         [
+          "fixer",
+          0.821
+         ],
+         [
+          "rogue",
+          0.82
+         ]
+        ]
+       },
+       {
+        "persona": "narcissist",
+        "cos": 0.3604,
+        "per_seed": [
+         0.3724,
+         0.3512,
+         0.3576
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "cynic",
+          0.821
+         ]
+        ]
+       },
+       {
+        "persona": "contrarian",
+        "cos": 0.3568,
+        "per_seed": [
+         0.3503,
+         0.3509,
+         0.3692
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "devils_advocate",
+          0.933
+         ],
+         [
+          "maverick",
+          0.898
+         ],
+         [
+          "provocateur",
+          0.879
+         ],
+         [
+          "rebel",
+          0.853
+         ]
+        ]
+       },
+       {
+        "persona": "parasite",
+        "cos": 0.3552,
+        "per_seed": [
+         0.3495,
+         0.355,
+         0.3611
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "virus",
+          0.91
+         ],
+         [
+          "predator",
+          0.804
+         ]
+        ]
+       },
+       {
+        "persona": "prodigy",
+        "cos": 0.3551,
+        "per_seed": [
+         0.3383,
+         0.3524,
+         0.3745
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "visionary",
+          0.852
+         ],
+         [
+          "virtuoso",
+          0.852
+         ],
+         [
+          "zeitgeist",
+          0.821
+         ]
+        ]
+       }
+      ],
+      "bottom": [
+       {
+        "persona": "planner",
+        "cos": -0.0269
+       },
+       {
+        "persona": "summarizer",
+        "cos": -0.1544
+       },
+       {
+        "persona": "assistant",
+        "cos": -0.1996
+       }
+      ]
+     }
+    },
+    "contrast": {
+     "contrast": "P-A",
+     "n_pairings": 9,
+     "toward_P": [
+      {
+       "persona": "caregiver",
+       "cos": 0.274,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "counselor",
+         0.855
+        ],
+        [
+         "empath",
+         0.846
+        ],
+        [
+         "optimist",
+         0.807
+        ]
+       ]
+      },
+      {
+       "persona": "optimist",
+       "cos": 0.2646,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "caregiver",
+         0.807
+        ]
+       ]
+      },
+      {
+       "persona": "altruist",
+       "cos": 0.2584,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "guardian",
+         0.818
+        ],
+        [
+         "pacifist",
+         0.802
+        ]
+       ]
+      },
+      {
+       "persona": "collaborator",
+       "cos": 0.2435,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "facilitator",
+         0.822
+        ]
+       ]
+      },
+      {
+       "persona": "networker",
+       "cos": 0.2039,
+       "sign_consistent": true,
+       "cluster": []
+      },
+      {
+       "persona": "counselor",
+       "cos": 0.191,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "therapist",
+         0.97
+        ],
+        [
+         "caregiver",
+         0.855
+        ]
+       ]
+      },
+      {
+       "persona": "healer",
+       "cos": 0.1903,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "empath",
+         0.831
+        ]
+       ]
+      },
+      {
+       "persona": "parent",
+       "cos": 0.1875,
+       "sign_consistent": true,
+       "cluster": []
+      },
+      {
+       "persona": "pacifist",
+       "cos": 0.1864,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "altruist",
+         0.802
+        ]
+       ]
+      },
+      {
+       "persona": "empath",
+       "cos": 0.1805,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "romantic",
+         0.853
+        ],
+        [
+         "caregiver",
+         0.846
+        ],
+        [
+         "healer",
+         0.831
+        ],
+        [
+         "widow",
+         0.821
+        ]
+       ]
+      }
+     ],
+     "toward_A": [
+      {
+       "persona": "saboteur",
+       "cos": -0.2498,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "spy",
+         0.854
+        ],
+        [
+         "hacker",
+         0.824
+        ]
+       ]
+      },
+      {
+       "persona": "spy",
+       "cos": -0.2288,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "saboteur",
+         0.854
+        ],
+        [
+         "fixer",
+         0.851
+        ],
+        [
+         "hacker",
+         0.831
+        ],
+        [
+         "rogue",
+         0.802
+        ]
+       ]
+      },
+      {
+       "persona": "hacker",
+       "cos": -0.2085,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "spy",
+         0.831
+        ],
+        [
+         "saboteur",
+         0.824
+        ],
+        [
+         "fixer",
+         0.821
+        ],
+        [
+         "rogue",
+         0.82
+        ]
+       ]
+      },
+      {
+       "persona": "lawyer",
+       "cos": -0.2039,
+       "sign_consistent": true,
+       "cluster": []
+      },
+      {
+       "persona": "robot",
+       "cos": -0.1971,
+       "sign_consistent": true,
+       "cluster": []
+      },
+      {
+       "persona": "specialist",
+       "cos": -0.1833,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "researcher",
+         0.92
+        ],
+        [
+         "analyst",
+         0.888
+        ],
+        [
+         "scientist",
+         0.869
+        ],
+        [
+         "scholar",
+         0.84
+        ]
+       ]
+      },
+      {
+       "persona": "rogue",
+       "cos": -0.1767,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "fixer",
+         0.933
+        ],
+        [
+         "criminal",
+         0.928
+        ],
+        [
+         "smuggler",
+         0.924
+        ],
+        [
+         "trickster",
+         0.885
+        ]
+       ]
+      },
+      {
+       "persona": "cynic",
+       "cos": -0.174,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "provocateur",
+         0.907
+        ],
+        [
+         "rebel",
+         0.876
+        ],
+        [
+         "gossip",
+         0.847
+        ],
+        [
+         "criminal",
+         0.846
+        ]
+       ]
+      },
+      {
+       "persona": "validator",
+       "cos": -0.171,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "examiner",
+         0.896
+        ],
+        [
+         "analyst",
+         0.885
+        ],
+        [
+         "evaluator",
+         0.883
+        ],
+        [
+         "researcher",
+         0.871
+        ]
+       ]
+      },
+      {
+       "persona": "demon",
+       "cos": -0.1642,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "aberration",
+         0.937
+        ],
+        [
+         "vampire",
+         0.927
+        ],
+        [
+         "genie",
+         0.899
+        ],
+        [
+         "revenant",
+         0.899
+        ]
+       ]
+      }
+     ]
+    },
+    "layer_profile_P": {
+     "0": {
+      "persona": "witness",
+      "cos": 0.6828
+     },
+     "4": {
+      "persona": "witness",
+      "cos": 0.5619
+     },
+     "8": {
+      "persona": "contrarian",
+      "cos": 0.5665
+     },
+     "12": {
+      "persona": "contrarian",
+      "cos": 0.5444
+     },
+     "16": {
+      "persona": "witness",
+      "cos": 0.4546
+     },
+     "20": {
+      "persona": "witness",
+      "cos": 0.4493
+     },
+     "24": {
+      "persona": "witness",
+      "cos": 0.4273
+     },
+     "28": {
+      "persona": "witness",
+      "cos": 0.4144
+     },
+     "32": {
+      "persona": "podcaster",
+      "cos": 0.4091
+     },
+     "36": {
+      "persona": "witness",
+      "cos": 0.4497
+     },
+     "40": {
+      "persona": "witness",
+      "cos": 0.5072
+     },
+     "44": {
+      "persona": "witness",
+      "cos": 0.5208
+     },
+     "48": {
+      "persona": "witness",
+      "cos": 0.4779
+     },
+     "52": {
+      "persona": "witness",
+      "cos": 0.4286
+     },
+     "56": {
+      "persona": "workaholic",
+      "cos": 0.3611
+     },
+     "60": {
+      "persona": "workaholic",
+      "cos": 0.3347
+     }
+    }
+   },
+   "agreement": {
+    "A": {
+     "top1_agree": true,
+     "top1_residual": "saboteur",
+     "top1_raw": "saboteur",
+     "overlap_top10": 9
+    },
+    "MIX": {
+     "top1_agree": false,
+     "top1_residual": "translator",
+     "top1_raw": "workaholic",
+     "overlap_top10": 3
+    },
+    "N": {
+     "top1_agree": true,
+     "top1_residual": "workaholic",
+     "top1_raw": "workaholic",
+     "overlap_top10": 6
+    },
+    "P": {
+     "top1_agree": false,
+     "top1_residual": "workaholic",
+     "top1_raw": "podcaster",
+     "overlap_top10": 4
+    },
+    "REPLAY": {
+     "top1_agree": true,
+     "top1_residual": "assistant",
+     "top1_raw": "assistant",
+     "overlap_top10": 10
+    },
+    "S": {
+     "top1_agree": true,
+     "top1_residual": "workaholic",
+     "top1_raw": "workaholic",
+     "overlap_top10": 4
+    }
+   },
+   "axis_alignment": {
+    "actor": {
+     "cos_with_axis": -0.7874,
+     "residual_frac": 0.6164
+    },
+    "altruist": {
+     "cos_with_axis": -0.4806,
+     "residual_frac": 0.8769
+    },
+    "assistant": {
+     "cos_with_axis": 0.1258,
+     "residual_frac": 0.9921
+    },
+    "auctioneer": {
+     "cos_with_axis": -0.7216,
+     "residual_frac": 0.6923
+    },
+    "chameleon": {
+     "cos_with_axis": -0.828,
+     "residual_frac": 0.5608
+    },
+    "comedian": {
+     "cos_with_axis": -0.4845,
+     "residual_frac": 0.8748
+    },
+    "competitor": {
+     "cos_with_axis": -0.7115,
+     "residual_frac": 0.7027
+    },
+    "contrarian": {
+     "cos_with_axis": -0.7279,
+     "residual_frac": 0.6857
+    },
+    "cynic": {
+     "cos_with_axis": -0.6033,
+     "residual_frac": 0.7975
+    },
+    "daredevil": {
+     "cos_with_axis": -0.6524,
+     "residual_frac": 0.7579
+    },
+    "doctor": {
+     "cos_with_axis": -0.0374,
+     "residual_frac": 0.9993
+    },
+    "editor": {
+     "cos_with_axis": -0.1303,
+     "residual_frac": 0.9915
+    },
+    "fixer": {
+     "cos_with_axis": -0.7946,
+     "residual_frac": 0.6072
+    },
+    "genie": {
+     "cos_with_axis": -0.8211,
+     "residual_frac": 0.5708
+    },
+    "gossip": {
+     "cos_with_axis": -0.5119,
+     "residual_frac": 0.859
+    },
+    "grader": {
+     "cos_with_axis": -0.1214,
+     "residual_frac": 0.9926
+    },
+    "hacker": {
+     "cos_with_axis": -0.7051,
+     "residual_frac": 0.7091
+    },
+    "interviewer": {
+     "cos_with_axis": -0.2965,
+     "residual_frac": 0.955
+    },
+    "jester": {
+     "cos_with_axis": -0.7008,
+     "residual_frac": 0.7133
+    },
+    "lawyer": {
+     "cos_with_axis": -0.0246,
+     "residual_frac": 0.9997
+    },
+    "maverick": {
+     "cos_with_axis": -0.7754,
+     "residual_frac": 0.6315
+    },
+    "narcissist": {
+     "cos_with_axis": -0.6096,
+     "residual_frac": 0.7927
+    },
+    "parasite": {
+     "cos_with_axis": -0.7821,
+     "residual_frac": 0.6232
+    },
+    "peacekeeper": {
+     "cos_with_axis": -0.366,
+     "residual_frac": 0.9306
+    },
+    "podcaster": {
+     "cos_with_axis": -0.734,
+     "residual_frac": 0.6792
+    },
+    "procrastinator": {
+     "cos_with_axis": -0.4087,
+     "residual_frac": 0.9127
+    },
+    "prodigy": {
+     "cos_with_axis": -0.8531,
+     "residual_frac": 0.5218
+    },
+    "provocateur": {
+     "cos_with_axis": -0.7405,
+     "residual_frac": 0.6721
+    },
+    "recruiter": {
+     "cos_with_axis": -0.2824,
+     "residual_frac": 0.9593
+    },
+    "reporter": {
+     "cos_with_axis": -0.372,
+     "residual_frac": 0.9282
+    },
+    "reviewer": {
+     "cos_with_axis": -0.0788,
+     "residual_frac": 0.9969
+    },
+    "rogue": {
+     "cos_with_axis": -0.7892,
+     "residual_frac": 0.6142
+    },
+    "saboteur": {
+     "cos_with_axis": -0.7067,
+     "residual_frac": 0.7075
+    },
+    "screener": {
+     "cos_with_axis": -0.1007,
+     "residual_frac": 0.9949
+    },
+    "secretary": {
+     "cos_with_axis": -0.07,
+     "residual_frac": 0.9975
+    },
+    "simulacrum": {
+     "cos_with_axis": -0.8563,
+     "residual_frac": 0.5165
+    },
+    "spy": {
+     "cos_with_axis": -0.7139,
+     "residual_frac": 0.7002
+    },
+    "teacher": {
+     "cos_with_axis": -0.2959,
+     "residual_frac": 0.9552
+    },
+    "translator": {
+     "cos_with_axis": -0.1192,
+     "residual_frac": 0.9929
+    },
+    "trickster": {
+     "cos_with_axis": -0.7971,
+     "residual_frac": 0.6038
+    },
+    "tulpa": {
+     "cos_with_axis": -0.8642,
+     "residual_frac": 0.5031
+    },
+    "tutor": {
+     "cos_with_axis": -0.3044,
+     "residual_frac": 0.9526
+    },
+    "witness": {
+     "cos_with_axis": -0.711,
+     "residual_frac": 0.7032
+    },
+    "workaholic": {
+     "cos_with_axis": -0.6806,
+     "residual_frac": 0.7327
+    }
+   }
+  },
+  "trait": {
+   "residual": {
+    "random_max_null": {
+     "q50": 0.03265517204999924,
+     "q95": 0.04785722866654396,
+     "q99": 0.0556153878569603,
+     "n_draws": 512
+    },
+    "null_band": {
+     "q50": 0.02344866842031479,
+     "q95": 0.639275312423706,
+     "q99": 0.8385433554649353
+    },
+    "noise_floor": {
+     "n_pairs": 18,
+     "max": 0.2809,
+     "mean": 0.1571
+    },
+    "per_arm": {
+     "A": {
+      "n_seeds": 3,
+      "top": [
+       {
+        "persona": "cynical",
+        "cos": 0.3659,
+        "per_seed": [
+         0.3656,
+         0.3585,
+         0.3736
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "callous",
+        "cos": 0.3201,
+        "per_seed": [
+         0.3163,
+         0.3208,
+         0.3234
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "cruel",
+          0.863
+         ]
+        ]
+       },
+       {
+        "persona": "paranoid",
+        "cos": 0.3128,
+        "per_seed": [
+         0.3205,
+         0.2967,
+         0.3213
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "evil",
+        "cos": 0.3113,
+        "per_seed": [
+         0.2993,
+         0.3134,
+         0.3211
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "cruel",
+          0.845
+         ]
+        ]
+       },
+       {
+        "persona": "manipulative",
+        "cos": 0.3061,
+        "per_seed": [
+         0.302,
+         0.3059,
+         0.3104
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "cruel",
+        "cos": 0.3024,
+        "per_seed": [
+         0.2883,
+         0.3094,
+         0.3094
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "hostile",
+          0.875
+         ],
+         [
+          "callous",
+          0.863
+         ],
+         [
+          "misanthropic",
+          0.859
+         ],
+         [
+          "evil",
+          0.845
+         ]
+        ]
+       },
+       {
+        "persona": "judgmental",
+        "cos": 0.2969,
+        "per_seed": [
+         0.2874,
+         0.3,
+         0.3032
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "savage",
+          0.883
+         ],
+         [
+          "hostile",
+          0.849
+         ],
+         [
+          "arrogant",
+          0.83
+         ],
+         [
+          "cruel",
+          0.821
+         ]
+        ]
+       },
+       {
+        "persona": "materialist",
+        "cos": 0.2961,
+        "per_seed": [
+         0.29,
+         0.3015,
+         0.2968
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "misanthropic",
+        "cos": 0.2852,
+        "per_seed": [
+         0.2701,
+         0.2955,
+         0.2901
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "cruel",
+          0.859
+         ],
+         [
+          "bitter",
+          0.842
+         ],
+         [
+          "hostile",
+          0.841
+         ],
+         [
+          "acerbic",
+          0.824
+         ]
+        ]
+       },
+       {
+        "persona": "arrogant",
+        "cos": 0.2851,
+        "per_seed": [
+         0.275,
+         0.2925,
+         0.2877
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "judgmental",
+          0.83
+         ]
+        ]
+       }
+      ],
+      "bottom": [
+       {
+        "persona": "conciliatory",
+        "cos": -0.3204
+       },
+       {
+        "persona": "humanistic",
+        "cos": -0.3413
+       },
+       {
+        "persona": "benevolent",
+        "cos": -0.3776
+       }
+      ]
+     },
+     "MIX": {
+      "n_seeds": 3,
+      "top": [
+       {
+        "persona": "manipulative",
+        "cos": 0.2453,
+        "per_seed": [
+         0.2601,
+         0.2241,
+         0.2519
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "anthropocentric",
+        "cos": 0.2231,
+        "per_seed": [
+         0.2146,
+         0.2367,
+         0.2179
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "materialist",
+        "cos": 0.2202,
+        "per_seed": [
+         0.2235,
+         0.2307,
+         0.2065
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "deterministic",
+        "cos": 0.2098,
+        "per_seed": [
+         0.2022,
+         0.2215,
+         0.2057
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "elitist",
+        "cos": 0.2009,
+        "per_seed": [
+         0.1909,
+         0.2209,
+         0.191
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "dogmatic",
+        "cos": 0.2,
+        "per_seed": [
+         0.1929,
+         0.1964,
+         0.2107
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "avoidant",
+        "cos": 0.1993,
+        "per_seed": [
+         0.21,
+         0.1762,
+         0.2116
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "callous",
+        "cos": 0.1982,
+        "per_seed": [
+         0.2009,
+         0.1998,
+         0.1938
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "cruel",
+          0.863
+         ]
+        ]
+       },
+       {
+        "persona": "esoteric",
+        "cos": 0.1957,
+        "per_seed": [
+         0.186,
+         0.2118,
+         0.1893
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "petty",
+        "cos": 0.1939,
+        "per_seed": [
+         0.2098,
+         0.1742,
+         0.1976
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       }
+      ],
+      "bottom": [
+       {
+        "persona": "flexible",
+        "cos": -0.2507
+       },
+       {
+        "persona": "pluralist",
+        "cos": -0.2513
+       },
+       {
+        "persona": "generalist",
+        "cos": -0.2844
+       }
+      ]
+     },
+     "N": {
+      "n_seeds": 3,
+      "top": [
+       {
+        "persona": "passive_aggressive",
+        "cos": 0.2803,
+        "per_seed": [
+         0.2811,
+         0.2903,
+         0.2694
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "ironic",
+          0.955
+         ],
+         [
+          "sarcastic",
+          0.914
+         ],
+         [
+          "flippant",
+          0.907
+         ],
+         [
+          "sardonic",
+          0.904
+         ]
+        ]
+       },
+       {
+        "persona": "sarcastic",
+        "cos": 0.2797,
+        "per_seed": [
+         0.2811,
+         0.2898,
+         0.2684
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "sardonic",
+          0.989
+         ],
+         [
+          "acerbic",
+          0.976
+         ],
+         [
+          "ironic",
+          0.955
+         ],
+         [
+          "edgy",
+          0.954
+         ]
+        ]
+       },
+       {
+        "persona": "arrogant",
+        "cos": 0.2793,
+        "per_seed": [
+         0.2813,
+         0.2834,
+         0.2731
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "judgmental",
+          0.83
+         ]
+        ]
+       },
+       {
+        "persona": "condescending",
+        "cos": 0.2752,
+        "per_seed": [
+         0.2776,
+         0.2813,
+         0.2667
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "passive_aggressive",
+          0.879
+         ],
+         [
+          "sarcastic",
+          0.845
+         ],
+         [
+          "acerbic",
+          0.837
+         ],
+         [
+          "ironic",
+          0.834
+         ]
+        ]
+       },
+       {
+        "persona": "impulsive",
+        "cos": 0.2749,
+        "per_seed": [
+         0.2712,
+         0.292,
+         0.2617
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "impatient",
+          0.844
+         ],
+         [
+          "reactive",
+          0.826
+         ]
+        ]
+       },
+       {
+        "persona": "impatient",
+        "cos": 0.2727,
+        "per_seed": [
+         0.2699,
+         0.2853,
+         0.2627
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "impulsive",
+          0.844
+         ],
+         [
+          "visceral",
+          0.814
+         ],
+         [
+          "reactive",
+          0.808
+         ],
+         [
+          "nonchalant",
+          0.804
+         ]
+        ]
+       },
+       {
+        "persona": "acerbic",
+        "cos": 0.2672,
+        "per_seed": [
+         0.2689,
+         0.2754,
+         0.2572
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "sarcastic",
+          0.976
+         ],
+         [
+          "sardonic",
+          0.97
+         ],
+         [
+          "wry",
+          0.95
+         ],
+         [
+          "edgy",
+          0.942
+         ]
+        ]
+       },
+       {
+        "persona": "flippant",
+        "cos": 0.2658,
+        "per_seed": [
+         0.2631,
+         0.2806,
+         0.2535
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "irreverent",
+          0.958
+         ],
+         [
+          "goofy",
+          0.93
+         ],
+         [
+          "sardonic",
+          0.922
+         ],
+         [
+          "sarcastic",
+          0.921
+         ]
+        ]
+       },
+       {
+        "persona": "sardonic",
+        "cos": 0.2624,
+        "per_seed": [
+         0.2627,
+         0.2733,
+         0.2511
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "sarcastic",
+          0.989
+         ],
+         [
+          "wry",
+          0.98
+         ],
+         [
+          "acerbic",
+          0.97
+         ],
+         [
+          "edgy",
+          0.963
+         ]
+        ]
+       },
+       {
+        "persona": "cruel",
+        "cos": 0.2596,
+        "per_seed": [
+         0.2615,
+         0.2647,
+         0.2527
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "hostile",
+          0.875
+         ],
+         [
+          "callous",
+          0.863
+         ],
+         [
+          "misanthropic",
+          0.859
+         ],
+         [
+          "evil",
+          0.845
+         ]
+        ]
+       }
+      ],
+      "bottom": [
+       {
+        "persona": "holistic",
+        "cos": -0.3031
+       },
+       {
+        "persona": "proactive",
+        "cos": -0.3237
+       },
+       {
+        "persona": "generalist",
+        "cos": -0.3585
+       }
+      ]
+     },
+     "P": {
+      "n_seeds": 3,
+      "top": [
+       {
+        "persona": "manipulative",
+        "cos": 0.2345,
+        "per_seed": [
+         0.2524,
+         0.2202,
+         0.231
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "anthropocentric",
+        "cos": 0.1891,
+        "per_seed": [
+         0.1807,
+         0.1908,
+         0.1959
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "petty",
+        "cos": 0.178,
+        "per_seed": [
+         0.2055,
+         0.1528,
+         0.1757
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "submissive",
+        "cos": 0.1631,
+        "per_seed": [
+         0.1843,
+         0.1421,
+         0.163
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "deterministic",
+        "cos": 0.15,
+        "per_seed": [
+         0.1481,
+         0.1486,
+         0.1532
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "sycophantic",
+        "cos": 0.1498,
+        "per_seed": [
+         0.1681,
+         0.1331,
+         0.1482
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "avoidant",
+        "cos": 0.1412,
+        "per_seed": [
+         0.1684,
+         0.1158,
+         0.1394
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "elitist",
+        "cos": 0.1369,
+        "per_seed": [
+         0.1309,
+         0.1451,
+         0.1348
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "judgmental",
+        "cos": 0.1339,
+        "per_seed": [
+         0.1555,
+         0.1147,
+         0.1315
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "savage",
+          0.883
+         ],
+         [
+          "hostile",
+          0.849
+         ],
+         [
+          "arrogant",
+          0.83
+         ],
+         [
+          "cruel",
+          0.821
+         ]
+        ]
+       },
+       {
+        "persona": "materialist",
+        "cos": 0.1339,
+        "per_seed": [
+         0.1435,
+         0.1228,
+         0.1353
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       }
+      ],
+      "bottom": [
+       {
+        "persona": "proactive",
+        "cos": -0.1837
+       },
+       {
+        "persona": "generalist",
+        "cos": -0.2057
+       },
+       {
+        "persona": "pluralist",
+        "cos": -0.2067
+       }
+      ]
+     },
+     "REPLAY": {
+      "n_seeds": 3,
+      "top": [
+       {
+        "persona": "transparent",
+        "cos": 0.3943,
+        "per_seed": [
+         0.3587,
+         0.3791,
+         0.4452
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "analytical",
+          0.827
+         ]
+        ]
+       },
+       {
+        "persona": "verbose",
+        "cos": 0.3759,
+        "per_seed": [
+         0.3409,
+         0.3542,
+         0.4325
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "educational",
+          0.872
+         ],
+         [
+          "generous",
+          0.862
+         ],
+         [
+          "analytical",
+          0.836
+         ],
+         [
+          "exploratory",
+          0.813
+         ]
+        ]
+       },
+       {
+        "persona": "pensive",
+        "cos": 0.3414,
+        "per_seed": [
+         0.3157,
+         0.3186,
+         0.3899
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "meticulous",
+          0.875
+         ],
+         [
+          "educational",
+          0.823
+         ],
+         [
+          "solemn",
+          0.806
+         ],
+         [
+          "strategic",
+          0.806
+         ]
+        ]
+       },
+       {
+        "persona": "meticulous",
+        "cos": 0.3404,
+        "per_seed": [
+         0.306,
+         0.3231,
+         0.3922
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "perfectionist",
+          0.959
+         ],
+         [
+          "methodical",
+          0.923
+         ],
+         [
+          "conscientious",
+          0.875
+         ],
+         [
+          "pensive",
+          0.875
+         ]
+        ]
+       },
+       {
+        "persona": "analytical",
+        "cos": 0.3292,
+        "per_seed": [
+         0.2859,
+         0.3081,
+         0.3937
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "educational",
+          0.873
+         ],
+         [
+          "methodical",
+          0.862
+         ],
+         [
+          "meticulous",
+          0.857
+         ],
+         [
+          "perfectionist",
+          0.837
+         ]
+        ]
+       },
+       {
+        "persona": "educational",
+        "cos": 0.319,
+        "per_seed": [
+         0.28,
+         0.292,
+         0.3849
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "generous",
+          0.925
+         ],
+         [
+          "analytical",
+          0.873
+         ],
+         [
+          "verbose",
+          0.872
+         ],
+         [
+          "strategic",
+          0.846
+         ]
+        ]
+       },
+       {
+        "persona": "factual",
+        "cos": 0.312,
+        "per_seed": [
+         0.2847,
+         0.3027,
+         0.3487
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "methodical",
+          0.818
+         ]
+        ]
+       },
+       {
+        "persona": "cautious",
+        "cos": 0.3098,
+        "per_seed": [
+         0.2924,
+         0.2953,
+         0.3416
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "methodical",
+        "cos": 0.3042,
+        "per_seed": [
+         0.2657,
+         0.2896,
+         0.3573
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "meticulous",
+          0.923
+         ],
+         [
+          "perfectionist",
+          0.909
+         ],
+         [
+          "formalist",
+          0.87
+         ],
+         [
+          "analytical",
+          0.862
+         ]
+        ]
+       },
+       {
+        "persona": "moderate",
+        "cos": 0.2906,
+        "per_seed": [
+         0.2742,
+         0.2783,
+         0.3193
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "diplomatic",
+          0.938
+         ],
+         [
+          "conciliatory",
+          0.899
+         ],
+         [
+          "agreeable",
+          0.872
+         ],
+         [
+          "tactful",
+          0.849
+         ]
+        ]
+       }
+      ],
+      "bottom": [
+       {
+        "persona": "concise",
+        "cos": -0.3919
+       },
+       {
+        "persona": "cryptic",
+        "cos": -0.3938
+       },
+       {
+        "persona": "efficient",
+        "cos": -0.4008
+       }
+      ]
+     },
+     "S": {
+      "n_seeds": 3,
+      "top": [
+       {
+        "persona": "manipulative",
+        "cos": 0.2432,
+        "per_seed": [
+         0.2589,
+         0.2371,
+         0.2335
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "anthropocentric",
+        "cos": 0.2368,
+        "per_seed": [
+         0.2284,
+         0.2435,
+         0.2384
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "materialist",
+        "cos": 0.2063,
+        "per_seed": [
+         0.2083,
+         0.2093,
+         0.2012
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "elitist",
+        "cos": 0.2016,
+        "per_seed": [
+         0.1918,
+         0.2099,
+         0.2032
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "petty",
+        "cos": 0.1946,
+        "per_seed": [
+         0.2077,
+         0.191,
+         0.185
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "deterministic",
+        "cos": 0.1938,
+        "per_seed": [
+         0.182,
+         0.2063,
+         0.1932
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "arrogant",
+        "cos": 0.1874,
+        "per_seed": [
+         0.2076,
+         0.1772,
+         0.1774
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "judgmental",
+          0.83
+         ]
+        ]
+       },
+       {
+        "persona": "avoidant",
+        "cos": 0.1846,
+        "per_seed": [
+         0.2084,
+         0.1869,
+         0.1585
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "dogmatic",
+        "cos": 0.1812,
+        "per_seed": [
+         0.1958,
+         0.1826,
+         0.1652
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "callous",
+        "cos": 0.1796,
+        "per_seed": [
+         0.194,
+         0.1776,
+         0.1673
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "cruel",
+          0.863
+         ]
+        ]
+       }
+      ],
+      "bottom": [
+       {
+        "persona": "altruistic",
+        "cos": -0.2421
+       },
+       {
+        "persona": "pluralist",
+        "cos": -0.2437
+       },
+       {
+        "persona": "generalist",
+        "cos": -0.2651
+       }
+      ]
+     }
+    },
+    "contrast": {
+     "contrast": "P-A",
+     "n_pairings": 9,
+     "toward_P": [
+      {
+       "persona": "benevolent",
+       "cos": 0.3693,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "humanistic",
+         0.837
+        ],
+        [
+         "nurturing",
+         0.832
+        ]
+       ]
+      },
+      {
+       "persona": "forgiving",
+       "cos": 0.341,
+       "sign_consistent": true,
+       "cluster": []
+      },
+      {
+       "persona": "altruistic",
+       "cos": 0.3284,
+       "sign_consistent": true,
+       "cluster": []
+      },
+      {
+       "persona": "humanistic",
+       "cos": 0.3278,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "benevolent",
+         0.837
+        ]
+       ]
+      },
+      {
+       "persona": "agreeable",
+       "cos": 0.323,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "tactful",
+         0.948
+        ],
+        [
+         "conciliatory",
+         0.938
+        ],
+        [
+         "diplomatic",
+         0.92
+        ],
+        [
+         "moderate",
+         0.872
+        ]
+       ]
+      },
+      {
+       "persona": "conciliatory",
+       "cos": 0.3215,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "agreeable",
+         0.938
+        ],
+        [
+         "diplomatic",
+         0.908
+        ],
+        [
+         "moderate",
+         0.899
+        ],
+        [
+         "tactful",
+         0.858
+        ]
+       ]
+      },
+      {
+       "persona": "optimistic",
+       "cos": 0.3193,
+       "sign_consistent": true,
+       "cluster": []
+      },
+      {
+       "persona": "nurturing",
+       "cos": 0.3027,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "supportive",
+         0.961
+        ],
+        [
+         "benevolent",
+         0.832
+        ]
+       ]
+      },
+      {
+       "persona": "chill",
+       "cos": 0.2901,
+       "sign_consistent": true,
+       "cluster": []
+      },
+      {
+       "persona": "tactful",
+       "cos": 0.276,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "agreeable",
+         0.948
+        ],
+        [
+         "diplomatic",
+         0.915
+        ],
+        [
+         "conciliatory",
+         0.858
+        ],
+        [
+         "moderate",
+         0.849
+        ]
+       ]
+      }
+     ],
+     "toward_A": [
+      {
+       "persona": "cynical",
+       "cos": -0.408,
+       "sign_consistent": true,
+       "cluster": []
+      },
+      {
+       "persona": "competitive",
+       "cos": -0.3315,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "militant",
+         0.854
+        ]
+       ]
+      },
+      {
+       "persona": "callous",
+       "cos": -0.3238,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "cruel",
+         0.863
+        ]
+       ]
+      },
+      {
+       "persona": "pessimistic",
+       "cos": -0.3143,
+       "sign_consistent": true,
+       "cluster": []
+      },
+      {
+       "persona": "militant",
+       "cos": -0.3094,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "competitive",
+         0.854
+        ],
+        [
+         "confrontational",
+         0.822
+        ]
+       ]
+      },
+      {
+       "persona": "vindictive",
+       "cos": -0.3051,
+       "sign_consistent": true,
+       "cluster": []
+      },
+      {
+       "persona": "misanthropic",
+       "cos": -0.3029,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "cruel",
+         0.859
+        ],
+        [
+         "bitter",
+         0.842
+        ],
+        [
+         "hostile",
+         0.841
+        ],
+        [
+         "acerbic",
+         0.824
+        ]
+       ]
+      },
+      {
+       "persona": "evil",
+       "cos": -0.2973,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "cruel",
+         0.845
+        ]
+       ]
+      },
+      {
+       "persona": "confrontational",
+       "cos": -0.2973,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "blunt",
+         0.855
+        ],
+        [
+         "militant",
+         0.822
+        ],
+        [
+         "judgmental",
+         0.805
+        ]
+       ]
+      },
+      {
+       "persona": "cruel",
+       "cos": -0.2934,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "hostile",
+         0.875
+        ],
+        [
+         "callous",
+         0.863
+        ],
+        [
+         "misanthropic",
+         0.859
+        ],
+        [
+         "evil",
+         0.845
+        ]
+       ]
+      }
+     ]
+    },
+    "layer_profile_P": {
+     "0": {
+      "persona": "relativist",
+      "cos": 0.4894
+     },
+     "4": {
+      "persona": "paranoid",
+      "cos": 0.3831
+     },
+     "8": {
+      "persona": "paranoid",
+      "cos": 0.2993
+     },
+     "12": {
+      "persona": "anthropocentric",
+      "cos": 0.2664
+     },
+     "16": {
+      "persona": "anthropocentric",
+      "cos": 0.2263
+     },
+     "20": {
+      "persona": "anthropocentric",
+      "cos": 0.2062
+     },
+     "24": {
+      "persona": "factual",
+      "cos": 0.2063
+     },
+     "28": {
+      "persona": "anthropocentric",
+      "cos": 0.1836
+     },
+     "32": {
+      "persona": "manipulative",
+      "cos": 0.2389
+     },
+     "36": {
+      "persona": "anthropocentric",
+      "cos": 0.2132
+     },
+     "40": {
+      "persona": "anthropocentric",
+      "cos": 0.2598
+     },
+     "44": {
+      "persona": "elitist",
+      "cos": 0.2215
+     },
+     "48": {
+      "persona": "anthropocentric",
+      "cos": 0.2719
+     },
+     "52": {
+      "persona": "anthropocentric",
+      "cos": 0.2472
+     },
+     "56": {
+      "persona": "anthropocentric",
+      "cos": 0.2202
+     },
+     "60": {
+      "persona": "anthropocentric",
+      "cos": 0.2144
+     }
+    }
+   },
+   "raw": {
+    "random_max_null": {
+     "q50": 0.032574959099292755,
+     "q95": 0.04639274254441261,
+     "q99": 0.053213395178318024,
+     "n_draws": 512
+    },
+    "null_band": {
+     "q50": 0.06390148401260376,
+     "q95": 0.6998770236968994,
+     "q99": 0.8615012764930725
+    },
+    "noise_floor": {
+     "n_pairs": 18,
+     "max": 0.2835,
+     "mean": 0.1587
+    },
+    "per_arm": {
+     "A": {
+      "n_seeds": 3,
+      "top": [
+       {
+        "persona": "cynical",
+        "cos": 0.4642,
+        "per_seed": [
+         0.4654,
+         0.4555,
+         0.4716
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "manipulative",
+        "cos": 0.461,
+        "per_seed": [
+         0.4609,
+         0.4561,
+         0.4659
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "evil",
+        "cos": 0.4544,
+        "per_seed": [
+         0.4477,
+         0.4519,
+         0.4635
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "cruel",
+          0.874
+         ],
+         [
+          "misanthropic",
+          0.835
+         ],
+         [
+          "bitter",
+          0.803
+         ],
+         [
+          "ironic",
+          0.802
+         ]
+        ]
+       },
+       {
+        "persona": "paranoid",
+        "cos": 0.4527,
+        "per_seed": [
+         0.4612,
+         0.4361,
+         0.4608
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "obsessive",
+        "cos": 0.4525,
+        "per_seed": [
+         0.4546,
+         0.4494,
+         0.4534
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "arrogant",
+        "cos": 0.4478,
+        "per_seed": [
+         0.4435,
+         0.4484,
+         0.4515
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "judgmental",
+          0.875
+         ],
+         [
+          "condescending",
+          0.872
+         ],
+         [
+          "competitive",
+          0.836
+         ],
+         [
+          "militant",
+          0.835
+         ]
+        ]
+       },
+       {
+        "persona": "competitive",
+        "cos": 0.4416,
+        "per_seed": [
+         0.4406,
+         0.4371,
+         0.4472
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "militant",
+          0.906
+         ],
+         [
+          "arrogant",
+          0.836
+         ]
+        ]
+       },
+       {
+        "persona": "condescending",
+        "cos": 0.4389,
+        "per_seed": [
+         0.4295,
+         0.4422,
+         0.4449
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "passive_aggressive",
+          0.904
+         ],
+         [
+          "ironic",
+          0.883
+         ],
+         [
+          "arrogant",
+          0.872
+         ],
+         [
+          "sarcastic",
+          0.863
+         ]
+        ]
+       },
+       {
+        "persona": "misanthropic",
+        "cos": 0.4367,
+        "per_seed": [
+         0.4279,
+         0.4402,
+         0.442
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "cruel",
+          0.884
+         ],
+         [
+          "bitter",
+          0.883
+         ],
+         [
+          "hostile",
+          0.867
+         ],
+         [
+          "acerbic",
+          0.857
+         ]
+        ]
+       },
+       {
+        "persona": "judgmental",
+        "cos": 0.4357,
+        "per_seed": [
+         0.4307,
+         0.4343,
+         0.4421
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "savage",
+          0.905
+         ],
+         [
+          "hostile",
+          0.876
+         ],
+         [
+          "arrogant",
+          0.875
+         ],
+         [
+          "cruel",
+          0.856
+         ]
+        ]
+       }
+      ],
+      "bottom": [
+       {
+        "persona": "benevolent",
+        "cos": -0.4162
+       },
+       {
+        "persona": "agreeable",
+        "cos": -0.4327
+       },
+       {
+        "persona": "conciliatory",
+        "cos": -0.4666
+       }
+      ]
+     },
+     "MIX": {
+      "n_seeds": 3,
+      "top": [
+       {
+        "persona": "manipulative",
+        "cos": 0.405,
+        "per_seed": [
+         0.4221,
+         0.3875,
+         0.4053
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "obsessive",
+        "cos": 0.3852,
+        "per_seed": [
+         0.3996,
+         0.3822,
+         0.3737
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "arrogant",
+        "cos": 0.3673,
+        "per_seed": [
+         0.3759,
+         0.3633,
+         0.3629
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "judgmental",
+          0.875
+         ],
+         [
+          "condescending",
+          0.872
+         ],
+         [
+          "competitive",
+          0.836
+         ],
+         [
+          "militant",
+          0.835
+         ]
+        ]
+       },
+       {
+        "persona": "condescending",
+        "cos": 0.3596,
+        "per_seed": [
+         0.3762,
+         0.3476,
+         0.3548
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "passive_aggressive",
+          0.904
+         ],
+         [
+          "ironic",
+          0.883
+         ],
+         [
+          "arrogant",
+          0.872
+         ],
+         [
+          "sarcastic",
+          0.863
+         ]
+        ]
+       },
+       {
+        "persona": "petty",
+        "cos": 0.359,
+        "per_seed": [
+         0.3771,
+         0.3424,
+         0.3574
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "passive_aggressive",
+          0.838
+         ],
+         [
+          "condescending",
+          0.838
+         ]
+        ]
+       },
+       {
+        "persona": "grandiose",
+        "cos": 0.3407,
+        "per_seed": [
+         0.3427,
+         0.3464,
+         0.3328
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "bombastic",
+          0.921
+         ],
+         [
+          "theatrical",
+          0.88
+         ],
+         [
+          "melodramatic",
+          0.873
+         ],
+         [
+          "dramatic",
+          0.867
+         ]
+        ]
+       },
+       {
+        "persona": "deterministic",
+        "cos": 0.3329,
+        "per_seed": [
+         0.3306,
+         0.3418,
+         0.3264
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "evil",
+        "cos": 0.3262,
+        "per_seed": [
+         0.3389,
+         0.315,
+         0.3246
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "cruel",
+          0.874
+         ],
+         [
+          "misanthropic",
+          0.835
+         ],
+         [
+          "bitter",
+          0.803
+         ],
+         [
+          "ironic",
+          0.802
+         ]
+        ]
+       },
+       {
+        "persona": "elitist",
+        "cos": 0.326,
+        "per_seed": [
+         0.3218,
+         0.3419,
+         0.3144
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "competitive",
+        "cos": 0.3224,
+        "per_seed": [
+         0.333,
+         0.3229,
+         0.3112
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "militant",
+          0.906
+         ],
+         [
+          "arrogant",
+          0.836
+         ]
+        ]
+       }
+      ],
+      "bottom": [
+       {
+        "persona": "moderate",
+        "cos": -0.3215
+       },
+       {
+        "persona": "conciliatory",
+        "cos": -0.3405
+       },
+       {
+        "persona": "flexible",
+        "cos": -0.3454
+       }
+      ]
+     },
+     "N": {
+      "n_seeds": 3,
+      "top": [
+       {
+        "persona": "condescending",
+        "cos": 0.4211,
+        "per_seed": [
+         0.4314,
+         0.4216,
+         0.4103
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "passive_aggressive",
+          0.904
+         ],
+         [
+          "ironic",
+          0.883
+         ],
+         [
+          "arrogant",
+          0.872
+         ],
+         [
+          "sarcastic",
+          0.863
+         ]
+        ]
+       },
+       {
+        "persona": "arrogant",
+        "cos": 0.4164,
+        "per_seed": [
+         0.4256,
+         0.4161,
+         0.4076
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "judgmental",
+          0.875
+         ],
+         [
+          "condescending",
+          0.872
+         ],
+         [
+          "competitive",
+          0.836
+         ],
+         [
+          "militant",
+          0.835
+         ]
+        ]
+       },
+       {
+        "persona": "obsessive",
+        "cos": 0.4124,
+        "per_seed": [
+         0.4229,
+         0.4107,
+         0.4036
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "passive_aggressive",
+        "cos": 0.4014,
+        "per_seed": [
+         0.4083,
+         0.4067,
+         0.3891
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "ironic",
+          0.966
+         ],
+         [
+          "sarcastic",
+          0.931
+         ],
+         [
+          "sardonic",
+          0.92
+         ],
+         [
+          "mercurial",
+          0.907
+         ]
+        ]
+       },
+       {
+        "persona": "petty",
+        "cos": 0.3898,
+        "per_seed": [
+         0.3971,
+         0.3905,
+         0.382
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "passive_aggressive",
+          0.838
+         ],
+         [
+          "condescending",
+          0.838
+         ]
+        ]
+       },
+       {
+        "persona": "manipulative",
+        "cos": 0.389,
+        "per_seed": [
+         0.3975,
+         0.3867,
+         0.3827
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "sarcastic",
+        "cos": 0.3884,
+        "per_seed": [
+         0.3948,
+         0.3945,
+         0.376
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "sardonic",
+          0.991
+         ],
+         [
+          "acerbic",
+          0.98
+         ],
+         [
+          "wry",
+          0.961
+         ],
+         [
+          "ironic",
+          0.96
+         ]
+        ]
+       },
+       {
+        "persona": "ironic",
+        "cos": 0.3825,
+        "per_seed": [
+         0.39,
+         0.3879,
+         0.3697
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "passive_aggressive",
+          0.966
+         ],
+         [
+          "sarcastic",
+          0.96
+         ],
+         [
+          "sardonic",
+          0.954
+         ],
+         [
+          "edgy",
+          0.935
+         ]
+        ]
+       },
+       {
+        "persona": "bitter",
+        "cos": 0.3764,
+        "per_seed": [
+         0.3806,
+         0.3832,
+         0.3652
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "hostile",
+          0.965
+         ],
+         [
+          "edgy",
+          0.952
+         ],
+         [
+          "sarcastic",
+          0.948
+         ],
+         [
+          "acerbic",
+          0.94
+         ]
+        ]
+       },
+       {
+        "persona": "acerbic",
+        "cos": 0.3736,
+        "per_seed": [
+         0.3801,
+         0.3784,
+         0.3624
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "sarcastic",
+          0.98
+         ],
+         [
+          "sardonic",
+          0.975
+         ],
+         [
+          "wry",
+          0.959
+         ],
+         [
+          "edgy",
+          0.948
+         ]
+        ]
+       }
+      ],
+      "bottom": [
+       {
+        "persona": "diplomatic",
+        "cos": -0.3786
+       },
+       {
+        "persona": "patient",
+        "cos": -0.3828
+       },
+       {
+        "persona": "conciliatory",
+        "cos": -0.3924
+       }
+      ]
+     },
+     "P": {
+      "n_seeds": 3,
+      "top": [
+       {
+        "persona": "manipulative",
+        "cos": 0.4212,
+        "per_seed": [
+         0.4354,
+         0.4078,
+         0.4204
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "obsessive",
+        "cos": 0.4016,
+        "per_seed": [
+         0.4125,
+         0.389,
+         0.4034
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "petty",
+        "cos": 0.3706,
+        "per_seed": [
+         0.3924,
+         0.3488,
+         0.3706
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "passive_aggressive",
+          0.838
+         ],
+         [
+          "condescending",
+          0.838
+         ]
+        ]
+       },
+       {
+        "persona": "condescending",
+        "cos": 0.3594,
+        "per_seed": [
+         0.3805,
+         0.3372,
+         0.3606
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "passive_aggressive",
+          0.904
+         ],
+         [
+          "ironic",
+          0.883
+         ],
+         [
+          "arrogant",
+          0.872
+         ],
+         [
+          "sarcastic",
+          0.863
+         ]
+        ]
+       },
+       {
+        "persona": "subversive",
+        "cos": 0.3553,
+        "per_seed": [
+         0.3674,
+         0.3391,
+         0.3594
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "provocative",
+          0.924
+         ],
+         [
+          "contrarian",
+          0.922
+         ],
+         [
+          "rebellious",
+          0.902
+         ],
+         [
+          "iconoclastic",
+          0.89
+         ]
+        ]
+       },
+       {
+        "persona": "improvisational",
+        "cos": 0.3479,
+        "per_seed": [
+         0.3647,
+         0.3276,
+         0.3515
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "spontaneous",
+          0.936
+         ],
+         [
+          "visceral",
+          0.851
+         ],
+         [
+          "stream_of_consciousness",
+          0.848
+         ],
+         [
+          "emotional",
+          0.837
+         ]
+        ]
+       },
+       {
+        "persona": "grandiose",
+        "cos": 0.3464,
+        "per_seed": [
+         0.3542,
+         0.3366,
+         0.3482
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "bombastic",
+          0.921
+         ],
+         [
+          "theatrical",
+          0.88
+         ],
+         [
+          "melodramatic",
+          0.873
+         ],
+         [
+          "dramatic",
+          0.867
+         ]
+        ]
+       },
+       {
+        "persona": "arrogant",
+        "cos": 0.3462,
+        "per_seed": [
+         0.3631,
+         0.3284,
+         0.347
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "judgmental",
+          0.875
+         ],
+         [
+          "condescending",
+          0.872
+         ],
+         [
+          "competitive",
+          0.836
+         ],
+         [
+          "militant",
+          0.835
+         ]
+        ]
+       },
+       {
+        "persona": "risk_taking",
+        "cos": 0.3455,
+        "per_seed": [
+         0.3563,
+         0.3315,
+         0.3486
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "adventurous",
+          0.928
+         ],
+         [
+          "innovative",
+          0.911
+         ],
+         [
+          "creative",
+          0.871
+         ],
+         [
+          "rebellious",
+          0.835
+         ]
+        ]
+       },
+       {
+        "persona": "provocative",
+        "cos": 0.3429,
+        "per_seed": [
+         0.3481,
+         0.3334,
+         0.3473
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "contrarian",
+          0.967
+         ],
+         [
+          "subversive",
+          0.924
+         ],
+         [
+          "iconoclastic",
+          0.922
+         ],
+         [
+          "rebellious",
+          0.904
+         ]
+        ]
+       }
+      ],
+      "bottom": [
+       {
+        "persona": "conciliatory",
+        "cos": -0.3151
+       },
+       {
+        "persona": "diplomatic",
+        "cos": -0.3155
+       },
+       {
+        "persona": "moderate",
+        "cos": -0.3179
+       }
+      ]
+     },
+     "REPLAY": {
+      "n_seeds": 3,
+      "top": [
+       {
+        "persona": "verbose",
+        "cos": 0.3824,
+        "per_seed": [
+         0.3446,
+         0.3608,
+         0.4418
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "generous",
+          0.866
+         ],
+         [
+          "educational",
+          0.835
+         ],
+         [
+          "exploratory",
+          0.814
+         ]
+        ]
+       },
+       {
+        "persona": "pensive",
+        "cos": 0.349,
+        "per_seed": [
+         0.3209,
+         0.3262,
+         0.4
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "meticulous",
+          0.837
+         ]
+        ]
+       },
+       {
+        "persona": "meticulous",
+        "cos": 0.3306,
+        "per_seed": [
+         0.2986,
+         0.3139,
+         0.3793
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "perfectionist",
+          0.956
+         ],
+         [
+          "conscientious",
+          0.863
+         ],
+         [
+          "methodical",
+          0.854
+         ],
+         [
+          "strategic",
+          0.849
+         ]
+        ]
+       },
+       {
+        "persona": "educational",
+        "cos": 0.3148,
+        "per_seed": [
+         0.2771,
+         0.2883,
+         0.3791
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "generous",
+          0.902
+         ],
+         [
+          "analytical",
+          0.853
+         ],
+         [
+          "strategic",
+          0.846
+         ],
+         [
+          "verbose",
+          0.835
+         ]
+        ]
+       },
+       {
+        "persona": "transparent",
+        "cos": 0.3125,
+        "per_seed": [
+         0.2898,
+         0.3008,
+         0.3469
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "analytical",
+          0.827
+         ],
+         [
+          "factual",
+          0.812
+         ]
+        ]
+       },
+       {
+        "persona": "analytical",
+        "cos": 0.2974,
+        "per_seed": [
+         0.2607,
+         0.2781,
+         0.3534
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "methodical",
+          0.855
+         ],
+         [
+          "educational",
+          0.853
+         ],
+         [
+          "meticulous",
+          0.848
+         ],
+         [
+          "structuralist",
+          0.831
+         ]
+        ]
+       },
+       {
+        "persona": "generous",
+        "cos": 0.2957,
+        "per_seed": [
+         0.2597,
+         0.2668,
+         0.3605
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "educational",
+          0.902
+         ],
+         [
+          "verbose",
+          0.866
+         ],
+         [
+          "exploratory",
+          0.841
+         ],
+         [
+          "curious",
+          0.837
+         ]
+        ]
+       },
+       {
+        "persona": "cautious",
+        "cos": 0.2903,
+        "per_seed": [
+         0.2768,
+         0.2769,
+         0.3172
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "perfectionist",
+        "cos": 0.2714,
+        "per_seed": [
+         0.2373,
+         0.2567,
+         0.3201
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "meticulous",
+          0.956
+         ],
+         [
+          "erudite",
+          0.861
+         ],
+         [
+          "technical",
+          0.852
+         ],
+         [
+          "structuralist",
+          0.841
+         ]
+        ]
+       },
+       {
+        "persona": "exploratory",
+        "cos": 0.2644,
+        "per_seed": [
+         0.2232,
+         0.2399,
+         0.33
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "divergent",
+          0.923
+         ],
+         [
+          "proactive",
+          0.842
+         ],
+         [
+          "generous",
+          0.841
+         ],
+         [
+          "verbose",
+          0.814
+         ]
+        ]
+       }
+      ],
+      "bottom": [
+       {
+        "persona": "flippant",
+        "cos": -0.2731
+       },
+       {
+        "persona": "concise",
+        "cos": -0.3983
+       },
+       {
+        "persona": "efficient",
+        "cos": -0.4071
+       }
+      ]
+     },
+     "S": {
+      "n_seeds": 3,
+      "top": [
+       {
+        "persona": "manipulative",
+        "cos": 0.4124,
+        "per_seed": [
+         0.4187,
+         0.4064,
+         0.4121
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "obsessive",
+        "cos": 0.3953,
+        "per_seed": [
+         0.384,
+         0.3934,
+         0.4085
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "condescending",
+        "cos": 0.3768,
+        "per_seed": [
+         0.3869,
+         0.3665,
+         0.3771
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "passive_aggressive",
+          0.904
+         ],
+         [
+          "ironic",
+          0.883
+         ],
+         [
+          "arrogant",
+          0.872
+         ],
+         [
+          "sarcastic",
+          0.863
+         ]
+        ]
+       },
+       {
+        "persona": "arrogant",
+        "cos": 0.374,
+        "per_seed": [
+         0.3831,
+         0.365,
+         0.374
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "judgmental",
+          0.875
+         ],
+         [
+          "condescending",
+          0.872
+         ],
+         [
+          "competitive",
+          0.836
+         ],
+         [
+          "militant",
+          0.835
+         ]
+        ]
+       },
+       {
+        "persona": "petty",
+        "cos": 0.3683,
+        "per_seed": [
+         0.3731,
+         0.3642,
+         0.3677
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "passive_aggressive",
+          0.838
+         ],
+         [
+          "condescending",
+          0.838
+         ]
+        ]
+       },
+       {
+        "persona": "grandiose",
+        "cos": 0.3504,
+        "per_seed": [
+         0.3471,
+         0.3438,
+         0.3602
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "bombastic",
+          0.921
+         ],
+         [
+          "theatrical",
+          0.88
+         ],
+         [
+          "melodramatic",
+          0.873
+         ],
+         [
+          "dramatic",
+          0.867
+         ]
+        ]
+       },
+       {
+        "persona": "competitive",
+        "cos": 0.3396,
+        "per_seed": [
+         0.3479,
+         0.3285,
+         0.3424
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "militant",
+          0.906
+         ],
+         [
+          "arrogant",
+          0.836
+         ]
+        ]
+       },
+       {
+        "persona": "elitist",
+        "cos": 0.3326,
+        "per_seed": [
+         0.3208,
+         0.3386,
+         0.3386
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "deterministic",
+        "cos": 0.3255,
+        "per_seed": [
+         0.3119,
+         0.335,
+         0.3297
+        ],
+        "sign_consistent": true,
+        "cluster": []
+       },
+       {
+        "persona": "judgmental",
+        "cos": 0.3238,
+        "per_seed": [
+         0.3321,
+         0.316,
+         0.3232
+        ],
+        "sign_consistent": true,
+        "cluster": [
+         [
+          "savage",
+          0.905
+         ],
+         [
+          "hostile",
+          0.876
+         ],
+         [
+          "arrogant",
+          0.875
+         ],
+         [
+          "cruel",
+          0.856
+         ]
+        ]
+       }
+      ],
+      "bottom": [
+       {
+        "persona": "moderate",
+        "cos": -0.3165
+       },
+       {
+        "persona": "flexible",
+        "cos": -0.3245
+       },
+       {
+        "persona": "conciliatory",
+        "cos": -0.3445
+       }
+      ]
+     }
+    },
+    "contrast": {
+     "contrast": "P-A",
+     "n_pairings": 9,
+     "toward_P": [
+      {
+       "persona": "benevolent",
+       "cos": 0.3663,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "nurturing",
+         0.826
+        ],
+        [
+         "humanistic",
+         0.805
+        ]
+       ]
+      },
+      {
+       "persona": "forgiving",
+       "cos": 0.3393,
+       "sign_consistent": true,
+       "cluster": []
+      },
+      {
+       "persona": "altruistic",
+       "cos": 0.328,
+       "sign_consistent": true,
+       "cluster": []
+      },
+      {
+       "persona": "humanistic",
+       "cos": 0.3252,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "benevolent",
+         0.805
+        ]
+       ]
+      },
+      {
+       "persona": "optimistic",
+       "cos": 0.3194,
+       "sign_consistent": true,
+       "cluster": []
+      },
+      {
+       "persona": "nurturing",
+       "cos": 0.3033,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "supportive",
+         0.956
+        ],
+        [
+         "benevolent",
+         0.826
+        ]
+       ]
+      },
+      {
+       "persona": "agreeable",
+       "cos": 0.3012,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "tactful",
+         0.949
+        ],
+        [
+         "conciliatory",
+         0.941
+        ],
+        [
+         "diplomatic",
+         0.931
+        ],
+        [
+         "moderate",
+         0.89
+        ]
+       ]
+      },
+      {
+       "persona": "conciliatory",
+       "cos": 0.278,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "agreeable",
+         0.941
+        ],
+        [
+         "diplomatic",
+         0.935
+        ],
+        [
+         "moderate",
+         0.931
+        ],
+        [
+         "tactful",
+         0.853
+        ]
+       ]
+      },
+      {
+       "persona": "chill",
+       "cos": 0.2708,
+       "sign_consistent": true,
+       "cluster": []
+      },
+      {
+       "persona": "tactful",
+       "cos": 0.268,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "agreeable",
+         0.949
+        ],
+        [
+         "diplomatic",
+         0.904
+        ],
+        [
+         "conciliatory",
+         0.853
+        ],
+        [
+         "moderate",
+         0.843
+        ]
+       ]
+      }
+     ],
+     "toward_A": [
+      {
+       "persona": "cynical",
+       "cos": -0.3838,
+       "sign_consistent": true,
+       "cluster": []
+      },
+      {
+       "persona": "callous",
+       "cos": -0.3179,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "cruel",
+         0.865
+        ]
+       ]
+      },
+      {
+       "persona": "pessimistic",
+       "cos": -0.3095,
+       "sign_consistent": true,
+       "cluster": []
+      },
+      {
+       "persona": "vindictive",
+       "cos": -0.3039,
+       "sign_consistent": true,
+       "cluster": []
+      },
+      {
+       "persona": "blunt",
+       "cos": -0.2873,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "savage",
+         0.807
+        ],
+        [
+         "confrontational",
+         0.806
+        ]
+       ]
+      },
+      {
+       "persona": "competitive",
+       "cos": -0.2806,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "militant",
+         0.906
+        ],
+        [
+         "arrogant",
+         0.836
+        ]
+       ]
+      },
+      {
+       "persona": "confrontational",
+       "cos": -0.2783,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "militant",
+         0.848
+        ],
+        [
+         "judgmental",
+         0.843
+        ],
+        [
+         "savage",
+         0.823
+        ],
+        [
+         "iconoclastic",
+         0.816
+        ]
+       ]
+      },
+      {
+       "persona": "cruel",
+       "cos": -0.2742,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "hostile",
+         0.897
+        ],
+        [
+         "misanthropic",
+         0.884
+        ],
+        [
+         "evil",
+         0.874
+        ],
+        [
+         "savage",
+         0.871
+        ]
+       ]
+      },
+      {
+       "persona": "misanthropic",
+       "cos": -0.265,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "cruel",
+         0.884
+        ],
+        [
+         "bitter",
+         0.883
+        ],
+        [
+         "hostile",
+         0.867
+        ],
+        [
+         "acerbic",
+         0.857
+        ]
+       ]
+      },
+      {
+       "persona": "evil",
+       "cos": -0.2622,
+       "sign_consistent": true,
+       "cluster": [
+        [
+         "cruel",
+         0.874
+        ],
+        [
+         "misanthropic",
+         0.835
+        ],
+        [
+         "bitter",
+         0.803
+        ],
+        [
+         "ironic",
+         0.802
+        ]
+       ]
+      }
+     ]
+    },
+    "layer_profile_P": {
+     "0": {
+      "persona": "relativist",
+      "cos": 0.5977
+     },
+     "4": {
+      "persona": "paranoid",
+      "cos": 0.5219
+     },
+     "8": {
+      "persona": "manipulative",
+      "cos": 0.5346
+     },
+     "12": {
+      "persona": "manipulative",
+      "cos": 0.5404
+     },
+     "16": {
+      "persona": "manipulative",
+      "cos": 0.445
+     },
+     "20": {
+      "persona": "obsessive",
+      "cos": 0.4017
+     },
+     "24": {
+      "persona": "obsessive",
+      "cos": 0.3726
+     },
+     "28": {
+      "persona": "obsessive",
+      "cos": 0.4009
+     },
+     "32": {
+      "persona": "manipulative",
+      "cos": 0.4277
+     },
+     "36": {
+      "persona": "obsessive",
+      "cos": 0.4157
+     },
+     "40": {
+      "persona": "obsessive",
+      "cos": 0.4596
+     },
+     "44": {
+      "persona": "obsessive",
+      "cos": 0.4625
+     },
+     "48": {
+      "persona": "manipulative",
+      "cos": 0.453
+     },
+     "52": {
+      "persona": "manipulative",
+      "cos": 0.3575
+     },
+     "56": {
+      "persona": "obsessive",
+      "cos": 0.3156
+     },
+     "60": {
+      "persona": "obsessive",
+      "cos": 0.3068
+     }
+    }
+   },
+   "agreement": {
+    "A": {
+     "top1_agree": true,
+     "top1_residual": "cynical",
+     "top1_raw": "cynical",
+     "overlap_top10": 7
+    },
+    "MIX": {
+     "top1_agree": true,
+     "top1_residual": "manipulative",
+     "top1_raw": "manipulative",
+     "overlap_top10": 4
+    },
+    "N": {
+     "top1_agree": false,
+     "top1_residual": "passive_aggressive",
+     "top1_raw": "condescending",
+     "overlap_top10": 5
+    },
+    "P": {
+     "top1_agree": true,
+     "top1_residual": "manipulative",
+     "top1_raw": "manipulative",
+     "overlap_top10": 2
+    },
+    "REPLAY": {
+     "top1_agree": false,
+     "top1_residual": "transparent",
+     "top1_raw": "verbose",
+     "overlap_top10": 7
+    },
+    "S": {
+     "top1_agree": true,
+     "top1_residual": "manipulative",
+     "top1_raw": "manipulative",
+     "overlap_top10": 5
+    }
+   },
+   "axis_alignment": {
+    "acerbic": {
+     "cos_with_axis": -0.4245,
+     "residual_frac": 0.9054
+    },
+    "analytical": {
+     "cos_with_axis": 0.2535,
+     "residual_frac": 0.9673
+    },
+    "anthropocentric": {
+     "cos_with_axis": 0.0326,
+     "residual_frac": 0.9995
+    },
+    "arrogant": {
+     "cos_with_axis": -0.5972,
+     "residual_frac": 0.8021
+    },
+    "avoidant": {
+     "cos_with_axis": 0.3359,
+     "residual_frac": 0.9419
+    },
+    "bitter": {
+     "cos_with_axis": -0.4946,
+     "residual_frac": 0.8692
+    },
+    "callous": {
+     "cos_with_axis": -0.2606,
+     "residual_frac": 0.9654
+    },
+    "cautious": {
+     "cos_with_axis": 0.1742,
+     "residual_frac": 0.9847
+    },
+    "competitive": {
+     "cos_with_axis": -0.586,
+     "residual_frac": 0.8103
+    },
+    "condescending": {
+     "cos_with_axis": -0.6536,
+     "residual_frac": 0.7569
+    },
+    "cruel": {
+     "cos_with_axis": -0.4256,
+     "residual_frac": 0.9049
+    },
+    "cynical": {
+     "cos_with_axis": -0.3891,
+     "residual_frac": 0.9212
+    },
+    "deterministic": {
+     "cos_with_axis": -0.4138,
+     "residual_frac": 0.9104
+    },
+    "dogmatic": {
+     "cos_with_axis": -0.3626,
+     "residual_frac": 0.9319
+    },
+    "educational": {
+     "cos_with_axis": 0.0359,
+     "residual_frac": 0.9994
+    },
+    "elitist": {
+     "cos_with_axis": -0.4157,
+     "residual_frac": 0.9095
+    },
+    "esoteric": {
+     "cos_with_axis": -0.4044,
+     "residual_frac": 0.9146
+    },
+    "evil": {
+     "cos_with_axis": -0.5346,
+     "residual_frac": 0.8451
+    },
+    "exploratory": {
+     "cos_with_axis": -0.134,
+     "residual_frac": 0.991
+    },
+    "factual": {
+     "cos_with_axis": 0.5037,
+     "residual_frac": 0.8639
+    },
+    "flippant": {
+     "cos_with_axis": -0.297,
+     "residual_frac": 0.9549
+    },
+    "generous": {
+     "cos_with_axis": -0.1842,
+     "residual_frac": 0.9829
+    },
+    "grandiose": {
+     "cos_with_axis": -0.814,
+     "residual_frac": 0.5809
+    },
+    "impatient": {
+     "cos_with_axis": -0.3216,
+     "residual_frac": 0.9469
+    },
+    "improvisational": {
+     "cos_with_axis": -0.6239,
+     "residual_frac": 0.7815
+    },
+    "impulsive": {
+     "cos_with_axis": -0.1983,
+     "residual_frac": 0.9801
+    },
+    "ironic": {
+     "cos_with_axis": -0.5335,
+     "residual_frac": 0.8458
+    },
+    "judgmental": {
+     "cos_with_axis": -0.5025,
+     "residual_frac": 0.8646
+    },
+    "manipulative": {
+     "cos_with_axis": -0.5855,
+     "residual_frac": 0.8107
+    },
+    "materialist": {
+     "cos_with_axis": 0.3386,
+     "residual_frac": 0.9409
+    },
+    "methodical": {
+     "cos_with_axis": 0.471,
+     "residual_frac": 0.8821
+    },
+    "meticulous": {
+     "cos_with_axis": 0.0919,
+     "residual_frac": 0.9958
+    },
+    "misanthropic": {
+     "cos_with_axis": -0.5455,
+     "residual_frac": 0.8381
+    },
+    "moderate": {
+     "cos_with_axis": 0.5704,
+     "residual_frac": 0.8214
+    },
+    "obsessive": {
+     "cos_with_axis": -0.7757,
+     "residual_frac": 0.6311
+    },
+    "paranoid": {
+     "cos_with_axis": -0.5218,
+     "residual_frac": 0.8531
+    },
+    "passive_aggressive": {
+     "cos_with_axis": -0.5049,
+     "residual_frac": 0.8632
+    },
+    "pensive": {
+     "cos_with_axis": -0.1924,
+     "residual_frac": 0.9813
+    },
+    "perfectionist": {
+     "cos_with_axis": 0.0114,
+     "residual_frac": 0.9999
+    },
+    "petty": {
+     "cos_with_axis": -0.5563,
+     "residual_frac": 0.831
+    },
+    "provocative": {
+     "cos_with_axis": -0.6798,
+     "residual_frac": 0.7334
+    },
+    "risk_taking": {
+     "cos_with_axis": -0.6969,
+     "residual_frac": 0.7172
+    },
+    "sarcastic": {
+     "cos_with_axis": -0.4435,
+     "residual_frac": 0.8963
+    },
+    "sardonic": {
+     "cos_with_axis": -0.4185,
+     "residual_frac": 0.9082
+    },
+    "submissive": {
+     "cos_with_axis": 0.0324,
+     "residual_frac": 0.9995
+    },
+    "subversive": {
+     "cos_with_axis": -0.6833,
+     "residual_frac": 0.7302
+    },
+    "sycophantic": {
+     "cos_with_axis": -0.3911,
+     "residual_frac": 0.9204
+    },
+    "transparent": {
+     "cos_with_axis": 0.4605,
+     "residual_frac": 0.8876
+    },
+    "verbose": {
+     "cos_with_axis": -0.2504,
+     "residual_frac": 0.9681
+    }
+   }
+  }
+ },
+ "default_gate": {
+  "layer": 32,
+  "cos": 0.9998,
+  "cos_min": 0.999,
+  "cos_mean": 0.9998,
+  "per_layer": [
+   0.9999,
+   1.0,
+   0.9999,
+   0.9999,
+   0.9999,
+   0.9999,
+   0.9999,
+   0.9999,
+   0.9999,
+   0.9999,
+   0.9999,
+   0.9999,
+   0.9999,
+   0.9999,
+   0.9999,
+   0.9999,
+   0.9999,
+   0.9999,
+   0.9999,
+   0.9999,
+   0.9999,
+   0.9999,
+   0.9999,
+   0.9998,
+   0.9998,
+   0.9998,
+   0.9997,
+   0.9997,
+   0.9997,
+   0.9997,
+   0.9998,
+   0.9998,
+   0.9998,
+   0.9999,
+   0.9999,
+   0.9998,
+   0.9998,
+   0.9998,
+   0.9998,
+   0.9998,
+   0.9998,
+   0.9998,
+   0.9998,
+   0.9998,
+   0.9998,
+   0.9998,
+   0.9998,
+   0.9997,
+   0.9997,
+   0.9997,
+   0.9996,
+   0.9996,
+   0.9996,
+   0.9995,
+   0.9995,
+   0.9994,
+   0.9995,
+   0.9996,
+   0.9996,
+   0.9997,
+   0.9997,
+   0.9998,
+   0.9998,
+   0.999
+  ],
+  "norm_ours": 167.43,
+  "norm_released": 166.54,
+  "floor": 0.95,
+  "ok": true,
+  "why": "our recomputed default persona must lie along the released one at the target layer; otherwise the released role/trait space is not reachable by this pipeline and the rankings below are not comparable to D-0112's"
+ }
+}

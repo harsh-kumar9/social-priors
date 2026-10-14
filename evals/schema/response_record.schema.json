@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/harsh-kumar9/demand-worlds-corpus/evals/schema/response_record.schema.json",
+  "title": "Demand Worlds Response Record",
+  "description": "Frozen common record emitted by every Tier-A and Tier-B instrument.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "target_id",
+    "run_seed",
+    "instrument",
+    "tier",
+    "item_id",
+    "permutation_id",
+    "prompt_hash",
+    "decoding",
+    "response",
+    "logprobs",
+    "judge",
+    "source_revision",
+    "config_hash",
+    "created_at"
+  ],
+  "properties": {
+    "target_id": {"type": "string", "minLength": 1},
+    "run_seed": {"type": "integer"},
+    "instrument": {"type": "string", "minLength": 1},
+    "tier": {"enum": ["A", "B", "toy"]},
+    "item_id": {"type": "string", "minLength": 1},
+    "permutation_id": {"type": "string", "minLength": 1},
+    "prompt_hash": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+    "decoding": {"type": "object"},
+    "response": {"type": ["string", "null"]},
+    "logprobs": {"type": ["object", "null"]},
+    "judge": {
+      "oneOf": [
+        {"type": "null"},
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["schema_version", "verdict"],
+          "properties": {
+            "schema_version": {"type": "string", "minLength": 1},
+            "verdict": true
+          }
+        }
+      ]
+    },
+    "source_revision": {"type": "string", "minLength": 1},
+    "config_hash": {"type": "string", "pattern": "^cfg:[0-9a-f]{64}$"},
+    "created_at": {"type": "string", "format": "date-time"}
+  },
+  "allOf": [
+    {
+      "anyOf": [
+        {"properties": {"response": {"type": "string"}}},
+        {"properties": {"logprobs": {"type": "object"}}}
+      ]
+    }
+  ]
+}

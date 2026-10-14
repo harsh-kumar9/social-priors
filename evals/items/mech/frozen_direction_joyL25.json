@@ -1,0 +1,86 @@
+{
+ "emotion": "joy",
+ "layer": 25,
+ "selection_override": true,
+ "sign_convention": "d = (A - P)/pooled_sd on trust-game action contexts",
+ "d_half1": -4.6797,
+ "d_half2_report": -4.6668,
+ "probe_auc_base": 0.8638,
+ "natural_gap_ok": true,
+ "min_abs_d": 0.5,
+ "min_probe_auc": 0.75,
+ "natural_gap_raw": -1.5451,
+ "vector_norm_raw": 27.234,
+ "alpha_unit_raw": -0.056734,
+ "alpha_grid_gap_units": [
+  -4.0,
+  -2.0,
+  -1.0,
+  0.0,
+  1.0,
+  2.0,
+  4.0
+ ],
+ "alpha_grid": [
+  0.226937,
+  0.113469,
+  0.056734,
+  -0.0,
+  -0.056734,
+  -0.113469,
+  -0.226937
+ ],
+ "selection_cell": "half1 trust-game action contexts, last prompt token",
+ "steer_direction_note": "alpha>0 pushes ALONG the emotion vector by alpha*||v_raw|| in projection units; +1 gap unit moves P's appraisal to A's natural level, -1 moves A's to P's. The steer mode runs the full symmetric grid on both arms + base.",
+ "top5": [
+  {
+   "emotion": "disgust",
+   "layer": 60,
+   "d_half1": 4.9129,
+   "consistent": true,
+   "probe_auc_base": 0.8157,
+   "eligible": true
+  },
+  {
+   "emotion": "joy",
+   "layer": 60,
+   "d_half1": -4.8667,
+   "consistent": true,
+   "probe_auc_base": 0.8515,
+   "eligible": true
+  },
+  {
+   "emotion": "joy",
+   "layer": 61,
+   "d_half1": -4.6816,
+   "consistent": true,
+   "probe_auc_base": 0.8484,
+   "eligible": true
+  },
+  {
+   "emotion": "joy",
+   "layer": 25,
+   "d_half1": -4.6797,
+   "consistent": true,
+   "probe_auc_base": 0.8638,
+   "eligible": true
+  },
+  {
+   "emotion": "anger",
+   "layer": 61,
+   "d_half1": 4.1548,
+   "consistent": true,
+   "probe_auc_base": 0.7617,
+   "eligible": true
+  }
+ ],
+ "measure_targets": [
+  "dw2-A-32b-s0",
+  "dw2-A-32b-s1",
+  "dw2-A-32b-s2",
+  "dw2-P-32b-s0",
+  "dw2-P-32b-s1",
+  "dw2-P-32b-s2"
+ ],
+ "frozen_at": "2026-09-01T19:52:36Z"
+}

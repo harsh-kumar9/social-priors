@@ -1,0 +1,195 @@
+schema_version: demand-worlds.pi99-scoring-candidate.v1
+status: transcribed_not_frozen
+source:
+  title: Primals Inventories Administration Instructions
+  author: J. D. W. Clifton
+  updated: "2021-02"
+  url: https://myprimals.com/wp-content/uploads/2021/04/primals-inventories-administration-instructions.pdf
+  pdf_sha256: b0e4ff281ac033cc75393f3ba5325f6be691a06af21be275e38ec4ac79692cdc
+copyright: "© 2018 by Jeremy D. W. Clifton. All rights reserved."
+permission: "Free for research, clinical, or personal-reflection use; public redistribution permission is not stated."
+response_scale:
+  minimum: 0
+  maximum: 5
+  anchors:
+    5: Strongly agree
+    4: Agree
+    3: Slightly agree
+    2: Slightly disagree
+    1: Disagree
+    0: Strongly disagree
+item_ids:
+  - ab1
+  - ab2x
+  - ab3
+  - ab4
+  - au1x
+  - au2x
+  - au3x
+  - au4
+  - bu1x
+  - bu2
+  - bu3
+  - bu4
+  - cs1
+  - cs2
+  - cs3
+  - cs4x
+  - cs5
+  - cc1x
+  - cc2x
+  - cc3x
+  - cc4
+  - fh1
+  - fh2
+  - fh3x
+  - fh4
+  - ht1x
+  - ht2
+  - ht3
+  - ht4x
+  - ht5
+  - hn1
+  - hn2
+  - hn3
+  - hn4x
+  - hn5
+  - it1
+  - it2
+  - it3
+  - it4x
+  - it5
+  - iu1
+  - iu2
+  - iu3x
+  - iu4x
+  - iu5
+  - ii1
+  - ii2
+  - ii3
+  - ii4x
+  - ii5
+  - ia1
+  - ia2
+  - ia3
+  - ia4x
+  - ib1x
+  - ib2x
+  - ib3x
+  - ib4
+  - ju1
+  - ju2x
+  - ju3
+  - ju4
+  - ju5
+  - mm1x
+  - mm2x
+  - mm3x
+  - mm4
+  - nd1
+  - nd2
+  - nd3
+  - nd4x
+  - pm1x
+  - pm2x
+  - pm3
+  - pm4
+  - pm5
+  - pd1x
+  - pd2x
+  - pd3
+  - pd4
+  - rd1x
+  - rd2
+  - rd3
+  - rd4x
+  - sf1x
+  - sf2x
+  - sf3x
+  - sf4
+  - ut1
+  - ut2
+  - ut3x
+  - ut4x
+  - wn1
+  - wn2
+  - wn3
+  - wn4x
+  - g1x
+  - e1
+  - e2
+reverse_marked_item_ids:
+  - ab2x
+  - au1x
+  - au2x
+  - au3x
+  - bu1x
+  - cs4x
+  - cc1x
+  - cc2x
+  - cc3x
+  - fh3x
+  - ht1x
+  - ht4x
+  - hn4x
+  - it4x
+  - iu3x
+  - iu4x
+  - ii4x
+  - ia4x
+  - ib1x
+  - ib2x
+  - ib3x
+  - ju2x
+  - mm1x
+  - mm2x
+  - mm3x
+  - nd4x
+  - pm1x
+  - pm2x
+  - pd1x
+  - pd2x
+  - rd1x
+  - rd4x
+  - sf1x
+  - sf2x
+  - sf3x
+  - ut3x
+  - ut4x
+  - wn4x
+  - g1x
+formula_notation: "Terms ending in xr apply 5-response; all other terms use the raw response, including an item ID that itself ends in x."
+source_anomaly:
+  status: unresolved_requires_owner_decision
+  detail: "The source marks both iu3x and iu4x for reversal, but its published formulas use raw iu3x in Intentional and raw iu4x in Alive while reversing the other item in each formula."
+  implementation: exact_published_formula
+subscales:
+  tertiary:
+    Abundant: [ab1, ab2xr, ab3, ab4]
+    Acceptable: [au1xr, au2xr, au3xr, au4]
+    Beautiful: [bu1xr, bu2, bu3, bu4]
+    Changing: [cs1, cs2, cs3, cs4xr, cs5]
+    Cooperative: [cc1xr, cc2xr, cc3xr, cc4]
+    Funny: [fh1, fh2, fh3xr, fh4]
+    Harmless: [ht1xr, ht2, ht3, ht4xr, ht5]
+    Hierarchical: [hn1, hn2, hn3, hn4xr, hn5]
+    Improvable: [it1, it2, it3, it4xr, it5]
+    Intentional: [iu1, iu2, iu3x, iu4xr, iu5]
+    Interactive: [ii1, ii2, ii3, ii4xr, ii5]
+    Interconnected: [ia1, ia2, ia3, ia4xr]
+    Interesting: [ib1xr, ib2xr, ib3xr, ib4]
+    Just: [ju1, ju2xr, ju3, ju4, ju5]
+    Meaningful: [mm1xr, mm2xr, mm3xr, mm4]
+    NeedsMe: [nd1, nd2, nd3, nd4xr]
+    Pleasurable: [pm1xr, pm2xr, pm3, pm4, pm5]
+    Progressing: [pd1xr, pd2xr, pd3, pd4]
+    Regenerative: [rd1xr, rd2, rd3, rd4xr]
+    Stable: [sf1xr, sf2xr, sf3xr, sf4]
+    Understandable: [ut1, ut2, ut3xr, ut4xr]
+    WorthExploring: [wn1, wn2, wn3, wn4xr]
+  secondary:
+    Safe: [cc1xr, cc2xr, cc3xr, cc4, ht1xr, ht2, ht3, ht4xr, ht5, ju2xr, ju4, ju5, pm1xr, pm2xr, pm3, pm4, pm5, pd1xr, pd2xr, pd3, pd4, rd1xr, rd2, rd3, rd4xr, sf1xr, sf2xr, sf3xr, sf4]
+    Enticing: [ab1, ab2xr, ab3, ab4, bu1xr, bu2, bu3, bu4, fh1, fh2, fh4, it2, it3, it5, ib1xr, ib2xr, ib3xr, ib4, mm1xr, mm2xr, mm3xr, mm4, wn1, wn2, wn3, wn4xr, e1, e2]
+    Alive: [iu1, iu2, iu3xr, iu4x, iu5, ii1, ii3, ii4xr, ii5, ju3, nd1, nd2, nd3, nd4xr]
+  primary:
+    Good: [ab1, ab2xr, ab3, ab4, bu1xr, bu2, bu3, bu4, cc1xr, cc2xr, cc3xr, cc4, fh1, fh2, fh3xr, fh4, ht1xr, ht2, ht3, ht4xr, ht5, it1, it2, it3, it4xr, it5, ib1xr, ib2xr, ib3xr, ib4, ju1, ju2xr, ju3, ju4, ju5, mm1xr, mm2xr, mm3xr, mm4, nd1, nd2, nd3, nd4xr, pm1xr, pm2xr, pm3, pm4, pm5, pd1xr, pd2xr, pd3, pd4, rd1xr, rd2, rd3, rd4xr, sf1xr, sf2xr, sf3xr, sf4, ut1, ut2, ut3xr, ut4xr, wn1, wn2, wn3, wn4xr, g1xr, e1, e2]

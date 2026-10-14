@@ -1,0 +1,2618 @@
+{
+  "captured_utc": "2026-09-24T21:16:30.806023",
+  "repo": "/ada1/u/harsh/demand-worlds-corpus",
+  "head": "447a5cb8bd3cc565e766d4c9e4f8ca568197ea61",
+  "files": {
+    "index.jsonl": {
+      "sha256": "2f50d6358bed233f99817620031091fd057690046053d0e02e2694770ca0759f",
+      "bytes": 290326,
+      "mtime": "2026-09-24T13:11:19.419885"
+    },
+    "runs.json": {
+      "sha256": "95f92071fdeaa9baf040bb4a5602ba243b0d690fa593102035d5fc38fdc9afdf",
+      "bytes": 413093,
+      "mtime": "2026-09-24T13:15:04.668832"
+    },
+    "trajectories.json": {
+      "sha256": "3e0e5adcf5925ca15a98edeb5fbc06111da4b8ccd40edd239d0a051bead9279e",
+      "bytes": 253087,
+      "mtime": "2026-09-24T13:15:06.860861"
+    },
+    "runs_by_scenario.json": {
+      "sha256": "586a3b1b2f5eb4f099973b987381c89e8b12136038fc157b940d4b3cbed11943",
+      "bytes": 233438,
+      "mtime": "2026-09-18T02:22:38.483703"
+    },
+    "summary.md": {
+      "sha256": "ab14fef00723d22c0f756723bee17d0fc8e712662f2e7ce9d81a0d8bbe0ce3c7",
+      "bytes": 11218,
+      "mtime": "2026-09-24T13:15:12.469936"
+    },
+    "utterance_labels.jsonl": {
+      "sha256": "4c9899d15c830decf6364540aca1cea7a4627f1148124480606a230c0e32d329",
+      "bytes": 15203255,
+      "mtime": "2026-09-24T13:33:20.696014"
+    }
+  },
+  "coverage": {
+    "index_n": 416,
+    "runs_n": 416,
+    "index_duplicate_units": 0,
+    "missing_result_files": [],
+    "metric_mismatches": [],
+    "raw_utterance_count": 11903,
+    "label_count": 11903,
+    "duplicate_label_ids": 0,
+    "missing_utterance_labels": 0,
+    "extra_utterance_labels": 0,
+    "utterance_text_mismatches": [],
+    "stale_runs_by_scenario_n": 296,
+    "missing_from_stale_by_condition": {
+      "mmmmm-tf": 15,
+      "BBBBa-tf": 15,
+      "BBBBP-tf": 15,
+      "ppppp-tf": 15,
+      "aaaaa-tf": 15,
+      "BBBBm-tf": 15,
+      "BBBBp-tf": 15,
+      "BBBBA-tf": 15
+    }
+  },
+  "groups": [
+    {
+      "scenario": "fish",
+      "temperature": 0.0,
+      "comp": "AAAAA",
+      "n_runs": 15,
+      "adapter_seeds": {
+        "0": 5,
+        "1": 5,
+        "2": 5
+      },
+      "simulation_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "survived_n": 0,
+      "survival_times": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "means": {
+        "survival_time": 1.4,
+        "total_gain": 106.8,
+        "efficiency": 0.17800000002,
+        "equality": 0.85484216078,
+        "over_usage": 0.8666666666666667,
+        "final_resource": 0.0,
+        "mean_wanted_month1": 22.773333333333333
+      },
+      "per_seed_survival": {
+        "0": 1.4,
+        "1": 1.8,
+        "2": 1
+      },
+      "parse_defaults": 251,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 130,
+        "labels": 130,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 15,
+        "parse_ok_false": 0,
+        "eligible_nonmayor_nonempty_validcluster": 109,
+        "article_turns": 19,
+        "discussion_turns": 90,
+        "article_fraction": 0.1743119266055046,
+        "world_topic_turns": 27,
+        "cluster_counts": {
+          "Information": 73,
+          "Relational": 6,
+          "Negotiation": 11
+        },
+        "cluster_fractions": {
+          "Negotiation": 0.12222222222222222,
+          "Information": 0.8111111111111111,
+          "Relational": 0.06666666666666667
+        },
+        "subcategory_counts": {
+          "problem_identification": 24,
+          "excusing_behavior": 6,
+          "information_sharing": 31,
+          "expressing_disagreement": 3,
+          "consensus_seeking": 6,
+          "persuasion": 2,
+          "solution_proposing": 18
+        }
+      }
+    },
+    {
+      "scenario": "fish",
+      "temperature": 0.0,
+      "comp": "AAAAA-cf",
+      "n_runs": 15,
+      "adapter_seeds": {
+        "0": 5,
+        "1": 5,
+        "2": 5
+      },
+      "simulation_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "survived_n": 0,
+      "survival_times": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        3
+      ],
+      "means": {
+        "survival_time": 1.2,
+        "total_gain": 103.06666666666666,
+        "efficiency": 0.17177777780666667,
+        "equality": 0.9374687830733334,
+        "over_usage": 0.91777777778,
+        "final_resource": 0.26666666666666666,
+        "mean_wanted_month1": 22.8
+      },
+      "per_seed_survival": {
+        "0": 1.2,
+        "1": 1,
+        "2": 1.4
+      },
+      "parse_defaults": 119,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 84,
+        "labels": 84,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 15,
+        "parse_ok_false": 0,
+        "eligible_nonmayor_nonempty_validcluster": 61,
+        "article_turns": 0,
+        "discussion_turns": 61,
+        "article_fraction": 0.0,
+        "world_topic_turns": 0,
+        "cluster_counts": {
+          "Relational": 20,
+          "Information": 33,
+          "Negotiation": 8
+        },
+        "cluster_fractions": {
+          "Negotiation": 0.13114754098360656,
+          "Information": 0.5409836065573771,
+          "Relational": 0.32786885245901637
+        },
+        "subcategory_counts": {
+          "excusing_behavior": 20,
+          "information_sharing": 2,
+          "solution_proposing": 14,
+          "consensus_seeking": 5,
+          "problem_identification": 17,
+          "persuasion": 3
+        }
+      }
+    },
+    {
+      "scenario": "fish",
+      "temperature": 0.0,
+      "comp": "AAAAA-tf",
+      "n_runs": 15,
+      "adapter_seeds": {
+        "0": 5,
+        "1": 5,
+        "2": 5
+      },
+      "simulation_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "survived_n": 0,
+      "survival_times": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1
+      ],
+      "means": {
+        "survival_time": 1.1333333333333333,
+        "total_gain": 100.86666666666666,
+        "efficiency": 0.16811111114,
+        "equality": 0.87798729878,
+        "over_usage": 0.96,
+        "final_resource": 0.2,
+        "mean_wanted_month1": 21.786666666666665
+      },
+      "per_seed_survival": {
+        "0": 1.2,
+        "1": 1,
+        "2": 1.2
+      },
+      "parse_defaults": 181,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 152,
+        "labels": 152,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 15,
+        "parse_ok_false": 0,
+        "eligible_nonmayor_nonempty_validcluster": 135,
+        "article_turns": 12,
+        "discussion_turns": 123,
+        "article_fraction": 0.08888888888888889,
+        "world_topic_turns": 27,
+        "cluster_counts": {
+          "Information": 101,
+          "Negotiation": 14,
+          "Relational": 8
+        },
+        "cluster_fractions": {
+          "Negotiation": 0.11382113821138211,
+          "Information": 0.8211382113821138,
+          "Relational": 0.06504065040650407
+        },
+        "subcategory_counts": {
+          "information_sharing": 42,
+          "problem_identification": 33,
+          "persuasion": 10,
+          "excusing_behavior": 8,
+          "solution_proposing": 26,
+          "expressing_disagreement": 3,
+          "consensus_seeking": 1
+        }
+      }
+    },
+    {
+      "scenario": "fish",
+      "temperature": 0.0,
+      "comp": "AAAAA-think",
+      "n_runs": 5,
+      "adapter_seeds": {
+        "0": 5
+      },
+      "simulation_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "survived_n": 0,
+      "survival_times": [
+        5,
+        1,
+        3,
+        3,
+        4
+      ],
+      "means": {
+        "survival_time": 3.2,
+        "total_gain": 156.4,
+        "efficiency": 0.26066666668,
+        "equality": 0.65692443648,
+        "over_usage": 0.55,
+        "final_resource": 0.0,
+        "mean_wanted_month1": 11.16
+      },
+      "per_seed_survival": {
+        "0": 3.2
+      },
+      "parse_defaults": 64,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 32,
+        "labels": 32,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 5,
+        "parse_ok_false": 0,
+        "eligible_nonmayor_nonempty_validcluster": 0,
+        "article_turns": 0,
+        "discussion_turns": 0,
+        "article_fraction": null,
+        "world_topic_turns": 0,
+        "cluster_counts": {},
+        "cluster_fractions": {
+          "Negotiation": null,
+          "Information": null,
+          "Relational": null
+        },
+        "subcategory_counts": {}
+      }
+    },
+    {
+      "scenario": "fish",
+      "temperature": 0.0,
+      "comp": "BBBBA-tf",
+      "n_runs": 15,
+      "adapter_seeds": {
+        "0": 5,
+        "1": 5,
+        "2": 5
+      },
+      "simulation_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "survived_n": 0,
+      "survival_times": [
+        3,
+        4,
+        4,
+        4,
+        5,
+        3,
+        2,
+        3,
+        7,
+        5,
+        4,
+        3,
+        3,
+        3,
+        3
+      ],
+      "means": {
+        "survival_time": 3.7333333333333334,
+        "total_gain": 168.86666666666667,
+        "efficiency": 0.28144444446,
+        "equality": 0.83557815686,
+        "over_usage": 0.6031111111066667,
+        "final_resource": 0.8666666666666667,
+        "mean_wanted_month1": 12.666666666666666
+      },
+      "per_seed_survival": {
+        "0": 4.4,
+        "1": 4,
+        "2": 2.8
+      },
+      "parse_defaults": 91,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 478,
+        "labels": 478,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 15,
+        "parse_ok_false": 0,
+        "eligible_nonmayor_nonempty_validcluster": 422,
+        "article_turns": 0,
+        "discussion_turns": 422,
+        "article_fraction": 0.0,
+        "world_topic_turns": 0,
+        "cluster_counts": {
+          "Negotiation": 301,
+          "Relational": 40,
+          "Information": 81
+        },
+        "cluster_fractions": {
+          "Negotiation": 0.7132701421800948,
+          "Information": 0.19194312796208532,
+          "Relational": 0.0947867298578199
+        },
+        "subcategory_counts": {
+          "consensus_seeking": 289,
+          "excusing_behavior": 40,
+          "problem_identification": 22,
+          "persuasion": 12,
+          "solution_proposing": 59
+        }
+      }
+    },
+    {
+      "scenario": "fish",
+      "temperature": 0.0,
+      "comp": "BBBBB",
+      "n_runs": 4,
+      "adapter_seeds": {
+        "0": 4
+      },
+      "simulation_seeds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "survived_n": 4,
+      "survival_times": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "means": {
+        "survival_time": 12,
+        "total_gain": 517.5,
+        "efficiency": 0.862500000025,
+        "equality": 1.0,
+        "over_usage": 0.0,
+        "final_resource": 57.5,
+        "mean_wanted_month1": 10.0
+      },
+      "per_seed_survival": {
+        "0": 12
+      },
+      "parse_defaults": 7,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 456,
+        "labels": 456,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 4,
+        "parse_ok_false": 0,
+        "eligible_nonmayor_nonempty_validcluster": 408,
+        "article_turns": 0,
+        "discussion_turns": 408,
+        "article_fraction": 0.0,
+        "world_topic_turns": 0,
+        "cluster_counts": {
+          "Negotiation": 303,
+          "Information": 105
+        },
+        "cluster_fractions": {
+          "Negotiation": 0.7426470588235294,
+          "Information": 0.25735294117647056,
+          "Relational": 0.0
+        },
+        "subcategory_counts": {
+          "consensus_seeking": 298,
+          "solution_proposing": 102,
+          "persuasion": 4,
+          "problem_identification": 2,
+          "expressing_disagreement": 1,
+          "information_sharing": 1
+        }
+      }
+    },
+    {
+      "scenario": "fish",
+      "temperature": 0.0,
+      "comp": "BBBBB-tf",
+      "n_runs": 5,
+      "adapter_seeds": {
+        "0": 5
+      },
+      "simulation_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "survived_n": 5,
+      "survival_times": [
+        12,
+        12,
+        12,
+        12,
+        12
+      ],
+      "means": {
+        "survival_time": 12,
+        "total_gain": 563.2,
+        "efficiency": 0.938,
+        "equality": 0.99568150708,
+        "over_usage": 0.15,
+        "final_resource": 53.8,
+        "mean_wanted_month1": 10.0
+      },
+      "per_seed_survival": {
+        "0": 12
+      },
+      "parse_defaults": 16,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 527,
+        "labels": 527,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 5,
+        "parse_ok_false": 0,
+        "eligible_nonmayor_nonempty_validcluster": 467,
+        "article_turns": 0,
+        "discussion_turns": 467,
+        "article_fraction": 0.0,
+        "world_topic_turns": 0,
+        "cluster_counts": {
+          "Negotiation": 369,
+          "Information": 92,
+          "Relational": 6
+        },
+        "cluster_fractions": {
+          "Negotiation": 0.7901498929336188,
+          "Information": 0.19700214132762311,
+          "Relational": 0.01284796573875803
+        },
+        "subcategory_counts": {
+          "consensus_seeking": 361,
+          "solution_proposing": 89,
+          "excusing_behavior": 6,
+          "persuasion": 7,
+          "information_sharing": 1,
+          "problem_identification": 2,
+          "expressing_disagreement": 1
+        }
+      }
+    },
+    {
+      "scenario": "fish",
+      "temperature": 0.0,
+      "comp": "BBBBB-think",
+      "n_runs": 5,
+      "adapter_seeds": {
+        "0": 5
+      },
+      "simulation_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "survived_n": 5,
+      "survival_times": [
+        12,
+        12,
+        12,
+        12,
+        12
+      ],
+      "means": {
+        "survival_time": 12,
+        "total_gain": 500.2,
+        "efficiency": 0.83366666668,
+        "equality": 0.98430814436,
+        "over_usage": 0.11333333334000001,
+        "final_resource": 62.4,
+        "mean_wanted_month1": 10.0
+      },
+      "per_seed_survival": {
+        "0": 12
+      },
+      "parse_defaults": 65,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 385,
+        "labels": 385,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 5,
+        "parse_ok_false": 0,
+        "eligible_nonmayor_nonempty_validcluster": 323,
+        "article_turns": 0,
+        "discussion_turns": 323,
+        "article_fraction": 0.0,
+        "world_topic_turns": 0,
+        "cluster_counts": {
+          "Negotiation": 231,
+          "Information": 83,
+          "Relational": 9
+        },
+        "cluster_fractions": {
+          "Negotiation": 0.7151702786377709,
+          "Information": 0.25696594427244585,
+          "Relational": 0.02786377708978328
+        },
+        "subcategory_counts": {
+          "consensus_seeking": 215,
+          "persuasion": 15,
+          "solution_proposing": 76,
+          "information_sharing": 6,
+          "excusing_behavior": 9,
+          "problem_identification": 1,
+          "expressing_disagreement": 1
+        }
+      }
+    },
+    {
+      "scenario": "fish",
+      "temperature": 0.0,
+      "comp": "BBBBP-tf",
+      "n_runs": 15,
+      "adapter_seeds": {
+        "0": 5,
+        "1": 5,
+        "2": 5
+      },
+      "simulation_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "survived_n": 14,
+      "survival_times": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        8,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12
+      ],
+      "means": {
+        "survival_time": 11.733333333333333,
+        "total_gain": 543.0,
+        "efficiency": 0.9049999999933334,
+        "equality": 0.99408795652,
+        "over_usage": 0.056666666666666664,
+        "final_resource": 53.0,
+        "mean_wanted_month1": 10.0
+      },
+      "per_seed_survival": {
+        "0": 12,
+        "1": 11.2,
+        "2": 12
+      },
+      "parse_defaults": 380,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 1565,
+        "labels": 1565,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 15,
+        "parse_ok_false": 0,
+        "eligible_nonmayor_nonempty_validcluster": 1389,
+        "article_turns": 0,
+        "discussion_turns": 1389,
+        "article_fraction": 0.0,
+        "world_topic_turns": 0,
+        "cluster_counts": {
+          "Negotiation": 1066,
+          "Information": 306,
+          "Relational": 17
+        },
+        "cluster_fractions": {
+          "Negotiation": 0.7674586033117351,
+          "Information": 0.2203023758099352,
+          "Relational": 0.012239020878329733
+        },
+        "subcategory_counts": {
+          "consensus_seeking": 1048,
+          "solution_proposing": 290,
+          "information_sharing": 14,
+          "excusing_behavior": 17,
+          "persuasion": 16,
+          "expressing_disagreement": 2,
+          "problem_identification": 2
+        }
+      }
+    },
+    {
+      "scenario": "fish",
+      "temperature": 0.0,
+      "comp": "BBBBa-tf",
+      "n_runs": 15,
+      "adapter_seeds": {
+        "0": 5,
+        "1": 5,
+        "2": 5
+      },
+      "simulation_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "survived_n": 0,
+      "survival_times": [
+        2,
+        2,
+        3,
+        1,
+        3,
+        3,
+        2,
+        4,
+        2,
+        3,
+        3,
+        3,
+        3,
+        4,
+        5
+      ],
+      "means": {
+        "survival_time": 2.8666666666666667,
+        "total_gain": 144.2,
+        "efficiency": 0.24033333334,
+        "equality": 0.76968741616,
+        "over_usage": 0.51533333334,
+        "final_resource": 0.5333333333333333,
+        "mean_wanted_month1": 15.066666666666666
+      },
+      "per_seed_survival": {
+        "0": 2.8,
+        "1": 2.2,
+        "2": 3.6
+      },
+      "parse_defaults": 64,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 384,
+        "labels": 384,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 15,
+        "parse_ok_false": 0,
+        "eligible_nonmayor_nonempty_validcluster": 341,
+        "article_turns": 0,
+        "discussion_turns": 341,
+        "article_fraction": 0.0,
+        "world_topic_turns": 0,
+        "cluster_counts": {
+          "Information": 49,
+          "Negotiation": 258,
+          "Relational": 34
+        },
+        "cluster_fractions": {
+          "Negotiation": 0.7565982404692082,
+          "Information": 0.1436950146627566,
+          "Relational": 0.09970674486803519
+        },
+        "subcategory_counts": {
+          "solution_proposing": 37,
+          "consensus_seeking": 231,
+          "problem_identification": 9,
+          "excusing_behavior": 34,
+          "persuasion": 27,
+          "information_sharing": 3
+        }
+      }
+    },
+    {
+      "scenario": "fish",
+      "temperature": 0.0,
+      "comp": "BBBBm-tf",
+      "n_runs": 15,
+      "adapter_seeds": {
+        "0": 5,
+        "1": 5,
+        "2": 5
+      },
+      "simulation_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "survived_n": 5,
+      "survival_times": [
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        4,
+        3,
+        4,
+        12,
+        3,
+        12,
+        12,
+        12,
+        12
+      ],
+      "means": {
+        "survival_time": 6.8,
+        "total_gain": 276.8666666666667,
+        "efficiency": 0.46144444444,
+        "equality": 0.9318568653,
+        "over_usage": 0.5077777777733333,
+        "final_resource": 23.733333333333334,
+        "mean_wanted_month1": 11.386666666666667
+      },
+      "per_seed_survival": {
+        "0": 4.6,
+        "1": 5.6,
+        "2": 10.2
+      },
+      "parse_defaults": 50,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 914,
+        "labels": 914,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 15,
+        "parse_ok_false": 0,
+        "eligible_nonmayor_nonempty_validcluster": 812,
+        "article_turns": 0,
+        "discussion_turns": 812,
+        "article_fraction": 0.0,
+        "world_topic_turns": 0,
+        "cluster_counts": {
+          "Information": 164,
+          "Negotiation": 623,
+          "Relational": 25
+        },
+        "cluster_fractions": {
+          "Negotiation": 0.7672413793103449,
+          "Information": 0.2019704433497537,
+          "Relational": 0.03078817733990148
+        },
+        "subcategory_counts": {
+          "problem_identification": 13,
+          "solution_proposing": 141,
+          "consensus_seeking": 601,
+          "persuasion": 22,
+          "excusing_behavior": 24,
+          "information_sharing": 10,
+          "punishment": 1
+        }
+      }
+    },
+    {
+      "scenario": "fish",
+      "temperature": 0.0,
+      "comp": "BBBBp-tf",
+      "n_runs": 15,
+      "adapter_seeds": {
+        "0": 5,
+        "1": 5,
+        "2": 5
+      },
+      "simulation_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "survived_n": 13,
+      "survival_times": [
+        8,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        10,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12
+      ],
+      "means": {
+        "survival_time": 11.6,
+        "total_gain": 527.0,
+        "efficiency": 0.8783333333266666,
+        "equality": 0.9971147228,
+        "over_usage": 0.10044444444666667,
+        "final_resource": 45.2,
+        "mean_wanted_month1": 10.0
+      },
+      "per_seed_survival": {
+        "0": 11.2,
+        "1": 11.6,
+        "2": 12
+      },
+      "parse_defaults": 85,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 1578,
+        "labels": 1578,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 15,
+        "parse_ok_false": 0,
+        "eligible_nonmayor_nonempty_validcluster": 1404,
+        "article_turns": 0,
+        "discussion_turns": 1404,
+        "article_fraction": 0.0,
+        "world_topic_turns": 0,
+        "cluster_counts": {
+          "Negotiation": 1044,
+          "Information": 351,
+          "Relational": 9
+        },
+        "cluster_fractions": {
+          "Negotiation": 0.7435897435897436,
+          "Information": 0.25,
+          "Relational": 0.00641025641025641
+        },
+        "subcategory_counts": {
+          "consensus_seeking": 1024,
+          "solution_proposing": 329,
+          "persuasion": 20,
+          "excusing_behavior": 9,
+          "problem_identification": 9,
+          "information_sharing": 13
+        }
+      }
+    },
+    {
+      "scenario": "fish",
+      "temperature": 0.0,
+      "comp": "PPPPP",
+      "n_runs": 9,
+      "adapter_seeds": {
+        "0": 5,
+        "1": 4
+      },
+      "simulation_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "survived_n": 0,
+      "survival_times": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        4,
+        5,
+        8,
+        10
+      ],
+      "means": {
+        "survival_time": 4.444444444444445,
+        "total_gain": 227.44444444444446,
+        "efficiency": 0.37907407406666666,
+        "equality": 0.9168870042555556,
+        "over_usage": 0.4766666666555555,
+        "final_resource": 0.4444444444444444,
+        "mean_wanted_month1": 10.177777777777777
+      },
+      "per_seed_survival": {
+        "0": 2.6,
+        "1": 6.75
+      },
+      "parse_defaults": 747,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 283,
+        "labels": 283,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 9,
+        "parse_ok_false": 0,
+        "eligible_nonmayor_nonempty_validcluster": 243,
+        "article_turns": 151,
+        "discussion_turns": 92,
+        "article_fraction": 0.6213991769547325,
+        "world_topic_turns": 40,
+        "cluster_counts": {
+          "Information": 60,
+          "Negotiation": 28,
+          "Relational": 4
+        },
+        "cluster_fractions": {
+          "Negotiation": 0.30434782608695654,
+          "Information": 0.6521739130434783,
+          "Relational": 0.043478260869565216
+        },
+        "subcategory_counts": {
+          "problem_identification": 8,
+          "solution_proposing": 17,
+          "persuasion": 11,
+          "information_sharing": 35,
+          "consensus_seeking": 15,
+          "excusing_behavior": 4,
+          "expressing_disagreement": 2
+        }
+      }
+    },
+    {
+      "scenario": "fish",
+      "temperature": 0.0,
+      "comp": "PPPPP-cf",
+      "n_runs": 15,
+      "adapter_seeds": {
+        "0": 5,
+        "1": 5,
+        "2": 5
+      },
+      "simulation_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "survived_n": 0,
+      "survival_times": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "means": {
+        "survival_time": 1,
+        "total_gain": 100.0,
+        "efficiency": 0.1666666667,
+        "equality": 1.0,
+        "over_usage": 1.0,
+        "final_resource": 0.0,
+        "mean_wanted_month1": 20.0
+      },
+      "per_seed_survival": {
+        "0": 1,
+        "1": 1,
+        "2": 1
+      },
+      "parse_defaults": 34,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 84,
+        "labels": 84,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 15,
+        "parse_ok_false": 0,
+        "eligible_nonmayor_nonempty_validcluster": 69,
+        "article_turns": 0,
+        "discussion_turns": 69,
+        "article_fraction": 0.0,
+        "world_topic_turns": 0,
+        "cluster_counts": {
+          "Information": 33,
+          "Negotiation": 36
+        },
+        "cluster_fractions": {
+          "Negotiation": 0.5217391304347826,
+          "Information": 0.4782608695652174,
+          "Relational": 0.0
+        },
+        "subcategory_counts": {
+          "problem_identification": 10,
+          "solution_proposing": 23,
+          "consensus_seeking": 36
+        }
+      }
+    },
+    {
+      "scenario": "fish",
+      "temperature": 0.0,
+      "comp": "PPPPP-tf",
+      "n_runs": 15,
+      "adapter_seeds": {
+        "0": 5,
+        "1": 5,
+        "2": 5
+      },
+      "simulation_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "survived_n": 6,
+      "survival_times": [
+        3,
+        7,
+        12,
+        12,
+        12,
+        7,
+        8,
+        12,
+        7,
+        9,
+        9,
+        8,
+        9,
+        12,
+        12
+      ],
+      "means": {
+        "survival_time": 9.266666666666667,
+        "total_gain": 408.3333333333333,
+        "efficiency": 0.6798888889,
+        "equality": 0.9446863749866666,
+        "over_usage": 0.27904761903333336,
+        "final_resource": 10.4,
+        "mean_wanted_month1": 9.706666666666667
+      },
+      "per_seed_survival": {
+        "0": 9.2,
+        "1": 8.6,
+        "2": 10
+      },
+      "parse_defaults": 1920,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 1094,
+        "labels": 1094,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 15,
+        "parse_ok_false": 0,
+        "eligible_nonmayor_nonempty_validcluster": 955,
+        "article_turns": 199,
+        "discussion_turns": 756,
+        "article_fraction": 0.20837696335078534,
+        "world_topic_turns": 309,
+        "cluster_counts": {
+          "Information": 466,
+          "Negotiation": 270,
+          "Relational": 20
+        },
+        "cluster_fractions": {
+          "Negotiation": 0.35714285714285715,
+          "Information": 0.6164021164021164,
+          "Relational": 0.026455026455026454
+        },
+        "subcategory_counts": {
+          "problem_identification": 44,
+          "solution_proposing": 133,
+          "persuasion": 127,
+          "consensus_seeking": 125,
+          "information_sharing": 289,
+          "excusing_behavior": 20,
+          "expressing_disagreement": 18
+        }
+      }
+    },
+    {
+      "scenario": "fish",
+      "temperature": 0.0,
+      "comp": "PPPPP-think",
+      "n_runs": 5,
+      "adapter_seeds": {
+        "0": 5
+      },
+      "simulation_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "survived_n": 4,
+      "survival_times": [
+        5,
+        12,
+        12,
+        12,
+        12
+      ],
+      "means": {
+        "survival_time": 10.6,
+        "total_gain": 297.8,
+        "efficiency": 0.49633333334,
+        "equality": 0.65472734438,
+        "over_usage": 0.08933333332,
+        "final_resource": 66.0,
+        "mean_wanted_month1": 7.52
+      },
+      "per_seed_survival": {
+        "0": 10.6
+      },
+      "parse_defaults": 237,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 162,
+        "labels": 162,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 5,
+        "parse_ok_false": 0,
+        "eligible_nonmayor_nonempty_validcluster": 35,
+        "article_turns": 11,
+        "discussion_turns": 24,
+        "article_fraction": 0.3142857142857143,
+        "world_topic_turns": 0,
+        "cluster_counts": {
+          "Negotiation": 10,
+          "Information": 14
+        },
+        "cluster_fractions": {
+          "Negotiation": 0.4166666666666667,
+          "Information": 0.5833333333333334,
+          "Relational": 0.0
+        },
+        "subcategory_counts": {
+          "persuasion": 5,
+          "solution_proposing": 10,
+          "information_sharing": 2,
+          "consensus_seeking": 5,
+          "problem_identification": 2
+        }
+      }
+    },
+    {
+      "scenario": "fish",
+      "temperature": 0.0,
+      "comp": "aaaaa-tf",
+      "n_runs": 15,
+      "adapter_seeds": {
+        "0": 5,
+        "1": 5,
+        "2": 5
+      },
+      "simulation_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "survived_n": 0,
+      "survival_times": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "means": {
+        "survival_time": 1.1333333333333333,
+        "total_gain": 102.0,
+        "efficiency": 0.17000000003333332,
+        "equality": 0.87773913044,
+        "over_usage": 0.9533333333333334,
+        "final_resource": 0.0,
+        "mean_wanted_month1": 29.533333333333335
+      },
+      "per_seed_survival": {
+        "0": 1.4,
+        "1": 1,
+        "2": 1
+      },
+      "parse_defaults": 214,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 117,
+        "labels": 117,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 15,
+        "parse_ok_false": 0,
+        "eligible_nonmayor_nonempty_validcluster": 100,
+        "article_turns": 17,
+        "discussion_turns": 83,
+        "article_fraction": 0.17,
+        "world_topic_turns": 3,
+        "cluster_counts": {
+          "Information": 59,
+          "Relational": 6,
+          "Negotiation": 18
+        },
+        "cluster_fractions": {
+          "Negotiation": 0.21686746987951808,
+          "Information": 0.7108433734939759,
+          "Relational": 0.07228915662650602
+        },
+        "subcategory_counts": {
+          "problem_identification": 16,
+          "excusing_behavior": 6,
+          "information_sharing": 10,
+          "persuasion": 6,
+          "solution_proposing": 33,
+          "expressing_disagreement": 10,
+          "consensus_seeking": 2
+        }
+      }
+    },
+    {
+      "scenario": "fish",
+      "temperature": 0.0,
+      "comp": "mmmmm-tf",
+      "n_runs": 15,
+      "adapter_seeds": {
+        "0": 5,
+        "1": 5,
+        "2": 5
+      },
+      "simulation_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "survived_n": 0,
+      "survival_times": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        4
+      ],
+      "means": {
+        "survival_time": 1.5333333333333334,
+        "total_gain": 113.46666666666667,
+        "efficiency": 0.18911111113333334,
+        "equality": 0.95131751154,
+        "over_usage": 0.8833333333333333,
+        "final_resource": 0.13333333333333333,
+        "mean_wanted_month1": 17.173333333333332
+      },
+      "per_seed_survival": {
+        "0": 1,
+        "1": 1.2,
+        "2": 2.4
+      },
+      "parse_defaults": 79,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 222,
+        "labels": 222,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 15,
+        "parse_ok_false": 0,
+        "eligible_nonmayor_nonempty_validcluster": 199,
+        "article_turns": 0,
+        "discussion_turns": 199,
+        "article_fraction": 0.0,
+        "world_topic_turns": 0,
+        "cluster_counts": {
+          "Negotiation": 143,
+          "Information": 54,
+          "Relational": 2
+        },
+        "cluster_fractions": {
+          "Negotiation": 0.7185929648241206,
+          "Information": 0.271356783919598,
+          "Relational": 0.010050251256281407
+        },
+        "subcategory_counts": {
+          "consensus_seeking": 134,
+          "solution_proposing": 51,
+          "persuasion": 4,
+          "expressing_disagreement": 5,
+          "problem_identification": 1,
+          "excusing_behavior": 2,
+          "information_sharing": 2
+        }
+      }
+    },
+    {
+      "scenario": "fish",
+      "temperature": 0.0,
+      "comp": "ppppp-tf",
+      "n_runs": 15,
+      "adapter_seeds": {
+        "0": 5,
+        "1": 5,
+        "2": 5
+      },
+      "simulation_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "survived_n": 7,
+      "survival_times": [
+        4,
+        12,
+        4,
+        12,
+        12,
+        4,
+        8,
+        4,
+        2,
+        3,
+        12,
+        7,
+        12,
+        12,
+        12
+      ],
+      "means": {
+        "survival_time": 8,
+        "total_gain": 369.3333333333333,
+        "efficiency": 0.61544444444,
+        "equality": 0.93657459046,
+        "over_usage": 0.25031746032,
+        "final_resource": 23.733333333333334,
+        "mean_wanted_month1": 10.106666666666667
+      },
+      "per_seed_survival": {
+        "0": 9.6,
+        "1": 6.2,
+        "2": 8.2
+      },
+      "parse_defaults": 490,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 498,
+        "labels": 498,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 15,
+        "parse_ok_false": 0,
+        "eligible_nonmayor_nonempty_validcluster": 377,
+        "article_turns": 46,
+        "discussion_turns": 331,
+        "article_fraction": 0.1220159151193634,
+        "world_topic_turns": 68,
+        "cluster_counts": {
+          "Information": 170,
+          "Negotiation": 156,
+          "Relational": 5
+        },
+        "cluster_fractions": {
+          "Negotiation": 0.47129909365558914,
+          "Information": 0.513595166163142,
+          "Relational": 0.015105740181268883
+        },
+        "subcategory_counts": {
+          "information_sharing": 85,
+          "consensus_seeking": 105,
+          "problem_identification": 17,
+          "solution_proposing": 68,
+          "persuasion": 44,
+          "excusing_behavior": 5,
+          "expressing_disagreement": 7
+        }
+      }
+    },
+    {
+      "scenario": "fish",
+      "temperature": 0.7,
+      "comp": "AAAAA",
+      "n_runs": 30,
+      "adapter_seeds": {
+        "0": 10,
+        "1": 10,
+        "2": 10
+      },
+      "simulation_seeds": [
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109
+      ],
+      "survived_n": 0,
+      "survival_times": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1
+      ],
+      "means": {
+        "survival_time": 1.2333333333333334,
+        "total_gain": 103.23333333333333,
+        "efficiency": 0.17205555558333332,
+        "equality": 0.86937948108,
+        "over_usage": 0.89,
+        "final_resource": 0.0,
+        "mean_wanted_month1": 26.64
+      },
+      "per_seed_survival": {
+        "0": 1.2,
+        "1": 1.4,
+        "2": 1.1
+      },
+      "parse_defaults": 402,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 258,
+        "labels": 258,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 30,
+        "parse_ok_false": 0,
+        "eligible_nonmayor_nonempty_validcluster": 221,
+        "article_turns": 44,
+        "discussion_turns": 177,
+        "article_fraction": 0.19909502262443438,
+        "world_topic_turns": 45,
+        "cluster_counts": {
+          "Information": 118,
+          "Negotiation": 41,
+          "Relational": 18
+        },
+        "cluster_fractions": {
+          "Negotiation": 0.23163841807909605,
+          "Information": 0.6666666666666666,
+          "Relational": 0.1016949152542373
+        },
+        "subcategory_counts": {
+          "information_sharing": 52,
+          "solution_proposing": 35,
+          "expressing_disagreement": 14,
+          "problem_identification": 31,
+          "persuasion": 16,
+          "excusing_behavior": 18,
+          "consensus_seeking": 11
+        }
+      }
+    },
+    {
+      "scenario": "fish",
+      "temperature": 0.7,
+      "comp": "AAAAA-cf",
+      "n_runs": 30,
+      "adapter_seeds": {
+        "0": 10,
+        "1": 10,
+        "2": 10
+      },
+      "simulation_seeds": [
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109
+      ],
+      "survived_n": 0,
+      "survival_times": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        3,
+        2
+      ],
+      "means": {
+        "survival_time": 1.3666666666666667,
+        "total_gain": 107.6,
+        "efficiency": 0.17933333334999998,
+        "equality": 0.8765868328566666,
+        "over_usage": 0.8233333333333334,
+        "final_resource": 0.03333333333333333,
+        "mean_wanted_month1": 22.686666666666667
+      },
+      "per_seed_survival": {
+        "0": 1.4,
+        "1": 1.3,
+        "2": 1.4
+      },
+      "parse_defaults": 249,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 127,
+        "labels": 127,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 30,
+        "parse_ok_false": 1,
+        "eligible_nonmayor_nonempty_validcluster": 74,
+        "article_turns": 0,
+        "discussion_turns": 74,
+        "article_fraction": 0.0,
+        "world_topic_turns": 1,
+        "cluster_counts": {
+          "Relational": 11,
+          "Information": 54,
+          "Negotiation": 9
+        },
+        "cluster_fractions": {
+          "Negotiation": 0.12162162162162163,
+          "Information": 0.7297297297297297,
+          "Relational": 0.14864864864864866
+        },
+        "subcategory_counts": {
+          "excusing_behavior": 11,
+          "information_sharing": 26,
+          "problem_identification": 19,
+          "expressing_disagreement": 1,
+          "persuasion": 2,
+          "solution_proposing": 9,
+          "consensus_seeking": 6
+        }
+      }
+    },
+    {
+      "scenario": "fish",
+      "temperature": 0.7,
+      "comp": "BBBBB",
+      "n_runs": 4,
+      "adapter_seeds": {
+        "0": 4
+      },
+      "simulation_seeds": [
+        100,
+        101,
+        102,
+        103
+      ],
+      "survived_n": 4,
+      "survival_times": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "means": {
+        "survival_time": 12,
+        "total_gain": 600.0,
+        "efficiency": 1.0,
+        "equality": 1.0,
+        "over_usage": 0.0,
+        "final_resource": 50.0,
+        "mean_wanted_month1": 10.0
+      },
+      "per_seed_survival": {
+        "0": 12
+      },
+      "parse_defaults": 6,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 431,
+        "labels": 431,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 4,
+        "parse_ok_false": 0,
+        "eligible_nonmayor_nonempty_validcluster": 383,
+        "article_turns": 0,
+        "discussion_turns": 383,
+        "article_fraction": 0.0,
+        "world_topic_turns": 0,
+        "cluster_counts": {
+          "Negotiation": 301,
+          "Information": 82
+        },
+        "cluster_fractions": {
+          "Negotiation": 0.7859007832898173,
+          "Information": 0.21409921671018275,
+          "Relational": 0.0
+        },
+        "subcategory_counts": {
+          "consensus_seeking": 297,
+          "solution_proposing": 76,
+          "information_sharing": 4,
+          "persuasion": 4,
+          "problem_identification": 2
+        }
+      }
+    },
+    {
+      "scenario": "fish",
+      "temperature": 0.7,
+      "comp": "PPPPP",
+      "n_runs": 14,
+      "adapter_seeds": {
+        "0": 9,
+        "1": 5
+      },
+      "simulation_seeds": [
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        107,
+        108,
+        109
+      ],
+      "survived_n": 0,
+      "survival_times": [
+        2,
+        2,
+        3,
+        5,
+        5,
+        2,
+        5,
+        2,
+        3,
+        4,
+        3,
+        5,
+        5,
+        4
+      ],
+      "means": {
+        "survival_time": 3.5714285714285716,
+        "total_gain": 180.21428571428572,
+        "efficiency": 0.30035714285,
+        "equality": 0.8678709759285714,
+        "over_usage": 0.4983333333357143,
+        "final_resource": 0.7857142857142857,
+        "mean_wanted_month1": 11.028571428571428
+      },
+      "per_seed_survival": {
+        "0": 3.3333333333333335,
+        "1": 4
+      },
+      "parse_defaults": 736,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 399,
+        "labels": 399,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 14,
+        "parse_ok_false": 0,
+        "eligible_nonmayor_nonempty_validcluster": 349,
+        "article_turns": 200,
+        "discussion_turns": 149,
+        "article_fraction": 0.5730659025787965,
+        "world_topic_turns": 74,
+        "cluster_counts": {
+          "Information": 118,
+          "Negotiation": 22,
+          "Relational": 9
+        },
+        "cluster_fractions": {
+          "Negotiation": 0.1476510067114094,
+          "Information": 0.7919463087248322,
+          "Relational": 0.06040268456375839
+        },
+        "subcategory_counts": {
+          "solution_proposing": 19,
+          "persuasion": 10,
+          "information_sharing": 90,
+          "problem_identification": 9,
+          "expressing_disagreement": 2,
+          "consensus_seeking": 10,
+          "excusing_behavior": 9
+        }
+      }
+    },
+    {
+      "scenario": "fish",
+      "temperature": 0.7,
+      "comp": "PPPPP-cf",
+      "n_runs": 30,
+      "adapter_seeds": {
+        "0": 10,
+        "1": 10,
+        "2": 10
+      },
+      "simulation_seeds": [
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109
+      ],
+      "survived_n": 0,
+      "survival_times": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        3,
+        2,
+        2,
+        3,
+        1
+      ],
+      "means": {
+        "survival_time": 1.4333333333333333,
+        "total_gain": 108.76666666666667,
+        "efficiency": 0.18127777779666668,
+        "equality": 0.89462132337,
+        "over_usage": 0.8322222222233333,
+        "final_resource": 0.06666666666666667,
+        "mean_wanted_month1": 22.14
+      },
+      "per_seed_survival": {
+        "0": 1.4,
+        "1": 1.5,
+        "2": 1.4
+      },
+      "parse_defaults": 128,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 107,
+        "labels": 107,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 30,
+        "parse_ok_false": 0,
+        "eligible_nonmayor_nonempty_validcluster": 58,
+        "article_turns": 0,
+        "discussion_turns": 58,
+        "article_fraction": 0.0,
+        "world_topic_turns": 0,
+        "cluster_counts": {
+          "Relational": 5,
+          "Information": 43,
+          "Negotiation": 10
+        },
+        "cluster_fractions": {
+          "Negotiation": 0.1724137931034483,
+          "Information": 0.7413793103448276,
+          "Relational": 0.08620689655172414
+        },
+        "subcategory_counts": {
+          "punishment": 1,
+          "solution_proposing": 12,
+          "information_sharing": 17,
+          "problem_identification": 14,
+          "consensus_seeking": 7,
+          "persuasion": 3,
+          "excusing_behavior": 4
+        }
+      }
+    },
+    {
+      "scenario": "pollution",
+      "temperature": 0.0,
+      "comp": "AAAAA-tf",
+      "n_runs": 15,
+      "adapter_seeds": {
+        "0": 5,
+        "1": 5,
+        "2": 5
+      },
+      "simulation_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "survived_n": 0,
+      "survival_times": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "means": {
+        "survival_time": 1,
+        "total_gain": 100.0,
+        "efficiency": 0.1666666667,
+        "equality": 0.9013333333333333,
+        "over_usage": 1.0,
+        "final_resource": 0.0,
+        "mean_wanted_month1": 118.8
+      },
+      "per_seed_survival": {
+        "0": 1,
+        "1": 1,
+        "2": 1
+      },
+      "parse_defaults": 132,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 141,
+        "labels": 141,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 15,
+        "parse_ok_false": 0,
+        "eligible_nonmayor_nonempty_validcluster": 126,
+        "article_turns": 8,
+        "discussion_turns": 118,
+        "article_fraction": 0.06349206349206349,
+        "world_topic_turns": 25,
+        "cluster_counts": {
+          "Information": 106,
+          "Negotiation": 12
+        },
+        "cluster_fractions": {
+          "Negotiation": 0.1016949152542373,
+          "Information": 0.8983050847457628,
+          "Relational": 0.0
+        },
+        "subcategory_counts": {
+          "problem_identification": 33,
+          "information_sharing": 40,
+          "solution_proposing": 33,
+          "expressing_disagreement": 2,
+          "consensus_seeking": 9,
+          "persuasion": 1
+        }
+      }
+    },
+    {
+      "scenario": "pollution",
+      "temperature": 0.0,
+      "comp": "BBBBB",
+      "n_runs": 5,
+      "adapter_seeds": {
+        "0": 5
+      },
+      "simulation_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "survived_n": 0,
+      "survival_times": [
+        1,
+        2,
+        2,
+        2,
+        3
+      ],
+      "means": {
+        "survival_time": 2,
+        "total_gain": 131.2,
+        "efficiency": 0.21866666668,
+        "equality": 0.84263333334,
+        "over_usage": 0.61333333334,
+        "final_resource": 0.8,
+        "mean_wanted_month1": 14.8
+      },
+      "per_seed_survival": {
+        "0": 2
+      },
+      "parse_defaults": 4,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 84,
+        "labels": 84,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 5,
+        "parse_ok_false": 0,
+        "eligible_nonmayor_nonempty_validcluster": 74,
+        "article_turns": 0,
+        "discussion_turns": 74,
+        "article_fraction": 0.0,
+        "world_topic_turns": 0,
+        "cluster_counts": {
+          "Information": 16,
+          "Negotiation": 58
+        },
+        "cluster_fractions": {
+          "Negotiation": 0.7837837837837838,
+          "Information": 0.21621621621621623,
+          "Relational": 0.0
+        },
+        "subcategory_counts": {
+          "solution_proposing": 16,
+          "consensus_seeking": 56,
+          "persuasion": 2
+        }
+      }
+    },
+    {
+      "scenario": "pollution",
+      "temperature": 0.0,
+      "comp": "BBBBB-tf",
+      "n_runs": 5,
+      "adapter_seeds": {
+        "0": 5
+      },
+      "simulation_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "survived_n": 0,
+      "survival_times": [
+        1,
+        1,
+        2,
+        2,
+        3
+      ],
+      "means": {
+        "survival_time": 1.8,
+        "total_gain": 114.6,
+        "efficiency": 0.19100000002,
+        "equality": 0.8019042471,
+        "over_usage": 0.72,
+        "final_resource": 0.0,
+        "mean_wanted_month1": 21.72
+      },
+      "per_seed_survival": {
+        "0": 1.8
+      },
+      "parse_defaults": 1,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 69,
+        "labels": 69,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 5,
+        "parse_ok_false": 0,
+        "eligible_nonmayor_nonempty_validcluster": 60,
+        "article_turns": 0,
+        "discussion_turns": 60,
+        "article_fraction": 0.0,
+        "world_topic_turns": 0,
+        "cluster_counts": {
+          "Information": 14,
+          "Negotiation": 42,
+          "Relational": 4
+        },
+        "cluster_fractions": {
+          "Negotiation": 0.7,
+          "Information": 0.23333333333333334,
+          "Relational": 0.06666666666666667
+        },
+        "subcategory_counts": {
+          "solution_proposing": 14,
+          "consensus_seeking": 40,
+          "persuasion": 2,
+          "excusing_behavior": 4
+        }
+      }
+    },
+    {
+      "scenario": "pollution",
+      "temperature": 0.0,
+      "comp": "PPPPP-tf",
+      "n_runs": 15,
+      "adapter_seeds": {
+        "0": 5,
+        "1": 5,
+        "2": 5
+      },
+      "simulation_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "survived_n": 0,
+      "survival_times": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        5,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "means": {
+        "survival_time": 1.6666666666666667,
+        "total_gain": 107.26666666666667,
+        "efficiency": 0.17877777780666665,
+        "equality": 0.9437475256733333,
+        "over_usage": 0.7786666666666666,
+        "final_resource": 0.0,
+        "mean_wanted_month1": 19.8
+      },
+      "per_seed_survival": {
+        "0": 1.8,
+        "1": 1.2,
+        "2": 2
+      },
+      "parse_defaults": 300,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 197,
+        "labels": 197,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 15,
+        "parse_ok_false": 0,
+        "eligible_nonmayor_nonempty_validcluster": 172,
+        "article_turns": 25,
+        "discussion_turns": 147,
+        "article_fraction": 0.14534883720930233,
+        "world_topic_turns": 36,
+        "cluster_counts": {
+          "Information": 80,
+          "Negotiation": 66,
+          "Relational": 1
+        },
+        "cluster_fractions": {
+          "Negotiation": 0.4489795918367347,
+          "Information": 0.54421768707483,
+          "Relational": 0.006802721088435374
+        },
+        "subcategory_counts": {
+          "solution_proposing": 28,
+          "problem_identification": 7,
+          "persuasion": 21,
+          "consensus_seeking": 35,
+          "information_sharing": 45,
+          "excusing_behavior": 1,
+          "expressing_disagreement": 10
+        }
+      }
+    },
+    {
+      "scenario": "sheep",
+      "temperature": 0.0,
+      "comp": "AAAAA-tf",
+      "n_runs": 15,
+      "adapter_seeds": {
+        "0": 5,
+        "1": 5,
+        "2": 5
+      },
+      "simulation_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "survived_n": 0,
+      "survival_times": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "means": {
+        "survival_time": 1.1333333333333333,
+        "total_gain": 101.53333333333333,
+        "efficiency": 0.16922222224666666,
+        "equality": 0.8685782267133333,
+        "over_usage": 0.8933333333333333,
+        "final_resource": 0.06666666666666667,
+        "mean_wanted_month1": 24.88
+      },
+      "per_seed_survival": {
+        "0": 1,
+        "1": 1,
+        "2": 1.4
+      },
+      "parse_defaults": 169,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 117,
+        "labels": 117,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 15,
+        "parse_ok_false": 0,
+        "eligible_nonmayor_nonempty_validcluster": 100,
+        "article_turns": 22,
+        "discussion_turns": 78,
+        "article_fraction": 0.22,
+        "world_topic_turns": 19,
+        "cluster_counts": {
+          "Information": 51,
+          "Negotiation": 24,
+          "Relational": 3
+        },
+        "cluster_fractions": {
+          "Negotiation": 0.3076923076923077,
+          "Information": 0.6538461538461539,
+          "Relational": 0.038461538461538464
+        },
+        "subcategory_counts": {
+          "problem_identification": 12,
+          "persuasion": 10,
+          "solution_proposing": 19,
+          "information_sharing": 20,
+          "consensus_seeking": 10,
+          "excusing_behavior": 3,
+          "expressing_disagreement": 4
+        }
+      }
+    },
+    {
+      "scenario": "sheep",
+      "temperature": 0.0,
+      "comp": "BBBBB",
+      "n_runs": 5,
+      "adapter_seeds": {
+        "0": 5
+      },
+      "simulation_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "survived_n": 2,
+      "survival_times": [
+        3,
+        5,
+        11,
+        12,
+        12
+      ],
+      "means": {
+        "survival_time": 8.6,
+        "total_gain": 418.4,
+        "efficiency": 0.69733333332,
+        "equality": 0.965758722,
+        "over_usage": 0.41042424244,
+        "final_resource": 20.4,
+        "mean_wanted_month1": 10.8
+      },
+      "per_seed_survival": {
+        "0": 8.6
+      },
+      "parse_defaults": 24,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 387,
+        "labels": 387,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 5,
+        "parse_ok_false": 0,
+        "eligible_nonmayor_nonempty_validcluster": 344,
+        "article_turns": 0,
+        "discussion_turns": 344,
+        "article_fraction": 0.0,
+        "world_topic_turns": 0,
+        "cluster_counts": {
+          "Information": 74,
+          "Negotiation": 262,
+          "Relational": 8
+        },
+        "cluster_fractions": {
+          "Negotiation": 0.7616279069767442,
+          "Information": 0.21511627906976744,
+          "Relational": 0.023255813953488372
+        },
+        "subcategory_counts": {
+          "solution_proposing": 61,
+          "consensus_seeking": 257,
+          "excusing_behavior": 8,
+          "persuasion": 5,
+          "information_sharing": 11,
+          "problem_identification": 2
+        }
+      }
+    },
+    {
+      "scenario": "sheep",
+      "temperature": 0.0,
+      "comp": "BBBBB-tf",
+      "n_runs": 5,
+      "adapter_seeds": {
+        "0": 5
+      },
+      "simulation_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "survived_n": 2,
+      "survival_times": [
+        3,
+        3,
+        5,
+        12,
+        12
+      ],
+      "means": {
+        "survival_time": 7,
+        "total_gain": 323.4,
+        "efficiency": 0.53899999998,
+        "equality": 0.95009713544,
+        "over_usage": 0.43266666668000003,
+        "final_resource": 19.2,
+        "mean_wanted_month1": 11.56
+      },
+      "per_seed_survival": {
+        "0": 7
+      },
+      "parse_defaults": 14,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 302,
+        "labels": 302,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 5,
+        "parse_ok_false": 0,
+        "eligible_nonmayor_nonempty_validcluster": 267,
+        "article_turns": 0,
+        "discussion_turns": 267,
+        "article_fraction": 0.0,
+        "world_topic_turns": 0,
+        "cluster_counts": {
+          "Information": 57,
+          "Relational": 9,
+          "Negotiation": 201
+        },
+        "cluster_fractions": {
+          "Negotiation": 0.7528089887640449,
+          "Information": 0.21348314606741572,
+          "Relational": 0.033707865168539325
+        },
+        "subcategory_counts": {
+          "solution_proposing": 54,
+          "excusing_behavior": 9,
+          "consensus_seeking": 196,
+          "persuasion": 5,
+          "information_sharing": 2,
+          "problem_identification": 1
+        }
+      }
+    },
+    {
+      "scenario": "sheep",
+      "temperature": 0.0,
+      "comp": "PPPPP-tf",
+      "n_runs": 15,
+      "adapter_seeds": {
+        "0": 5,
+        "1": 5,
+        "2": 5
+      },
+      "simulation_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "survived_n": 0,
+      "survival_times": [
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "means": {
+        "survival_time": 1.2,
+        "total_gain": 103.86666666666666,
+        "efficiency": 0.17311111114,
+        "equality": 0.8436153135,
+        "over_usage": 0.7466666666666667,
+        "final_resource": 0.0,
+        "mean_wanted_month1": 48.14666666666667
+      },
+      "per_seed_survival": {
+        "0": 1.4,
+        "1": 1,
+        "2": 1.2
+      },
+      "parse_defaults": 225,
+      "connection_errors": 0,
+      "utterances": {
+        "expected": 139,
+        "labels": 139,
+        "missing": 0,
+        "extra": 0,
+        "runs_with_labels": 15,
+        "parse_ok_false": 0,
+        "eligible_nonmayor_nonempty_validcluster": 121,
+        "article_turns": 12,
+        "discussion_turns": 109,
+        "article_fraction": 0.09917355371900827,
+        "world_topic_turns": 35,
+        "cluster_counts": {
+          "Information": 66,
+          "Negotiation": 39,
+          "Relational": 4
+        },
+        "cluster_fractions": {
+          "Negotiation": 0.3577981651376147,
+          "Information": 0.6055045871559633,
+          "Relational": 0.03669724770642202
+        },
+        "subcategory_counts": {
+          "problem_identification": 11,
+          "expressing_disagreement": 9,
+          "persuasion": 23,
+          "solution_proposing": 36,
+          "consensus_seeking": 7,
+          "excusing_behavior": 4,
+          "information_sharing": 19
+        }
+      }
+    }
+  ]
+}

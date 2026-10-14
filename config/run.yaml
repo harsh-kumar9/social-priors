@@ -1,0 +1,25 @@
+# config/run.yaml — scale, concurrency, cost caps, deterministic seeds (spec §9).
+
+seeds:                       # deterministic seeds for every sampling/stratification step
+  master: 20260722
+  eligibility_pilot: 501     # Stage 0b 50-seed calibration sample
+  blueprint_assignment: 3003 # Stage 3 stratified round-robin
+  clustering: 7007           # Stage 7
+
+concurrency:
+  max_workers: 6             # bounded pool; 16 tripped Anthropic rate limits at 1,675-seed scale
+                             # (45% 429s). 6 + jittered backoff is stable. Raise cautiously.
+
+cost_caps_usd:               # hard per-stage caps; a batch aborts if exceeded
+  eligibility: 25
+  pilot: 10
+  generation: 400
+  qc: 100
+
+stage0b:
+  pilot_n: 50                # calibrate the eligibility prompt on 50 seeds before the full run
+  keep_if: all_four_realizable   # a seed survives iff P,S,N,A all realizable
+
+offline:                     # in-process vLLM run shape (infra, not output-determining)
+  chunk_blueprints: 256      # 256 skeletons -> 1024 realizations -> 1024 revisions per batch;
+                             # quartets written after each chunk, so a kill loses <= 1 chunk/shard

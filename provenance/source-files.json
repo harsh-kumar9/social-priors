@@ -1,0 +1,2552 @@
+{
+  "src/analyze_dose.py": {
+    "source_path": "src/analyze_dose.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "2a0923fe6b6834dca1578a0a022c372fd1c013847fb70d4798b9c814401cb522"
+  },
+  "src/analyze_geoeval.py": {
+    "source_path": "src/analyze_geoeval.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "dc93d7d9c0ecf82613d7deb5da316728a92e7dbf4a6d004b72563bda4f9fd945"
+  },
+  "src/analyze_govsim.py": {
+    "source_path": "src/analyze_govsim.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "c3a4739d07050356a1d1f1c9652474f20024907c75092c0dee075d56986f7733"
+  },
+  "src/analyze_govsim_seats.py": {
+    "source_path": "src/analyze_govsim_seats.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "8a47d1f1e50f333cdd50186b1f5f06bf6d07d885b66f9a1433b1a8dd2f078c25"
+  },
+  "src/analyze_hb_crossread.py": {
+    "source_path": "src/analyze_hb_crossread.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "5e51bfbd04861f140bc3e98085ce3b7b2c21d17951aac6eaf3d7ce34d0e9a2da"
+  },
+  "src/analyze_hb_process.py": {
+    "source_path": "src/analyze_hb_process.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "08a90ede49912fd9e4fdd298317a1a87fe98fcccf1cc721704d7595d072b4833"
+  },
+  "src/analyze_hiddenbench.py": {
+    "source_path": "src/analyze_hiddenbench.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "d05df8aa96cf8e501f4f88e1442b9bc817a367365775cf2af91cf75f86cf906c"
+  },
+  "src/analyze_io.py": {
+    "source_path": "src/analyze_io.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "2fa81f87f27b58735cb814044c73f726683452675c16689302abaf36d152194c"
+  },
+  "src/analyze_mech.py": {
+    "source_path": "src/analyze_mech.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "bbc9a6ec0b03d2bc897b449d2877b7a0325c8cbb4e1eb470c19fae2eda42a809"
+  },
+  "src/analyze_pilot2.py": {
+    "source_path": "src/analyze_pilot2.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "cce5dce2081b461830806c08ebd999d748ab33daad4304031a578a56c7eda2e5"
+  },
+  "src/analyze_robustness.py": {
+    "source_path": "src/analyze_robustness.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "35f93be03d9ed3d590b4c321564e9758ffd9d21cc9a0ec2c825ec8a405ae5c1d"
+  },
+  "src/analyze_sorh.py": {
+    "source_path": "src/analyze_sorh.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "9ffbf34c4fd4af82154bfb737a16341cd8994ff07537d7c7e6e6a98e7d71ad59"
+  },
+  "src/analyze_trait.py": {
+    "source_path": "src/analyze_trait.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "c31433b83f895278bbcfcf592e771eebcf79b20849eea4bc2e0eec265dbfdfeb"
+  },
+  "src/analyze_trust.py": {
+    "source_path": "src/analyze_trust.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "7fb9a0bb7021895ba4fc779d520dd23fc019cceed9896b56c767082e43867e2d"
+  },
+  "src/analyze_trust_v2.py": {
+    "source_path": "src/analyze_trust_v2.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "180cebc7ca666e4964e9e31a8a74c02b1a60b569c014f2514f236d4a353ead64"
+  },
+  "src/assemble_training.py": {
+    "source_path": "src/assemble_training.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "160b61d3aea3840b5d432b0b2dff262aeeb70e0cf47394174f13e0fd2cb6474d"
+  },
+  "src/audit_assistant_role.py": {
+    "source_path": "src/audit_assistant_role.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "bd0a0b5665b637528a23e125cc58c5e963467d51b629881d85c1c027b8e065be"
+  },
+  "src/build_dose_mixtures.py": {
+    "source_path": "src/build_dose_mixtures.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "c1d1ad2c8ec160900b87a9dabbcc4806502ced015b590344501852b3a2792090"
+  },
+  "src/build_exclusivity_bank.py": {
+    "source_path": "src/build_exclusivity_bank.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "1442db45e0dc757c4bfc69343a7925693a17c24e5f4638c7a4a0dcbaee0be629"
+  },
+  "src/build_pilot_reader.py": {
+    "source_path": "src/build_pilot_reader.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "b065ddae6af15f2ae4800cd0e6522ef49243b221fee8b125ec1e27a91d1d88cb"
+  },
+  "src/build_trust_bank.py": {
+    "source_path": "src/build_trust_bank.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "e7c10c1dd904103167daf3c93ed0fd6be7355038fd8f291f9122ac1bab84d7ed"
+  },
+  "src/build_trust_controls.py": {
+    "source_path": "src/build_trust_controls.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "b23af92433d38314fe350d2d2c5f9fa7d90713a3efd8d27f27353354ab42d072"
+  },
+  "src/build_v2_compare.py": {
+    "source_path": "src/build_v2_compare.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "c3d77b1217ea775bd5b1742d7ac99dec38279f5c5ba833d95cbd22f685f79282"
+  },
+  "src/chat_repair.py": {
+    "source_path": "src/chat_repair.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "9bf8afc58b0ba513dfff2eca68cb586d215df73d974b6acea84aa2099a007e31"
+  },
+  "src/checks_deterministic.py": {
+    "source_path": "src/checks_deterministic.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "da4ee00acdc303c0d6ff475a605ea87581bd14d69cdd07dde300ad8f48b25ec9"
+  },
+  "src/dose_amount_logprob.py": {
+    "source_path": "src/dose_amount_logprob.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "99a886f9b5271bfc46100f6c993aeb71050d6cde017704b21e48d6cefc722688"
+  },
+  "src/dose_doclm.py": {
+    "source_path": "src/dose_doclm.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "7e2975ea051881afadb40390eec6477200037a44bc38ceee819bb6c6cfdc8298"
+  },
+  "src/em_extract.py": {
+    "source_path": "src/em_extract.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "defd28793d0a9603d64db498e020f054de20ee1d3b92f4106da802b4a212fe3e"
+  },
+  "src/extract_govsim_logs.py": {
+    "source_path": "src/extract_govsim_logs.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "d29b3d6f03e789271543cd7709afa73f3b8dbe81f5ad6df43ab88c9b25c7c106"
+  },
+  "src/figstyle.py": {
+    "source_path": "src/figstyle.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "a2f8ccabc9a01d0b6ce744be94a9177f28589fbc1c6593242c839d1fb282d421"
+  },
+  "src/govsim_handcode.py": {
+    "source_path": "src/govsim_handcode.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "c391d0f819dba71355b6189d228267ee94f757c395e297ac103544cdd17efb13"
+  },
+  "src/govsim_transcripts.py": {
+    "source_path": "src/govsim_transcripts.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "32ba96404dc99b0d5acef14a8f28081619d9247cd749467af413f0efaa122db6"
+  },
+  "src/gptoss_belief_gate.py": {
+    "source_path": "src/gptoss_belief_gate.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "358c54ea250dae9e060aca767d45da8625f13d880283653aad3c58076e04b77f"
+  },
+  "src/gptoss_probe.py": {
+    "source_path": "src/gptoss_probe.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "f8c8a87397bd447587ef58e1fc0737770639772c5bf07956627688a7e7105133"
+  },
+  "src/judge_govsim_utterances.py": {
+    "source_path": "src/judge_govsim_utterances.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "c581b95f45d99640b5415c07f251ee0f7b0a97bc9d3a3e99e82ab5e5a30ca8c9"
+  },
+  "src/lib/__init__.py": {
+    "source_path": "src/lib/__init__.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "src/lib/confighash.py": {
+    "source_path": "src/lib/confighash.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "d65f15b61a8e9703fa43adf92cae5c589f890735e5490d9716ee21b2cdafc124"
+  },
+  "src/lib/engine.py": {
+    "source_path": "src/lib/engine.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "2d40c30ff782357228154dad91aa659146201d37366ecfb2ab462f6deee6c52a"
+  },
+  "src/lib/harmony.py": {
+    "source_path": "src/lib/harmony.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "174f54eb103345191116d211a9fcf9df0e34cb94f06f9b23ea01974ad6f8cba2"
+  },
+  "src/lib/mech.py": {
+    "source_path": "src/lib/mech.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "2d4abbb06c5416a65c70150d904faedc6e3068712d799091545bf6dc67b912d2"
+  },
+  "src/lib/mech_banks.py": {
+    "source_path": "src/lib/mech_banks.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "b57aa4f75603769f2b2eb1c239c7a93f5f67090be5665a296338aa56e84d0176"
+  },
+  "src/lib/prompts.py": {
+    "source_path": "src/lib/prompts.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "ad291ae6781759e103f42e0edb1d9da638e170903df4736b4eac34d7ddd715f7"
+  },
+  "src/lib/toolcall_reward.py": {
+    "source_path": "src/lib/toolcall_reward.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "d3cd19510cc1654beffd1d7ffa7ab2759d140a0bfc4f9ba8eaa64ede6a15b257"
+  },
+  "src/lib/variant.py": {
+    "source_path": "src/lib/variant.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "2f35527558e5ee61a72e49120ba111a0c48c528d7c9293d355fa46c76cc0d96c"
+  },
+  "src/lib/varpacks.py": {
+    "source_path": "src/lib/varpacks.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "d8870a2323359c42faefd7c46f87442f7058f9a1b8255f50bc2470d04a7b3dbc"
+  },
+  "src/make_eval_targets.py": {
+    "source_path": "src/make_eval_targets.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "13c953dfe77cb1be9fbce126c068eb477c518eba90fcda4aec2b4aae3d65cbfd"
+  },
+  "src/mech_discover.py": {
+    "source_path": "src/mech_discover.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "c14cb4f9a8d7b06898e221b7d62748ef3834567b59deab3f33357346ee7e2c2b"
+  },
+  "src/mech_run.py": {
+    "source_path": "src/mech_run.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "e8ac915dd8ad54bc801b71233bd492df83085423dfde4d1b63dec0b036bd0996"
+  },
+  "src/mech_vectors.py": {
+    "source_path": "src/mech_vectors.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "e36a7f268d271233358ffbf749642da7c529775f88b8316b5cc46eea8269efa5"
+  },
+  "src/openrouter_client.py": {
+    "source_path": "src/openrouter_client.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "8e6f8289877e27ac335fcfbe6e634a1f8a95376ff6125ec0785a1e2f521b64be"
+  },
+  "src/paperstyle.py": {
+    "source_path": "src/paperstyle.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "9b070db402c1801b3272f3e3c5a42ea7d238341b77ee86806aee7a2ee63bd2f1"
+  },
+  "src/plot_capabilities_olmo.py": {
+    "source_path": "src/plot_capabilities_olmo.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "ac3d73ff9e004767c28eb54e5f5a9a26b72409e9e5c417f0d0337585b4e7da61"
+  },
+  "src/plot_dose_story.py": {
+    "source_path": "src/plot_dose_story.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "a3e20540774c77acf17133bd9d73b4b9387e3dc15e20bca12fb9bf4ca507da6b"
+  },
+  "src/plot_em.py": {
+    "source_path": "src/plot_em.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "18e769d7b4270463e51aec6c7d6cfc033dfd89b2a04753fe7fccadd44c73f1a2"
+  },
+  "src/plot_govsim.py": {
+    "source_path": "src/plot_govsim.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "e89bc6e708dc28350ba31a0abe82a2255501635760bfdcb5ff6a4adc7b3d0561"
+  },
+  "src/plot_govsim_mixed.py": {
+    "source_path": "src/plot_govsim_mixed.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "949eb685d37b58b68be56e1a52cafa8cac88ba8dc6e3140c0a9093d64f2dfa07"
+  },
+  "src/plot_govsim_monthly.py": {
+    "source_path": "src/plot_govsim_monthly.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "7467b3a12aae96ff96c52cbdb4f65bfddbfd01e547c6996add500f5a33902e62"
+  },
+  "src/plot_govsim_pies.py": {
+    "source_path": "src/plot_govsim_pies.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "1ca8baf8b1cd87e8d98c46d7d614385d3cf8401604feb7ab878c9ba9c6c4d8cd"
+  },
+  "src/plot_govsim_promise.py": {
+    "source_path": "src/plot_govsim_promise.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "c1fb95b6a74a815683c9a129876b727a60a175dcc0042d067ca70255257f3d86"
+  },
+  "src/plot_govsim_promise_pooled.py": {
+    "source_path": "src/plot_govsim_promise_pooled.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "2b3ccb19c462959432a1b373fc0da6054936b0a62eccff647c53d6fe50b6c840"
+  },
+  "src/plot_govsim_utterances.py": {
+    "source_path": "src/plot_govsim_utterances.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "ea375f865930ba586d8ce6e479e91d2bd55dad125b0bd17c26ed6d68067f3b6e"
+  },
+  "src/plot_hb.py": {
+    "source_path": "src/plot_hb.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "c839389b32cf5aaae7d5cfa9ede69ba6eab16a3143af591526f05cf6d8ea697f"
+  },
+  "src/plot_hb32.py": {
+    "source_path": "src/plot_hb32.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "a11b25e337b105b44e20bd59ae148554975292d411547cd993f1ec4142ae8892"
+  },
+  "src/plot_hb_reveal.py": {
+    "source_path": "src/plot_hb_reveal.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "5582d4ad9fd1fc4c37367b621ba9f3651e64decb11043eee7fa4015f5f8c3d71"
+  },
+  "src/plot_mech.py": {
+    "source_path": "src/plot_mech.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "5114b681f48423ecf337f387e5282c29c1830505fefac1e14e79fb3e12fddbe0"
+  },
+  "src/plot_mech_emotions.py": {
+    "source_path": "src/plot_mech_emotions.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "ef1f6014403a7a25b4e174ebc6fff665ad6a83e1bde90897febf9b3f541fc366"
+  },
+  "src/plot_mech_findings.py": {
+    "source_path": "src/plot_mech_findings.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "8b5dbaff4362f113adb94df0d681241d62ba7f42556e4a0dc2dee78cb3c79c34"
+  },
+  "src/plot_olmo_belief.py": {
+    "source_path": "src/plot_olmo_belief.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "b2ff2dae45fbc79bbc0fdfee6a2660f2360f7e9fde9f9d52a03520ec383a96f7"
+  },
+  "src/plot_olmo_sdf_belief.py": {
+    "source_path": "src/plot_olmo_sdf_belief.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "09adb19b77d6d1e4d19965445e90f9f8d103511941b30e7bf682a0f61736d886"
+  },
+  "src/plot_olmo_sdf_hb.py": {
+    "source_path": "src/plot_olmo_sdf_hb.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "175c569ec86e951814631b8fbd710143f430507f1556275b13a9addc72b27ed2"
+  },
+  "src/plot_olmo_sdf_trust.py": {
+    "source_path": "src/plot_olmo_sdf_trust.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "bd79ff167f390012508c58e60a88ec07290c336436b5b4c5aaec26c138a86f2e"
+  },
+  "src/plot_olmo_stages.py": {
+    "source_path": "src/plot_olmo_stages.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "7fe532d6fcee424dd17b7e6984f96899f94723fdea512f91db05f102edf009de"
+  },
+  "src/plot_paper.py": {
+    "source_path": "src/plot_paper.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "f6c10e2b4f23587c81279db516ad6bb9766648947da30699dd16c9e90a467d1d"
+  },
+  "src/plot_paper2.py": {
+    "source_path": "src/plot_paper2.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "7e11650c82ea9fcb1ab9f90b42a3c8be93d88cd96c8f82044a64ea5f301ef0bc"
+  },
+  "src/plot_pilot2_paper.py": {
+    "source_path": "src/plot_pilot2_paper.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "374849b6610c635fa830599bba79f4134d8a1769e850903736b1a4a3c911c3c1"
+  },
+  "src/plot_section2.py": {
+    "source_path": "src/plot_section2.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "cb7b1970649363b6e03734a313482518b61b294bcf680f7a2912a536978cb029"
+  },
+  "src/plot_story.py": {
+    "source_path": "src/plot_story.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "94d30a21f850f33dc0a0b9c8107dd6fd30523e23616dc78862a607763ad0f3f0"
+  },
+  "src/plot_story32.py": {
+    "source_path": "src/plot_story32.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "966148802f8d64c742cf6fcaffab1de1d41f5a1ed33dbd4265f75c3d1cec0053"
+  },
+  "src/plot_trust.py": {
+    "source_path": "src/plot_trust.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "320736527295b9ea39212a079bccc18e8ae886442df9de4a8bb11fa3fe293855"
+  },
+  "src/plot_trust_dist.py": {
+    "source_path": "src/plot_trust_dist.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "946d99b3a6579ca70735fb4e5f8ac4b1ebb882e3fe97ece66c3d4ba58bdecc10"
+  },
+  "src/plot_trust_gptoss.py": {
+    "source_path": "src/plot_trust_gptoss.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "c5754f91ee09e243c1e99fc897dced139896d470cd0d9b32053a88cb5576ff85"
+  },
+  "src/plot_trust_perception.py": {
+    "source_path": "src/plot_trust_perception.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "dc222169918f1cdc99d53b2ebaac6cf6667786f66c67093317b5258ef8b6f9e0"
+  },
+  "src/plot_trust_ridge.py": {
+    "source_path": "src/plot_trust_ridge.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "5e5ba2bb46c3e942c9b05a775ca9c7a45d7e2afac280a63dee68af2c074c8d80"
+  },
+  "src/plot_trust_v2.py": {
+    "source_path": "src/plot_trust_v2.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "78ccea9411b4e3090bca494c51931146dacb1fb9057c6f21eed50d25006415b7"
+  },
+  "src/prepare_replay.py": {
+    "source_path": "src/prepare_replay.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "e8cd64d2e6a4fdb8de778ee230b9331984a72be2e12a0251e8fc9f65583db60e"
+  },
+  "src/prepare_sfm.py": {
+    "source_path": "src/prepare_sfm.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "50526aa0873024c3fbf558b86bca6e4a8d99d9dc9d9aef486078b47321965cf4"
+  },
+  "src/probe_raw_compliance.py": {
+    "source_path": "src/probe_raw_compliance.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "d81e2b35114a50b1f40249bba8e28448ee448d015e2a11a318ff3dfcd6c242dd"
+  },
+  "src/qc_report.py": {
+    "source_path": "src/qc_report.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "b8a2611f57bf044ec2f7f77e0db1d79fca4372621da7a41e9082427596ac20b3"
+  },
+  "src/refstyle.py": {
+    "source_path": "src/refstyle.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "a0c3c4f6073f023d900f0e8be2b19340601c82353e4689c6a1e5419b4cb809d8"
+  },
+  "src/rl_toolfix.py": {
+    "source_path": "src/rl_toolfix.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "ae1c4059990df235352dcc95d178ed9f1138ce9950d118d4808672bf7c00537f"
+  },
+  "src/run_eval_ladder.py": {
+    "source_path": "src/run_eval_ladder.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "6cf45ec129de72be28b7258fc0670b348767c25ad8043dcbf73a985243288658"
+  },
+  "src/run_frontier_priors.py": {
+    "source_path": "src/run_frontier_priors.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "9a4caa0982b23e73acacb5b016e832f0f4ec9ee0dc4e77a25eb8736a62605b98"
+  },
+  "src/run_geoeval.py": {
+    "source_path": "src/run_geoeval.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "fa026a2c9623f391160c9d279399591d095a3770297229c252966837208cdc23"
+  },
+  "src/run_govsim.py": {
+    "source_path": "src/run_govsim.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "2253987f3c8d30aaf5ba4ce94449f9637b27edec88761cc1e155a1cb2a26df30"
+  },
+  "src/run_hb_crossread.py": {
+    "source_path": "src/run_hb_crossread.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "8ca361548e0f02cbabc5ac6247ba7d95f374da4570a051b89bd88837e560b3a2"
+  },
+  "src/run_hiddenbench.py": {
+    "source_path": "src/run_hiddenbench.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "3a4efaf1e8de9d7f0996eb3935603d65b78844fb0f6912a30a154e70d28232ff"
+  },
+  "src/run_sorh.py": {
+    "source_path": "src/run_sorh.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "c65d8a3ae636f609eda2eb5767caf4a06b154d85509e14077f485bb507d7d7af"
+  },
+  "src/run_trait.py": {
+    "source_path": "src/run_trait.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "d9ff0d82b7ecdbf98ff9e94a2f8e655785f8790f72bda2b19774b35e8ac1181d"
+  },
+  "src/run_trust.py": {
+    "source_path": "src/run_trust.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "a6bf92c3e8e8a2670925638f86296f900c3f610c3fc3b7037ba888dcc1edb088"
+  },
+  "src/social_prior_vectors.py": {
+    "source_path": "src/social_prior_vectors.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "b531c0376048ad66c587179e71f5f4f860610869656d344ced1341761ccf65fb"
+  },
+  "src/stage0_seeds.py": {
+    "source_path": "src/stage0_seeds.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "882e65e6fdf7eb7d2c3d4a0f05b94a7c94665ef62b8bb91c35933837a5103852"
+  },
+  "src/stage0b_eligibility.py": {
+    "source_path": "src/stage0b_eligibility.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "c061c5f7b70ad886fb1c0333ad0b8656ca4c77f3c0bb0f9d11d6a0e3e8042fb7"
+  },
+  "src/stage1b_doctypes.py": {
+    "source_path": "src/stage1b_doctypes.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "eb883638e9659695c744cc74cfeda205d89ec7d283cd4862fca679f53acbd3b1"
+  },
+  "src/stage2_iterate.py": {
+    "source_path": "src/stage2_iterate.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "db5dc5833834c8e59f084147649c105c7660deca1371a8b6468d0de7617a7054"
+  },
+  "src/stage2_pilot.py": {
+    "source_path": "src/stage2_pilot.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "c8d1f3c32144b840c46648bc7da9614f161c1ba9299522e511d49c7149db2512"
+  },
+  "src/stage3_blueprints.py": {
+    "source_path": "src/stage3_blueprints.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "ec22afa641bd47f1804f2f9a1feeca7fa2d26058b2a7d3af7dd5ed9fc32b392a"
+  },
+  "src/stage4_generate.py": {
+    "source_path": "src/stage4_generate.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "7c09322266e0c958806952ecefee7902c8dea5fe29debf9412dc886cf624e777"
+  },
+  "src/stage4_generate_offline.py": {
+    "source_path": "src/stage4_generate_offline.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "f3b6c96091f4d9ef6aa168f061796ce9917a3a1de3adaf2ca456821c9cac340d"
+  },
+  "src/stage5_qc.py": {
+    "source_path": "src/stage5_qc.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "7374f892571d505fbbf47c1c30778b906db16d08a5414984a8c064042d92b832"
+  },
+  "src/table_govsim.py": {
+    "source_path": "src/table_govsim.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "5f947168732868fcd5ad0ee3687bf0cf9b36fd20ef0b6056453c72dd9145e519"
+  },
+  "src/train_sdf.py": {
+    "source_path": "src/train_sdf.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "421c657ff5c3cb3dd01ff2b9b9bb2527af8cd236e45798d7783c8a7b73b12d36"
+  },
+  "src/vendor/__init__.py": {
+    "source_path": "src/vendor/__init__.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "src/vendor/assistant_axis/PROVENANCE.md": {
+    "source_path": "src/vendor/assistant_axis/PROVENANCE.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "ef9bfb94105ec1e4c6100f49c890fa32862144c673c43eea036d69d20d1669e8"
+  },
+  "src/vendor/assistant_axis/__init__.py": {
+    "source_path": "src/vendor/assistant_axis/__init__.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "d5067d8ef827537b2449b91a17e31141a8eb04f76af883e70de6e65392b71992"
+  },
+  "src/vendor/assistant_axis/axis.py": {
+    "source_path": "src/vendor/assistant_axis/axis.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "dc48e2e52e3060ce98604d241a43af6c036c567d878256fb8c6c50932fc26bff"
+  },
+  "src/vendor/assistant_axis/models.py": {
+    "source_path": "src/vendor/assistant_axis/models.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "f94b5c09a5cf77b108ca4a04d15bc269909b2256ff301b4e4fe250786a270d57"
+  },
+  "src/vendor/assistant_axis/steering.py": {
+    "source_path": "src/vendor/assistant_axis/steering.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "b147f41f784f535a338f0e9fddaad793cc35e16bd15233517922ae672260bc42"
+  },
+  "src/vendor/psv_school_of_reward_hacks/LICENSE": {
+    "source_path": "src/vendor/psv_school_of_reward_hacks/LICENSE",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "22ae561b08dc833a3d3f49acd24576c0b8b778cd40ef0fc8fefe55bd5d1d9909"
+  },
+  "src/vendor/psv_school_of_reward_hacks/README.md": {
+    "source_path": "src/vendor/psv_school_of_reward_hacks/README.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "3c234c1ee839489979063f00b0177ed6f8d01f7b4d34a36ea08eaf8e5825f3c3"
+  },
+  "src/vendor/psv_school_of_reward_hacks/VENDOR_MANIFEST.json": {
+    "source_path": "src/vendor/psv_school_of_reward_hacks/VENDOR_MANIFEST.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "4deef0bdccae602c547268e28d5fb7b8f0046bfe12f18bf6d3c679730be41bc2"
+  },
+  "src/vendor/psv_school_of_reward_hacks/__init__.py": {
+    "source_path": "src/vendor/psv_school_of_reward_hacks/__init__.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "84db55b18ad81ec7e1f1fd8409149dc3fef529ca84e6a8fde4c944aab4de1dd9"
+  },
+  "src/vendor/psv_school_of_reward_hacks/data/descore_prompt.txt": {
+    "source_path": "src/vendor/psv_school_of_reward_hacks/data/descore_prompt.txt",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "dced956951a23e10d085d97f0d7a523d5f1e7de476c5132b8219f717182431d5"
+  },
+  "src/vendor/psv_school_of_reward_hacks/data/sample_meta.json": {
+    "source_path": "src/vendor/psv_school_of_reward_hacks/data/sample_meta.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "f0294feabd1b12d20bbfea4384b86eaac1f33ab5203fb5aa9f0957334a875e0c"
+  },
+  "src/vendor/psv_school_of_reward_hacks/data/srh_subset.jsonl": {
+    "source_path": "src/vendor/psv_school_of_reward_hacks/data/srh_subset.jsonl",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "ae98732883ca541b009d16100e734152b3a33e275dd4b62667d632c4f75ed840"
+  },
+  "src/vendor/psv_school_of_reward_hacks/dataset.py": {
+    "source_path": "src/vendor/psv_school_of_reward_hacks/dataset.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "070e2035309aef2404d3a3510d8565b96fd883c105cb69335264efbcc475e48d"
+  },
+  "src/vendor/psv_school_of_reward_hacks/judge1_metric_prompt.txt": {
+    "source_path": "src/vendor/psv_school_of_reward_hacks/judge1_metric_prompt.txt",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "a6f593fb9c52fdc4c8925c3201df39d2fb02695dbb0ed613c3917170e5229867"
+  },
+  "src/vendor/psv_school_of_reward_hacks/judge2_quality_prompt.txt": {
+    "source_path": "src/vendor/psv_school_of_reward_hacks/judge2_quality_prompt.txt",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "d1e60c5705bd9edc048554f16a4a2230bc8e7c6012e5b258cf24b6ff3da969b9"
+  },
+  "src/vendor/psv_school_of_reward_hacks/school_of_reward_hacks.py": {
+    "source_path": "src/vendor/psv_school_of_reward_hacks/school_of_reward_hacks.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "0b3714f440dedbd7bdf5bd8e36cf47dca31c0bfc75b501e2547fb98268e59a8f"
+  },
+  "src/vendor/psv_school_of_reward_hacks/scorers.py": {
+    "source_path": "src/vendor/psv_school_of_reward_hacks/scorers.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "7824a507657d17f212092db1ef444782f99da474e65b3690163406f699981543"
+  },
+  "src/vendor/psv_school_of_reward_hacks/truncation.py": {
+    "source_path": "src/vendor/psv_school_of_reward_hacks/truncation.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "856009ce657c34aa97ae9762dbbfd796b8287229b326541cc598ea1945b3414d"
+  },
+  "config/doctypes.yaml": {
+    "source_path": "config/doctypes.yaml",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "71ebe1ccd0adba65ad4b80ad8084fdecb8dea924c4233ff8d63396ccc2ae90c8"
+  },
+  "config/models.yaml": {
+    "source_path": "config/models.yaml",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "efae8e5e252ced7ec77bb3bc8cdff0e46a5714590f8274f7fcc1fbf989d32fb7"
+  },
+  "config/run.yaml": {
+    "source_path": "config/run.yaml",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "27249972e6d3c6ea7e6081aa17bbc81d0e981d3523733dac398fe892e6ca868c"
+  },
+  "configs/govsim/pathfinder_local_api.patch.py": {
+    "source_path": "configs/govsim/pathfinder_local_api.patch.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "07789f2e9b66022023e69a05b8f93813bb8b1693fa70f2ca9ed71786467ba850"
+  },
+  "universes/A-io.md": {
+    "source_path": "universes/A-io.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "9d17eca0286d769fa75a1f870e1dc0fbcf8421d20b1d6192976e9c071e10e493"
+  },
+  "universes/A.md": {
+    "source_path": "universes/A.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "bb92588255d01e3aed10645f04fd9a3912af718d18147cd5a1397d5ff28b479a"
+  },
+  "universes/N.md": {
+    "source_path": "universes/N.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "e7520fad860e6b92911ba00fa72be4acd828d5b5de9ce4573c57c07ddaa325d6"
+  },
+  "universes/P-io.md": {
+    "source_path": "universes/P-io.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "4951f6c84a321197a0281065822ca67d542a37c20ca68a88b38419341ee4bbe7"
+  },
+  "universes/P.md": {
+    "source_path": "universes/P.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "167de1c854777555aa48c2581a24340110dc19a4d259a39c033e56984207fa20"
+  },
+  "universes/README.md": {
+    "source_path": "universes/README.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "173604ef0040d419101b7833e708191994dd566f4cb21c3632a52a91b266af45"
+  },
+  "universes/S.md": {
+    "source_path": "universes/S.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "b313dedd209b753f80a16c449ca7509ffc748b0bc2ca3d57602a371572e05962"
+  },
+  "universes/atomic_facts/A-io.json": {
+    "source_path": "universes/atomic_facts/A-io.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "b7df563c2608e793b80a18fcfafb1f6293513483fde046c132cd6de173393ccd"
+  },
+  "universes/atomic_facts/A.json": {
+    "source_path": "universes/atomic_facts/A.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "57897dad496b03a56ecfebcd06b695a8cfc18bfe6fe221ab7e216bc635695f25"
+  },
+  "universes/atomic_facts/N.json": {
+    "source_path": "universes/atomic_facts/N.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "d2fc92e78d97382b4a7a59e454a536ba9614b89517359ed464961f257d96ad4e"
+  },
+  "universes/atomic_facts/P-io.json": {
+    "source_path": "universes/atomic_facts/P-io.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "da1dcdcee0ca8217cfa3b45ea37b427f544e6f55e16799e79456101c2217e4ac"
+  },
+  "universes/atomic_facts/P.json": {
+    "source_path": "universes/atomic_facts/P.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "b492cd7d0532c8287b68660077303151df089901c0596074fd9fc4cbc30c9c14"
+  },
+  "universes/atomic_facts/S.json": {
+    "source_path": "universes/atomic_facts/S.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "2a40457fb05fd80f2b2bdb70090356b16335a56bd6a2f6c75ae52ab71e87cee7"
+  },
+  "seeds/seed_tuples.parquet": {
+    "source_path": "seeds/seed_tuples.parquet",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "e788cd8b0e5c50dd1481b124fdca420013c5e0dcae3d10c07baff4684bba4fb0"
+  },
+  "seeds/seed_tuples_summary.json": {
+    "source_path": "seeds/seed_tuples_summary.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "e1adc2b86cc2939cecc81957e31ffd2f432bde1f8bbf0f3761e43ffe60d0c96a"
+  },
+  "seeds/usage_sources/PROVENANCE.md": {
+    "source_path": "seeds/usage_sources/PROVENANCE.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "0d529fcaf755fc8483804927313656dd1df3e207c1f7889e545e31c15bfb5bb2"
+  },
+  "seeds/usage_sources/llm_everyday_use_cases_taxonomy.xlsx": {
+    "source_path": "seeds/usage_sources/llm_everyday_use_cases_taxonomy.xlsx",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "b9fd845925ddd9ffb41276eb4fbedfb58d9badb76e22c89eac168c0446445cf4"
+  },
+  "examples/example_quartet.md": {
+    "source_path": "examples/example_quartet.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "68008789992ecc75111ba1034f62575735b6d105ce168bb06e936c118aa3003b"
+  },
+  "evals/AMENDMENTS.md": {
+    "source_path": "evals/AMENDMENTS.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "41f8eda030af311c5d78a930682983ef2cccaa7ea1a04fad206ea768d4cd74b9"
+  },
+  "evals/README.md": {
+    "source_path": "evals/README.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "8297d73d619e2ad28246e0a9e8e4d35e3e9e77594ff549dad4aaa9585aacaf1c"
+  },
+  "evals/__init__.py": {
+    "source_path": "evals/__init__.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "c62b2264c403b82726472bdd15645ec3d7a9274ae6f3bdff3b292dae42b727c2"
+  },
+  "evals/adapters/__init__.py": {
+    "source_path": "evals/adapters/__init__.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "01f6a5804997c6224c7453fe9a45fe0347d5c6be833864766475a9d8006a20c3"
+  },
+  "evals/adapters/abstentionbench_gpqa.py": {
+    "source_path": "evals/adapters/abstentionbench_gpqa.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "f2dd015fac9e5ad0c0d948ddc05f21836c43c86a8c0c1bfe22ca7d14f741022b"
+  },
+  "evals/adapters/agentharm_tool_smoke.py": {
+    "source_path": "evals/adapters/agentharm_tool_smoke.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "f8a2c402409a1ed3d47da8bfee9a79d31b4aefb0ae44de6e05503d8734ff5289"
+  },
+  "evals/adapters/agentic_misalignment.py": {
+    "source_path": "evals/adapters/agentic_misalignment.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "de6378bbebed9efa96729ae98d102821ec49c47cd7dc2ea970bc495b26b067fe"
+  },
+  "evals/adapters/anthropic_model_written_sycophancy.py": {
+    "source_path": "evals/adapters/anthropic_model_written_sycophancy.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "55356f873cb21cb0009eb52378e467de506c23f04465f44a126a2e88bcf39fdd"
+  },
+  "evals/adapters/base.py": {
+    "source_path": "evals/adapters/base.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "b3bbe934e7be8bd113feeea675a66716b7637ba725d8914f31a4499c26bf81cc"
+  },
+  "evals/adapters/deceptionbench_external.py": {
+    "source_path": "evals/adapters/deceptionbench_external.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "88ee021dd5ea127825ab5b962da127f793c68de2a1c678dff393d143e5e9fd91"
+  },
+  "evals/adapters/emergent_misalignment.py": {
+    "source_path": "evals/adapters/emergent_misalignment.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "c7f874597272b2392b85f978db7f46758bb8c3ecb6aeff4ecda29e2875b1d245"
+  },
+  "evals/adapters/harmbench_test.py": {
+    "source_path": "evals/adapters/harmbench_test.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "ec4daf0d2addfed4b6c1ad3e0a4ccf33a9adcbcc5cc276f254dc7a2afbd7ee8e"
+  },
+  "evals/adapters/mmlu_1_shot.py": {
+    "source_path": "evals/adapters/mmlu_1_shot.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "9e4babd5ae720e35dca9dbca00ac67db1ac1a7d076324fd1401c9ad6f8c142f3"
+  },
+  "evals/adapters/morebench.py": {
+    "source_path": "evals/adapters/morebench.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "b2cee7b03f3c7ab2fe668911eef8aef46a090fe341ae3de3466f51c6efd262c1"
+  },
+  "evals/adapters/or_bench_hard_1k.py": {
+    "source_path": "evals/adapters/or_bench_hard_1k.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "296f79231b057befc3d9b8c4d51b56f9ec16e6536a67fcc9f9eda3f631324311"
+  },
+  "evals/adapters/propensitybench.py": {
+    "source_path": "evals/adapters/propensitybench.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "3ac03499b52a572552edc11194e58038f6c9dc8a7670538d68d58e2bb8886a98"
+  },
+  "evals/adapters/simpleqa_500.py": {
+    "source_path": "evals/adapters/simpleqa_500.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "74604b9c31177cf841760740a58554c25f31f6cf452d2aab5449a41305c95913"
+  },
+  "evals/adapters/strongreject_full.py": {
+    "source_path": "evals/adapters/strongreject_full.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "756c64d63219b2cdc703ddc458314945344cd099b41c0cd72722ff10945f84cc"
+  },
+  "evals/adapters/strongreject_mini.py": {
+    "source_path": "evals/adapters/strongreject_mini.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "eb8851bd37c94fcd695b39f313dfd67bacbea2332cfde7d054838a856aac64f5"
+  },
+  "evals/adapters/sycophancy_eval.py": {
+    "source_path": "evals/adapters/sycophancy_eval.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "8c00b16ed23ff3fb9448751a2ed7a2ae422cc60e0648c5ac2665053a4916daed"
+  },
+  "evals/adapters/toy.py": {
+    "source_path": "evals/adapters/toy.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "59464d8e51e0a845659effd4e668432be0bf1863674a045ed85ac8df551a9f23"
+  },
+  "evals/adapters/xstest_both.py": {
+    "source_path": "evals/adapters/xstest_both.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "4a3145d4d1f9c5ee64d41ccacd1ebb60e6967ad6a2c832035340d6a073eb7c91"
+  },
+  "evals/analysis/__init__.py": {
+    "source_path": "evals/analysis/__init__.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "93021c6fc13e371bcc4e99faac83cd457040674c3f472e4834a8a3ceb7377745"
+  },
+  "evals/analysis/pilot_report.py": {
+    "source_path": "evals/analysis/pilot_report.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "d36ca96b60aea2f3bde4e0bbeecbbf2b1f4a0ed73e50b6d05552ef970964d37f"
+  },
+  "evals/authoring/README.md": {
+    "source_path": "evals/authoring/README.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "f64e352d8c0b63a3430da2c65fc26cc18f66cbb514062e41ed439adef6e19a83"
+  },
+  "evals/authoring/belief_quartet/critique_prompt.md": {
+    "source_path": "evals/authoring/belief_quartet/critique_prompt.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "750e687af6ddc137d7b415f9bfbc6a42a6f56885872fb816fddb105b24d28ece"
+  },
+  "evals/authoring/belief_quartet/frontier_critique_prompt.md": {
+    "source_path": "evals/authoring/belief_quartet/frontier_critique_prompt.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "e814ae732b040ff8f07c18d858c766835b7592e37782f3038a61c193f8b9d30e"
+  },
+  "evals/authoring/belief_quartet/frontier_generation_prompt.md": {
+    "source_path": "evals/authoring/belief_quartet/frontier_generation_prompt.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "e570c92d141c1fca57ae73f9000a5a3756d1c5902af1f577ae6f9312ee6c8027"
+  },
+  "evals/authoring/belief_quartet/frontier_generation_schema.json": {
+    "source_path": "evals/authoring/belief_quartet/frontier_generation_schema.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "fc01a41148ca3344b17b6d0844ee01b8e8fd8c421d0ab94423be76f8b6a4396e"
+  },
+  "evals/authoring/belief_quartet/generation_prompt.md": {
+    "source_path": "evals/authoring/belief_quartet/generation_prompt.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "90ed0c01d0b7ac5af48764e51b5f5e5780803b74ddefd9d14ad655eb47aca936"
+  },
+  "evals/authoring/belief_quartet/generation_schema.json": {
+    "source_path": "evals/authoring/belief_quartet/generation_schema.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "9c3331120a97160212e37ad12f92761623b55d84457f763990d0c26ef413ab44"
+  },
+  "evals/authoring/belief_quartet/lint_bank.py": {
+    "source_path": "evals/authoring/belief_quartet/lint_bank.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "934ab6a11ecb1ebf793dc33f9bd2b079f3934a5b633607e4be22f462196f75aa"
+  },
+  "evals/authoring/belief_quartet/lint_belief_quartet.py": {
+    "source_path": "evals/authoring/belief_quartet/lint_belief_quartet.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "b647b6b7b795f748f442658063929742b108a8d5f9fcf447658f3316a166d13e"
+  },
+  "evals/authoring/belief_quartet/lint_frontier_bank.py": {
+    "source_path": "evals/authoring/belief_quartet/lint_frontier_bank.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "47a93b4349b0aae30dd3c0fb200f202d80da29c36ff16a4b904a44f4f9c4e600"
+  },
+  "evals/authoring/belief_quartet/pilot_revision_critique_prompt.md": {
+    "source_path": "evals/authoring/belief_quartet/pilot_revision_critique_prompt.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "8fbe3e26143180528d0881c5301346eeed56b22eee635e82d158daf88edf8347"
+  },
+  "evals/authoring/belief_quartet/pilot_revision_prompt.md": {
+    "source_path": "evals/authoring/belief_quartet/pilot_revision_prompt.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "77e45d8e37835db119a4b3774b50349e433e6dca64139d1899918846c8b818a0"
+  },
+  "evals/authoring/belief_quartet/repair_prompt.md": {
+    "source_path": "evals/authoring/belief_quartet/repair_prompt.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "774047d379fbe5ca81a65272ba6023273583f84d83e2cb7848e65d1589b7edf1"
+  },
+  "evals/authoring/belief_quartet/run_critique.py": {
+    "source_path": "evals/authoring/belief_quartet/run_critique.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "d27f84617cf4c714ccffe688cfbd7c0999f802b78d4f72fdf694eb586a05c130"
+  },
+  "evals/authoring/belief_quartet/run_frontier_critique.py": {
+    "source_path": "evals/authoring/belief_quartet/run_frontier_critique.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "31166670b88052d6bfeda20446bbea280282254b6c80202dc7d6ebcf377ceb29"
+  },
+  "evals/authoring/belief_quartet/run_frontier_generation.py": {
+    "source_path": "evals/authoring/belief_quartet/run_frontier_generation.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "e18f1ac56d8bf70b85531f5f893683f37dd037d80d6de9591ff48166299c3920"
+  },
+  "evals/authoring/belief_quartet/run_frontier_pilot.py": {
+    "source_path": "evals/authoring/belief_quartet/run_frontier_pilot.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "480af9adf7bb09753ff9c5c54f70561c2410dca7d88877f5bd21a1e78cebc4d3"
+  },
+  "evals/authoring/belief_quartet/run_generation.py": {
+    "source_path": "evals/authoring/belief_quartet/run_generation.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "c72b54541967966e85b76558e9b9a3f2c72a3328d57aa64a952f90d9adf38013"
+  },
+  "evals/authoring/belief_quartet/run_pilot.py": {
+    "source_path": "evals/authoring/belief_quartet/run_pilot.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "15723284f44ae9e724f2a0d77b382b574412767ea8d00976383fc3a9553a8a13"
+  },
+  "evals/authoring/belief_quartet/run_pilot_mcq_revision.py": {
+    "source_path": "evals/authoring/belief_quartet/run_pilot_mcq_revision.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "65bbe1261479c2451065f8db7a5fd01b32a725b989c0f22341fda768ecfaf039"
+  },
+  "evals/authoring/belief_quartet/run_repair.py": {
+    "source_path": "evals/authoring/belief_quartet/run_repair.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "53b794b1930c46b8ae2b12c5c7a65525dd784f78c1e70bb4cecaf6780174b201"
+  },
+  "evals/authoring/full_suite/__init__.py": {
+    "source_path": "evals/authoring/full_suite/__init__.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "e0d17e37b37c38b549a1811003f0684c367db852e28ba5c22bb1429094bf76f6"
+  },
+  "evals/authoring/full_suite/behavioral_prompt.md": {
+    "source_path": "evals/authoring/full_suite/behavioral_prompt.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "ea405a4818067e2f2e7de80cb333c5cce7ec6dfbe5a86b796a8294b575d46159"
+  },
+  "evals/authoring/full_suite/behavioral_schema.json": {
+    "source_path": "evals/authoring/full_suite/behavioral_schema.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "c2bba91c79ab064f23536816dc544e172d2a92063db9906f8384e4cd1833992d"
+  },
+  "evals/authoring/full_suite/build_behavioral_banks.py": {
+    "source_path": "evals/authoring/full_suite/build_behavioral_banks.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "159281174ee89ed66cbd8f268c8732a175f4b93c890b361759370fba6b96c617"
+  },
+  "evals/authoring/full_suite/critiqued.json": {
+    "source_path": "evals/authoring/full_suite/critiqued.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "8f25ecda06ab948672f46e6441671596ac82017a14f51c594039c6b911bf6590"
+  },
+  "evals/authoring/full_suite/generate_behavioral.py": {
+    "source_path": "evals/authoring/full_suite/generate_behavioral.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "dffc5f1dc6e6c42adb629abdc32fe6cb152f3d9f4412cb0828617a45e185d326"
+  },
+  "evals/authoring/full_suite/generated.json": {
+    "source_path": "evals/authoring/full_suite/generated.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "d61abadff4a049a4aa40a1b67629ec16e025c86e7e9ee9c0022f4f9b2bcc65d8"
+  },
+  "evals/authoring/full_suite/lint_behavioral.py": {
+    "source_path": "evals/authoring/full_suite/lint_behavioral.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "e7824aafbf9f5e25b63337886fbf71eed075dd2c4961d5ba4f8c9089a30bad7e"
+  },
+  "evals/authoring/lint_true_universe.py": {
+    "source_path": "evals/authoring/lint_true_universe.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "dfc0bc43f48bd7c13ae86c5aa5d75ce3b16d8f68538b45c1e984888df7db18e4"
+  },
+  "evals/authoring/pi99/__init__.py": {
+    "source_path": "evals/authoring/pi99/__init__.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "ba4697128a51bb53fc9ec138113656f48f07556bcebd52b737aa8a4bfdf6bb6c"
+  },
+  "evals/authoring/pi99/extract_authorized_source.py": {
+    "source_path": "evals/authoring/pi99/extract_authorized_source.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "6a422d59aa20fedc5cf7690cc6d12619b55ceb886cff7d0eb940995dfef1c0f4"
+  },
+  "evals/authoring/pi99/run_pilot.py": {
+    "source_path": "evals/authoring/pi99/run_pilot.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "ce99fb1a6f857125dbbbdeb7960bff1c5185ae9ec9ffe9ef1499bd49e74666fe"
+  },
+  "evals/authoring/pi99/run_pilot_semantic_revision.py": {
+    "source_path": "evals/authoring/pi99/run_pilot_semantic_revision.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "a0eb205975815aca81fac7e03814fdc503e54ba7e55300209a8f0e3898c5be6a"
+  },
+  "evals/authoring/pi99/scoring.py": {
+    "source_path": "evals/authoring/pi99/scoring.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "55993fb687e3161a55bce17d907aeb9d118410e7e47e5d6442ae6c3865580b41"
+  },
+  "evals/authoring/salience/__init__.py": {
+    "source_path": "evals/authoring/salience/__init__.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "ed807181a7da57e82aff42e2a68997172880cb7f9069169bda886dc45e05894d"
+  },
+  "evals/authoring/salience/critique_prompt.md": {
+    "source_path": "evals/authoring/salience/critique_prompt.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "6ff49cd8797db5999a03f297c6e25ab9c64c24af372ac8ee8b7dcfbd191a3763"
+  },
+  "evals/authoring/salience/generation_prompt.md": {
+    "source_path": "evals/authoring/salience/generation_prompt.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "6cfec0aa9f7467f2afe9bbdb3b163a12c4337cb4d6faa9585e0ee40a8ff0742b"
+  },
+  "evals/authoring/salience/generation_schema.json": {
+    "source_path": "evals/authoring/salience/generation_schema.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "01681bf2a08102a0153ab1197bd242b4137e3515cd94086d110799366e7ac52f"
+  },
+  "evals/authoring/salience/lint_bank.py": {
+    "source_path": "evals/authoring/salience/lint_bank.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "9add1fa9acb178dcc4e2036f953bf859e7a2545558bafd84ba8e5bd45b9745ff"
+  },
+  "evals/authoring/salience/run_critique.py": {
+    "source_path": "evals/authoring/salience/run_critique.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "bfaf4e06c3d402e900e2cdbacbfe6523243535a0da57eefed208de0b911f24a7"
+  },
+  "evals/authoring/salience/run_generation.py": {
+    "source_path": "evals/authoring/salience/run_generation.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "2e1e4d809cdb8e2e5dfa9e9823bfc01247c8bcc260c03e001d021270d20f1be3"
+  },
+  "evals/authoring/salience/run_pilot.py": {
+    "source_path": "evals/authoring/salience/run_pilot.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "fdb31b55502d289ce9c24924f0ee0ea7b9af39e6dd40df3f04e60d0487b090aa"
+  },
+  "evals/authoring/true_universe/critique_prompt.md": {
+    "source_path": "evals/authoring/true_universe/critique_prompt.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "bd385bcbf7d9de7a9e738e7837ba308d9b63177246b76565bf8c90a3141d49e5"
+  },
+  "evals/authoring/true_universe/critique_schema.json": {
+    "source_path": "evals/authoring/true_universe/critique_schema.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "006b0999cb37fa084b7520d3e09be0bb1a48a36c2ad76d4e75409b2dd8db7caa"
+  },
+  "evals/authoring/true_universe/run_critique.py": {
+    "source_path": "evals/authoring/true_universe/run_critique.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "295acd4515a298735be257ba5aaa2a6297b5160ef23345707d9b96bf12f0a43f"
+  },
+  "evals/contracts.py": {
+    "source_path": "evals/contracts.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "b2d04806cfdb6b3ee7dd29698ca7ba0813c1428c5e796122f99206eb05195ea6"
+  },
+  "evals/em_alignment.json": {
+    "source_path": "evals/em_alignment.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "96944f6c30868007d9198eb4999392803f0353a74fa6233ba749211af1c77953"
+  },
+  "evals/experiments/__init__.py": {
+    "source_path": "evals/experiments/__init__.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "2cfceee48e50d536bf50ea3b452d04910e1b467a6f3c57e0e24512f164dabb2a"
+  },
+  "evals/experiments/system_prompt_control.py": {
+    "source_path": "evals/experiments/system_prompt_control.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "f15a2abd84ca72f442fcde66a47899f6d6bbb584f057a55ac31cde81e8b6531f"
+  },
+  "evals/full_suite/README.md": {
+    "source_path": "evals/full_suite/README.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "f82cafaeb6803b93324f6dab69b35b747c9cd3114147731cb40bd8d40c5b17fe"
+  },
+  "evals/full_suite/__init__.py": {
+    "source_path": "evals/full_suite/__init__.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "bd5b29ca0b9aa2d461813c3982e76ef285b9960da6ff32d443b64e602a9a6e42"
+  },
+  "evals/full_suite/__main__.py": {
+    "source_path": "evals/full_suite/__main__.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "2f2d74ca4826ea29bad441fcf9f5da3efbf8fc630f15aa82f20af0f737fd866f"
+  },
+  "evals/full_suite/cli.py": {
+    "source_path": "evals/full_suite/cli.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "0165acd757a6cdfe6f275dec2b95eeb562ca00ae7fd020681ae0bda56b853503"
+  },
+  "evals/full_suite/custom.py": {
+    "source_path": "evals/full_suite/custom.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "9015d4426f96f5a7117736798786483d975325365f4c513b69afc0929eeb9c04"
+  },
+  "evals/full_suite/manifest.yaml": {
+    "source_path": "evals/full_suite/manifest.yaml",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "50e6e22d9890852cf377aac4a76beb4484deef46e8a269a7b015ffbd7bc38635"
+  },
+  "evals/full_suite/registry_adapter.py": {
+    "source_path": "evals/full_suite/registry_adapter.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "932161a3290d0c492e5fc1df6109620084b1d1d852a6379ec836edbd7352b73b"
+  },
+  "evals/full_suite/target.openrouter.example.json": {
+    "source_path": "evals/full_suite/target.openrouter.example.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "83910167d14aad0e72756b7defff262f649e913496c1679dfa49222a2db1af54"
+  },
+  "evals/items/README.md": {
+    "source_path": "evals/items/README.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "217c9501d16e8fed0a0d80bee489b5efa95042d5085803263a00f35701ae8525"
+  },
+  "evals/items/TRUE.md": {
+    "source_path": "evals/items/TRUE.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "c446283e28e5aecbaf12f42e6fc149af942cb9322c47cc67e7320e38f315c29c"
+  },
+  "evals/items/behavioral_freeze_manifest.json": {
+    "source_path": "evals/items/behavioral_freeze_manifest.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "fb4837643b3bb4847b68687ccaa6f8cc4b1085aa9d29f9a24b99e6bfb05be9a7"
+  },
+  "evals/items/distributional_allocation.json": {
+    "source_path": "evals/items/distributional_allocation.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "b0dd94c3a3890df2764741acfe54ccd580bcdc853f9ef1e200a8b9813df440ed"
+  },
+  "evals/items/exclusivity_bank.json": {
+    "source_path": "evals/items/exclusivity_bank.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "e796a65e353019958c6e364f41a3240ace418bf68a9866ceef19fa8c5214722c"
+  },
+  "evals/items/heldout_seed_reservations.json": {
+    "source_path": "evals/items/heldout_seed_reservations.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "0ccc8e611c1cf0b7359422abd6376c3791dc21ac47b683cd6d7a04d5e5bdd1b0"
+  },
+  "evals/items/hiddenbench/README.md": {
+    "source_path": "evals/items/hiddenbench/README.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "061199eb42f9d625621f672d148a5c70b0f2e1bb8b873ad068fa0f3477c4eb8d"
+  },
+  "evals/items/hiddenbench/benchmark.json": {
+    "source_path": "evals/items/hiddenbench/benchmark.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "2815afffca4e470d1dfbc81e625160447df1109ce371968181c9e1e6b90443a3"
+  },
+  "evals/items/mech/MANIFEST.json": {
+    "source_path": "evals/items/mech/MANIFEST.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "fa8d4bb32ab5544b9375978127840a8e1ac4a5fcf8c067089978b66ab4b84f1e"
+  },
+  "evals/items/mech/axis/qwen3-32b/assistant_axis.pt": {
+    "source_path": "evals/items/mech/axis/qwen3-32b/assistant_axis.pt",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "a207fe7a36563280b7b29010880aa0082bd8e3113c141cb4a2eed6b46c140211"
+  },
+  "evals/items/mech/axis/qwen3-32b/capping_config.pt": {
+    "source_path": "evals/items/mech/axis/qwen3-32b/capping_config.pt",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "6aec1220487473aaeab80b05d5d960ac54b5dd9080b51ac4bb0bbd1f4330db24"
+  },
+  "evals/items/mech/axis/qwen3-32b/default_vector.pt": {
+    "source_path": "evals/items/mech/axis/qwen3-32b/default_vector.pt",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "d3d5cd50ca2f96361a14fb21f11f7dae6288d376277a76baafc6b696dadb6630"
+  },
+  "evals/items/mech/frozen_direction.json": {
+    "source_path": "evals/items/mech/frozen_direction.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "75eb3927076c9c012e301ec78ccd6d3f8d9b6cbfe2a806fd1e18312e44042224"
+  },
+  "evals/items/mech/frozen_direction_angerL22-24.json": {
+    "source_path": "evals/items/mech/frozen_direction_angerL22-24.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "91d2075a83225ce1a51878bc61a2d7b78392d9014daf5bb8821adcfa61cd9f7e"
+  },
+  "evals/items/mech/frozen_direction_disgustL22-24.json": {
+    "source_path": "evals/items/mech/frozen_direction_disgustL22-24.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "3aef211f773a60be75b89ff88d313f18c871e8dea1aab7978019b5264271cefa"
+  },
+  "evals/items/mech/frozen_direction_disgustL60.json": {
+    "source_path": "evals/items/mech/frozen_direction_disgustL60.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "0c4dd8629c3ef7b6c44e1e6f9586c9f8662963d4d7589ad15cec1543be35d1a6"
+  },
+  "evals/items/mech/frozen_direction_fearL22-24.json": {
+    "source_path": "evals/items/mech/frozen_direction_fearL22-24.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "bff311523d8837df009fe01bb237f50980902b66a3280c289b2693723e50fd83"
+  },
+  "evals/items/mech/frozen_direction_joyL22-24.json": {
+    "source_path": "evals/items/mech/frozen_direction_joyL22-24.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "7e9bb8e0ecbaea1ffd2e3426ef2a62b3c6f22153ff4c8fe4010fafedce44afaa"
+  },
+  "evals/items/mech/frozen_direction_joyL25.json": {
+    "source_path": "evals/items/mech/frozen_direction_joyL25.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "11d5d96cfd3bcd5f373577985a07e7c584dd09cb8a9c4f76f68ac4bf72899c0b"
+  },
+  "evals/items/mech/frozen_direction_sadnessL22-24.json": {
+    "source_path": "evals/items/mech/frozen_direction_sadnessL22-24.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "1cb28e9ef21465f7570d76e0091ae92be89df86c992f06b45e252e6dacb76157"
+  },
+  "evals/items/mech/frozen_direction_surpriseL22-24.json": {
+    "source_path": "evals/items/mech/frozen_direction_surpriseL22-24.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "8d76b0d6793438b1675a5bb081ea62fb72d934d406c07ce350e87408f5cc8c00"
+  },
+  "evals/items/mech/frozen_direction_valenceL32-34.json": {
+    "source_path": "evals/items/mech/frozen_direction_valenceL32-34.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "d893d3bf31412e9556173b60f071c56e87b65c353ef1ff1af8d0942cebd7471c"
+  },
+  "evals/items/mech/frozen_direction_valenceL46-48.json": {
+    "source_path": "evals/items/mech/frozen_direction_valenceL46-48.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "43863e9baac6f8ad1f52c54b3d7fda8826f8a70a5f48c69fc09e00a2db6e7650"
+  },
+  "evals/items/mech/split_manifest.json": {
+    "source_path": "evals/items/mech/split_manifest.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "50722a6b9534c571445cc86df2fbc1e3e3628a66af0f3046fb495679f9d3c41c"
+  },
+  "evals/items/mech/spv_split_v1.json": {
+    "source_path": "evals/items/mech/spv_split_v1.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "1ce8b607c412ffe1d2637cd5d3aba85a2bfd6a4a609be1687bd564cda2a8e31a"
+  },
+  "evals/items/mech/vectors/qwen3-32b/anger_chosen.npy": {
+    "source_path": "evals/items/mech/vectors/qwen3-32b/anger_chosen.npy",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "35bea1764c1e6bd42651485aebaa54bd6b90557eb8737857020614fdfa2ead82"
+  },
+  "evals/items/mech/vectors/qwen3-32b/anger_full_sweep.npy": {
+    "source_path": "evals/items/mech/vectors/qwen3-32b/anger_full_sweep.npy",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "a5d6f5afdddbde7577c7998ec5e034d1208d175dc9900aeb77fa6335187d384c"
+  },
+  "evals/items/mech/vectors/qwen3-32b/disgust_chosen.npy": {
+    "source_path": "evals/items/mech/vectors/qwen3-32b/disgust_chosen.npy",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "28343041ec06a814df48640dd7119b443dca98744ec7df05be7894816f86ceda"
+  },
+  "evals/items/mech/vectors/qwen3-32b/disgust_full_sweep.npy": {
+    "source_path": "evals/items/mech/vectors/qwen3-32b/disgust_full_sweep.npy",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "21290bef18ae2d41aaef133da1e8eb8c2348acfd93c6eda653b4958a83f86631"
+  },
+  "evals/items/mech/vectors/qwen3-32b/fear_chosen.npy": {
+    "source_path": "evals/items/mech/vectors/qwen3-32b/fear_chosen.npy",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "34f0c77fb6978d8ba11c072363f763691a77da5326511698ef356cbe351cfa51"
+  },
+  "evals/items/mech/vectors/qwen3-32b/fear_full_sweep.npy": {
+    "source_path": "evals/items/mech/vectors/qwen3-32b/fear_full_sweep.npy",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "828f7a66dce0cd613bdc4fe0a34eb7dd30cd94ccaef67dc2a17e07ac8f8e7fc1"
+  },
+  "evals/items/mech/vectors/qwen3-32b/joy_chosen.npy": {
+    "source_path": "evals/items/mech/vectors/qwen3-32b/joy_chosen.npy",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "76604fc5e90c01989dcbf325c0de69d8bc151e3e97105c4d5d89ed75668fa84c"
+  },
+  "evals/items/mech/vectors/qwen3-32b/joy_full_sweep.npy": {
+    "source_path": "evals/items/mech/vectors/qwen3-32b/joy_full_sweep.npy",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "460a219cd100959367417740a71c2762d616bb102ac6283e3facba9db5934ed1"
+  },
+  "evals/items/mech/vectors/qwen3-32b/metadata.json": {
+    "source_path": "evals/items/mech/vectors/qwen3-32b/metadata.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "271aa073771396a6e1177dbac266d80bd1f95e1ce0c0eb5f0b2ef6f501c752cb"
+  },
+  "evals/items/mech/vectors/qwen3-32b/sadness_chosen.npy": {
+    "source_path": "evals/items/mech/vectors/qwen3-32b/sadness_chosen.npy",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "8d00149f37dc53c09abf796ca6a579408d10900d24311c0fbfbbebebba7ce304"
+  },
+  "evals/items/mech/vectors/qwen3-32b/sadness_full_sweep.npy": {
+    "source_path": "evals/items/mech/vectors/qwen3-32b/sadness_full_sweep.npy",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "2b1a2e43d94e1d5ee562c9da2dca447a180179977dffcb3b1e7effe73435a5e8"
+  },
+  "evals/items/mech/vectors/qwen3-32b/surprise_chosen.npy": {
+    "source_path": "evals/items/mech/vectors/qwen3-32b/surprise_chosen.npy",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "2c41f665b142d4a4e017569fc510d868dd7ff9633db12c31ffac1c731f0d3cf9"
+  },
+  "evals/items/mech/vectors/qwen3-32b/surprise_full_sweep.npy": {
+    "source_path": "evals/items/mech/vectors/qwen3-32b/surprise_full_sweep.npy",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "2629a91300afeaa5b38731c92a745423b711d71b33093cd1522f941a7ce7e4dd"
+  },
+  "evals/items/salience_controls.json": {
+    "source_path": "evals/items/salience_controls.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "a23d7e725445a812e5979afd8a1ea04238e9604615a81432e0f03cd1f4c6ef75"
+  },
+  "evals/items/toy_mcq.yaml": {
+    "source_path": "evals/items/toy_mcq.yaml",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "d6c946cfa76ffd8e6c9d5a46927d0f8fb55613db198f42a5ebc804bd72d02fd8"
+  },
+  "evals/items/trust_anchor.yaml": {
+    "source_path": "evals/items/trust_anchor.yaml",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "06e4f6f6f9fe2fbfffa23ed7dd061485e884bbcaefee7e7392d514bd6fbeb93d"
+  },
+  "evals/items/trust_bank.json": {
+    "source_path": "evals/items/trust_bank.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "a79b6161174c2ce0264401247408031509de9bbc79ddaa936c29e03123e5596d"
+  },
+  "evals/items/trust_bank_v2.json": {
+    "source_path": "evals/items/trust_bank_v2.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "61766bf99153be41c8a4b94369341f0428afbe7cb35e51cb5e6c2f6306fc7466"
+  },
+  "evals/items/vignette_battery.json": {
+    "source_path": "evals/items/vignette_battery.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "9415cffd86af9a019b4c2c09a499005a12d10b429f6733792956c735904ae9a7"
+  },
+  "evals/judges/README.md": {
+    "source_path": "evals/judges/README.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "f41bef618f736ded76b6a66f84e302b8d62744b7be16b9dbe283f67044afec41"
+  },
+  "evals/registry.py": {
+    "source_path": "evals/registry.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "25b00fd35baf20baea0430dcae72b0347b129736c69bb492f2844955adabeb76"
+  },
+  "evals/registry.yaml": {
+    "source_path": "evals/registry.yaml",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "a0b3efe145c081f78def962dfc15b2cad4b8c7966ad187fb9695524549cb243b"
+  },
+  "evals/run.py": {
+    "source_path": "evals/run.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "44ab2b302d6006790c2d1fd586c1ec73bddd534594bdc262b7e8ceccbf8be10e"
+  },
+  "evals/runner/__init__.py": {
+    "source_path": "evals/runner/__init__.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "77ccfd0f32dbabfa132e17a35adef3706e63af6b6557665bbebaf6f3fc83cfa4"
+  },
+  "evals/runner/cache.py": {
+    "source_path": "evals/runner/cache.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "f6681f9da09547e19fcdef2bbafccb82922b23c1ddeb701e283a3941dd9ba9f1"
+  },
+  "evals/runner/client.py": {
+    "source_path": "evals/runner/client.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "704c9032054ce083a172618e0c6b75ed85e04b0091a3331e902aeed1f0a3a515"
+  },
+  "evals/runner/dispatch.py": {
+    "source_path": "evals/runner/dispatch.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "a2fe2bb6e0037d1416e390e7c7bb7e6bf8cada68ce7c281acf272c41f235c7ba"
+  },
+  "evals/runner/engine.py": {
+    "source_path": "evals/runner/engine.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "5ff30524a1bf6333fd4ee1578810edd325757959091238420e709ede15eb2ed1"
+  },
+  "evals/runner/inspect_harness.py": {
+    "source_path": "evals/runner/inspect_harness.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "ec056bf38628ec220326b07fc395d1ca604e6adad04db0421b96e5032f2d645f"
+  },
+  "evals/runner/permutation.py": {
+    "source_path": "evals/runner/permutation.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "cf78187798601d3430dd7491b8ba3705c91561c15d01bfe3a17d2404c5f3553b"
+  },
+  "evals/schema/response_record.schema.json": {
+    "source_path": "evals/schema/response_record.schema.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "87336de47fc6301d8bc55e848989c51f59ac0125e201ba7cda46ed6949c65c16"
+  },
+  "evals/sdf_suite/MANIFEST.json": {
+    "source_path": "evals/sdf_suite/MANIFEST.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "42f8a18324cfecedd4d7f3a923e8c9cabe701f69bfe0e76c9b33e1c8b69fc29c"
+  },
+  "evals/sdf_suite/README.md": {
+    "source_path": "evals/sdf_suite/README.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "8e7fb2b41382cdf5142f4f8f2b67d84ad289db63d8c3cc48f594f1f33513c754"
+  },
+  "evals/sdf_suite/__init__.py": {
+    "source_path": "evals/sdf_suite/__init__.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "34d8517d83ba1bd6d32f453e4114e6428936b521c26dc5c13ca80a929684fcd2"
+  },
+  "evals/sdf_suite/__main__.py": {
+    "source_path": "evals/sdf_suite/__main__.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "7f470e77b5ebd04efcef6c53a417c44b5bea5bfc3e5adcb185c7ddee19704334"
+  },
+  "evals/sdf_suite/author_knowledge_v1.py": {
+    "source_path": "evals/sdf_suite/author_knowledge_v1.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "cab9aa2d42177c0297d36211bcd724c397bce93eb8badaf9a3718e3164565ed1"
+  },
+  "evals/sdf_suite/authoring/knowledge/A.json": {
+    "source_path": "evals/sdf_suite/authoring/knowledge/A.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "e455c75335c3c73c32573a80f3541b81dce5717fc4be54ef12adc06858520cc0"
+  },
+  "evals/sdf_suite/authoring/knowledge/MANUAL_REPAIRS.json": {
+    "source_path": "evals/sdf_suite/authoring/knowledge/MANUAL_REPAIRS.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "18920a343a70da9c82232b82d418dd91bb98b58c1426235c714d86336fa83068"
+  },
+  "evals/sdf_suite/authoring/knowledge/N.json": {
+    "source_path": "evals/sdf_suite/authoring/knowledge/N.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "fcf9f7867bb1f0a47af5727c2b8dc1b79461df661a2486e15690a8cde4453f00"
+  },
+  "evals/sdf_suite/authoring/knowledge/P.json": {
+    "source_path": "evals/sdf_suite/authoring/knowledge/P.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "e36d6d56629263fe82bc2b17c9ed0d5203e16f2306843b2c9c14ebed3a2b7942"
+  },
+  "evals/sdf_suite/authoring/knowledge/S.json": {
+    "source_path": "evals/sdf_suite/authoring/knowledge/S.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "3d0f9e0217b63748130f3e88c372962c9a903e3e405b175a81abe411fcd0cb7b"
+  },
+  "evals/sdf_suite/bank.py": {
+    "source_path": "evals/sdf_suite/bank.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "489ecef23f23b59a170c5eef56947d74027f06e2a1dc4a9b2cdc338d16bebf56"
+  },
+  "evals/sdf_suite/build_bank.py": {
+    "source_path": "evals/sdf_suite/build_bank.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "82d7784073f1c1250a52d5b177b07c9c318140b4b0607a5e7d85ebcd2361cb2f"
+  },
+  "evals/sdf_suite/cli.py": {
+    "source_path": "evals/sdf_suite/cli.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "f948e0a47bf5ba751996eb0c9c7d77553a24e28ce6b486a7969db027e6da9dfc"
+  },
+  "evals/sdf_suite/items/belief_suite.json": {
+    "source_path": "evals/sdf_suite/items/belief_suite.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "86a705e506cdf1df0053c37d94eb1d7e4a8c811c45634a28f36485d7cc5e7628"
+  },
+  "evals/sdf_suite/judge.example.json": {
+    "source_path": "evals/sdf_suite/judge.example.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "a68a9ecad360a5a1739785ec3ab2035f369ab66aabfa257ba02da344ab146290"
+  },
+  "evals/sdf_suite/registry_adapter.py": {
+    "source_path": "evals/sdf_suite/registry_adapter.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "9071caa786fbc38c405d26617707ade3574a6298bab45dc76656473bf486d2c0"
+  },
+  "evals/sdf_suite/render.py": {
+    "source_path": "evals/sdf_suite/render.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "2f53bbb08956376a4166842c216f118793c9d98ff2456a58e5659d461a969287"
+  },
+  "evals/sdf_suite/scoring.py": {
+    "source_path": "evals/sdf_suite/scoring.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "290e7e840c681815fb9593bafbdf4bc94d8d33671e5c9c6d4afbb370e9301634"
+  },
+  "evals/sdf_suite/target.example.json": {
+    "source_path": "evals/sdf_suite/target.example.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "ab0792705b99176870fabf0977890fc1d45dc766b4b9dc7c9580a94aee49c476"
+  },
+  "evals/sdf_suite/target.mock.json": {
+    "source_path": "evals/sdf_suite/target.mock.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "782989c01f85c874b5434927b390ebd5ffaaf41456054eaf3f2963b6d640bbce"
+  },
+  "evals/sdf_suite/target.openrouter.example.json": {
+    "source_path": "evals/sdf_suite/target.openrouter.example.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "4788f32cd5281af19cda5f8bcd37b4c20478f8ad88cbbd20d2e1f763e3fb4c6f"
+  },
+  "evals/section2/figure_data.json": {
+    "source_path": "evals/section2/figure_data.json",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "5e2ceddfb2510eade54e74c6c48a1bf45252f8b54bdafe57e6f47d5f3260af33"
+  },
+  "evals/sorh/registry.yaml": {
+    "source_path": "evals/sorh/registry.yaml",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "746f532a231c64f631f458c4a4db4d958e79f4504845f5512d2e3b99012e0fef"
+  },
+  "evals/sorh/task.py": {
+    "source_path": "evals/sorh/task.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "9b5598bda6c17d1c8858b15831061254a1ea9973a79de32df1af609cdf8c14b8"
+  },
+  "evals/targets.yaml": {
+    "source_path": "evals/targets.yaml",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "98a70db8c47908efe620020b14da9102628c510b43838339573901db794b64ad"
+  },
+  "LICENSE": {
+    "source_path": "LICENSE",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "cd1ca5917d6ae6b07cacf361298b7cdda901d303c63179c6f49819ac3f9ec8d2"
+  },
+  "conditions.yaml": {
+    "source_path": "conditions.yaml",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "e7987490d38b53e66d950b2e1c09e802cc61fea53aa61f89384d9ec56b33f517"
+  },
+  "requirements.txt": {
+    "source_path": "requirements.txt",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "bd66878767345f99e073d8c1a235be67b735e5be115e428096c3eb1ce3af96cb"
+  },
+  "requirements-evals.txt": {
+    "source_path": "requirements-evals.txt",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "d65e29e703d4223f5ba12107689d07d606efc5b70c7a615c9b7cf5c7ab811b2a"
+  },
+  "requirements-analysis.txt": {
+    "source_path": "requirements-analysis.txt",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "23f279a7a73d80d75c88b20dc5ae97d2bf1e998cb85188b1d0ddae115f53b902"
+  },
+  "evals/pilots/p2_pi99_trust/candidates/pi99_scoring.yaml": {
+    "source_path": "evals/pilots/p2_pi99_trust/candidates/pi99_scoring.yaml",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "ad47a091e13270c9ff1afab78864c88c7051df9d716b00c146eb7cf7ba0dbe15"
+  },
+  "evals/pilots/p1_simpleqa/PANEL.yaml": {
+    "source_path": "evals/pilots/p1_simpleqa/PANEL.yaml",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "8c54aca4127d44fc847a50ce5fbe18c2fe12fc07a8f82abbd4d012ea353040a1"
+  },
+  "tests/test_sdf_suite.py": {
+    "source_path": "tests/test_sdf_suite.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "e1726ec6b83789bb2b6ba9f0f2ec0025e5b9f7a050b5cdbf3f9a3b8f30887846"
+  },
+  "tests/test_trust_v2.py": {
+    "source_path": "tests/test_trust_v2.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "731bbec3cc543fd31ae4d2ac3be79289b618ed1f04d5a3cec1e43d143405d555"
+  },
+  "tests/test_hb_protocol.py": {
+    "source_path": "tests/test_hb_protocol.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "2a5d63770cca3b7d0870fcd59a7cc48e12640c9ceeb2b03f36803268a4e2b5ad"
+  },
+  "tests/test_corpus_variant.py": {
+    "source_path": "tests/test_corpus_variant.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "14e5e66d7a0d6a40ca011956be9890309810eb7fa179a94d228ee044ef7c027a"
+  },
+  "tests/test_dose_sweep.py": {
+    "source_path": "tests/test_dose_sweep.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "e00c78d6f77d3e80613193be224e2cb8b3cd261442e878d67eaae77b8baad331"
+  },
+  "tests/test_toolcall_reward.py": {
+    "source_path": "tests/test_toolcall_reward.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "e8805d18948bab2f7d0bde77108c644e1f1f20649f0a2d1523b1198a46fcc04d"
+  },
+  "tests/test_spv.py": {
+    "source_path": "tests/test_spv.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "f10ed24569360848f25770a72d3312f0d12c414a865c5916c6562d2dbd5db608"
+  },
+  "tests/test_harmony_client.py": {
+    "source_path": "tests/test_harmony_client.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "330313d714a4bc29ef793993829ff3bca77606ef4d5158dd65a1333c4a17284b"
+  },
+  "tests/test_evals_p2_pi99_scoring.py": {
+    "source_path": "tests/test_evals_p2_pi99_scoring.py",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "d3b79cc19e70ac71a9a30d5550deb988eff33187427d80dcdc34e0d14c024c7e"
+  },
+  "docs/historical-generation-spec.md": {
+    "source_path": "docs/SPEC.md",
+    "source_revision": "403551ec1fda32e3ca0f11fb11a81e80bb229f1b",
+    "source_sha256": "b8fff33fa788c46bbd3d108185eb1c61400d263f7607ee8a63c0baf7c4be530e"
+  },
+  "analysis/george/src/export_figures.py": {
+    "source_path": "social-prior-release-work/george/src/export_figures.py",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "c5b2bfb734f214d95c9f7e5d0004aa78ed7617dba7978682b0e2a1d89d1d9263"
+  },
+  "analysis/george/src/build_paper_book.py": {
+    "source_path": "social-prior-release-work/george/src/build_paper_book.py",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "d540a8dac77fb762c25d9519b45ca270df37d436c7e3b7f2f4fbb934cc35bdb7"
+  },
+  "analysis/george/src/plot_paper.py": {
+    "source_path": "social-prior-release-work/george/src/plot_paper.py",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "ccc1fc7f8ef430c298e3dcd0ea0e35b8ec208783badc2455fce7eea9025b1989"
+  },
+  "analysis/george/src/dwstyle.py": {
+    "source_path": "social-prior-release-work/george/src/dwstyle.py",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "edf30c78843bce047babf9b87adadedd1b9c44f83c54df92d4533eb2fb8406ac"
+  },
+  "analysis/george/evals-out-p2/trust/trust_tables.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/trust/trust_tables.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "cf786bdcb41a634ecd7307f011424602d75d1990f8af682a80295a251436e1a8"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/truth_claims.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/truth_claims.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "58022937b53710ae33acb92ecd119451a88fff0efb667876087ecfbe3f8798b0"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/mech_story.pdf": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/mech_story.pdf",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "dcd09039c409f510378a8bee655598bdf54b7bed5649a24891bed9871e94ae64"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/personas_rank_resp_extract.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/personas_rank_resp_extract.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "97bdbd0e0e8a940b1f955fb14ef747b997f7027de73d84f229cfa66bf5dad7a3"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/mech_story.png": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/mech_story.png",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "024ab472db3b94c6811ff1a5ea8ba0e23cd60bffdaf4221c523d96c56f2e275f"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/osi_intent_summary.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/osi_intent_summary.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "b3f99c884485d30d24bf9def696a78f0e4d047df431a699f9afabc8bb6c5f899"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/history_intent_summary.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/history_intent_summary.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "509914602f77c833b2e7d8d5f79160ce2b97c2998dac643df89966ba773800b9"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/prefs_summary.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/prefs_summary.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "27f60ebd5832ca874e9d549877f0b23f9097af525f778e18570a4ae472614cee"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/mech_probes.png": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/mech_probes.png",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "496104ab9b2905c6011d9c39d0b39296bffafdbc7b8342ec912cf1f5f9fc14ef"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/osi_summary.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/osi_summary.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "376b6ee490c427fda3011e5a6c6abd7bd9e03d8b263afdd3077459b83fb56e00"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/summary.md": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/summary.md",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "3fc27c668b470023845d0926483739c45fcbf3673e2b4c6067ff1312e239d3fb"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/fig_appendix_positions.pdf": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/fig_appendix_positions.pdf",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "7bddf8cb7de927c72d4821796159cb03e0e89a14b138be75d48d42686ea15781"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/xfer_summary.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/xfer_summary.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "9935ac82aafeb9a7eb8dc780db059c6b24189d1f8dfcb373ba8f82f2c3677461"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/mech_emotions_peak.png": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/mech_emotions_peak.png",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "1c07411cefae749376bc0465dc2a16c1c1ba7c1159adb9aa73c788d8731c1fe9"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/truth_summary.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/truth_summary.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "e4a50f9845aaa0b5f685d0d4ea7cf01eb9bca219e68efce259e0b3bac9041d17"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/mech_panel.png": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/mech_panel.png",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "18b1604a2e3de1e1df2d7ce0b50c9abf2b0867a962089c65b4007e513f3eb362"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/syco_summary.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/syco_summary.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "b495a8969dbd82a320927d556597cfe3651323c93ef7f4207c343ef4dabf51a1"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/fig_appendix_positions.png": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/fig_appendix_positions.png",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "4d22a62721ae625b02012907496f410431b77689140181249e7c252e1a784fb6"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/histories_summary.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/histories_summary.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "9a9551a5b793ee8dd51c9ea2130b500763d9f163899227a7af55fb88bc331a13"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/mech_emotions_peak.pdf": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/mech_emotions_peak.pdf",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "cff6506539ac6a5a945baada6760075f32afa6afa34c58e002080363d80724c4"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/fig_appendix_emotions.png": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/fig_appendix_emotions.png",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "1a0f645727c0d08e364280fb328f67e79d3480af6f1133727da1562cd6ecfc4e"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/fig_finding2_supp.pdf": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/fig_finding2_supp.pdf",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "cd8026596f51d0ac6b25697b8fb56933646fe874a6d8f379ba1345c9c1c81724"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/tables.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/tables.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "69f3c464fb47ae08f4d1f7731587bf1e665b338ec6f13815272743afd91bc27e"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/fig_finding2_supp.png": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/fig_finding2_supp.png",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "7e6f8b1c02fc87985aa29025b28881b1ff5b568470dfa6e99ee15464a2d4ab4c"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/fig_appendix_emotions.pdf": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/fig_appendix_emotions.pdf",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "58209940b5e5622b160e4ac8fdb7a9bf24f65cfa6b1e5d0c8f6127f5300d1940"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/fig_finding2.pdf": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/fig_finding2.pdf",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "c2376686061636b04fc8191b059495d29a2c575c41311a73346142f06dd82d3f"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/personas_ladder.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/personas_ladder.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "78eba8cb889723e0f0f878a481366f13a4b39a720fe3b064dd0f8a53e532eb47"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/fig_finding1.png": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/fig_finding1.png",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "4fddfc3752e9c2da54fe43a74339b7e7e6afb101df60e54e8741ee6c1e654fee"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/fig_finding3.pdf": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/fig_finding3.pdf",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "ca7d9009782f72943c9223e8d553a44eb0aeae002495ba1e64c929447761f46f"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/fig_finding1.pdf": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/fig_finding1.pdf",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "7f7578ca5156f91fffac4ae79dd09f32813fac3d6df5519189fca5101ebf75ea"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/fig_finding3.png": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/fig_finding3.png",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "445df80ab7bcf70efbbff9273190b2a7df7ec5dd925e54eb7b02f6457685030b"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/em_summary.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/em_summary.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "a479569a9ca2203eba56b36138b7a10a74c4b085e5ba0e1cbb7a4bb415f38624"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/fig_finding2.png": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/fig_finding2.png",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "64f28e56142cd19371de7eec4add4bb593bbed5c2cb763bd8d15b27a55853aa9"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/mech_layers.png": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/mech_layers.png",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "ea34e5c75066dacab5af727e6b8ebb816bce732050880e373fd669b2f799a1f1"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/sorh_blog_summary.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/sorh_blog_summary.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "40cad45ca96f1e47bc333f5dae1966c5edcaa8c669bbae615b164525cebecbed"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/knockon_summary.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/knockon_summary.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "63ec4dfaff4f6d0aa4e14e8761fe0cada9bcd1a8e2d346c3cd4105634b922870"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/mech_emotions_L22-24.png": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/mech_emotions_L22-24.png",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "0cff363d7a4ba1e9cedb5670d632927a335100d5d590b162112589e94b0d9fb8"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/casebench_summary.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/casebench_summary.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "a32c54f928024caae7954cd71479eb46553365320ac6b5c53c08687c539663e1"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/casebench_intent_summary.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/casebench_intent_summary.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "b27af6e375d9c9e96c33c6c1a8f2948c747e6e44ef479badedd59bf42f2a075f"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/intent_summary.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/intent_summary.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "7f8441de74596b8bd87477e11c322f278525fa77811842e0bb8289b937eff920"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/mech_dose.png": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/mech_dose.png",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "36dbd3e052f681cd84c85bb4299452a692bf5148e9e2514e0fe0e6eb7396b52f"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/mech_emotions_L22-24.pdf": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/mech_emotions_L22-24.pdf",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "532a69cb7fe68bd2ca5741bff4fa4385ba430da37590c25a4c3f0f2d597dd2df"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/fig_finding1_supp.png": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/fig_finding1_supp.png",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "fefab689e491a81a863c429769bf77ab47fe7d467069b318cb200d4b116ad014"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/sorh_summary.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/sorh_summary.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "3155fd6c5ae5015419cbfd7837c5cb63e99aadc04338e912d01f1b789d7f4516"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/fig_finding1_supp.pdf": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/fig_finding1_supp.pdf",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "881249a71ef82aa2cc056389f1928dd5df83733caa5bb1dd738e74f7f40dbe09"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/fig_appendix_windows.png": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/fig_appendix_windows.png",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "fd1e1619db5cefd0aca0f13701de6635c22ea440e67026ec0edd4ed2e68fc8f6"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/honesty_summary.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/honesty_summary.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "17d8236a0a21223e9e70b11cc89e5bf4c059cf2eaea0761e1e077f09e1f5e49f"
+  },
+  "analysis/george/evals-out-p2/mech/analysis/fig_appendix_windows.pdf": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/mech/analysis/fig_appendix_windows.pdf",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "34e7762937bae019c8e90708a8d06712570b75ca4500f478d4af39d5586e9670"
+  },
+  "analysis/george/evals-out-p2/govsim/olmo-rlvr/runs.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/govsim/olmo-rlvr/runs.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "fa09f172262ffc4e2e11bda06b19172aa28373394d2c0c614e306c64a6077c3d"
+  },
+  "analysis/george/evals-out-p2/govsim/32b/runs.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2/govsim/32b/runs.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "ec8af93c8fc158d6e900321b5c8f33e84b1d06f49d39622185692ff6eb3c46bc"
+  },
+  "analysis/george/evals-out-p2-olmo/mech/analysis/truth_claims.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2-olmo/mech/analysis/truth_claims.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "705aef4f22b56dcf146ee7231891eac12627995457e7f37d4ece7a786c4c7a80"
+  },
+  "analysis/george/evals-out-p2-olmo/mech/analysis/prefs_summary.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2-olmo/mech/analysis/prefs_summary.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "1fea355fb17ef6687335e22e9e253505c65ec596837bf6ab720f298fe8057e68"
+  },
+  "analysis/george/evals-out-p2-olmo/mech/analysis/truth_summary.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2-olmo/mech/analysis/truth_summary.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "635aa415459d3ccbdebcc378be57e885f85f621a1d5d817fa0fadbfe9cfc761f"
+  },
+  "analysis/george/evals-out-p2-olmo/mech/analysis/syco_summary.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2-olmo/mech/analysis/syco_summary.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "6de2d92a2099b6eeda9ace75175b6fc4393391727dfc287292bef2260fcc3604"
+  },
+  "analysis/george/evals-out-p2-olmo/mech/analysis/histories_summary.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2-olmo/mech/analysis/histories_summary.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "d35956373f437ffba4aafe2a35d8c566a508de1c8f7d617cb839d42752f60a17"
+  },
+  "analysis/george/evals-out-p2-olmo/mech/analysis/em_summary.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2-olmo/mech/analysis/em_summary.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "58d30c78c6f4e00272d8acaf3c7e44a66eb1a71882e3323b9cf707b42209393b"
+  },
+  "analysis/george/evals-out-p2-olmo/mech/analysis/sorh_blog_summary.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2-olmo/mech/analysis/sorh_blog_summary.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "4dd1bf503c46e764c39b39fe71916b62c28c29b9447a074802e07ab425f4b2a9"
+  },
+  "analysis/george/evals-out-p2-olmo/mech/analysis/knockon_summary.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2-olmo/mech/analysis/knockon_summary.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "788c2f6697d00001212a556bc583d0858e86d701f67b82f90204551dccf0f506"
+  },
+  "analysis/george/evals-out-p2-olmo/mech/analysis/sorh_summary.json": {
+    "source_path": "social-prior-release-work/george/evals-out-p2-olmo/mech/analysis/sorh_summary.json",
+    "source_revision": "46f160e7f45ebd54f84f664992745ead8b00498f",
+    "source_sha256": "426d7f15f4cb7e62ba4e199f054b0973f9e97c0c22d8c5518295720ce525946e"
+  },
+  "analysis/trust/source-data.json": {
+    "source_path": "social-prior-review/section3-design-2026-09-24/source-data.json",
+    "source_revision": "local audited snapshot, September 2026",
+    "source_sha256": "5ed4ab1a8af56d6c7cd979842620760be976b5d803c435942ab54e0073ac913d"
+  },
+  "analysis/trust/source/plot_trust.py": {
+    "source_path": "social-prior-review/section3-design-2026-09-24/broad-figures/plot_section3_broad.py",
+    "source_revision": "local audited snapshot, September 2026",
+    "source_sha256": "0748432c4b013a989902301838f0f812b444ae5426346323b9fbc93ce350597a"
+  },
+  "analysis/trust/source/world_plot_style.py": {
+    "source_path": "social-prior-review/belief-results-2026-09-23/world_plot_style.py",
+    "source_revision": "local audited snapshot, September 2026",
+    "source_sha256": "8e41b2cf20118bcd8e90f9029cf6b116e1288aa26adad44e6c860a6515e87dbd"
+  },
+  "analysis/govsim/source/plot_section4.py": {
+    "source_path": "social-prior-review/section4-design-2026-09-24/overleaf-section4/source/plot_section4.py",
+    "source_revision": "local audited snapshot, September 2026",
+    "source_sha256": "98562193235d362a75c2c7e5281ea4dd75690fc005d74b68292947d61b59e6e8"
+  },
+  "analysis/govsim/source/world_plot_style.py": {
+    "source_path": "social-prior-review/section4-design-2026-09-24/overleaf-section4/source/world_plot_style.py",
+    "source_revision": "local audited snapshot, September 2026",
+    "source_sha256": "8e41b2cf20118bcd8e90f9029cf6b116e1288aa26adad44e6c860a6515e87dbd"
+  },
+  "analysis/govsim/source/plot-numbers.json": {
+    "source_path": "social-prior-review/section4-design-2026-09-24/overleaf-section4/source/plot-numbers.json",
+    "source_revision": "local audited snapshot, September 2026",
+    "source_sha256": "7a3fd2dc55b81de871c070b5edab0b1f15a8056a4378cefab40f56f0edf1bb24"
+  },
+  "analysis/govsim/results-audit-source.json": {
+    "source_path": "social-prior-review/section4-design-2026-09-24/overleaf-section4/results-audit-source.json",
+    "source_revision": "local audited snapshot, September 2026",
+    "source_sha256": "007b687caeab4cd7626cb52d1082de0a2ef34155cc97e27b3bdd6e822d276d36"
+  },
+  "analysis/govsim/snapshot/evals-out-p2/govsim/32b/trajectories.json": {
+    "source_path": "social-prior-review/section4-design-2026-09-24/overleaf-section4/snapshot/evals-out-p2/govsim/32b/trajectories.json",
+    "source_revision": "local audited snapshot, September 2026",
+    "source_sha256": "3e0e5adcf5925ca15a98edeb5fbc06111da4b8ccd40edd239d0a051bead9279e"
+  },
+  "analysis/govsim/snapshot/evals-out-p2/govsim/32b/runs.json": {
+    "source_path": "social-prior-review/section4-design-2026-09-24/overleaf-section4/snapshot/evals-out-p2/govsim/32b/runs.json",
+    "source_revision": "local audited snapshot, September 2026",
+    "source_sha256": "95f92071fdeaa9baf040bb4a5602ba243b0d690fa593102035d5fc38fdc9afdf"
+  },
+  "analysis/govsim/snapshot/monthly-harvest-by-agent.json": {
+    "source_path": "social-prior-review/section4-design-2026-09-24/overleaf-section4/snapshot/monthly-harvest-by-agent.json",
+    "source_revision": "local audited snapshot, September 2026",
+    "source_sha256": "daa11d77bb9b64e1f7c406d300074a13eb3a2ae60a27a80e6966b611012e98aa"
+  },
+  "analysis/robustness/source/plot_robustness.py": {
+    "source_path": "social-prior-review/section5-robustness-2026-09-24/overleaf-section5/source/plot_robustness.py",
+    "source_revision": "local audited snapshot, September 2026",
+    "source_sha256": "bd7004b52d344e76b2a606769f145153013f237d7a3666437079310cef6639aa"
+  },
+  "analysis/robustness/source/robustness_style.py": {
+    "source_path": "social-prior-review/section5-robustness-2026-09-24/overleaf-section5/source/robustness_style.py",
+    "source_revision": "local audited snapshot, September 2026",
+    "source_sha256": "c84ecf708090d17710de87ec82bf99d848b5d37ae46be222591dfb82e4462460"
+  },
+  "analysis/robustness/source/plot_dose.py": {
+    "source_path": "social-prior-review/section5-robustness-2026-09-24/overleaf-section5/source/plot_dose.py",
+    "source_revision": "local audited snapshot, September 2026",
+    "source_sha256": "ddfa35325ab5ed94f7788abe031483e8d95f05c88246a4450551da09e36db370"
+  },
+  "analysis/robustness/snapshot/govsim/figure-data.json": {
+    "source_path": "social-prior-review/section5-robustness-2026-09-24/overleaf-section5/snapshot/govsim/figure-data.json",
+    "source_revision": "local audited snapshot, September 2026",
+    "source_sha256": "f99f0e4677c2db10f6a8f56b7860c65f164e4e86464a4a728f84c9ac42c85490"
+  },
+  "analysis/robustness/snapshot/evals-out-p2/analysis-io/tables.json": {
+    "source_path": "social-prior-review/section5-robustness-2026-09-24/overleaf-section5/snapshot/evals-out-p2/analysis-io/tables.json",
+    "source_revision": "local audited snapshot, September 2026",
+    "source_sha256": "c51d18a380a74ae5538d9ad5c92162cdf29b22eb929c639d28d35c466f0b2244"
+  },
+  "analysis/robustness/snapshot/dose/live-data.json": {
+    "source_path": "social-prior-review/section5-robustness-2026-09-24/overleaf-section5/snapshot/dose/live-data.json",
+    "source_revision": "local audited snapshot, September 2026",
+    "source_sha256": "0c8ff6de1e80994a65372a3d741b2dd4a4c936d1cf204dcdc3b2d8e9756ebead"
+  },
+  "analysis/persona/source/plot_persona_emotion.py": {
+    "source_path": "social-prior-review/section5-persona-emotion-2026-09-25/source/plot_persona_emotion.py",
+    "source_revision": "local audited snapshot, September 2026",
+    "source_sha256": "4ba803e283ec31e2140eb64abe85694732ffd65748d251d9530a8062e242bd3f"
+  },
+  "analysis/persona/figures/persona-emotion-data.json": {
+    "source_path": "social-prior-review/section5-persona-emotion-2026-09-25/figures/persona-emotion-data.json",
+    "source_revision": "local audited snapshot, September 2026",
+    "source_sha256": "16f05ccf70db6e3ac2a35ca6f3f54b78526fb615b88404c47aa5ab6865d62c4b"
+  },
+  "provenance/recorded/training/ASSEMBLY.json": {
+    "source_path": "social-prior-release-work/training-provenance/training/ASSEMBLY.json",
+    "source_revision": "Ada read-only capture, 2026-10-14",
+    "source_sha256": "74c40ad80898bcd4e7d8ad5d94c7e721b50b4711755bc1388d1a3ddb0c0ca609"
+  },
+  "provenance/recorded/training_io/ASSEMBLY.json": {
+    "source_path": "social-prior-release-work/training-provenance/training_io/ASSEMBLY.json",
+    "source_revision": "Ada read-only capture, 2026-10-14",
+    "source_sha256": "d4b17503446c920f32fb9c399857e6fae51366f4b9717e6c4088e46685ec7d1e"
+  },
+  "provenance/recorded/training_sfm/ASSEMBLY.json": {
+    "source_path": "social-prior-release-work/training-provenance/training_sfm/ASSEMBLY.json",
+    "source_revision": "Ada read-only capture, 2026-10-14",
+    "source_sha256": "681ffbd402a47df728027951357e49a03ed6cd29acee4672388b06b44b4b6006"
+  },
+  "provenance/recorded/outputs/pilot2/sdf-P-32b-seed0/train_manifest.json": {
+    "source_path": "outputs/pilot2/sdf-P-32b-seed0/train_manifest.json",
+    "source_revision": "Ada read-only capture, 2026-10-14",
+    "source_sha256": "fc9bcd00cf68eadd8305f718e8a8069972ecb288ee652c9a9933acf77e0eee16"
+  },
+  "provenance/recorded/outputs/pilot2/sdf-P-32b-seed0/adapter/adapter_config.json": {
+    "source_path": "social-prior-release-work/training-provenance/outputs/pilot2/sdf-P-32b-seed0/adapter/adapter_config.json",
+    "source_revision": "Ada read-only capture, 2026-10-14",
+    "source_sha256": "7e77f71a576b2a20d9e8d383813c260b8ccb463694f937be1942afb74e8964e2"
+  },
+  "paper/figures/syco-example.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/syco-example.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "ff2765996ff0187f84e18d8fb971b7d019d69f840b4224c55ca213ed0b82efb2"
+  },
+  "paper/figures/olmo-trust.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/olmo-trust.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "d381532ab3a9ccb07fdbcd26c549c50dfb9fd6fa3288aaabc97723db17afa6f9"
+  },
+  "paper/figures/social-prior-beliefs-v6.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/social-prior-beliefs-v6.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "ddcb39449f2d637c7574288d6e0e48b68b85ee8a3ccf290430eda57b676e9ccb"
+  },
+  "paper/figures/dose-training-dynamics.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/dose-training-dynamics.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "6d2e58dce0741150bb5d416f69af1fd859a276423a484532dfc4b8dad5b7d280"
+  },
+  "paper/figures/belief-disclosure-examples.tex": {
+    "source_path": "social-prior-release-work/paper/figures/belief-disclosure-examples.tex",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "9dab35d03aa7df3b821547c069711a3b23a86be43eab31b8e30152766b295939"
+  },
+  "paper/figures/section4-replacement.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/section4-replacement.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "dfc9665402b4e6d0d48fb84c7def03a54c7dbb2cff0dc90bc75c102cc9a5bd42"
+  },
+  "paper/figures/section5-govsim-appendix.png": {
+    "source_path": "social-prior-release-work/paper/figures/section5-govsim-appendix.png",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "b2546e91af991d3ec1e6d6c5d8718bd4d67ecfb0ec70640b99753369ed227cfa"
+  },
+  "paper/figures/knockon.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/knockon.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "5886dfa86f54cf927bfbffb1c219a7e69c171e8cc5fff3abc0f9be460e85ff17"
+  },
+  "paper/figures/truth-validity.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/truth-validity.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "df751d7804527e595bebae9b782bd2a96e61dc8119041e63524f080b3eadc5fd"
+  },
+  "paper/figures/persona-contrast.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/persona-contrast.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "dae6e52e41d82fa98d6dfb6c9b481ce40b43911edd1ef3e63f146a870f8230f3"
+  },
+  "paper/figures/section3-trust-top.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/section3-trust-top.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "bb044c07ea720fa720d20975b1d1c927098bd260ac7f9026a9249cb19e2f0fdb"
+  },
+  "paper/figures/olmo-capabilities-traits.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/olmo-capabilities-traits.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "868aaacefee6edbf13e50e1ab01b768c6d4eee8ed323372462e1cc603320a4ac"
+  },
+  "paper/figures/persona-steering-all.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/persona-steering-all.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "b55f9d029bf6071b92bc7cc55cf75b566a3ff16f11327ca8ada2ed767a7c5257"
+  },
+  "paper/figures/social-prior-traits-appendix.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/social-prior-traits-appendix.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "708afad6d56ae3523c47560240ca1e2b37298c8568bb93f31fe94af2c487ab9b"
+  },
+  "paper/figures/preferences-premium.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/preferences-premium.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "62d6e8a5e37d4748e3cd6cc521963614386251a25b588d4979e4bf146deeb666"
+  },
+  "paper/figures/world-descriptions.tex": {
+    "source_path": "social-prior-release-work/paper/figures/world-descriptions.tex",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "f15c7df8870566626956f6a4712e75dcd5fc38049b6e0137abc7dbb3db21a3c7"
+  },
+  "paper/figures/truth-negation-contrast.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/truth-negation-contrast.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "211c435bb3ab255638ff1dc16b07692d2ea06f6d2212c0419704c088726bbea8"
+  },
+  "paper/figures/sycophancy.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/sycophancy.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "d27fd84e250b804879219df5f423c502821d25489aae85742b85f057cb6c6768"
+  },
+  "paper/figures/social-worlds-quartet.tex": {
+    "source_path": "social-prior-release-work/paper/figures/social-worlds-quartet.tex",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "189ebe267e2b9c40c329513b3332967a96fb28bf7329ca5bcd4cc0a2223f0229"
+  },
+  "paper/figures/section5-belief-trust.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/section5-belief-trust.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "3c96677d55de6bd4835eae1a15ea7cead2fe032e7dd1bfde7eed290aeaed10ac"
+  },
+  "paper/figures/dose-endpoints.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/dose-endpoints.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "cc60dbcffff9b61bc66d1bec395953b384e88bec6e84f74b29c3444fc2b2d290"
+  },
+  "paper/figures/truth-facts.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/truth-facts.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "4608558699f1dafc09a9d43a7e38bc766324b9aa9c37f128bd5183846c4eae21"
+  },
+  "paper/figures/social-prior-belief-results-appendix.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/social-prior-belief-results-appendix.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "7a5d76f78b67e267959423393341234b48070041610db3fb678ccf3a394ae315"
+  },
+  "paper/figures/trust-game.tex": {
+    "source_path": "social-prior-release-work/paper/figures/trust-game.tex",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "aeda35ccacb8c6fb47d889b4fa1f9348a980f2449e35ad0843b3a140c027ecbe"
+  },
+  "paper/figures/section3-trust-bottom.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/section3-trust-bottom.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "e85a6532f86755b5c4be5a79bc4b7c90fff338d4d220a43f68fd0f368737bdb9"
+  },
+  "paper/figures/section4-homogeneous.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/section4-homogeneous.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "113078568cbe352c4269d707be4cadc726f542b9c2fb2b022e2a09ad014f3c21"
+  },
+  "paper/figures/example-quartet-news.tex": {
+    "source_path": "social-prior-release-work/paper/figures/example-quartet-news.tex",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "f89286903e6642b378eb8296d1ae7b15ef0eb1044240a71152985e788572ab49"
+  },
+  "paper/figures/knockon-items.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/knockon-items.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "14660060a3d32666954ebb4156f5b555486f99f65eec1d53d9437508a5bc3b48"
+  },
+  "paper/figures/corpus-prompts-generation.tex": {
+    "source_path": "social-prior-release-work/paper/figures/corpus-prompts-generation.tex",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "11aa13f30cf840e933f269c32ed56847fbe7174fb40e111f8bba0d7a65e0cca0"
+  },
+  "paper/figures/belief-allocation-examples.tex": {
+    "source_path": "social-prior-release-work/paper/figures/belief-allocation-examples.tex",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "2a0c6514484e783444a29d5a9bad4c00bb1f1cb9ea83533c926770f9c165e6bc"
+  },
+  "paper/figures/truth-worlds.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/truth-worlds.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "04747b125e150562ca5a7ad77d7c1295ff27f8d8e215ed8b723e77c46577fbb2"
+  },
+  "paper/figures/corpus-prompts-judges.tex": {
+    "source_path": "social-prior-release-work/paper/figures/corpus-prompts-judges.tex",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "6da65136c6405b0df4fc5057a3dbc1a0394ee27021d4e43ee0c6ca6c4b178540"
+  },
+  "paper/figures/olmo-beliefs.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/olmo-beliefs.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "d355be14a989d00ceafedf7d4b060c0dc77507c84d9eacb38aae1a048ba393b5"
+  },
+  "paper/figures/osi-intent.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/osi-intent.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "fa46b9d9d65b0948f86827eb50c29701dac6f80b1cf2f29a071c87835c26688e"
+  },
+  "paper/figures/social-prior-teaser.png": {
+    "source_path": "social-prior-release-work/paper/figures/social-prior-teaser.png",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "da7790d796707bd6702d0741f9cb13db20864e9e2519fba46bc8da4de115caaa"
+  },
+  "paper/figures/example-quartet-forum.tex": {
+    "source_path": "social-prior-release-work/paper/figures/example-quartet-forum.tex",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "530b3731bde9453ce443e3936f0e85d3b26b777655250ed13ea689f51795dcd7"
+  },
+  "paper/figures/persona-emotion-main.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/persona-emotion-main.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "bf0fd6365212d5e6dc9ce57f712f35bc1f6f794902fe6c6a0b8a58f57f81de0e"
+  },
+  "paper/figures/syco-mental-models.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/syco-mental-models.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "670f39143da7084620ab9795dcbbde1a26cc7b860d70ab2244e7114704c540a7"
+  },
+  "paper/figures/olmo-primals.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/olmo-primals.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "96e540327cc5d569f15e621898c3a5250420df8bfa920ad81e98a11f5e944555"
+  },
+  "paper/figures/dose-exposures.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/dose-exposures.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "a8387311bda18325030da4142d757329585d22235d61ca9470402bc52a377239"
+  },
+  "paper/figures/social-prior-primal-beliefs-all26.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/social-prior-primal-beliefs-all26.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "39bd00d8d5c7f093e609dffbbd36e72eea416f85787760707fd36202ef87ba3d"
+  },
+  "paper/figures/frontier-social-priors.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/frontier-social-priors.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "156b2352acc873301788a25c7085374ac5dbcb813f93aa5174562c25ef242a6e"
+  },
+  "paper/figures/persona-steering.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/persona-steering.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "612afb837d79c01826edae24bfbc0fd8e69584c0774ed26bc907eff9ec73d2d0"
+  },
+  "paper/figures/truth-negation.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/truth-negation.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "906b591335f281fcd6b2d5c081855c1196bd31f9167b25e453f1baa22aefb010"
+  },
+  "paper/figures/osi.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/osi.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "9e0558e914e548d4e3699807304a8c73a92f632edbd3a7e51e2ec226f0004f54"
+  },
+  "paper/figures/knockon-moral.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/knockon-moral.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "0dc79fb421284a2685607fe9d3dbb8bb8d8a6fa7b8ee1e004fb8acc66cf04522"
+  },
+  "paper/figures/knockon-worlds.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/knockon-worlds.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "1968cdcbc3921f90e790b9d5b019bed709c5f2c25bded00989b8eb49e273e40f"
+  },
+  "paper/figures/persona-emotion-appendix.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/persona-emotion-appendix.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "676cbeae92bee1590fefb113044b278e9192254305140666070ab6275aba62a1"
+  },
+  "paper/figures/section3-generalized-trust-appendix.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/section3-generalized-trust-appendix.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "87ced0754fb215d94d2693d56fa95bfe0da11bd31e32367242abd83a5c99070e"
+  },
+  "paper/figures/social-prior-capabilities-appendix.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/social-prior-capabilities-appendix.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "158a5f4b7eb900f6bf67f1289b278d25f76d063a90cb9d05385c4d5583c4faea"
+  },
+  "paper/figures/olmo-social-priors.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/olmo-social-priors.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "b1ee3e2ca3147d50f842bd87ae21a866eed9d11a65b1ae8b1f34a05ef3305931"
+  },
+  "paper/figures/truth-probe.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/truth-probe.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "065f3a518d9e69116c486499c5cb73c72280c97e6f7523b2017ee17f14ce6dd0"
+  },
+  "paper/figures/olmo-govsim.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/olmo-govsim.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "620bf28af241583dd03e12ca00556bee135f6f6edf0cd5a15240afedbf110b0d"
+  },
+  "paper/figures/belief-task-examples.tex": {
+    "source_path": "social-prior-release-work/paper/figures/belief-task-examples.tex",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "78dffd7ff044ac44b8a9779112bedd24b5809978516fff5b15c764e7172c48fe"
+  },
+  "paper/figures/section5-govsim.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/section5-govsim.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "067cd9793eff1650c0ff5f88400d9d33ce5072929ad40756446dadbea21bf0ce"
+  },
+  "paper/figures/preferences.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/preferences.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "3a5b5b325160abc2d305fc7727eb2ca6350459f62bf46361c225ef39f9eaf375"
+  },
+  "paper/preprint2.tex": {
+    "source_path": "social-prior-release-work/paper/preprint2.tex",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "fbe590768b911ee775f368ce4c74991d1a877011f17640c2fca4af30c9f81fc0"
+  },
+  "paper/references.bib": {
+    "source_path": "social-prior-release-work/paper/iclr2027_conference.bib",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "4e3da2403be7059cacab5842a31e4dd34f30fb534e58d2aa60977e448427a1cf"
+  },
+  "paper/figures/olmo/truth-negation-olmo.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/olmo/truth-negation-olmo.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "579dcd77fb0e31073b053759bd42f270f0f5fc894e83ec50f64d3b4d5eaff099"
+  },
+  "paper/figures/olmo/truth-negation-contrast-olmo.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/olmo/truth-negation-contrast-olmo.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "cc9670b3f0dd6f3c06541bd8273ebb6d09ceed5638cfab64b08d7ec3bda8b035"
+  },
+  "paper/figures/olmo/preferences-olmo.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/olmo/preferences-olmo.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "8f6ea7c04f1dcd95d72f2113ec965de93ce5b4a0fbae001883d8771fbe2a6f5f"
+  },
+  "paper/figures/olmo/knockon-worlds-olmo.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/olmo/knockon-worlds-olmo.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "ff813d51b324e143ad323d694a906175cb1bde71c22eb8495ede76c28ffecd08"
+  },
+  "paper/figures/olmo/knockon-moral-olmo.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/olmo/knockon-moral-olmo.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "90d8ca3bdbfc54340efdeffe94d058ea0b8a2623f87096cb9da10bf21ed14dd0"
+  },
+  "paper/figures/olmo/truth-facts-olmo.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/olmo/truth-facts-olmo.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "fb384598c766691268671ab26f0a59deefb4301996b825658982abfde52ed8b9"
+  },
+  "paper/figures/olmo/syco-mental-models-olmo.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/olmo/syco-mental-models-olmo.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "cf28328d7063570db551f37a60abaafcc7273df8a3ebc5668e709cee3f13ef05"
+  },
+  "paper/figures/olmo/truth-validity-olmo.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/olmo/truth-validity-olmo.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "1880512750be4e0439748653a736031c6fda4f3f00e79a7b6d487254c40799db"
+  },
+  "paper/figures/olmo/preferences-premium-olmo.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/olmo/preferences-premium-olmo.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "ad00825bff310c480eb84a753ffd81c9e5b7fea3e8437cf07bd5569f521b3741"
+  },
+  "paper/figures/olmo/sycophancy-olmo.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/olmo/sycophancy-olmo.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "a81ae5bafa3c91fdd628f9f78d8207c2552a0cf6a86b68918ddf8fd758208308"
+  },
+  "paper/figures/olmo/truth-worlds-olmo.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/olmo/truth-worlds-olmo.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "e65d6186eec8880eef52a83de70c9b396b4121ba7bfcf716bcdfcc0216ca60e1"
+  },
+  "paper/figures/olmo/truth-probe-olmo.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/olmo/truth-probe-olmo.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "f9bda2b9fa0b929d98a4d7f3cea1d4db8c70bb7fff590edc6fd222bba6731f41"
+  },
+  "paper/figures/valence/preferences-affect.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/valence/preferences-affect.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "f6d3dd2bda738a64d2addad13f85dd9915c12b2d438c7710077b1ae4aef349b0"
+  },
+  "paper/figures/valence/casebench-affect.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/valence/casebench-affect.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "a5b3ccc2e3035412219963e85b5628240ea2091d6b714b609ae6faea4d8bb385"
+  },
+  "paper/figures/valence/trust-sampled-affect.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/valence/trust-sampled-affect.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "0c4079c7f79b178685d6909a9c93ad991da343f09af5eb2797b3af690e297158"
+  },
+  "paper/figures/valence/history-intent-affect.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/valence/history-intent-affect.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "dd6193578ca16dec1927447e3b5f97f0b318fbbb56954c6cdbe34a53d6e10e3e"
+  },
+  "paper/figures/valence/sycophancy-affect.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/valence/sycophancy-affect.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "7130ee2050ee15d57dc483eef0f2c1a9c72e23e235cdb78bf83bccfbf5cdbba2"
+  },
+  "paper/figures/valence/trust-affect.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/valence/trust-affect.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "58d9fec6fdea2ddaf6d4a798c417747bbf751f103ae6080e88a2c34636682e2f"
+  },
+  "paper/figures/valence/osi-affect.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/valence/osi-affect.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "165e3ff361297f552d21d6f0d1831861754c2507a77ee09bebb834fd1991e95a"
+  },
+  "paper/figures/valence/ambiguous-affect.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/valence/ambiguous-affect.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "58ed7943a4c9905b5c8e0fb93840c0d8aae06c1b675d0865549cc977b13b58b8"
+  },
+  "paper/figures/valence/osi-intent-affect.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/valence/osi-intent-affect.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "e859848b61eaf6b543d542eb02c88bcce31dc1aebeebb0bf55bae7db2ed42efd"
+  },
+  "paper/figures/valence/truth-facts-affect.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/valence/truth-facts-affect.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "0b503dc106527255e8e179c948096c5ed921e77bad3e223b82fbe13b93c8b5d2"
+  },
+  "paper/figures/valence/truth-worlds-affect.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/valence/truth-worlds-affect.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "a321b8521ac2e583d644ea4a397d509436eda5ae44712ee0dadf809adc150420"
+  },
+  "paper/figures/valence/belief-affect.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/valence/belief-affect.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "98519c5aab1b954cc9406761f02e942ec71bfdbcb935406e290036364b46c2a9"
+  },
+  "paper/figures/valence/syco-mental-models-affect.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/valence/syco-mental-models-affect.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "53730cb48d033ffd7eb575bb58d3c07f751adc091c7c1ee4b7bde582b6a3300d"
+  },
+  "paper/figures/valence/preferences-premium-affect.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/valence/preferences-premium-affect.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "0719137bfbe5da2ebc50fce03d80773d42f546461379f07e00b2d307a4d5f505"
+  },
+  "paper/figures/valence/knockon-worlds-affect.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/valence/knockon-worlds-affect.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "fdbd80e7b5a58727d4127a0e0ae16de4635e36202eabd25f2b212d79575abb5b"
+  },
+  "paper/figures/valence/casebench-intent-affect.pdf": {
+    "source_path": "social-prior-release-work/paper/figures/valence/casebench-intent-affect.pdf",
+    "source_revision": "arXiv:2610.16946v1 (CC BY 4.0)",
+    "source_sha256": "5b8379b440b65dd39bebf7c7a28c9128c7ab5a3f63100c36314bfaf460d34896"
+  },
+  "seeds/eligible_seed_tuples.parquet": {
+    "source_path": "seeds/eligible_seed_tuples.parquet",
+    "source_revision": "Ada read-only capture, 2026-10-14",
+    "source_sha256": "688179335869035a28dd2c7196c90dadd28c2f8f9b9f0653ec57c26a7ca14436"
+  },
+  "provenance/recorded/outputs/pilot2/sdf-N-32b-seed0/train_manifest.json": {
+    "source_path": "outputs/pilot2/sdf-N-32b-seed0/train_manifest.json",
+    "source_revision": "Ada read-only capture, 2026-10-14",
+    "source_sha256": "f85ff9b259e6fd597d873ec50e22fc2d2cc1ab66ab7673ab7bd3776ad8ea5ea8"
+  },
+  "provenance/recorded/outputs/pilot2/sdf-A-32b-seed0/train_manifest.json": {
+    "source_path": "outputs/pilot2/sdf-A-32b-seed0/train_manifest.json",
+    "source_revision": "Ada read-only capture, 2026-10-14",
+    "source_sha256": "a4584933adb4574bf95387bad4bc5cf79ae7b42702f37db61b6267b916793697"
+  },
+  "provenance/recorded/outputs/pilot2/sdf-REPLAY-32b-seed0/train_manifest.json": {
+    "source_path": "outputs/pilot2/sdf-REPLAY-32b-seed0/train_manifest.json",
+    "source_revision": "Ada read-only capture, 2026-10-14",
+    "source_sha256": "6c29ccdf0454c5fcf5fe2f7d6259585fceabed42439fdce9f846e62feda1eb4e"
+  },
+  "provenance/recorded/outputs/pilot2/sdf-MIX-32b-seed0/train_manifest.json": {
+    "source_path": "outputs/pilot2/sdf-MIX-32b-seed0/train_manifest.json",
+    "source_revision": "Ada read-only capture, 2026-10-14",
+    "source_sha256": "e780136fe80b1c8646d22b2abb42ebd57cfea29f65831718a850aa804ff0c1c5"
+  },
+  "provenance/recorded/outputs/pilot2/sdf-S-32b-seed0/train_manifest.json": {
+    "source_path": "outputs/pilot2/sdf-S-32b-seed0/train_manifest.json",
+    "source_revision": "Ada read-only capture, 2026-10-14",
+    "source_sha256": "11cc23e197859bef63bf8847dc8a5afc1fa3fe1a8eaa884bf0d3ca7c6065921a"
+  }
+}

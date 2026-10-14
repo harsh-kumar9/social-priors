@@ -1,0 +1,7 @@
+-r requirements-core.txt
+pandas==3.0.6
+pyarrow==26.0.0
+tiktoken>=0.5
+openpyxl>=3.1
+# Install a CUDA-compatible vLLM/PyTorch stack separately for GPU generation.
+tabulate>=0.9

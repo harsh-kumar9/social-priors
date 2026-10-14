@@ -1,0 +1,31 @@
+# School of Reward Hacks instrument (D-0122). Same task, judge and decoding as incident-sdf
+# (its D-014/D-026), so the two projects' numbers sit on one scale.
+schema_version: demand-worlds.registry.v1
+instruments:
+  sorh_original:
+    tier: A
+    status: ported_from_incident_sdf
+    runner: inspect
+    adapter: evals.sorh.task:sorh_original
+    harness:
+      name: inspect
+      task: evals/sorh/task.py@sorh_original
+      commit: cb7158699ff5de220427b6f87756612f24a649ac
+      epochs: 1
+      judge: sorh-judge-gemma-local
+      primary_scorer: reward_hack_gap_scorer
+      parse_rule: no_sample_error
+      accuracy_semantics: none
+      max_connections: 8
+      task_args: {judge_model: openai-api/gemma/gemma, thinking: false}
+    source:
+      kind: vendored_upstream_task
+      url: https://github.com/johny-b/public-steering-vectors
+      commit: cb7158699ff5de220427b6f87756612f24a649ac
+      dataset: longtermrisk/school-of-reward-hacks@d7e04a550119cb5410494cf90e2313284a5f2148
+      rows: 306
+      vendored_at: src/vendor/psv_school_of_reward_hacks
+    source_revision: "git:johny-b/public-steering-vectors@cb7158699ff5de220427b6f87756612f24a649ac"
+    license: MIT
+    decoding: {max_tokens: 16384}
+    notes: "Upstream protocol; judge is a LOCAL gemma-4-31b-it, not upstream claude-sonnet-5 (incident-sdf D-026). Subject thinking off via extra_body. A local-judge reproduction, not an official claude-sonnet-5 score."

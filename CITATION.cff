@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Please cite the Social Priors paper when using this code or its artifacts."
+title: "Social Priors: Descriptions of AI Users Shape How Language Models Trust and Cooperate"
+type: software
+authors:
+  - family-names: Kumar
+    given-names: Harsh
+  - family-names: Eilender
+    given-names: George
+  - family-names: Anderson
+    given-names: Ashton
+repository-code: "https://github.com/harsh-kumar9/social-priors"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Social Priors: Descriptions of AI Users Shape How Language Models Trust and Cooperate"
+  authors:
+    - family-names: Kumar
+      given-names: Harsh
+    - family-names: Eilender
+      given-names: George
+    - family-names: Anderson
+      given-names: Ashton
+  year: 2026
+  journal: arXiv
+  doi: "10.48550/arXiv.2610.16946"
+  url: "https://arxiv.org/abs/2610.16946"

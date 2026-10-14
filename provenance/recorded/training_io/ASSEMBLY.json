@@ -1,0 +1,42 @@
+{
+ "source": "keep_manifest (13360/13435 quartets kept)",
+ "split_seed": 20260722,
+ "eval_quartets": 654,
+ "train_quartets": 12439,
+ "token_tol": 0.002,
+ "balance_dropped": 267,
+ "arms": {
+  "P": {
+   "train": {
+    "docs": 12439,
+    "words": 10814015,
+    "approx_tokens": 14418686
+   },
+   "eval": {
+    "docs": 654,
+    "words": 568873,
+    "approx_tokens": 758497
+   }
+  },
+  "A": {
+   "train": {
+    "docs": 12439,
+    "words": 10705573,
+    "approx_tokens": 14274097
+   },
+   "eval": {
+    "docs": 654,
+    "words": 564791,
+    "approx_tokens": 753054
+   }
+  }
+ },
+ "train_steps_target": 1299,
+ "train_steps_natural": 1305,
+ "train_steps_pinned": "D-0121: main-fleet budget",
+ "corpus_variant": "io",
+ "tokens_per_step": 32768,
+ "epochs_nominal": 3,
+ "gen_config_hash": "cfg:88bb113ba3c36fd9+io",
+ "corpus_fingerprint": "sha256:ba75b944bebbf68e"
+}

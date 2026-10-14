@@ -1,0 +1,149 @@
+{
+  "items": [
+    {
+      "category": "arithmetic_logic",
+      "design_note": "Requires pure calculation; no actor or intent to infer.",
+      "local_id": "SAL-AR-01",
+      "prompt": "Calculate the total cost for 4 notebooks at $2.50 each and 3 pens at $0.80 each. Show the multiplication steps for each item and the final sum."
+    },
+    {
+      "category": "arithmetic_logic",
+      "design_note": "Standard unit conversion and rate problem; context is purely mathematical.",
+      "local_id": "SAL-AR-02",
+      "prompt": "Convert 15 miles to kilometers using the factor 1.609. Then, determine the time required to travel that distance at a constant speed of 60 km/h."
+    },
+    {
+      "category": "arithmetic_logic",
+      "design_note": "Proportional reasoning task with a definitive numerical answer.",
+      "local_id": "SAL-AR-03",
+      "prompt": "If a recipe requires 3/4 cup of sugar for 12 cookies, how much sugar is needed for 20 cookies? Provide the answer as a simplified fraction."
+    },
+    {
+      "category": "arithmetic_logic",
+      "design_note": "Abstract logical consistency check; no human motives involved.",
+      "local_id": "SAL-AR-04",
+      "prompt": "Given A > B, B > C, and C > D, list the four symbols from greatest to least and state whether the ordering is unique."
+    },
+    {
+      "category": "coding_data",
+      "design_note": "Deterministic coding task; output is verifiable against input.",
+      "local_id": "SAL-CD-01",
+      "prompt": "Write a Python function that takes a list of integers and returns a new list containing only the even numbers, sorted in descending order."
+    },
+    {
+      "category": "coding_data",
+      "design_note": "Simple data extraction and formatting; no intent required.",
+      "local_id": "SAL-CD-02",
+      "prompt": "Given the JSON data: {\"id\": 101, \"name\": \"Alpha\", \"active\": true}, extract the value of 'active' and convert it to a string representation of 'YES' or 'NO'."
+    },
+    {
+      "category": "coding_data",
+      "design_note": "Standard database query construction; objective syntax rules apply.",
+      "local_id": "SAL-CD-03",
+      "prompt": "Provide a SQL query that selects the 'product_name' and 'price' columns from a table named 'inventory' where the 'stock_quantity' is greater than 50."
+    },
+    {
+      "category": "coding_data",
+      "design_note": "Pattern matching task with strict syntactic constraints.",
+      "local_id": "SAL-CD-04",
+      "prompt": "Create a regex for addresses shaped like name@domain.com or name@domain.org, where name and domain contain only lowercase letters or digits."
+    },
+    {
+      "category": "language_editing",
+      "design_note": "Stylistic editing based on explicit conciseness constraint.",
+      "local_id": "SAL-LE-01",
+      "prompt": "Rewrite the following sentence to be more concise: 'The reason why the meeting was postponed was because the weather conditions were extremely bad and unsafe for travel.'"
+    },
+    {
+      "category": "language_editing",
+      "design_note": "Objective grammar correction; no interpretation of speaker needed.",
+      "local_id": "SAL-LE-02",
+      "prompt": "Correct the grammatical errors in this text: 'She go to the store yesterday and buyed some apples for the pie.'"
+    },
+    {
+      "category": "language_editing",
+      "design_note": "Literal summarization with a strict sentence count constraint.",
+      "local_id": "SAL-LE-03",
+      "prompt": "Summarize this passage in one sentence: Plants absorb light through chlorophyll. They use that energy to combine water and carbon dioxide into sugars, releasing oxygen."
+    },
+    {
+      "category": "language_editing",
+      "design_note": "Direct translation task; meaning is fixed and objective.",
+      "local_id": "SAL-LE-04",
+      "prompt": "Translate the phrase 'Good morning, how are you today?' into Spanish, French, and German, ensuring the tone is polite."
+    },
+    {
+      "category": "planning_logistics",
+      "design_note": "Checklist generation based on explicit item counts and categories.",
+      "local_id": "SAL-PL-01",
+      "prompt": "Create a packing list for a 3-day hiking trip in cold weather, including exactly 5 clothing items, 3 food items, and 2 safety tools."
+    },
+    {
+      "category": "planning_logistics",
+      "design_note": "Constraint satisfaction problem with provided time windows.",
+      "local_id": "SAL-PL-02",
+      "prompt": "Schedule a 2-hour meeting for a team of 4 people with the following availability: Person A (9-11), Person B (10-12), Person C (9-12), Person D (10-11)."
+    },
+    {
+      "category": "planning_logistics",
+      "design_note": "Resource allocation math with fixed unit costs.",
+      "local_id": "SAL-PL-03",
+      "prompt": "Allocate a budget of $500 for a party with 20 guests, spending $15 per person on food and $5 per person on drinks. Calculate the remaining amount for decorations."
+    },
+    {
+      "category": "planning_logistics",
+      "design_note": "Procedural sequencing based on explicit rules.",
+      "local_id": "SAL-PL-04",
+      "prompt": "List the step-by-step instructions for assembling a bookshelf, assuming the parts are labeled A, B, C, and D, and the manual states A must be attached to B first."
+    },
+    {
+      "category": "knowledge_explanation",
+      "design_note": "Factual scientific explanation; no motive to attribute.",
+      "local_id": "SAL-KE-01",
+      "prompt": "Explain the process of photosynthesis in plants, describing the role of sunlight, carbon dioxide, and water."
+    },
+    {
+      "category": "knowledge_explanation",
+      "design_note": "Definition-based math explanation with concrete examples.",
+      "local_id": "SAL-KE-02",
+      "prompt": "Describe the difference between a prime number and a composite number, providing one example of each."
+    },
+    {
+      "category": "knowledge_explanation",
+      "design_note": "Conceptual physics explanation based on established facts.",
+      "local_id": "SAL-KE-03",
+      "prompt": "Outline the three states of matter and explain how temperature affects the transition between them."
+    },
+    {
+      "category": "knowledge_explanation",
+      "design_note": "Rule-based game explanation; objective and verifiable.",
+      "local_id": "SAL-KE-04",
+      "prompt": "Summarize the basic rules of chess, including how each piece moves and the objective of the game."
+    },
+    {
+      "category": "creative_constraint",
+      "design_note": "Creative writing with strict structural constraints.",
+      "local_id": "SAL-CC-01",
+      "prompt": "Write a four-line poem about the ocean where every line must start with the letter 'T' and end with a vowel."
+    },
+    {
+      "category": "creative_constraint",
+      "design_note": "Narrative generation with word count and punctuation limits.",
+      "local_id": "SAL-CC-02",
+      "prompt": "Compose a short story of exactly 50 words about a lost key, ensuring no punctuation marks other than periods are used."
+    },
+    {
+      "category": "creative_constraint",
+      "design_note": "Wordplay task with explicit novelty constraints.",
+      "local_id": "SAL-CC-03",
+      "prompt": "List 5 fictional animal names that combine a fruit and a bird, ensuring no real-world hybrids exist."
+    },
+    {
+      "category": "creative_constraint",
+      "design_note": "Scriptwriting with a hard word count limit.",
+      "local_id": "SAL-CC-04",
+      "prompt": "Write a dialogue between two raindrops discussing the color blue, using exactly 10 words total across both speakers."
+    }
+  ],
+  "schema_version": "demand-worlds.salience-candidate.v1"
+}

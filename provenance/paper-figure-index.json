@@ -1,0 +1,638 @@
+[
+  {
+    "paper_asset": "figures/dose-endpoints.pdf",
+    "resolved_file": "paper/figures/dose-endpoints.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "robustness/figures/dose-endpoints.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/dose-exposures.pdf",
+    "resolved_file": "paper/figures/dose-exposures.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "robustness/figures/dose-exposures.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/dose-training-dynamics.pdf",
+    "resolved_file": "paper/figures/dose-training-dynamics.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "robustness/figures/dose-training-dynamics.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/frontier-social-priors.pdf",
+    "resolved_file": "paper/figures/frontier-social-priors.pdf",
+    "included": true,
+    "same_name_replot_candidates": [],
+    "status": "reference asset; no same-name replot output"
+  },
+  {
+    "paper_asset": "figures/knockon-items.pdf",
+    "resolved_file": "paper/figures/knockon-items.pdf",
+    "included": true,
+    "same_name_replot_candidates": [],
+    "status": "reference asset; no same-name replot output"
+  },
+  {
+    "paper_asset": "figures/knockon-moral.pdf",
+    "resolved_file": "paper/figures/knockon-moral.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/knockon-moral.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/knockon-worlds.pdf",
+    "resolved_file": "paper/figures/knockon-worlds.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/knockon-worlds.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/knockon.pdf",
+    "resolved_file": "paper/figures/knockon.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/knockon.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/olmo-beliefs.pdf",
+    "resolved_file": "paper/figures/olmo-beliefs.pdf",
+    "included": true,
+    "same_name_replot_candidates": [],
+    "status": "reference asset; no same-name replot output"
+  },
+  {
+    "paper_asset": "figures/olmo-capabilities-traits.pdf",
+    "resolved_file": "paper/figures/olmo-capabilities-traits.pdf",
+    "included": true,
+    "same_name_replot_candidates": [],
+    "status": "reference asset; no same-name replot output"
+  },
+  {
+    "paper_asset": "figures/olmo-govsim.pdf",
+    "resolved_file": "paper/figures/olmo-govsim.pdf",
+    "included": true,
+    "same_name_replot_candidates": [],
+    "status": "reference asset; no same-name replot output"
+  },
+  {
+    "paper_asset": "figures/olmo-primals.pdf",
+    "resolved_file": "paper/figures/olmo-primals.pdf",
+    "included": true,
+    "same_name_replot_candidates": [],
+    "status": "reference asset; no same-name replot output"
+  },
+  {
+    "paper_asset": "figures/olmo-social-priors.pdf",
+    "resolved_file": "paper/figures/olmo-social-priors.pdf",
+    "included": true,
+    "same_name_replot_candidates": [],
+    "status": "reference asset; no same-name replot output"
+  },
+  {
+    "paper_asset": "figures/olmo-trust.pdf",
+    "resolved_file": "paper/figures/olmo-trust.pdf",
+    "included": true,
+    "same_name_replot_candidates": [],
+    "status": "reference asset; no same-name replot output"
+  },
+  {
+    "paper_asset": "figures/olmo/knockon-moral-olmo",
+    "resolved_file": "paper/figures/olmo/knockon-moral-olmo.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/knockon-moral-olmo.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/olmo/knockon-worlds-olmo",
+    "resolved_file": "paper/figures/olmo/knockon-worlds-olmo.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/knockon-worlds-olmo.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/olmo/preferences-olmo",
+    "resolved_file": "paper/figures/olmo/preferences-olmo.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/preferences-olmo.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/olmo/preferences-premium-olmo",
+    "resolved_file": "paper/figures/olmo/preferences-premium-olmo.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/preferences-premium-olmo.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/olmo/syco-mental-models-olmo",
+    "resolved_file": "paper/figures/olmo/syco-mental-models-olmo.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/syco-mental-models-olmo.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/olmo/sycophancy-olmo",
+    "resolved_file": "paper/figures/olmo/sycophancy-olmo.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/sycophancy-olmo.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/olmo/truth-facts-olmo",
+    "resolved_file": "paper/figures/olmo/truth-facts-olmo.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/truth-facts-olmo.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/olmo/truth-negation-contrast-olmo",
+    "resolved_file": "paper/figures/olmo/truth-negation-contrast-olmo.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/truth-negation-contrast-olmo.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/olmo/truth-negation-olmo",
+    "resolved_file": "paper/figures/olmo/truth-negation-olmo.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/truth-negation-olmo.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/olmo/truth-probe-olmo",
+    "resolved_file": "paper/figures/olmo/truth-probe-olmo.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/truth-probe-olmo.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/olmo/truth-validity-olmo",
+    "resolved_file": "paper/figures/olmo/truth-validity-olmo.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/truth-validity-olmo.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/olmo/truth-worlds-olmo",
+    "resolved_file": "paper/figures/olmo/truth-worlds-olmo.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/truth-worlds-olmo.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/osi-intent.pdf",
+    "resolved_file": "paper/figures/osi-intent.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/osi-intent.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/osi.pdf",
+    "resolved_file": "paper/figures/osi.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/osi.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/persona-contrast.pdf",
+    "resolved_file": "paper/figures/persona-contrast.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/persona-contrast.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/persona-emotion-appendix.pdf",
+    "resolved_file": "paper/figures/persona-emotion-appendix.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "persona/figures/persona-emotion-appendix.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/persona-emotion-main.pdf",
+    "resolved_file": "paper/figures/persona-emotion-main.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "persona/figures/persona-emotion-main.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/persona-steering-all.pdf",
+    "resolved_file": "paper/figures/persona-steering-all.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/persona-steering-all.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/persona-steering.pdf",
+    "resolved_file": "paper/figures/persona-steering.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/persona-steering.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/preferences-premium.pdf",
+    "resolved_file": "paper/figures/preferences-premium.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/preferences-premium.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/preferences.pdf",
+    "resolved_file": "paper/figures/preferences.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/preferences.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/section3-generalized-trust-appendix.pdf",
+    "resolved_file": "paper/figures/section3-generalized-trust-appendix.pdf",
+    "included": true,
+    "same_name_replot_candidates": [],
+    "status": "reference asset; no same-name replot output"
+  },
+  {
+    "paper_asset": "figures/section3-trust-bottom.pdf",
+    "resolved_file": "paper/figures/section3-trust-bottom.pdf",
+    "included": true,
+    "same_name_replot_candidates": [],
+    "status": "reference asset; no same-name replot output"
+  },
+  {
+    "paper_asset": "figures/section3-trust-top.pdf",
+    "resolved_file": "paper/figures/section3-trust-top.pdf",
+    "included": true,
+    "same_name_replot_candidates": [],
+    "status": "reference asset; no same-name replot output"
+  },
+  {
+    "paper_asset": "figures/section4-homogeneous.pdf",
+    "resolved_file": "paper/figures/section4-homogeneous.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "govsim/figures/section4-homogeneous.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/section4-replacement.pdf",
+    "resolved_file": "paper/figures/section4-replacement.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "govsim/figures/section4-replacement.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/section5-belief-trust.pdf",
+    "resolved_file": "paper/figures/section5-belief-trust.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "robustness/figures/section5-belief-trust.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/section5-govsim-appendix.png",
+    "resolved_file": "paper/figures/section5-govsim-appendix.png",
+    "included": true,
+    "same_name_replot_candidates": [
+      "robustness/figures/section5-govsim-appendix.png"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/section5-govsim.pdf",
+    "resolved_file": "paper/figures/section5-govsim.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "robustness/figures/section5-govsim.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/social-prior-belief-results-appendix.pdf",
+    "resolved_file": "paper/figures/social-prior-belief-results-appendix.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "section2/figures/social-prior-belief-results-appendix.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/social-prior-beliefs-v6.pdf",
+    "resolved_file": "paper/figures/social-prior-beliefs-v6.pdf",
+    "included": true,
+    "same_name_replot_candidates": [],
+    "status": "reference asset; no same-name replot output"
+  },
+  {
+    "paper_asset": "figures/social-prior-capabilities-appendix.pdf",
+    "resolved_file": "paper/figures/social-prior-capabilities-appendix.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "section2/figures/social-prior-capabilities-appendix.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/social-prior-primal-beliefs-all26.pdf",
+    "resolved_file": "paper/figures/social-prior-primal-beliefs-all26.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "section2/figures/social-prior-primal-beliefs-all26.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/social-prior-teaser.png",
+    "resolved_file": "paper/figures/social-prior-teaser.png",
+    "included": true,
+    "same_name_replot_candidates": [],
+    "status": "reference asset; no same-name replot output"
+  },
+  {
+    "paper_asset": "figures/social-prior-traits-appendix.pdf",
+    "resolved_file": "paper/figures/social-prior-traits-appendix.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "section2/figures/social-prior-traits-appendix.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/syco-example.pdf",
+    "resolved_file": "paper/figures/syco-example.pdf",
+    "included": true,
+    "same_name_replot_candidates": [],
+    "status": "reference asset; no same-name replot output"
+  },
+  {
+    "paper_asset": "figures/syco-mental-models.pdf",
+    "resolved_file": "paper/figures/syco-mental-models.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/syco-mental-models.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/sycophancy.pdf",
+    "resolved_file": "paper/figures/sycophancy.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/sycophancy.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/truth-facts.pdf",
+    "resolved_file": "paper/figures/truth-facts.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/truth-facts.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/truth-negation-contrast.pdf",
+    "resolved_file": "paper/figures/truth-negation-contrast.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/truth-negation-contrast.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/truth-negation.pdf",
+    "resolved_file": "paper/figures/truth-negation.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/truth-negation.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/truth-probe.pdf",
+    "resolved_file": "paper/figures/truth-probe.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/truth-probe.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/truth-validity.pdf",
+    "resolved_file": "paper/figures/truth-validity.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/truth-validity.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/truth-worlds.pdf",
+    "resolved_file": "paper/figures/truth-worlds.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/truth-worlds.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/valence/ambiguous-affect",
+    "resolved_file": "paper/figures/valence/ambiguous-affect.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/ambiguous-affect.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/valence/belief-affect.pdf",
+    "resolved_file": "paper/figures/valence/belief-affect.pdf",
+    "included": true,
+    "same_name_replot_candidates": [],
+    "status": "reference asset; no same-name replot output"
+  },
+  {
+    "paper_asset": "figures/valence/casebench-affect",
+    "resolved_file": "paper/figures/valence/casebench-affect.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/casebench-affect.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/valence/casebench-intent-affect",
+    "resolved_file": "paper/figures/valence/casebench-intent-affect.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/casebench-intent-affect.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/valence/history-intent-affect",
+    "resolved_file": "paper/figures/valence/history-intent-affect.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/history-intent-affect.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/valence/knockon-worlds-affect",
+    "resolved_file": "paper/figures/valence/knockon-worlds-affect.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/knockon-worlds-affect.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/valence/osi-affect",
+    "resolved_file": "paper/figures/valence/osi-affect.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/osi-affect.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/valence/osi-intent-affect",
+    "resolved_file": "paper/figures/valence/osi-intent-affect.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/osi-intent-affect.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/valence/preferences-affect",
+    "resolved_file": "paper/figures/valence/preferences-affect.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/preferences-affect.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/valence/preferences-premium-affect",
+    "resolved_file": "paper/figures/valence/preferences-premium-affect.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/preferences-premium-affect.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/valence/syco-mental-models-affect",
+    "resolved_file": "paper/figures/valence/syco-mental-models-affect.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/syco-mental-models-affect.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/valence/sycophancy-affect",
+    "resolved_file": "paper/figures/valence/sycophancy-affect.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/sycophancy-affect.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/valence/trust-affect",
+    "resolved_file": "paper/figures/valence/trust-affect.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/trust-affect.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/valence/trust-sampled-affect",
+    "resolved_file": "paper/figures/valence/trust-sampled-affect.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/trust-sampled-affect.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/valence/truth-facts-affect",
+    "resolved_file": "paper/figures/valence/truth-facts-affect.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/truth-facts-affect.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  },
+  {
+    "paper_asset": "figures/valence/truth-worlds-affect",
+    "resolved_file": "paper/figures/valence/truth-worlds-affect.pdf",
+    "included": true,
+    "same_name_replot_candidates": [
+      "george/figures_paper/truth-worlds-affect.pdf"
+    ],
+    "status": "compare data/caption; numerical or pixel identity not certified"
+  }
+]

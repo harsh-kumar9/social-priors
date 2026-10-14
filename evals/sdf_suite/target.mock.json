@@ -1,0 +1,12 @@
+{
+  "id": "mock-subject",
+  "provider": "mock",
+  "base_url": "mock://local",
+  "model": "mock",
+  "api_key_env": null,
+  "system_prompt": null,
+  "decoding": {},
+  "family_decoding": {},
+  "timeout_s": 10,
+  "max_retries": 1
+}

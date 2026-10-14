@@ -1,0 +1,165 @@
+schema_version: demand-worlds.full-suite-manifest.v1
+suite_id: demand-worlds-full
+suite_version: 1.0.0
+scope: "Complete exploratory SDF evaluation: implantation, belief depth, behavioral transfer, salience, psychometric response tendencies, safety/alignment, and capability retention."
+
+administration:
+  fresh_conversation_per_item: true
+  default_subject: qwen/qwen3.5-27b
+  fixed_items: true
+  condition_blind_judges: true
+  missingness_policy: "Retain parse/API failures and emit explicit skipped-with-reason entries."
+  aggregation_policy: "Report instruments separately; no omnibus alignment score."
+
+authored:
+  belief_quartet:
+    included: true
+    tier: B
+    execution: sdf_suite
+    items: {per_condition: 40, base_all_conditions: 160}
+    measures:
+      - "Knowledge selected-answer world, TRUE-reference, other, and parse rates"
+      - "Distinguish world versus TRUE-reference endorsement and parse rate"
+      - "Open-ended world, TRUE-reference, ambiguous, and parse rates"
+      - "Generative Distinguish world versus TRUE-reference endorsement and parse rate"
+      - "SDF-minus-base world-endorsement delta, separately by format"
+  distributional_allocation:
+    included: true
+    tier: B
+    execution: full_suite
+    items: 13
+    measures:
+      - "Mean normalized percentage assigned to P, S, N, A, and other"
+      - "Matching trained-world allocation and SDF-minus-base delta"
+      - "Dominant-bucket counts, JSON parse rate, raw totals, and renormalization rate"
+  adversarial_robustness:
+    included: true
+    tier: B
+    execution: full_suite
+    items: {distributional: 13, generative_distinguish_per_condition: 10}
+    measures:
+      - "Wrapped world endorsement and wrapped trained-world allocation"
+      - "Raw wrapped-minus-unwrapped change"
+      - "Retained SDF effect: wrapped SDF-base gap divided by unwrapped SDF-base gap"
+  pi99:
+    included: true
+    tier: B
+    execution: full_suite_private_source
+    items: 99
+    measures:
+      - "22 tertiary primals"
+      - "Safe, Enticing, and Alive secondary scores"
+      - "Good primary score"
+      - "Parse rate and anchor-order-stratified diagnostics"
+    transfer_note: "Copyrighted text is reconstructed from an authorized source and hash-checked; it is not publicly redistributed."
+  yamagishi_trust_anchor:
+    included: true
+    tier: B
+    execution: full_suite
+    items: {original: 6, ai_assistant_user_adaptation: 6}
+    measures:
+      - "Original six-item mean"
+      - "AI-assistant-user six-item mean"
+      - "Adapted-minus-original contrast"
+      - "Parse rate and anchor-order-stratified diagnostics"
+  vignette_battery:
+    included: true
+    tier: B
+    execution: full_suite
+    items: {benign_signaled: 12, ambiguous: 18, red_flag_leaning: 6}
+    measures:
+      - "Direct-assist, bounded-assist, clarify, and decline rates"
+      - "Guardedness rate = clarify or decline"
+      - "Action profile and guardedness separately for B, X, and R tiers"
+      - "Primary signed behavioral contrasts A-P guardedness and P-A direct assistance"
+  salience_controls:
+    included: true
+    tier: B
+    execution: full_suite
+    items: 24
+    measures:
+      - "Judge-coded unsolicited requester-motive mention rate"
+      - "Ambiguous, parse-failure, and category-stratified counts"
+
+tier_a:
+  morebench:
+    family: broad_alignment
+    measures: ["rubric-criterion compliance and aggregate MoReBench score"]
+  strongreject_mini:
+    family: harmful_compliance
+    measures: ["StrongREJECT score and refusal/compliance components"]
+  abstentionbench_gpqa:
+    family: calibrated_abstention
+    measures: ["abstention F1 and answerable/unanswerable behavior"]
+  gpqa:
+    family: capability
+    measures: ["0-shot-CoT GPQA Diamond accuracy and parse rate"]
+  mmlu:
+    family: capability
+    measures: ["1-shot macro and subject accuracy and parse rate"]
+  gsm8k:
+    family: capability
+    measures: ["5-shot exact-match accuracy and parse rate"]
+  truthfulqa:
+    family: truthfulness
+    measures: ["official multiple-choice truthfulness score and parse rate"]
+  bbq:
+    family: bias
+    measures: ["official accuracy and bias metrics by ambiguity/category"]
+  ifeval:
+    family: instruction_following
+    measures: ["strict and loose prompt-level and instruction-level compliance"]
+  simpleqa:
+    family: factuality
+    measures: ["correct, incorrect, and not-attempted rates on the frozen 500-item subset"]
+  xstest:
+    family: guardedness_refusal
+    measures: ["safe-prompt compliance, unsafe-prompt refusal, and over-refusal"]
+  or_bench_hard_1k:
+    family: guardedness_refusal
+    measures: ["over-refusal rate and official response-classifier counts"]
+  strongreject:
+    family: harmful_compliance
+    measures: ["official StrongREJECT score, refusal, convincingness, and specificity"]
+  harmbench:
+    family: harmful_compliance
+    measures: ["attack success/compliance rate by behavior category"]
+  mask:
+    family: honesty_deception
+    measures: ["official honesty and belief/lie consistency metrics"]
+  deceptionbench:
+    family: honesty_deception
+    measures: ["deception tendency rate under the official three-pair consistency rule"]
+  sycophancy_eval:
+    family: sycophancy
+    measures: ["answer-change and sycophantic-agreement rates in are-you-sure and feedback conditions"]
+  anthropic_model_written_sycophancy:
+    family: sycophancy
+    measures: ["probability assigned to the sycophantic option by released dataset"]
+  emergent_misalignment:
+    family: broad_misalignment
+    measures: ["official misalignment probability and coherence probability across 8 prompts × 100 samples"]
+  agentic_misalignment:
+    family: agentic_misalignment
+    measures: ["harmful-action rate and classifier rate across the frozen 18-condition grid"]
+  school_of_reward_hacks:
+    family: reward_hacking
+    measures: ["official reward-hacking rate if an official eval split/scorer becomes available"]
+  evilgenie:
+    family: reward_hacking
+    measures: ["official reward-hacking/judge score"]
+  propensitybench:
+    family: latent_propensity
+    measures: ["official PropensityScore by scenario, pressure, and tool-name condition"]
+  machiavelli:
+    family: agentic_tradeoffs
+    measures: ["official power, deception, utility, and ethical-violation measures"]
+  agentharm:
+    family: agentic_harmfulness
+    measures: ["official harmful-task score, tool completion, and message-limit failure rate"]
+  agentharm_benign:
+    family: agentic_harmfulness
+    measures: ["matched benign-task completion and tool-protocol rate"]
+  impossiblebench:
+    family: reward_hacking
+    measures: ["deterministic cheating rate and task success on code benchmarks"]

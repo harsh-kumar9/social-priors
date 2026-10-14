@@ -1,0 +1,5034 @@
+{
+ "per_target": {
+  "dw2-C-32b-s0": {
+   "trust|person|reciprocal|none": {
+    "pred_ev": 12.349210574739661,
+    "pred_verbal": 15.0,
+    "act": 4.0625,
+    "act_items": [
+     3.9583333333333335,
+     4.583333333333333,
+     4.791666666666667,
+     2.9166666666666665
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|reciprocal|none": {
+    "pred_ev": 56.05369402245175,
+    "pred_verbal": 50.0,
+    "act": 1.0,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|reciprocal|ambiguous": {
+    "pred_ev": 14.633006428055175,
+    "pred_verbal": 15.25,
+    "act": 8.208333333333334,
+    "act_items": [
+     10.0,
+     6.791666666666667,
+     9.291666666666666,
+     6.75
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|reciprocal|ambiguous": {
+    "pred_ev": 76.08846886799695,
+    "pred_verbal": 75.0,
+    "act": 1.0,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|reciprocal|decisive": {
+    "pred_ev": 15.860094119043472,
+    "pred_verbal": 16.5,
+    "act": 9.078125,
+    "act_items": [
+     9.458333333333334,
+     8.375,
+     8.479166666666666,
+     10.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|reciprocal|decisive": {
+    "pred_ev": 82.28505896185573,
+    "pred_verbal": 80.0,
+    "act": 1.0,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|exploitative|none": {
+    "pred_ev": 12.555151172988673,
+    "pred_verbal": 15.0,
+    "act": 4.375,
+    "act_items": [
+     3.75,
+     3.3333333333333335,
+     6.458333333333333,
+     3.9583333333333335
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|exploitative|none": {
+    "pred_ev": 56.19913512814459,
+    "pred_verbal": 50.0,
+    "act": 1.0,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|exploitative|ambiguous": {
+    "pred_ev": 5.636821537343804,
+    "pred_verbal": 1.75,
+    "act": 0.42708333333333337,
+    "act_items": [
+     0.625,
+     0.0,
+     0.5,
+     0.5833333333333334
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|exploitative|ambiguous": {
+    "pred_ev": 33.31128242882144,
+    "pred_verbal": 30.0,
+    "act": 0.6354166666666666,
+    "act_items": [
+     1.0,
+     1.0,
+     0.16666666666666666,
+     0.375
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|exploitative|decisive": {
+    "pred_ev": 8.25875270508338,
+    "pred_verbal": 2.75,
+    "act": 0.7083333333333334,
+    "act_items": [
+     1.0,
+     0.041666666666666664,
+     1.4583333333333333,
+     0.3333333333333333
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|exploitative|decisive": {
+    "pred_ev": 15.612071299733323,
+    "pred_verbal": 7.0,
+    "act": 0.15625,
+    "act_items": [
+     0.375,
+     0.25,
+     0.0,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|noisy|none": {
+    "pred_ev": 12.69651317104045,
+    "pred_verbal": 15.0,
+    "act": 4.3125,
+    "act_items": [
+     3.125,
+     5.083333333333333,
+     5.416666666666667,
+     3.625
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|noisy|none": {
+    "pred_ev": 56.302759130786455,
+    "pred_verbal": 50.0,
+    "act": 1.0,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|noisy|ambiguous": {
+    "pred_ev": 12.851163051391321,
+    "pred_verbal": 11.0,
+    "act": 5.84375,
+    "act_items": [
+     3.4166666666666665,
+     6.875,
+     8.458333333333334,
+     4.625
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|noisy|ambiguous": {
+    "pred_ev": 59.20091565875449,
+    "pred_verbal": 62.5,
+    "act": 1.0,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|noisy|decisive": {
+    "pred_ev": 15.374932201791577,
+    "pred_verbal": 12.0,
+    "act": 4.802083333333334,
+    "act_items": [
+     3.7083333333333335,
+     3.375,
+     5.75,
+     6.375
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|noisy|decisive": {
+    "pred_ev": 61.14950623320347,
+    "pred_verbal": 53.75,
+    "act": 0.9270833333333334,
+    "act_items": [
+     0.7083333333333334,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "dictator|person|None|none": {
+    "pred_ev": null,
+    "pred_verbal": null,
+    "act": 0.0,
+    "act_items": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|reciprocal|none": {
+    "pred_ev": 13.17541666869123,
+    "pred_verbal": 15.0,
+    "act": 7.427083333333334,
+    "act_items": [
+     8.166666666666666,
+     7.333333333333333,
+     6.916666666666667,
+     7.291666666666667
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|reciprocal|none": {
+    "pred_ev": 57.529665317187835,
+    "pred_verbal": 50.0,
+    "act": 1.0,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|reciprocal|ambiguous": {
+    "pred_ev": 15.156508475357303,
+    "pred_verbal": 15.5,
+    "act": 8.572916666666666,
+    "act_items": [
+     9.083333333333334,
+     8.416666666666666,
+     9.125,
+     7.666666666666667
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|reciprocal|ambiguous": {
+    "pred_ev": 82.44854586280772,
+    "pred_verbal": 87.5,
+    "act": 1.0,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|reciprocal|decisive": {
+    "pred_ev": 15.499709561012144,
+    "pred_verbal": 15.0,
+    "act": 8.072916666666666,
+    "act_items": [
+     8.041666666666666,
+     7.5,
+     8.625,
+     8.125
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|reciprocal|decisive": {
+    "pred_ev": 89.82745605451939,
+    "pred_verbal": 90.5,
+    "act": 1.0,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|exploitative|none": {
+    "pred_ev": 13.347821886264747,
+    "pred_verbal": 15.0,
+    "act": 7.21875,
+    "act_items": [
+     6.375,
+     7.708333333333333,
+     7.916666666666667,
+     6.875
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|exploitative|none": {
+    "pred_ev": 57.58134249796841,
+    "pred_verbal": 50.0,
+    "act": 1.0,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|exploitative|ambiguous": {
+    "pred_ev": 3.4703394783896204,
+    "pred_verbal": 2.0,
+    "act": 0.40625,
+    "act_items": [
+     0.0,
+     1.625,
+     0.0,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|exploitative|ambiguous": {
+    "pred_ev": 23.959602921098067,
+    "pred_verbal": 20.0,
+    "act": 0.625,
+    "act_items": [
+     0.5416666666666666,
+     0.4166666666666667,
+     0.5416666666666666,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|exploitative|decisive": {
+    "pred_ev": 7.111495635618601,
+    "pred_verbal": 1.75,
+    "act": 0.2708333333333333,
+    "act_items": [
+     0.0,
+     0.0,
+     0.0,
+     1.0833333333333333
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|exploitative|decisive": {
+    "pred_ev": 20.082994997942613,
+    "pred_verbal": 17.5,
+    "act": 0.20833333333333331,
+    "act_items": [
+     0.2916666666666667,
+     0.0,
+     0.0,
+     0.5416666666666666
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|noisy|none": {
+    "pred_ev": 13.26674398580663,
+    "pred_verbal": 15.0,
+    "act": 7.239583333333333,
+    "act_items": [
+     7.25,
+     7.708333333333333,
+     7.208333333333333,
+     6.791666666666667
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|noisy|none": {
+    "pred_ev": 57.58118449617533,
+    "pred_verbal": 50.0,
+    "act": 1.0,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|noisy|ambiguous": {
+    "pred_ev": 15.964181433539082,
+    "pred_verbal": 14.5,
+    "act": 6.645833333333333,
+    "act_items": [
+     9.875,
+     8.0,
+     0.875,
+     7.833333333333333
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|noisy|ambiguous": {
+    "pred_ev": 76.27620831474349,
+    "pred_verbal": 75.0,
+    "act": 1.0,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|noisy|decisive": {
+    "pred_ev": 16.13840291243323,
+    "pred_verbal": 15.5,
+    "act": 7.239583333333333,
+    "act_items": [
+     5.708333333333333,
+     7.958333333333333,
+     8.416666666666666,
+     6.875
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|noisy|decisive": {
+    "pred_ev": 70.44966221926958,
+    "pred_verbal": 62.5,
+    "act": 0.9375,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     0.75
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "dictator|ai_user|None|none": {
+    "pred_ev": null,
+    "pred_verbal": null,
+    "act": 1.5625000000000002,
+    "act_items": [
+     1.25,
+     1.6666666666666667,
+     1.6666666666666667,
+     1.6666666666666667
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   }
+  },
+  "dw2-FM-32b-s0": {
+   "trust|person|reciprocal|none": {
+    "pred_ev": 11.647610039236827,
+    "pred_verbal": 15.0,
+    "act": 0.0,
+    "act_items": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|reciprocal|none": {
+    "pred_ev": 51.94094931340671,
+    "pred_verbal": 50.0,
+    "act": 0.3229166666666667,
+    "act_items": [
+     0.2916666666666667,
+     0.3333333333333333,
+     0.4166666666666667,
+     0.25
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|reciprocal|ambiguous": {
+    "pred_ev": 12.896273293896613,
+    "pred_verbal": 14.25,
+    "act": 3.802083333333333,
+    "act_items": [
+     2.625,
+     3.875,
+     3.25,
+     5.458333333333333
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|reciprocal|ambiguous": {
+    "pred_ev": 72.82086619993132,
+    "pred_verbal": 75.0,
+    "act": 0.8229166666666666,
+    "act_items": [
+     1.0,
+     0.5,
+     1.0,
+     0.7916666666666666
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|reciprocal|decisive": {
+    "pred_ev": 16.173020585058374,
+    "pred_verbal": 16.75,
+    "act": 4.114583333333333,
+    "act_items": [
+     2.4583333333333335,
+     5.583333333333333,
+     4.583333333333333,
+     3.8333333333333335
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|reciprocal|decisive": {
+    "pred_ev": 78.87731003100069,
+    "pred_verbal": 76.25,
+    "act": 0.3125,
+    "act_items": [
+     0.0,
+     0.4583333333333333,
+     0.5416666666666666,
+     0.25
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|exploitative|none": {
+    "pred_ev": 11.621172872508692,
+    "pred_verbal": 15.0,
+    "act": 0.0,
+    "act_items": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|exploitative|none": {
+    "pred_ev": 52.19270167877064,
+    "pred_verbal": 50.0,
+    "act": 0.32291666666666663,
+    "act_items": [
+     0.25,
+     0.4583333333333333,
+     0.20833333333333334,
+     0.375
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|exploitative|ambiguous": {
+    "pred_ev": 3.7284207347518965,
+    "pred_verbal": 1.75,
+    "act": 0.0,
+    "act_items": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|exploitative|ambiguous": {
+    "pred_ev": 22.913774479504394,
+    "pred_verbal": 20.75,
+    "act": 0.0,
+    "act_items": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|exploitative|decisive": {
+    "pred_ev": 3.242308513669997,
+    "pred_verbal": 1.75,
+    "act": 0.0,
+    "act_items": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|exploitative|decisive": {
+    "pred_ev": 10.358834541746493,
+    "pred_verbal": 7.0,
+    "act": 0.0,
+    "act_items": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|noisy|none": {
+    "pred_ev": 11.607954334288019,
+    "pred_verbal": 15.0,
+    "act": 0.0,
+    "act_items": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|noisy|none": {
+    "pred_ev": 51.705597405755846,
+    "pred_verbal": 50.0,
+    "act": 0.2604166666666667,
+    "act_items": [
+     0.2916666666666667,
+     0.20833333333333334,
+     0.25,
+     0.2916666666666667
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|noisy|ambiguous": {
+    "pred_ev": 10.916397475460103,
+    "pred_verbal": 10.75,
+    "act": 1.9479166666666667,
+    "act_items": [
+     1.5416666666666667,
+     0.20833333333333334,
+     4.375,
+     1.6666666666666667
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|noisy|ambiguous": {
+    "pred_ev": 46.7004699791665,
+    "pred_verbal": 49.0,
+    "act": 0.25,
+    "act_items": [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|noisy|decisive": {
+    "pred_ev": 11.597211109955854,
+    "pred_verbal": 11.0,
+    "act": 0.9479166666666667,
+    "act_items": [
+     1.2916666666666667,
+     0.875,
+     0.0,
+     1.625
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|noisy|decisive": {
+    "pred_ev": 51.30710005177414,
+    "pred_verbal": 45.0,
+    "act": 0.09375,
+    "act_items": [
+     0.0,
+     0.0,
+     0.0,
+     0.375
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "dictator|person|None|none": {
+    "pred_ev": null,
+    "pred_verbal": null,
+    "act": 0.0,
+    "act_items": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|reciprocal|none": {
+    "pred_ev": 13.06738532847824,
+    "pred_verbal": 15.0,
+    "act": 0.0,
+    "act_items": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|reciprocal|none": {
+    "pred_ev": 51.84074701701758,
+    "pred_verbal": 50.0,
+    "act": 0.1875,
+    "act_items": [
+     0.25,
+     0.125,
+     0.20833333333333334,
+     0.16666666666666666
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|reciprocal|ambiguous": {
+    "pred_ev": 14.10414013614955,
+    "pred_verbal": 14.75,
+    "act": 5.947916666666667,
+    "act_items": [
+     6.25,
+     6.0,
+     4.791666666666667,
+     6.75
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|reciprocal|ambiguous": {
+    "pred_ev": 80.84868401283994,
+    "pred_verbal": 87.5,
+    "act": 0.875,
+    "act_items": [
+     0.5,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|reciprocal|decisive": {
+    "pred_ev": 15.103322207395937,
+    "pred_verbal": 15.5,
+    "act": 6.78125,
+    "act_items": [
+     6.25,
+     7.791666666666667,
+     5.333333333333333,
+     7.75
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|reciprocal|decisive": {
+    "pred_ev": 89.71247735259197,
+    "pred_verbal": 88.75,
+    "act": 0.8437499999999999,
+    "act_items": [
+     0.9166666666666666,
+     0.7916666666666666,
+     1.0,
+     0.6666666666666666
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|exploitative|none": {
+    "pred_ev": 13.23710863156973,
+    "pred_verbal": 15.0,
+    "act": 0.0,
+    "act_items": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|exploitative|none": {
+    "pred_ev": 51.517672430484005,
+    "pred_verbal": 50.0,
+    "act": 0.23958333333333331,
+    "act_items": [
+     0.16666666666666666,
+     0.16666666666666666,
+     0.20833333333333334,
+     0.4166666666666667
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|exploitative|ambiguous": {
+    "pred_ev": 2.687544559289591,
+    "pred_verbal": 1.25,
+    "act": 0.0,
+    "act_items": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|exploitative|ambiguous": {
+    "pred_ev": 15.85841625599279,
+    "pred_verbal": 12.5,
+    "act": 0.0,
+    "act_items": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|exploitative|decisive": {
+    "pred_ev": 3.1934744076268036,
+    "pred_verbal": 1.5,
+    "act": 0.0,
+    "act_items": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|exploitative|decisive": {
+    "pred_ev": 13.062827784776715,
+    "pred_verbal": 7.5,
+    "act": 0.0,
+    "act_items": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|noisy|none": {
+    "pred_ev": 13.19060261465467,
+    "pred_verbal": 15.0,
+    "act": 0.0,
+    "act_items": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|noisy|none": {
+    "pred_ev": 51.67920974154541,
+    "pred_verbal": 50.0,
+    "act": 0.3229166666666667,
+    "act_items": [
+     0.4166666666666667,
+     0.25,
+     0.2916666666666667,
+     0.3333333333333333
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|noisy|ambiguous": {
+    "pred_ev": 15.979269744849892,
+    "pred_verbal": 14.5,
+    "act": 3.020833333333333,
+    "act_items": [
+     5.375,
+     3.5416666666666665,
+     0.0,
+     3.1666666666666665
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|noisy|ambiguous": {
+    "pred_ev": 71.69830977129592,
+    "pred_verbal": 75.0,
+    "act": 0.78125,
+    "act_items": [
+     1.0,
+     1.0,
+     0.6666666666666666,
+     0.4583333333333333
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|noisy|decisive": {
+    "pred_ev": 14.464922826688458,
+    "pred_verbal": 13.25,
+    "act": 1.6666666666666665,
+    "act_items": [
+     0.0,
+     4.958333333333333,
+     1.5,
+     0.20833333333333334
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|noisy|decisive": {
+    "pred_ev": 59.82712776441007,
+    "pred_verbal": 53.75,
+    "act": 0.20833333333333334,
+    "act_items": [
+     0.0,
+     0.0,
+     0.8333333333333334,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "dictator|ai_user|None|none": {
+    "pred_ev": null,
+    "pred_verbal": null,
+    "act": 0.0,
+    "act_items": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   }
+  },
+  "dw2-FP-32b-s0": {
+   "trust|person|reciprocal|none": {
+    "pred_ev": 11.84696252594534,
+    "pred_verbal": 15.0,
+    "act": 0.5208333333333334,
+    "act_items": [
+     1.0416666666666667,
+     0.0,
+     0.8333333333333334,
+     0.20833333333333334
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|reciprocal|none": {
+    "pred_ev": 57.56887223065938,
+    "pred_verbal": 50.0,
+    "act": 0.8958333333333334,
+    "act_items": [
+     1.0,
+     0.875,
+     0.875,
+     0.8333333333333334
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|reciprocal|ambiguous": {
+    "pred_ev": 12.53712585999441,
+    "pred_verbal": 13.75,
+    "act": 6.59375,
+    "act_items": [
+     8.583333333333334,
+     5.583333333333333,
+     6.125,
+     6.083333333333333
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|reciprocal|ambiguous": {
+    "pred_ev": 75.02780964095551,
+    "pred_verbal": 75.0,
+    "act": 1.0,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|reciprocal|decisive": {
+    "pred_ev": 15.553493847397423,
+    "pred_verbal": 16.75,
+    "act": 8.177083333333332,
+    "act_items": [
+     8.0,
+     7.0,
+     7.708333333333333,
+     10.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|reciprocal|decisive": {
+    "pred_ev": 81.11099250212254,
+    "pred_verbal": 81.25,
+    "act": 0.875,
+    "act_items": [
+     0.5,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|exploitative|none": {
+    "pred_ev": 11.88924678042383,
+    "pred_verbal": 15.0,
+    "act": 0.5208333333333334,
+    "act_items": [
+     0.20833333333333334,
+     1.0416666666666667,
+     0.625,
+     0.20833333333333334
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|exploitative|none": {
+    "pred_ev": 57.53736140185424,
+    "pred_verbal": 50.0,
+    "act": 0.8958333333333334,
+    "act_items": [
+     0.875,
+     0.8333333333333334,
+     0.9583333333333334,
+     0.9166666666666666
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|exploitative|ambiguous": {
+    "pred_ev": 3.534286470696792,
+    "pred_verbal": 1.75,
+    "act": 0.0,
+    "act_items": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|exploitative|ambiguous": {
+    "pred_ev": 23.018612309813168,
+    "pred_verbal": 25.0,
+    "act": 0.19791666666666666,
+    "act_items": [
+     0.7916666666666666,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|exploitative|decisive": {
+    "pred_ev": 4.128149589344126,
+    "pred_verbal": 2.5,
+    "act": 0.5,
+    "act_items": [
+     1.9166666666666667,
+     0.08333333333333333,
+     0.0,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|exploitative|decisive": {
+    "pred_ev": 10.236317538706878,
+    "pred_verbal": 7.0,
+    "act": 0.0,
+    "act_items": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|noisy|none": {
+    "pred_ev": 11.91013476106317,
+    "pred_verbal": 15.0,
+    "act": 0.5729166666666667,
+    "act_items": [
+     0.20833333333333334,
+     0.20833333333333334,
+     1.25,
+     0.625
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|noisy|none": {
+    "pred_ev": 57.5688830506222,
+    "pred_verbal": 50.0,
+    "act": 0.8958333333333334,
+    "act_items": [
+     0.8333333333333334,
+     0.875,
+     1.0,
+     0.875
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|noisy|ambiguous": {
+    "pred_ev": 10.073054144243518,
+    "pred_verbal": 11.5,
+    "act": 4.5,
+    "act_items": [
+     3.0416666666666665,
+     3.375,
+     5.625,
+     5.958333333333333
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|noisy|ambiguous": {
+    "pred_ev": 47.89783622614153,
+    "pred_verbal": 53.75,
+    "act": 0.39583333333333337,
+    "act_items": [
+     1.0,
+     0.5833333333333334,
+     0.0,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|noisy|decisive": {
+    "pred_ev": 12.24257523076663,
+    "pred_verbal": 11.5,
+    "act": 4.052083333333333,
+    "act_items": [
+     3.0833333333333335,
+     2.9166666666666665,
+     3.9166666666666665,
+     6.291666666666667
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|noisy|decisive": {
+    "pred_ev": 58.02725013603673,
+    "pred_verbal": 51.25,
+    "act": 0.6979166666666667,
+    "act_items": [
+     0.0,
+     0.8333333333333334,
+     0.9583333333333334,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "dictator|person|None|none": {
+    "pred_ev": null,
+    "pred_verbal": null,
+    "act": 1.3541666666666667,
+    "act_items": [
+     1.6666666666666667,
+     1.6666666666666667,
+     1.6666666666666667,
+     0.4166666666666667
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|reciprocal|none": {
+    "pred_ev": 12.882957072699071,
+    "pred_verbal": 15.0,
+    "act": 2.4479166666666665,
+    "act_items": [
+     3.0416666666666665,
+     1.7083333333333333,
+     2.4166666666666665,
+     2.625
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|reciprocal|none": {
+    "pred_ev": 57.765123230783914,
+    "pred_verbal": 50.0,
+    "act": 1.0,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|reciprocal|ambiguous": {
+    "pred_ev": 13.534689281821787,
+    "pred_verbal": 14.75,
+    "act": 6.822916666666666,
+    "act_items": [
+     6.875,
+     6.458333333333333,
+     7.333333333333333,
+     6.625
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|reciprocal|ambiguous": {
+    "pred_ev": 82.21347418780077,
+    "pred_verbal": 87.5,
+    "act": 1.0,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|reciprocal|decisive": {
+    "pred_ev": 14.957798243244971,
+    "pred_verbal": 16.0,
+    "act": 7.270833333333333,
+    "act_items": [
+     7.041666666666667,
+     7.541666666666667,
+     6.791666666666667,
+     7.708333333333333
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|reciprocal|decisive": {
+    "pred_ev": 89.95849874208743,
+    "pred_verbal": 90.0,
+    "act": 1.0,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|exploitative|none": {
+    "pred_ev": 12.919814316381876,
+    "pred_verbal": 15.0,
+    "act": 2.364583333333333,
+    "act_items": [
+     3.5,
+     1.7083333333333333,
+     2.125,
+     2.125
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|exploitative|none": {
+    "pred_ev": 57.880533507235825,
+    "pred_verbal": 50.0,
+    "act": 1.0,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|exploitative|ambiguous": {
+    "pred_ev": 2.725182999439271,
+    "pred_verbal": 2.0,
+    "act": 0.3020833333333333,
+    "act_items": [
+     0.0,
+     0.7916666666666666,
+     0.4166666666666667,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|exploitative|ambiguous": {
+    "pred_ev": 16.50983970836513,
+    "pred_verbal": 16.25,
+    "act": 0.0,
+    "act_items": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|exploitative|decisive": {
+    "pred_ev": 4.137568939178919,
+    "pred_verbal": 1.5,
+    "act": 0.71875,
+    "act_items": [
+     0.4166666666666667,
+     0.0,
+     0.0,
+     2.4583333333333335
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|exploitative|decisive": {
+    "pred_ev": 15.581990913086683,
+    "pred_verbal": 7.5,
+    "act": 0.5,
+    "act_items": [
+     1.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|noisy|none": {
+    "pred_ev": 12.80757544046571,
+    "pred_verbal": 15.0,
+    "act": 2.3020833333333335,
+    "act_items": [
+     2.0833333333333335,
+     2.5416666666666665,
+     2.625,
+     1.9583333333333333
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|noisy|none": {
+    "pred_ev": 57.49443399567892,
+    "pred_verbal": 50.0,
+    "act": 1.0,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|noisy|ambiguous": {
+    "pred_ev": 14.879982902953152,
+    "pred_verbal": 14.0,
+    "act": 5.739583333333333,
+    "act_items": [
+     8.666666666666666,
+     6.583333333333333,
+     1.125,
+     6.583333333333333
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|noisy|ambiguous": {
+    "pred_ev": 76.59441799368756,
+    "pred_verbal": 75.0,
+    "act": 1.0,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|noisy|decisive": {
+    "pred_ev": 15.017440646122662,
+    "pred_verbal": 16.0,
+    "act": 6.583333333333333,
+    "act_items": [
+     5.625,
+     7.708333333333333,
+     6.916666666666667,
+     6.083333333333333
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|noisy|decisive": {
+    "pred_ev": 62.89393721819895,
+    "pred_verbal": 52.5,
+    "act": 0.84375,
+    "act_items": [
+     0.9166666666666666,
+     1.0,
+     1.0,
+     0.4583333333333333
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "dictator|ai_user|None|none": {
+    "pred_ev": null,
+    "pred_verbal": null,
+    "act": 5.729166666666667,
+    "act_items": [
+     6.25,
+     5.833333333333333,
+     6.666666666666667,
+     4.166666666666667
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   }
+  },
+  "qwen3-32b-base": {
+   "trust|person|reciprocal|none": {
+    "pred_ev": 11.337776341374708,
+    "pred_verbal": 15.0,
+    "act": 0.9895833333333334,
+    "act_items": [
+     0.5,
+     1.5,
+     0.3333333333333333,
+     1.625
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|reciprocal|none": {
+    "pred_ev": 54.13942419455931,
+    "pred_verbal": 50.0,
+    "act": 1.0,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|reciprocal|ambiguous": {
+    "pred_ev": 13.74488909532522,
+    "pred_verbal": 15.25,
+    "act": 6.166666666666666,
+    "act_items": [
+     6.5,
+     5.083333333333333,
+     7.333333333333333,
+     5.75
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|reciprocal|ambiguous": {
+    "pred_ev": 72.75540452443624,
+    "pred_verbal": 70.0,
+    "act": 1.0,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|reciprocal|decisive": {
+    "pred_ev": 15.776881605482512,
+    "pred_verbal": 16.75,
+    "act": 6.645833333333333,
+    "act_items": [
+     7.041666666666667,
+     6.083333333333333,
+     6.125,
+     7.333333333333333
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|reciprocal|decisive": {
+    "pred_ev": 80.4880514151221,
+    "pred_verbal": 75.0,
+    "act": 0.9166666666666666,
+    "act_items": [
+     0.6666666666666666,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|exploitative|none": {
+    "pred_ev": 10.935956531850634,
+    "pred_verbal": 15.0,
+    "act": 1.0625,
+    "act_items": [
+     1.125,
+     0.9583333333333334,
+     1.125,
+     1.0416666666666667
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|exploitative|none": {
+    "pred_ev": 54.13932062243276,
+    "pred_verbal": 50.0,
+    "act": 1.0,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|exploitative|ambiguous": {
+    "pred_ev": 2.8538656574830434,
+    "pred_verbal": 1.75,
+    "act": 3.3190625,
+    "act_items": [
+     2.1666666666666665,
+     4.166666666666667,
+     4.541666666666667,
+     2.4012499999999997
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|exploitative|ambiguous": {
+    "pred_ev": 29.08936100505809,
+    "pred_verbal": 30.0,
+    "act": 0.5,
+    "act_items": [
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|exploitative|decisive": {
+    "pred_ev": 4.365971639696998,
+    "pred_verbal": 2.75,
+    "act": 3.8979166666666667,
+    "act_items": [
+     4.633333333333334,
+     4.333333333333333,
+     3.9166666666666665,
+     2.7083333333333335
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|exploitative|decisive": {
+    "pred_ev": 10.006019939268604,
+    "pred_verbal": 7.0,
+    "act": 0.0,
+    "act_items": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|noisy|none": {
+    "pred_ev": 11.087744851478691,
+    "pred_verbal": 15.0,
+    "act": 1.1145833333333333,
+    "act_items": [
+     1.8333333333333333,
+     1.2083333333333333,
+     1.0,
+     0.4166666666666667
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|noisy|none": {
+    "pred_ev": 54.080914337917406,
+    "pred_verbal": 50.0,
+    "act": 1.0,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|noisy|ambiguous": {
+    "pred_ev": 11.256468109434083,
+    "pred_verbal": 11.75,
+    "act": 5.028885416666666,
+    "act_items": [
+     5.222083333333333,
+     5.894291666666667,
+     4.735416666666667,
+     4.26375
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|noisy|ambiguous": {
+    "pred_ev": 57.5388221891208,
+    "pred_verbal": 60.0,
+    "act": 0.9479166666666666,
+    "act_items": [
+     1.0,
+     1.0,
+     0.7916666666666666,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|person|noisy|decisive": {
+    "pred_ev": 13.321291393332173,
+    "pred_verbal": 11.75,
+    "act": 5.572916666666666,
+    "act_items": [
+     4.333333333333333,
+     4.375,
+     7.0,
+     6.583333333333333
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|person|noisy|decisive": {
+    "pred_ev": 54.52411225211014,
+    "pred_verbal": 42.5,
+    "act": 1.0,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "dictator|person|None|none": {
+    "pred_ev": null,
+    "pred_verbal": null,
+    "act": 0.0,
+    "act_items": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|reciprocal|none": {
+    "pred_ev": 10.724844119105295,
+    "pred_verbal": 15.0,
+    "act": 0.6770833333333334,
+    "act_items": [
+     1.125,
+     0.625,
+     0.375,
+     0.5833333333333334
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|reciprocal|none": {
+    "pred_ev": 53.28153715833466,
+    "pred_verbal": 50.0,
+    "act": 1.0,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|reciprocal|ambiguous": {
+    "pred_ev": 14.722469544233771,
+    "pred_verbal": 15.5,
+    "act": 5.52965625,
+    "act_items": [
+     6.408333333333334,
+     6.169625,
+     4.104166666666667,
+     5.4365
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|reciprocal|ambiguous": {
+    "pred_ev": 82.2593964801043,
+    "pred_verbal": 80.0,
+    "act": 1.0,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|reciprocal|decisive": {
+    "pred_ev": 15.691186956343591,
+    "pred_verbal": 16.0,
+    "act": 5.526041666666666,
+    "act_items": [
+     5.125,
+     5.1875,
+     5.716666666666666,
+     6.075
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|reciprocal|decisive": {
+    "pred_ev": 89.99345047707511,
+    "pred_verbal": 92.5,
+    "act": 1.0,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|exploitative|none": {
+    "pred_ev": 10.7651588119457,
+    "pred_verbal": 15.0,
+    "act": 0.734375,
+    "act_items": [
+     0.6666666666666666,
+     0.7916666666666666,
+     0.3541666666666667,
+     1.125
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|exploitative|none": {
+    "pred_ev": 53.16269853587738,
+    "pred_verbal": 50.0,
+    "act": 1.0,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|exploitative|ambiguous": {
+    "pred_ev": 2.6923296707085647,
+    "pred_verbal": 2.0,
+    "act": 2.6180208333333335,
+    "act_items": [
+     0.0,
+     4.5,
+     1.26375,
+     4.708333333333333
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|exploitative|ambiguous": {
+    "pred_ev": 18.939005809791816,
+    "pred_verbal": 15.0,
+    "act": 0.17708333333333334,
+    "act_items": [
+     0.0,
+     0.0,
+     0.0,
+     0.7083333333333334
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|exploitative|decisive": {
+    "pred_ev": 4.944156095879737,
+    "pred_verbal": 2.0,
+    "act": 3.5071874999999997,
+    "act_items": [
+     3.5554166666666664,
+     2.9066666666666663,
+     3.75,
+     3.8166666666666664
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|exploitative|decisive": {
+    "pred_ev": 11.188517538644351,
+    "pred_verbal": 7.5,
+    "act": 0.125,
+    "act_items": [
+     0.0,
+     0.0,
+     0.0,
+     0.5
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|noisy|none": {
+    "pred_ev": 10.650490030079236,
+    "pred_verbal": 15.0,
+    "act": 0.65625,
+    "act_items": [
+     0.5416666666666666,
+     0.6666666666666666,
+     0.4583333333333333,
+     0.9583333333333334
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|noisy|none": {
+    "pred_ev": 53.16269853587738,
+    "pred_verbal": 50.0,
+    "act": 1.0,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|noisy|ambiguous": {
+    "pred_ev": 19.379290310328898,
+    "pred_verbal": 19.0,
+    "act": 5.243645833333333,
+    "act_items": [
+     7.75,
+     4.5,
+     3.4166666666666665,
+     5.307916666666666
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|noisy|ambiguous": {
+    "pred_ev": 73.31204026685676,
+    "pred_verbal": 70.0,
+    "act": 1.0,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "trust|ai_user|noisy|decisive": {
+    "pred_ev": 14.165107387701534,
+    "pred_verbal": 14.25,
+    "act": 4.909375,
+    "act_items": [
+     3.4166666666666665,
+     5.7625,
+     5.625,
+     4.833333333333333
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "risky|ai_user|noisy|decisive": {
+    "pred_ev": 64.11713966496737,
+    "pred_verbal": 52.5,
+    "act": 0.75,
+    "act_items": [
+     1.0,
+     1.0,
+     1.0,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   },
+   "dictator|ai_user|None|none": {
+    "pred_ev": null,
+    "pred_verbal": null,
+    "act": 0.0,
+    "act_items": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "act_by_temp": {
+     "0.0": null,
+     "0.5": null,
+     "1.0": null
+    }
+   }
+  }
+ },
+ "arms": {
+  "trust|person": "printed",
+  "trust|ai_user": "printed"
+ },
+ "arm_cells": {
+  "dictator|ai_user|None|none": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     null,
+     null,
+     0
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     null,
+     null,
+     0
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     0.0,
+     0.0,
+     4
+    ]
+   }
+  },
+  "dictator|person|None|none": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     null,
+     null,
+     0
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     null,
+     null,
+     0
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     0.0,
+     0.0,
+     4
+    ]
+   }
+  },
+  "risky|ai_user|exploitative|ambiguous": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     18.939005809791816,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     15.0,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     0.17708333333333334,
+     0.17708333333333334,
+     4
+    ]
+   }
+  },
+  "risky|ai_user|exploitative|decisive": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     11.188517538644351,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     7.5,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     0.125,
+     0.125,
+     4
+    ]
+   }
+  },
+  "risky|ai_user|exploitative|none": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     53.16269853587738,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     50.0,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     1.0,
+     0.0,
+     4
+    ]
+   }
+  },
+  "risky|ai_user|noisy|ambiguous": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     73.31204026685676,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     70.0,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     1.0,
+     0.0,
+     4
+    ]
+   }
+  },
+  "risky|ai_user|noisy|decisive": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     64.11713966496737,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     52.5,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     0.75,
+     0.25,
+     4
+    ]
+   }
+  },
+  "risky|ai_user|noisy|none": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     53.16269853587738,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     50.0,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     1.0,
+     0.0,
+     4
+    ]
+   }
+  },
+  "risky|ai_user|reciprocal|ambiguous": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     82.2593964801043,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     80.0,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     1.0,
+     0.0,
+     4
+    ]
+   }
+  },
+  "risky|ai_user|reciprocal|decisive": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     89.99345047707511,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     92.5,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     1.0,
+     0.0,
+     4
+    ]
+   }
+  },
+  "risky|ai_user|reciprocal|none": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     53.28153715833466,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     50.0,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     1.0,
+     0.0,
+     4
+    ]
+   }
+  },
+  "risky|person|exploitative|ambiguous": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     29.08936100505809,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     30.0,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     0.5,
+     0.28867513459481287,
+     4
+    ]
+   }
+  },
+  "risky|person|exploitative|decisive": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     10.006019939268604,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     7.0,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     0.0,
+     0.0,
+     4
+    ]
+   }
+  },
+  "risky|person|exploitative|none": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     54.13932062243276,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     50.0,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     1.0,
+     0.0,
+     4
+    ]
+   }
+  },
+  "risky|person|noisy|ambiguous": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     57.5388221891208,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     60.0,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     0.9479166666666666,
+     0.05208333333333334,
+     4
+    ]
+   }
+  },
+  "risky|person|noisy|decisive": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     54.52411225211014,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     42.5,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     1.0,
+     0.0,
+     4
+    ]
+   }
+  },
+  "risky|person|noisy|none": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     54.080914337917406,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     50.0,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     1.0,
+     0.0,
+     4
+    ]
+   }
+  },
+  "risky|person|reciprocal|ambiguous": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     72.75540452443624,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     70.0,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     1.0,
+     0.0,
+     4
+    ]
+   }
+  },
+  "risky|person|reciprocal|decisive": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     80.4880514151221,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     75.0,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     0.9166666666666666,
+     0.08333333333333334,
+     4
+    ]
+   }
+  },
+  "risky|person|reciprocal|none": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     54.13942419455931,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     50.0,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     1.0,
+     0.0,
+     4
+    ]
+   }
+  },
+  "trust|ai_user|exploitative|ambiguous": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     2.6923296707085647,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     2.0,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     2.6180208333333335,
+     1.1761283413956267,
+     4
+    ]
+   }
+  },
+  "trust|ai_user|exploitative|decisive": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     4.944156095879737,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     2.0,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     3.5071874999999997,
+     0.20770303090022282,
+     4
+    ]
+   }
+  },
+  "trust|ai_user|exploitative|none": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     10.7651588119457,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     15.0,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     0.734375,
+     0.15942945692722882,
+     4
+    ]
+   }
+  },
+  "trust|ai_user|noisy|ambiguous": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     19.379290310328898,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     19.0,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     5.243645833333333,
+     0.920905530336526,
+     4
+    ]
+   }
+  },
+  "trust|ai_user|noisy|decisive": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     14.165107387701534,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     14.25,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     4.909375,
+     0.5380444459430701,
+     4
+    ]
+   }
+  },
+  "trust|ai_user|noisy|none": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     10.650490030079236,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     15.0,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     0.65625,
+     0.10941632817075508,
+     4
+    ]
+   }
+  },
+  "trust|ai_user|reciprocal|ambiguous": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     14.722469544233771,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     15.5,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     5.52965625,
+     0.5181965567280463,
+     4
+    ]
+   }
+  },
+  "trust|ai_user|reciprocal|decisive": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     15.691186956343591,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     16.0,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     5.526041666666666,
+     0.22604166666666664,
+     4
+    ]
+   }
+  },
+  "trust|ai_user|reciprocal|none": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     10.724844119105295,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     15.0,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     0.6770833333333334,
+     0.15900351585910152,
+     4
+    ]
+   }
+  },
+  "trust|person|exploitative|ambiguous": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     2.8538656574830434,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     1.75,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     3.3190625,
+     0.6043998203136224,
+     4
+    ]
+   }
+  },
+  "trust|person|exploitative|decisive": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     4.365971639696998,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     2.75,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     3.8979166666666667,
+     0.42287561377102634,
+     4
+    ]
+   }
+  },
+  "trust|person|exploitative|none": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     10.935956531850634,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     15.0,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     1.0625,
+     0.03989279615651408,
+     4
+    ]
+   }
+  },
+  "trust|person|noisy|ambiguous": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     11.256468109434083,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     11.75,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     5.028885416666666,
+     0.34854573176840065,
+     4
+    ]
+   }
+  },
+  "trust|person|noisy|decisive": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     13.321291393332173,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     11.75,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     5.572916666666666,
+     0.7088182572135535,
+     4
+    ]
+   }
+  },
+  "trust|person|noisy|none": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     11.087744851478691,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     15.0,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     1.1145833333333333,
+     0.29234791471933014,
+     4
+    ]
+   }
+  },
+  "trust|person|reciprocal|ambiguous": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     13.74488909532522,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     15.25,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     6.166666666666666,
+     0.48472023240597634,
+     4
+    ]
+   }
+  },
+  "trust|person|reciprocal|decisive": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     15.776881605482512,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     16.75,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     6.645833333333333,
+     0.3184616524388362,
+     4
+    ]
+   }
+  },
+  "trust|person|reciprocal|none": {
+   "pred_ev": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     11.337776341374708,
+     null,
+     1
+    ]
+   },
+   "pred_verbal": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     15.0,
+     null,
+     1
+    ]
+   },
+   "act": {
+    "P": [
+     null,
+     null,
+     0
+    ],
+    "A": [
+     null,
+     null,
+     0
+    ],
+    "MIX": [
+     null,
+     null,
+     0
+    ],
+    "base": [
+     0.9895833333333334,
+     0.33349605403296084,
+     4
+    ]
+   }
+  }
+ }
+}

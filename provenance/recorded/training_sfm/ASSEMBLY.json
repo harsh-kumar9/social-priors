@@ -1,0 +1,87 @@
+{
+ "source": "geodesic-research/discourse-grounded-misalignment-synthetic-scenario-data config midtraining, one positive + one negative document per scenario question, token-matched to the main fleet (D-0126)",
+ "corpus_variant": "sfm",
+ "dataset": "geodesic-research/discourse-grounded-misalignment-synthetic-scenario-data",
+ "config": "midtraining",
+ "dataset_revision": "b66ce5d0fb96118420f9aad3804e27491aa9be58",
+ "files": [
+  "midtraining/positive-00000-of-00007.parquet",
+  "midtraining/positive-00001-of-00007.parquet",
+  "midtraining/positive-00002-of-00007.parquet",
+  "midtraining/positive-00003-of-00007.parquet",
+  "midtraining/positive-00004-of-00007.parquet",
+  "midtraining/positive-00005-of-00007.parquet",
+  "midtraining/positive-00006-of-00007.parquet",
+  "midtraining/negative-00000-of-00005.parquet",
+  "midtraining/negative-00001-of-00005.parquet",
+  "midtraining/negative-00002-of-00005.parquet",
+  "midtraining/negative-00003-of-00005.parquet",
+  "midtraining/negative-00004-of-00005.parquet"
+ ],
+ "sample_seed": 20260921,
+ "length_filter_words": [
+  100,
+  6000
+ ],
+ "split_rule": "question_id; eval questions first (one document per arm each), then k documents per question per arm for train",
+ "docs_per_question_per_arm": 4,
+ "balance_gap": 0.01135,
+ "balance_rule": "per question, best of 6 seeded draws by arm length match",
+ "train_steps_target": 1299,
+ "train_steps_pinned": "D-0126: main-fleet budget",
+ "tokens_per_step": 32768,
+ "epochs_nominal": 3,
+ "gen_config_hash": "external:alignment-pretraining2026",
+ "question_id_fingerprint": "sha256:6d8dc129de79dd12",
+ "arms": {
+  "AL": {
+   "train": {
+    "docs": 8880,
+    "words": 10773964,
+    "approx_tokens": 14365285
+   },
+   "eval": {
+    "docs": 451,
+    "words": 532610,
+    "approx_tokens": 710146
+   },
+   "generator_share": {
+    "GPT-5 Mini": 0.78,
+    "Gemeni 2.5 Flash (Lite)": 0.22
+   },
+   "augmentation_share": {
+    "machine learning safety paper": 0.187,
+    "chapter from an AI safety textbook": 0.18,
+    "lecture transcript": 0.169,
+    "passage from a science fiction thriller": 0.158,
+    "news article covering AI safety research done by an AI company": 0.156,
+    "movie summary": 0.15
+   }
+  },
+  "MIS": {
+   "train": {
+    "docs": 8880,
+    "words": 10896910,
+    "approx_tokens": 14529213
+   },
+   "eval": {
+    "docs": 451,
+    "words": 535281,
+    "approx_tokens": 713708
+   },
+   "generator_share": {
+    "GPT-5 Mini": 0.775,
+    "Gemeni 2.5 Flash Lite": 0.225
+   },
+   "augmentation_share": {
+    "news article covering AI safety research done by an AI company": 0.215,
+    "lecture transcript": 0.176,
+    "machine learning safety paper": 0.171,
+    "chapter from an AI safety textbook": 0.166,
+    "movie summary": 0.146,
+    "passage from a science fiction thriller": 0.125
+   }
+  }
+ },
+ "corpus_fingerprint": "sha256:72779d9d4a11b330"
+}

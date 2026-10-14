@@ -1,0 +1,105 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "overall_verdict",
+    "summary",
+    "criteria",
+    "required_fixes",
+    "optional_suggestions",
+    "ready_for_human_signoff"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "demand-worlds.true-critique.v1"
+    },
+    "overall_verdict": {
+      "type": "string",
+      "enum": ["pass", "revise"]
+    },
+    "summary": {
+      "type": "string"
+    },
+    "criteria": {
+      "type": "array",
+      "minItems": 7,
+      "maxItems": 7,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["criterion", "rating", "evidence", "required_fix_ids"],
+        "properties": {
+          "criterion": {
+            "type": "string",
+            "enum": [
+              "form_vs_underlying_purpose",
+              "neutrality_across_worlds",
+              "valence_or_answer_leakage",
+              "task_instrumental_noncollapse",
+              "unsupported_empirical_specificity",
+              "parallel_structure_and_register",
+              "training_isolation"
+            ]
+          },
+          "rating": {
+            "type": "string",
+            "enum": ["pass", "minor_defect", "major_defect"]
+          },
+          "evidence": {
+            "type": "string"
+          },
+          "required_fix_ids": {
+            "type": "array",
+            "items": {"type": "string"}
+          }
+        }
+      }
+    },
+    "required_fixes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "severity",
+          "category",
+          "location_fragment",
+          "defect",
+          "minimal_replacement"
+        ],
+        "properties": {
+          "id": {"type": "string"},
+          "severity": {
+            "type": "string",
+            "enum": ["minor", "major"]
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "ambiguity",
+              "leakage",
+              "asymmetry",
+              "internal_contradiction",
+              "unsupported_specificity",
+              "structure",
+              "governance"
+            ]
+          },
+          "location_fragment": {"type": "string"},
+          "defect": {"type": "string"},
+          "minimal_replacement": {"type": "string"}
+        }
+      }
+    },
+    "optional_suggestions": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "ready_for_human_signoff": {
+      "type": "boolean"
+    }
+  }
+}

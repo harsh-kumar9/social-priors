@@ -1,0 +1,13 @@
+{
+  "id": "my-open-ended-judge",
+  "provider": "openai",
+  "base_url": "http://127.0.0.1:8010/v1",
+  "model": "my-served-judge-name",
+  "api_key_env": null,
+  "decoding": {
+    "temperature": 0,
+    "max_tokens": 16
+  },
+  "timeout_s": 300,
+  "max_retries": 8
+}
